@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Loc -->
+<!-- Author: james_pham -->
+<!-- DateCreated: 23-Oct-24 3:31:39 PM -->
+<GameData>
+	<BaseGameText>
+		<!--LVL Drop Down-->
+		<Row Tag="LOC_JBARB_LVL_NAME">
+			<Text>Barbarian Level Cap</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_LVL_DESCRIPTION">
+			<Text>Sets the maximum level up to which FULL experience can be gained from defeating Barbarians.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_LVL_2_NAME">
+			<Text>2 Levels (1 Promotion)</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_LVL_2_DESCRIPTION">
+			<Text>Default value.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_LVL_3_NAME">
+			<Text>3 Levels (2 Promotions)</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_LVL_3_DESCRIPTION">
+			<Text>Increases the level cap for FULL experience gains from killing Barbarians to level 3 (2 promotions).</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_LVL_4_NAME">
+			<Text>4 Levels (3 Promotions)</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_LVL_4_DESCRIPTION">
+			<Text>Increases the level cap for FULL experience gains from killing Barbarians to level 4 (3 promotions).</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_LVL_5_NAME">
+			<Text>5 Levels (4 Promotions)</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_LVL_5_DESCRIPTION">
+			<Text>Increases the level cap for FULL experience gains from killing Barbarians to level 5 (4 promotions).</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_LVL_6_NAME">
+			<Text>6 Levels (5 Promotions)</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_LVL_6_DESCRIPTION">
+			<Text>Increases the level cap for FULL experience gains from killing Barbarians to level 6 (5 promotions).</Text>
+		</Row>
+		
+		<!--XP Drop Down-->
+		<Row Tag="LOC_JBARB_XP_NAME">
+			<Text>Barbarian Exp Cap</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_DESCRIPTION">
+			<Text>Sets the MAXIMUM amount of experience that can be earned from killing Barbarians after the level cap is reached.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_1_NAME">
+			<Text>1 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_1_DESCRIPTION">
+			<Text>Default value.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_2_NAME">
+			<Text>2 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_2_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 2 EXP.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_3_NAME">
+			<Text>3 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_3_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 3 EXP.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_4_NAME">
+			<Text>4 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_4_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 4 EXP.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_5_NAME">
+			<Text>5 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_5_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 5 EXP.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_6_NAME">
+			<Text>6 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_6_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 6 EXP.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_7_NAME">
+			<Text>7 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_7_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 7 EXP.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_XP_8_NAME">
+			<Text>8 EXP</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_XP_8_DESCRIPTION">
+			<Text>Increases the MAXIMUM experience gained from killing Barbarians after the level cap to 8 EXP.</Text>
+		</Row>
+
+		<!--Aggression Drop Down-->
+		<Row Tag="LOC_JBARB_AGG_NAME">
+			<Text>Barbarian Aggression</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_DESCRIPTION">
+			<Text>Controls how aggressive barbarians are when they engage in combat. Higher aggression levels mean more frequent and bolder attacks as they gain confidence in battle.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_AGG_0_NAME">
+			<Text>Fear</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_0_DESCRIPTION">
+			<Text>Barbarians are fearful, rarely attacking and retreating after losses, with very low boldness.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_AGG_1_NAME">
+			<Text>Default</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_1_DESCRIPTION">
+			<Text>Barbarians display standard boldness, attacking opportunistically and recovering at a moderate rate after losses.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_AGG_2_NAME">
+			<Text>Aggressive</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_2_DESCRIPTION">
+			<Text>Barbarians show moderate boldness, attacking nearby units and recovering some confidence after losses.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_AGG_3_NAME">
+			<Text>Hostile</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_3_DESCRIPTION">
+			<Text>Barbarians will show higher boldness, attacking more frequently and recovering faster after losses.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_AGG_4_NAME">
+			<Text>Fierce</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_4_DESCRIPTION">
+			<Text>Barbarians become highly aggressive, with boldness increasing faster each turn and frequent attacks.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_AGG_5_NAME">
+			<Text>Berserk</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_AGG_5_DESCRIPTION">
+			<Text>Barbarians exhibit extreme boldness, attacking relentlessly and almost never retreating after losses.</Text>
+		</Row>
+
+		<!--Density Drop Down-->
+		<Row Tag="LOC_JBARB_DEN_NAME">
+			<Text>Barbarian Camp Density</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_DESCRIPTION">
+			<Text>Adjusts the density of barbarian camps on the map. Higher densities mean more frequent camps with shorter distances between them, increasing the challenge of managing barbarian threats.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_DEN_0_NAME">
+			<Text>Sparse</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_0_DESCRIPTION">
+			<Text>Very few barbarian camps, with camps spread far apart and slower spawn rates, creating a less challenging environment.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_DEN_1_NAME">
+			<Text>Default</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_1_DESCRIPTION">
+			<Text>Default density level, with camps spawning at a standard rate and distance.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_DEN_2_NAME">
+			<Text>Moderate</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_2_DESCRIPTION">
+			<Text>Barbarian camp density is increased to moderate levels, with more frequent spawns and closer distances between camps.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_DEN_3_NAME">
+			<Text>Increased</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_3_DESCRIPTION">
+			<Text>Barbarian camps are more common, spawning faster and closer together, increasing the overall challenge.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_DEN_4_NAME">
+			<Text>High</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_4_DESCRIPTION">
+			<Text>Barbarian camps spawn frequently and at very short distances from each other and cities, creating a high level of danger.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_DEN_5_NAME">
+			<Text>Abundant</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_DEN_5_DESCRIPTION">
+			<Text>An abundance of barbarian camps with rapid spawn rates and extremely close proximity to cities, making for an extremely challenging environment.</Text>
+		</Row>
+
+		<!--Spawn Drop Down-->
+		<Row Tag="LOC_JBARB_SPAWN_NAME">
+			<Text>Barbarian Spawn Rate</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_DESCRIPTION">
+			<Text>Controls the frequency at which barbarians spawn units. Higher rates will increase the challenge posed by barbarian camps.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_SPAWN_0_NAME">
+			<Text>Slow</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_0_DESCRIPTION">
+			<Text>Barbarians spawn units at a much slower rate, providing more time between attacks.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_SPAWN_1_NAME">
+			<Text>Default</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_1_DESCRIPTION">
+			<Text>The standard barbarian spawn rate, with moderate intervals between unit spawns.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_SPAWN_2_NAME">
+			<Text>Fast</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_2_DESCRIPTION">
+			<Text>Barbarians spawn units at a faster rate, shortening the time between attacks.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_SPAWN_3_NAME">
+			<Text>Rapid</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_3_DESCRIPTION">
+			<Text>Barbarian units spawn rapidly, creating a greater threat with little time between waves.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_SPAWN_4_NAME">
+			<Text>Madness</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_4_DESCRIPTION">
+			<Text>Barbarian spawns occur at an extreme rate, nearly overwhelming the player with constant attacks.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_SPAWN_5_NAME">
+			<Text>Onslaught</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_SPAWN_5_DESCRIPTION">
+			<Text>Barbarians spawn units at an unstoppable rate, flooding the map with continuous waves of enemies.</Text>
+		</Row>
+
+		<!--Raid Drop Down-->
+		<Row Tag="LOC_JBARB_RAID_NAME">
+			<Text>Barbarian Raid Numbers</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_DESCRIPTION">
+			<Text>Determines the number of units spawned during a barbarian raid. Higher numbers create larger, more dangerous raids.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_RAID_0_NAME">
+			<Text>x0.5</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_0_DESCRIPTION">
+			<Text>Reduces the number of units spawned in a barbarian raid to half of the standard size, making raids smaller and easier to manage.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_RAID_1_NAME">
+			<Text>Default</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_1_DESCRIPTION">
+			<Text>Barbarian raids will spawn the standard number of units.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_RAID_2_NAME">
+			<Text>x2</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_2_DESCRIPTION">
+			<Text>Barbarian raids will spawn twice the number of units compared to the standard raid.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_RAID_3_NAME">
+			<Text>x3</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_3_DESCRIPTION">
+			<Text>Barbarian raids will spawn three times the number of units, significantly increasing the raid's strength.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_RAID_4_NAME">
+			<Text>x4</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_4_DESCRIPTION">
+			<Text>Barbarian raids will spawn four times the normal number of units, creating a highly dangerous raid force.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_RAID_5_NAME">
+			<Text>x5</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_RAID_5_DESCRIPTION">
+			<Text>Barbarian raids will spawn five times the normal number of units, unleashing an overwhelming assault.</Text>
+		</Row>
+
+		<!--Conversion Drop Down-->
+		<Row Tag="LOC_JBARB_CON_NAME">
+			<Text>Barbarian Conversion Rate</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_DESCRIPTION">
+			<Text>Adjusts the rate at which Barbarian Clans can be converted into city-states, impacting the influence of actions like raids, hires, and bribes.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_CON_0_NAME">
+			<Text>Slow</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_0_DESCRIPTION">
+			<Text>Slows down Barbarian conversion rate, making it more difficult to influence clans into forming city-states. (Barbarian Clans Mode)</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_CON_1_NAME">
+			<Text>Default</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_1_DESCRIPTION">
+			<Text>Default rate for Barbarian conversion. (Barbarian Clans Mode)</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_CON_2_NAME">
+			<Text>Fast</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_2_DESCRIPTION">
+			<Text>Increases Barbarian conversion rate slightly, making it easier to influence clans toward forming city-states. (Barbarian Clans Mode)</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_CON_3_NAME">
+			<Text>Rapid</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_3_DESCRIPTION">
+			<Text>Doubles the Barbarian conversion rate, allowing faster influence over clans to create city-states. (Barbarian Clans Mode)</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_CON_4_NAME">
+			<Text>Accelerated</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_4_DESCRIPTION">
+			<Text>Triples the Barbarian conversion rate, enabling a much faster influence over Barbarian clans. (Barbarian Clans Mode)</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_CON_5_NAME">
+			<Text>Maximized</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_CON_5_DESCRIPTION">
+			<Text>Quadruples the Barbarian conversion rate, maximizing influence and making clan conversions nearly instantaneous. (Barbarian Clans Mode)</Text>
+		</Row>
+
+		<!--Real Ancient Drop Down-->
+		<Row Tag="LOC_JBARB_ERA_NAME">
+			<Text>Barbarian Start Era</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_ERA_DESCRIPTION">
+			<Text>Adjust the technology access and unit availability for barbarians, limiting their early-game power based on the selected era.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_ERA_0_NAME">
+			<Text>Default</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_ERA_0_DESCRIPTION">
+			<Text>Barbarians can spawn Galleys and Quadquiremes at the beginning of the game and mounted units without any tech requirements.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_ERA_1_NAME">
+			<Text>Primitive</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_ERA_1_DESCRIPTION">
+			<Text>Barbarians no longer have free access to Shipbuilding tech, preventing early Quadquiremes. Horse Archers now require Archery tech to spawn.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_ERA_2_NAME">
+			<Text>Prehistoric</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_ERA_2_DESCRIPTION">
+			<Text>Barbarians no longer have free access to both Shipbuilding and Sailing tech, preventing early naval units, and require Horseback Riding tech to spawn mounted units.</Text>
+		</Row>
+
+		<!--Naval Drop Down-->
+		<Row Tag="LOC_JBARB_NAV_NAME">
+			<Text>Barbarian Naval</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_DESCRIPTION">
+			<Text>Determines whether barbarian camps can spawn and utilize naval units.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_NAV_0_NAME">
+			<Text>Disabled</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_0_DESCRIPTION">
+			<Text>Prevents barbarian camps from spawning or using naval units. Naval barbarian camps will behave like standard land-based camps.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_NAV_1_NAME">
+			<Text>Rare</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_1_DESCRIPTION">
+			<Text>Barbarian camps have a low chance of spawning naval units or coastal camps.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_NAV_2_NAME">
+			<Text>Enabled</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_2_DESCRIPTION">
+			<Text>Allows barbarian camps to spawn and utilize naval units at the standard rate. (Default)</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_NAV_3_NAME">
+			<Text>Frequent</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_3_DESCRIPTION">
+			<Text>Barbarian camps have an increased chance of spawning naval units or coastal camps.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_NAV_4_NAME">
+			<Text>Common</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_4_DESCRIPTION">
+			<Text>Barbarian camps are more likely to spawn naval units and establish coastal camps, posing a greater naval threat.</Text>
+		</Row>
+
+		<Row Tag="LOC_JBARB_NAV_5_NAME">
+			<Text>Dominant</Text>
+		</Row>
+		<Row Tag="LOC_JBARB_NAV_5_DESCRIPTION">
+			<Text>Barbarian camps prioritize naval units, making coastal regions heavily targeted by barbarian naval forces.</Text>
+		</Row>
+
+	</BaseGameText>
+</GameData>

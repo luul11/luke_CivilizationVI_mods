@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Include File="qd_instances"/>
+
+    <!-- Containers for caching instances -->
+    <Container ID="LeftRightListContainer" Hidden="1"/>
+
+    <Container Size="parent,parent">
+
+        <!-- Dynamic: Inventory area-->
+        <Container ID="MyInventory" Size="375,parent" Anchor="L,T">
+            <ScrollPanel ID="MyInventoryScroll"	Size="parent, parent" Vertical="1" AutoScollbar="1" InnerPadding="39,0">
+                <ScrollBar Size="12,parent" SliceTextureSize="11,11" SliceCorner="5,5" Anchor="R,B" Color="111,101,94,250" Offset="-19,0" AnchorSide="I,I" Texture="Controls_ScrollBarBacking" StateOffsetIncrement="0,0" Vertical="1" >
+                    <Thumb Size="10,10" Texture="Controls_ScrollBarHandleV_Brown" StateOffsetIncrement="0,0" SliceCorner="6,6" SliceTextureSize="13,13"/>
+                </ScrollBar>
+                <!-- 56 per icon, 8 items per row. -->
+                <Stack ID="MyInventoryStack" StackGrowth="Right" WrapWidth="336" WrapGrowth="Bottom" Offset="0,10"/>
+            </ScrollPanel>
+            <Label ID="NoAvailableItemLabel" Anchor="C,T" Offset="0,180" Align="center" Style="FontFlair20" WrapWidth="240" SmallCapsType="EveryWord" SmallCaps="26" String="{LOC_DIPLO_DEAL_NO_AVAILABLE_ITEMS:upper}" Color="200,200,200,255"/>
+        </Container>
+
+        <!-- Dynamic: My offer area-->
+        <Container ID="MyOffer" Size="265,parent" Anchor="L,T" Offset="375,0">
+            <ScrollPanel ID="MyOfferScroll" Size="parent, parent" Vertical="1" AutoScollbar="1">
+                <ScrollBar Size="12,parent" SliceTextureSize="11,11" SliceCorner="5,5" Anchor="R,B" Color="111,101,94,250" Offset="0,0" AnchorSide="I,I" Texture="Controls_ScrollBarBacking" StateOffsetIncrement="0,0" Vertical="1" >
+                    <Thumb Size="10,10" Texture="Controls_ScrollBarHandleV_Brown" StateOffsetIncrement="0,0" SliceCorner="6,6" SliceTextureSize="13,13"/>
+                </ScrollBar>
+            </ScrollPanel>
+        </Container>
+
+        <Container ID="Filters" Size="640,24" Anchor="R,T" Offset="0,10">
+            <Stack ID="ItemTypeContainer" StackGrowth="Right" Anchor="L,C" Offset="25,0">
+                <Label Anchor="L,C" Style="BodyText16" String="LOC_REPORTS_SORT_TYPE"/>
+                <PullDown Anchor="L,C" ID="ItemTypeFilter" Style="PullDownBlue" Size="200,24" Offset="5,0"/>
+                <PullDown Anchor="L,C" ID="SubTypeFilter" Style="PullDownBlue" Size="150,24" Offset="5,0" Hidden="1"/>
+            </Stack>
+            <Stack StackGrowth="Right" Anchor="R,C" Offset="25,0">
+                <Label Anchor="L,C" Style="BodyText16" String="LOC_REPORTS_SORT_BY" Offset="10,0"/>
+                <PullDown Anchor="L,C" ID="SortByFilter" Style="PullDownBlue" Size="100,24" Offset="5,0"/>
+            </Stack>
+        </Container>
+
+        <!-- Dynamic: AI offers area-->
+        <Container ID="AIOffers" Size="640,parent-40" Anchor="R,T" Offset="0,40">
+            <ScrollPanel ID="AIOffersScroll" Size="parent, parent" Vertical="1" AutoScollbar="1" InnerPadding="20,0">
+                <ScrollBar Size="12,parent" SliceTextureSize="11,11" SliceCorner="5,5" Anchor="L,B" Color="111,101,94,250" Offset="-8,0" AnchorSide="I,I" Texture="Controls_ScrollBarBacking" StateOffsetIncrement="0,0" Vertical="1" >
+                    <Thumb Size="10,10" Texture="Controls_ScrollBarHandleV_Brown" StateOffsetIncrement="0,0" SliceCorner="6,6" SliceTextureSize="13,13"/>
+                </ScrollBar>
+                <Stack StackGrowth="Bottom">
+                    <Grid ID="RecommendLabelContainer" Style="ColumnHeader" Size="600,26" Offset="10,0" Anchor="L,T" Color="GrayMedium">
+                        <Label ID="RecommendLabel" Anchor="C,C" Style="HeaderSmallCaps" String="{LOC_RECOMMENDED:upper}"/>
+                    </Grid>
+                    <AlphaAnim ID="OfferStackAlphaIn" AlphaBegin="0" AlphaEnd="1" Speed="10" Function="Root" Cycle="Once" Size="parent,auto">
+                        <SlideAnim ID="OfferStackSlideIn" Start="0,20" End="0,0" Speed="10" Function="Root" Cycle="Once" Size="parent,auto">
+                            <Stack ID="AIOffersStack" StackGrowth="Bottom"/>
+                        </SlideAnim>
+                    </AlphaAnim>
+                </Stack>
+            </ScrollPanel>
+            <Label ID="FetchingDealLabel" Anchor="C,T" Offset="0,150" Align="center" Style="FontFlair20" SmallCapsType="EveryWord" SmallCaps="26" String="{LOC_LOADING_PLEASE_WAIT:upper}" Color="200,200,200,255" Hidden="1"/>
+            <Label ID="NoAvailableDealLabel" Anchor="C,T" Offset="0,150" Align="center" Style="FontFlair20" SmallCapsType="EveryWord" SmallCaps="26" String="{LOC_QD_NO_AVAILABLE_DEAL:upper}" Color="200,200,200,255" Hidden="1"/>
+        </Container>
+
+        <!-- Aesthetics (static): The vertical bar which divides the two areas -->
+        <Container Size="parent, parent" Offset="0,0">
+            <Grid Style="Divider3VGrid" Size="5,parent" Anchor="C,B" Offset="-265,0">
+                <Image Size="5,parent" Texture="Controls_GradientSmall" Anchor="R,T" Rotate="270" AnchorSide="O,I" Color="0,0,0,255"/>
+                <Image Size="5,parent" Texture="Controls_GradientSmall" Anchor="L,T" Rotate="90" AnchorSide="O,I" Color="0,0,0,255"/>
+            </Grid>
+            <Grid Style="Divider3VGrid" Size="5,parent" Anchor="C,B" Offset="0,0">
+                <Image Size="5,parent" Texture="Controls_GradientSmall" Anchor="R,T" Rotate="270" AnchorSide="O,I" Color="0,0,0,255"/>
+                <Image Size="5,parent" Texture="Controls_GradientSmall" Anchor="L,T" Rotate="90" AnchorSide="O,I" Color="0,0,0,255"/>
+            </Grid>
+        </Container>
+
+        <!-- Value Edit Popup -->
+        <Box ID="ValueEditPopupBackground" Size="parent,parent" Color="0,0,0,200" ConsumeMouse="1" Hidden="1">
+            <Grid ID="ValueEditPopup" Style="DiplomacyInfoWindowGrid" Anchor="C,T" Size="300,auto" AutoSizePadding="0,13" Offset="0,200">
+                <Stack StackPadding="4">
+                    <!-- Header -->
+                    <Grid Size="parent, 38" Style="DiplomacyTitleBarGrid">
+                        <Label ID="ValueEditHeaderLabel" Anchor="C,C" Style="DiplomacyIntelHeader" Offset="0,2"/>
+                    </Grid>
+                    <!-- Value Stack -->
+                    <ScrollPanel ID="ValueEditScrollPanel" Size="parent,200" Vertical="1" AutoScollbar="1">
+                        <ScrollBar Size="15,parent" SliceTextureSize="11,11" SliceCorner="5,5" Anchor="R,B" Color="111,101,94,250" Offset="0,0" AnchorSide="I,I"  Texture="Controls_ScrollBarBacking" StateOffsetIncrement="0,0" Vertical="1">
+                            <Thumb Size="13,13" Texture="Controls_ScrollBarHandleV_Brown" StateOffsetIncrement="0,0" SliceCorner="6,6" SliceTextureSize="13,13"/>
+                        </ScrollBar>
+                        <Stack ID="ValueEditStack" Anchor="C,T" StackPadding="4">
+                            <!-- Icon and/or Text -->
+                            <GridButton ID="ValueEditIconGrid" Style="ButtonDraggableGrid" Size="auto,56" AutoSizePadding="2,0" Anchor="C,T" States="1">
+                                <Stack Anchor="C,T" StackGrowth="Right">
+                                    <Container Size="44, parent">
+                                        <Image ID="ValueEditIcon" StretchMode="None" Size="44,44" Anchor="C,C"/>
+                                        <Label ID="ValueEditAmountText" Anchor="R,B" Style="FontNormalBold12" Offset="24,-9" FontStyle="Stroke"/>
+                                    </Container>
+                                    <Stack StackGrowth="Bottom" Anchor="L,C">
+                                        <Label ID="ValueEditValueText" Size="parent,0" Offset="0,0" Style="FontNormalBold12" FontStyle="Stroke"/>
+                                    </Stack>
+                                </Stack>
+                            </GridButton>
+                            <!-- Integer Modifying Box -->
+                            <Container ID="ValueAmountEditBoxContainer" Size="155,34" Anchor="C,T">
+                                <Grid Style="DropShadow3" Size="parent,50"/>
+                                <Grid Anchor="C,C" Texture="Controls_WindowLight" SliceTextureSize="34,34" SliceCorner="17,17" Size="parent-30,34">
+                                    <Grid Anchor="C,C" Texture="Controls_TextArea" SliceTextureSize="22,22" SliceCorner="11,20" Size="parent-20,24">
+                                        <EditBox ID="ValueAmountEditBox" Style="FontNormalBold16" FontStyle="Stroke" NumberInput="1" EditMode="1" Size="parent-5,parent" Anchor="C,C" MaxLength="11" ConsumeMouse="1" HighlightColor="25,120,154,200"/>
+                                        <Button ID="ValueAmountEditLeftButton" Style="ArrowButtonLeft" Anchor="L,C" AnchorSide="O,I"/>
+                                        <Button ID="ValueAmountEditRightButton" Style="ArrowButtonRight" Anchor="R,C" AnchorSide="O,I"/>
+                                    </Grid>
+                                </Grid>
+                            </Container>
+                        </Stack>
+                    </ScrollPanel>
+                    <!-- Value Edit Confirm/Back Button -->
+                    <GridButton ID="ValueEditButton" Anchor="C,B" Size="200,41" Style="MainButton" String="LOC_BACK"/>
+                    <!-- Footer -->
+                    <Grid Style="Divider4Grid" Size="parent-2,10" Anchor="C,B" Hidden="1"/>
+                </Stack>
+            </Grid>
+        </Box>
+
+    </Container>
+
+    <!-- Deal instances -->
+    <!-- Instance container for a list of icons that grows from left to right. -->
+    <Instance Name="LeftRightList">
+        <Stack ID="List" Size="parent, 0">
+            <Grid Style="ColumnHeader" ID="Title" Size="parent-4,26" Offset="0,0" Anchor="C,T" Color="50,50,50,200">
+                <Label ID="TitleText" Anchor="C,C" Offset="4,0" Style="HeaderSmallCaps" Hidden="false" Color0="GrayMedium"/>
+            </Grid>
+            <Stack ID="ListStack" StackGrowth="Right" Anchor="L,T" WrapWidth="parent">
+            </Stack>
+        </Stack>
+    </Instance>
+
+    <!-- Instance container for a list of icons with descriptions, that grows top down. -->
+    <Instance Name="TopDownList">
+        <Stack ID="List" Size="parent, 0">
+            <Grid Style="ColumnHeader" ID="Title" Size="parent-4,26" Offset="0,0" Anchor="C,T" Color="50,50,50,200">
+                <Label ID="TitleText" Anchor="C,C" Offset="4,0" Style="HeaderSmallCaps" Hidden="false" Color0="GrayMedium"/>
+                <Button ID ="HeaderExpandButton" Anchor ="C,C" Offset ="75,0" Size="16,16" Texture="Controls_CategoryCollapse" Hidden="0" ToolTip="LOC_DIPLO_DEAL_COLLAPSE_CATEGORY"/>
+            </Grid>
+            <Stack ID="ListStack" StackGrowth="Bottom" Anchor="C,T">
+            </Stack>
+        </Stack>
+    </Instance>
+
+    <!--Instance container to hold all of the items offered by the local player-->
+    <Instance Name ="MyOffers">
+        <Stack ID="OfferStack" StackGrowth="Bottom" Size ="auto, auto" Anchor="C,T">
+            <Grid ID="DirectionsBracket" Style="DecoGrid" Size="auto,auto" Color="Dark_Gray" Anchor="C,C" Offset="0,15" InnerPadding="25,25" MinSize="39,49">
+                <Label ID="Directions" String="LOC_DIPLOMACY_TRADE_UI_SELECT_TEXT" Anchor="C,C" Style="FontNormalMedium16" Color0="GrayMedium" Color1="Black" FontStyle="Shadow" WrapWidth="160" Align="Center" Hidden="0"/>
+            </Grid>
+
+            <!--Immediate Deals-->
+            <Grid Style="ColumnHeader" ID="OneTimeDealsHeader" Size="150,22" Offset="0,10" Anchor="C,T" Color="50,50,50" Hidden="1" >
+                <Label String="LOC_DIPLOMACY_DEAL_ONE_TIME" Anchor="C,C" Offset="0,0" Style="HeaderSmallCaps" Hidden="false" Color0="GrayMedium" TruncateWidth = "145" TruncatedTooltip="1"/>
+            </Grid>
+            <Stack ID="OneTimeDealsStack" StackGrowth="Right" WrapWidth="240" WrapGrowth="Bottom" Anchor ="C,C"/>
+
+            <!--30 Turn Deals-->
+            <Grid Style="ColumnHeader" ID="For30TurnsDealsHeader" Size="150,22" Offset="0,10" Anchor="C,T" Color="50,50,50" Hidden="1">
+                <Label String="LOC_DIPLOMACY_DEAL_FOR_30_TURNS" Anchor="C,C" Offset="0,0" Style="HeaderSmallCaps" Hidden="false" Color0="GrayMedium" TruncateWidth = "145" TruncatedTooltip="1"/>
+            </Grid>
+            <Stack ID="For30TurnsDealsStack" StackGrowth="Right" WrapWidth="240" WrapGrowth="Bottom" Anchor ="C,C" />
+        </Stack>
+    </Instance>
+
+</Context>

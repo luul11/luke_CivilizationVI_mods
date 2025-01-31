@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="83ffeb62-d680-4e18-8a29-f569b77623f" version="2">
+	
+	<Properties>
+		<Name>More_Barbarian_Camp_RAID_luke</Name>
+		<Teaser>More_Barbarian_Camp_RAID_luke</Teaser>
+		<Description>More_Barbarian_Camp_RAID_luke_des</Description>
+		<Authors>LUKE_AUTHORS</Authors>
+		<Homepage>https://blog.csdn.net/qq_37195257</Homepage>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	
+	<Components>
+		<UpdateDatabase id="TEST_GAMEPLAY_DATA">
+			<Items>
+				<File>More_Barbarian_Camp_RAID_luke.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	
+	<Files>
+		<File>More_Barbarian_Camp_RAID_luke.sql</File>
+	</Files>
+	
+	<LocalizedText>
+		<Text id="More_Barbarian_Camp_RAID_luke">
+			<en_US>More_Barbarian_Camp_RAID_luke</en_US>
+		</Text>
+		<Text id="More_Barbarian_Camp_RAID_luke">
+			<zh_Hans_CN>更多的蛮族营地扫荡收益</zh_Hans_CN>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<en_US>LUKE</en_US>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<zh_Hans_CN>LUKE</zh_Hans_CN>
+		</Text>
+		<Text id="More_Barbarian_Camp_RAID_luke_des">
+			<en_US>More_Barbarian_Camp_RAID,add to 160 gold</en_US>
+		</Text>
+		<Text id="More_Barbarian_Camp_RAID_luke_des">
+			<zh_Hans_CN>更多的蛮族营地扫荡收益，增加到160金币，适用于野蛮氏族模式</zh_Hans_CN>
+		</Text>		
+		
+	</LocalizedText>
+	
+</Mod>

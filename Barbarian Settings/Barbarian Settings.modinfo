@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="19b1fbde-14b4-4b6d-a9ae-4669e024ade0" version="10">
+  <Properties>
+    <Name>[COLOR:220,20,60,255]Barbarian[ENDCOLOR] Settings</Name>
+    <Description>Barbarian_Settings_desc</Description>
+    <Created>1732909670</Created>
+    <Teaser>Add Barbarian Settings on the Create Game screen</Teaser>
+    <Authors>james_pham translated by luke</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Blocks>
+    <Mod id="367597d4-8d79-4314-99ea-5ce092182e4b" title="More Barbarian EXP" />
+  </Blocks>
+  <ActionCriteria>
+    <Criteria id="LVL2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_LVL</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LVL3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_LVL</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LVL4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_LVL</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LVL5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_LVL</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="LVL6">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_LVL</ConfigurationId>
+        <Group>Game</Group>
+        <Value>6</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP6">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>6</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP7">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>7</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="EXP8">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_XP</ConfigurationId>
+        <Group>Game</Group>
+        <Value>8</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="AGG0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_AGG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="AGG1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_AGG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="AGG2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_AGG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="AGG3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_AGG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="AGG4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_AGG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="AGG5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_AGG</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEF6">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEF</ConfigurationId>
+        <Group>Game</Group>
+        <Value>6</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEN0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEN1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEN2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEN3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEN4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="DEN5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_DEN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="RAID0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_RAID</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="RAID1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_RAID</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="RAID2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_RAID</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="RAID3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_RAID</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="RAID4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_RAID</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="RAID5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_RAID</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SPAWN0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_SPAWN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SPAWN1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_SPAWN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SPAWN2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_SPAWN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SPAWN3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_SPAWN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SPAWN4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_SPAWN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="SPAWN5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_SPAWN</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CON0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_CON</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CON1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_CON</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CON2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_CON</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CON3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_CON</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CON4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_CON</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="CON5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_CON</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="ERA0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_ERA</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="ERA1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_ERA</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="ERA2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_ERA</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NAV0">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_NAV</ConfigurationId>
+        <Group>Game</Group>
+        <Value>0</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NAV1">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_NAV</ConfigurationId>
+        <Group>Game</Group>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NAV2">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_NAV</ConfigurationId>
+        <Group>Game</Group>
+        <Value>2</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NAV3">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_NAV</ConfigurationId>
+        <Group>Game</Group>
+        <Value>3</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NAV4">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_NAV</ConfigurationId>
+        <Group>Game</Group>
+        <Value>4</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+    <Criteria id="NAV5">
+      <ConfigurationValueMatches>
+        <ConfigurationId>JBARB_NAV</ConfigurationId>
+        <Group>Game</Group>
+        <Value>5</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="JBARB_SETUP">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <File>jbarb_setup.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="JBARB_LOC">
+      <File>jbarb_loc.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="LVL2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>LVL2</Criteria>
+      <File>Level/LVL2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="LVL3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>LVL3</Criteria>
+      <File>Level/LVL3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="LVL4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>LVL4</Criteria>
+      <File>Level/LVL4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="LVL5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>LVL5</Criteria>
+      <File>Level/LVL5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="LVL6">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>LVL6</Criteria>
+      <File>Level/LVL6.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP1</Criteria>
+      <File>Exp/EXP1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP2</Criteria>
+      <File>Exp/EXP2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP3</Criteria>
+      <File>Exp/EXP3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP4</Criteria>
+      <File>Exp/EXP4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP5</Criteria>
+      <File>Exp/EXP5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP6">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP6</Criteria>
+      <File>Exp/EXP6.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP7">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP7</Criteria>
+      <File>Exp/EXP7.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="EXP8">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>EXP8</Criteria>
+      <File>Exp/EXP8.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AGG0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>AGG0</Criteria>
+      <File>Aggression/AGG0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AGG1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>AGG1</Criteria>
+      <File>Aggression/AGG1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AGG2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>AGG2</Criteria>
+      <File>Aggression/AGG2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AGG3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>AGG3</Criteria>
+      <File>Aggression/AGG3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AGG4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>AGG4</Criteria>
+      <File>Aggression/AGG4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="AGG5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>AGG5</Criteria>
+      <File>Aggression/AGG5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DEN0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>DEN0</Criteria>
+      <File>Density/DEN0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DEN1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>DEN1</Criteria>
+      <File>Density/DEN1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DEN2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>DEN2</Criteria>
+      <File>Density/DEN2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DEN3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>DEN3</Criteria>
+      <File>Density/DEN3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DEN4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>DEN4</Criteria>
+      <File>Density/DEN4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DEN5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>DEN5</Criteria>
+      <File>Density/DEN5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RAID0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>RAID0</Criteria>
+      <File>Raid/RAID0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RAID1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>RAID1</Criteria>
+      <File>Raid/RAID1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RAID2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>RAID2</Criteria>
+      <File>Raid/RAID2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RAID3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>RAID3</Criteria>
+      <File>Raid/RAID3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RAID4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>RAID4</Criteria>
+      <File>Raid/RAID4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="RAID5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>RAID5</Criteria>
+      <File>Raid/RAID5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="SPAWN0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>SPAWN0</Criteria>
+      <File>Spawn/SPAWN0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="SPAWN1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>SPAWN1</Criteria>
+      <File>Spawn/SPAWN1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="SPAWN2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>SPAWN2</Criteria>
+      <File>Spawn/SPAWN2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="SPAWN3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>SPAWN3</Criteria>
+      <File>Spawn/SPAWN3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="SPAWN4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>SPAWN4</Criteria>
+      <File>Spawn/SPAWN4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="SPAWN5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>SPAWN5</Criteria>
+      <File>Spawn/SPAWN5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="CON0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>CON0</Criteria>
+      <File>Conversion/CON0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="CON1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>CON1</Criteria>
+      <File>Conversion/CON1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="CON2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>CON2</Criteria>
+      <File>Conversion/CON2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="CON3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>CON3</Criteria>
+      <File>Conversion/CON3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="CON4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>CON4</Criteria>
+      <File>Conversion/CON4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="CON5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>CON5</Criteria>
+      <File>Conversion/CON5.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ERA0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>ERA0</Criteria>
+      <File>Era/ERA0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ERA1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>ERA1</Criteria>
+      <File>Era/ERA1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="ERA2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>ERA2</Criteria>
+      <File>Era/ERA2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NAV0">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>NAV0</Criteria>
+      <File>Naval/NAV0.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NAV1">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>NAV1</Criteria>
+      <File>Naval/NAV1.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NAV2">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>NAV2</Criteria>
+      <File>Naval/NAV2.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NAV3">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>NAV3</Criteria>
+      <File>Naval/NAV3.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NAV4">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>NAV4</Criteria>
+      <File>Naval/NAV4.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="NAV5">
+      <Properties>
+        <LoadOrder>100000</LoadOrder>
+      </Properties>
+      <Criteria>NAV5</Criteria>
+      <File>Naval/NAV5.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <Files>
+    <File>Aggression/AGG0.sql</File>
+    <File>Aggression/AGG1.sql</File>
+    <File>Aggression/AGG2.sql</File>
+    <File>Aggression/AGG3.sql</File>
+    <File>Aggression/AGG4.sql</File>
+    <File>Aggression/AGG5.sql</File>
+    <File>Conversion/CON0.sql</File>
+    <File>Conversion/CON1.sql</File>
+    <File>Conversion/CON2.sql</File>
+    <File>Conversion/CON3.sql</File>
+    <File>Conversion/CON4.sql</File>
+    <File>Conversion/CON5.sql</File>
+    <File>Density/DEN0.sql</File>
+    <File>Density/DEN1.sql</File>
+    <File>Density/DEN2.sql</File>
+    <File>Density/DEN3.sql</File>
+    <File>Density/DEN4.sql</File>
+    <File>Density/DEN5.sql</File>
+    <File>Era/ERA0.sql</File>
+    <File>Era/ERA1.sql</File>
+    <File>Era/ERA2.sql</File>
+    <File>Exp/EXP1.sql</File>
+    <File>Exp/EXP2.sql</File>
+    <File>Exp/EXP3.sql</File>
+    <File>Exp/EXP4.sql</File>
+    <File>Exp/EXP5.sql</File>
+    <File>Exp/EXP6.sql</File>
+    <File>Exp/EXP7.sql</File>
+    <File>Exp/EXP8.sql</File>
+    <File>jbarb_loc.xml</File>
+    <File>jbarb_setup.sql</File>
+    <File>Level/LVL2.sql</File>
+    <File>Level/LVL3.sql</File>
+    <File>Level/LVL4.sql</File>
+    <File>Level/LVL5.sql</File>
+    <File>Level/LVL6.sql</File>
+    <File>Naval/NAV0.sql</File>
+    <File>Naval/NAV1.sql</File>
+    <File>Naval/NAV2.sql</File>
+    <File>Naval/NAV3.sql</File>
+    <File>Naval/NAV4.sql</File>
+    <File>Naval/NAV5.sql</File>
+    <File>Raid/RAID0.sql</File>
+    <File>Raid/RAID1.sql</File>
+    <File>Raid/RAID2.sql</File>
+    <File>Raid/RAID3.sql</File>
+    <File>Raid/RAID4.sql</File>
+    <File>Raid/RAID5.sql</File>
+    <File>Spawn/SPAWN0.sql</File>
+    <File>Spawn/SPAWN1.sql</File>
+    <File>Spawn/SPAWN2.sql</File>
+    <File>Spawn/SPAWN3.sql</File>
+    <File>Spawn/SPAWN4.sql</File>
+    <File>Spawn/SPAWN5.sql</File>
+  </Files>
+	<LocalizedText>
+		<Text id="Barbarian_Settings_desc">
+			<en_US>Add Barbarian Settings on the Create Game screen:[NEWLINE]- Barbarian Level Cap[NEWLINE]- Barbarian Exp Cap[NEWLINE]- Barbarian Aggression[NEWLINE]- Barbarian Camp Density[NEWLINE]- Barbarian Spawn Rate[NEWLINE]- Barbarian Raid Numbers[NEWLINE]- Barbarian Start Era[NEWLINE]- Barbarian Conversion Rate (Barbarian Clans Mode only)</en_US>
+		</Text>
+		<Text id="Barbarian_Settings_desc">
+			<zh_Hans_CN>在“创建游戏”屏幕上添加蛮族设置：[NEWLINE]- 蛮族等级上限[NEWLINE]- 蛮族经验上限[NEWLINE]- 野蛮人侵略性（控制野蛮人在战斗中的攻击性。攻击性越高，野蛮人在战斗中越有信心，攻击就越频繁、越大胆）[NEWLINE]- 野蛮人营地密度（调整地图上蛮族营地的密度。密度越高，营地越密集，营地之间的距离越短，这增加了管理蛮族威胁的难度。）[NEWLINE]- 野蛮人生成率[NEWLINE]- 野蛮人突袭规模[NEWLINE]- 野蛮人起始时代[NEWLINE]- 野蛮人转化率（仅限野蛮人部落模式）</zh_Hans_CN>
+		</Text>		
+		
+	</LocalizedText>
+</Mod>

@@ -1,0 +1,1 @@
+UPDATE Improvements SET DispersalGold = 160 WHERE ImprovementType = 'IMPROVEMENT_BARBARIAN_CAMP';

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="CUI_DLC4_Dep"/>
+        <id text="d85b5f9b-5025-47d9-9f70-872175bcb17f"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC4"/>
+			<id text="d5642886-43d5-4ce9-9465-3a47b5c70096"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Landmarks"/>
+            <ArtDefDependencyPaths>
+				<Element text="Landmarks_DLC4.artdef"/>
+			</ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

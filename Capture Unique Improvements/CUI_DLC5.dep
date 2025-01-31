@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="CUI_DLC5_Dep"/>
+        <id text="d85b5f9b-5025-47d9-9f70-872175bcb17f"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC5"/>
+			<id text="754001af-1b3f-43a5-8138-8fb13e2bf173"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Landmarks"/>
+            <ArtDefDependencyPaths>
+				<Element text="Landmarks_DLC5.artdef"/>
+			</ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

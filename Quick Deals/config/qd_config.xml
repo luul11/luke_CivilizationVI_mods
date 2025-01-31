@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+
+    <InputActions>
+        <InsertOrIgnore ActionId="OpenQDPopup" Name="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP" Description="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP_DESCRIPTION" CategoryId="UI" ContextId="World"/>
+    </InputActions>
+
+    <InputActionDefaultGestures>
+        <InsertOrIgnore ActionId="OpenQDPopup" Index="0" GestureType="KBMouse" GestureData="LOC_OPTIONS_KEY_D"/>
+    </InputActionDefaultGestures>
+
+</GameInfo>

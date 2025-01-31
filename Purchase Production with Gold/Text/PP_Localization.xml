@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_HUAN_GOLD_PURCHASE_TITLE" Language="zh_Hans_CN">
+			<Text>购买生产力（使用 [Icon_Gold] 金币）</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_TITLE" Language="zh_Hans_CN">
+			<Text>购买生产力</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>您将使用{1_Amount} [Icon_Gold] 金币,使城市正在建造的项目推进{2_Amount} [Icon_Production] 生产力。是否确认？</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_CANCEL" Language="zh_Hans_CN">
+			<Text>取消</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_APPLY" Language="zh_Hans_CN">
+			<Text>确认</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_GOLD_PURCHASE_TITLE" Language="en_US">
+			<Text>Purchase Production with [Icon_Gold] Gold</Text>
+		</Row>
+        <Row Tag="LOC_HUAN_PP_POPUP_1_TITLE" Language="en_US">
+			<Text>Purchase Production</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_DESCRIPTION" Language="en_US">
+			<Text>You will consume {1_Amount} [Icon_Gold] Gold to boost the city's ongoing project by {2_Amount} [Icon_Production] Production. Confirm?</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_CANCEL" Language="en_US">
+			<Text>Cancel</Text>
+		</Row>
+		<Row Tag="LOC_HUAN_PP_POPUP_1_APPLY" Language="en_US">
+			<Text>Confirm</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

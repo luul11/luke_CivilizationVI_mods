@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Container ID="Vignette" Style="FullScreenVignetteConsumer" />
+
+    <Container ID="QDPopupContainer" Anchor="C,C" Size="1280,768">
+        <!-- Background with title and close button. -->
+        <Container Style="ModalScreenWide"/>
+
+        <Grid Style="DiplomacyInfoWindowGrid" Size="parent,parent-80" Offset="0,80">
+            <Image Texture="Controls_Gradient" Size="parent-10, parent-33" Offset="5,20" Anchor="L,B" Color="24,47,70,230"/>
+
+            <!--Tab content container. -->
+            <Container ID="TabContentContainer" Size="parent,parent-33" Offset="0,12"/>
+
+            <CheckBox ID="NotificationToggle" IsChecked="1" Offset="10,-27" TextOffset="-5,0" String="LOC_OPTIONS_NOTIFICATIONS" Style="WhiteSemiBold14" ButtonTexture="Controls_Checkbox.dds" ButtonSize="17,17" CheckTexture="Controls_Checkbox.dds" CheckSize="17,17" CheckTextureOffset="0,17" Anchor="R,T"/>
+
+            <Image Texture="Controls_GradientSmall" Size="parent-12, 22" Offset="6,21" Anchor="L,B" Color="0,0,0,255" FlipY="1"/>
+            <Image Texture="Controls_GradientSmall" Size="parent-12, 15" Offset="6,12" Anchor="L,T" Color="0,0,0,255"/>
+            <!--End of Content Stack-->
+            <Image Texture="Controls_Deco2" Size="41,26" Anchor="C,B"/>
+        </Grid>
+
+        <!-- Tabs -->
+        <Container Anchor="C,T" Offset="0,48" Size="auto,61">
+            <Image Anchor="C,T" Size="auto,27" Texture="Controls_TabLedge2_Fill" StretchMode="Tile" />
+            <Grid Anchor="C,T" Offset="0,-17" Size="auto,61" Texture="Controls_TabLedge2" SliceCorner="194,18" SliceSize="52,26" SliceTextureSize="438,61">
+                <Container ID="TabContainer" Anchor="C,T" Offset="0,13" Size="auto,34"/>
+            </Grid>
+        </Container>
+    </Container>
+
+    <!-- Tab instance -->
+    <Instance Name="TabButtonInstance">
+        <GridButton ID="Button" Size="170,34" Style="TabButton" FontSize="14" TextOffset="0,2">
+            <GridButton ID="SelectButton" Size="parent,parent" Style="TabButtonSelected" ConsumeMouseButton="0" ConsumeMouseOver="1" Hidden="1"/>
+        </GridButton>
+    </Instance>
+</Context>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Include File="LeaderIcon"/>
+
+    <!-- Containers for caching instances -->
+    <Container ID="IconOnlyContainer" Hidden="1"/>
+    <Container ID="IconAndTextContainer" Hidden="1"/>
+
+    <!-- Deal instances -->
+    <!-- An instance of an Icon, with optional Amount Text that overlaps the icon -->
+    <Instance Name="IconOnly">
+        <GridButton ID="SelectButton" Style="ButtonDraggableGrid" Size="56,56" Offset="0,0" Anchor="L,T">
+            <Image ID="Icon" StretchMode="None" Size="64,64" Anchor="C,C"/>
+            <Label ID="AmountText" Style="FontNormalBold16" Anchor="R,B" Offset="-5,-9" FontStyle="Stroke" />
+            <Image ID="UnacceptableIcon" Anchor="R,T" Offset="-8,-8" Texture="Alert18" Size="18,18" ToolTip="LOC_DIPLO_DEAL_UNACCEPTABLE_ITEM_TOOLTIP" Hidden="1"/>
+            <Button ID="RemoveButton" Anchor="L,B" Offset ="-10,-10" Texture="Controls_RemoveDealSmall" Size="16,16" ToolTip="LOC_DIPLO_DEAL_REMOVE_ITEM" Hidden="1"/>
+            <Button ID="StopAskingButton" Anchor="C,C" Offset ="0,0" Texture="Controls_DontAskAgainSmall" Size="16,16" ToolTip="LOC_DIPLO_DEAL_REMOVE_ITEM" Hidden="1"/>
+        </GridButton>
+    </Instance>
+
+    <!-- An instance of an Icon, with optional Amount Text that overlaps the icon and description text on the right side of the icon. -->
+    <Instance Name="IconAndText">
+        <GridButton ID="SelectButton" Style="ButtonDraggableGrid" Size="200,56" Anchor="C,T">
+            <Stack Size="parent,0" StackGrowth="Right">
+                <Container Size="44, parent">
+                    <Image ID="Icon" StretchMode="None" Size="44,44" Anchor="C,C"/>
+                    <Label ID="AmountText" Anchor="R,B" Style="FontNormalBold12" Offset="24,-9" FontStyle="Stroke"/>
+                </Container>
+                <Container Size="parent-44, parent">
+                    <Stack StackGrowth="Bottom" Anchor="L,C">
+                        <Label ID="IconText" Size="parent, 0" Style="FontNormalBold12" FontStyle="Stroke"/>
+                        <ScrollTextField ID="ValueText" Size="125, 0" Style="FontNormalBold12" FontStyle="Stroke"/>
+                    </Stack>
+                </Container>
+            </Stack>
+            <Image ID="UnacceptableIcon" Anchor="R,T" Offset="-8,-8" Texture="Alert18" Size="18,18" ToolTip="LOC_DIPLO_DEAL_UNACCEPTABLE_ITEM_TOOLTIP" Hidden="1"/>
+            <Button ID="RemoveButton" Anchor="R,B" Offset ="-4,-4" Texture="Controls_RemoveDeal" Size="22,22" ToolTip="LOC_DIPLO_DEAL_REMOVE_ITEM" Hidden="1"/>
+            <Button ID="StopAskingButton" Anchor="R,T" Offset ="-4,-4" Texture="Controls_DontAskAgainSmall" Size="16,16" ToolTip="LOC_DIPLO_DEAL_MARK_UNACCEPTABLE" Hidden="1"/>
+        </GridButton>
+    </Instance>
+
+    <!-- An instance of an AI offer for sale -->
+    <Instance Name="AISaleOfferInstance">
+        <Container ID="OfferContainer" Size ="parent, auto" InnerPadding="0,10">
+            <Container Size ="parent,auto" InnerPadding="20,0">
+                <Stack StackGrowth="Bottom" Size ="64,auto" Anchor="L,T">
+                    <MakeInstance ID="LeaderTargetIcon" Name="LeaderIcon55" Anchor="C,T"/>
+                    <Label ID="GoldBalance" Anchor="L,T" Offset="2,2" Style="FontNormal14" FontStyle="shadow" ColorSet="ResGoldLabelCS" EffectColor="0,0,0,255" ToolTip="LOC_HUD_RIBBON_GOLD" ReduceWidth="61"/>
+                </Stack>
+                <Container Size="parent-64,auto" Offset="64,0">
+                    <Container Size="parent,auto" Anchor="L,T">
+                        <Stack StackGrowth="Right" Anchor="L,C">
+                            <MakeInstance ID="OneTimeGold" Name="IconOnly" Anchor="L,C"/>
+                            <MakeInstance ID="MultiTurnGold" Name="IconAndText" Anchor="L,C"/>
+                            <Container Size="26,50" Anchor="L,C">
+                                <Button ID="IncreaseMTG" Texture="Controls_ArrowButtonUp" Size="26,23" StateOffsetIncrement="0,23"/>
+                                <Button ID="DecreaseMTG" Texture="controls_arrowbuttondown_corrected.dds" Size="26,23" StateOffsetIncrement="0,23" Offset="0,23"/>
+                            </Container>
+                            <MakeInstance ID="UnknownType" Name="IconOnly" Anchor="L,C"/>
+                        </Stack>
+                        <Container Size="auto,auto" Anchor="R,C">
+                            <GridButton ID="AcceptDeal" Style="ButtonConfirm" Anchor="C,C" Size="180,41" String="LOC_DIPLOMACY_DEAL_ACCEPT_DEAL"/>
+                            <GridButton ID="DealDetails" Style="ButtonLightWeight" Anchor="C,C" Size="180,38" String="LOC_DIPLO_CHOICE_VIEW_DEAL" Hidden="1"/>
+                            <Label ID="ExtraIndicator" String="[ICON_NEW]" Anchor="R,T" Offset="-5,-3" Hidden="1"/>
+                        </Container>
+                    </Container>
+                    <Stack ID="OfferedItemsStack" StackGrowth="Right" Anchor="L,T" Offset="0,50" WrapWidth="parent"/>
+                </Container>
+            </Container>
+            <Grid Anchor="C,B" Offset="0,-10" Size="parent,8" Style="DividerGrid" Color="Dark_Gray"/>
+        </Container>
+    </Instance>
+
+    <!-- An instance of an AI offer for purchase -->
+    <Instance Name="AIPurchaseOfferRowInstance">
+        <Container ID="OfferRowContainer" Size ="1200, auto" InnerPadding="0,10">
+            <Container Size ="parent,auto" InnerPadding="20,0">
+                <MakeInstance ID="LeaderTargetIcon" Name="LeaderIcon55" Anchor="L,C"/>
+                <Container Size="1100,auto" Offset="80,0" Anchor="L,C">
+                    <Container Size="448,auto" Anchor="L,C" Offset="12,0">
+                        <Stack ID="OfferedItemsStack" Anchor="L,C" StackGrowth="Right" WrapWidth="parent" WrapGrowth="Bottom"/>
+                    </Container>
+                    <Stack StackGrowth="Right" Size="400,auto" Anchor="L,C" Offset="480,0">
+                        <MakeInstance ID="OneTimeGold" Name="IconOnly" Anchor="L,C"/>
+                        <MakeInstance ID="MultiTurnGold" Name="IconAndText" Anchor="L,C"/>
+                        <Container Size="26,50" Anchor="L,C">
+                            <Button ID="IncreaseMTG" Texture="Controls_ArrowButtonUp" Size="26,23" StateOffsetIncrement="0,23"/>
+                            <Button ID="DecreaseMTG" Texture="controls_arrowbuttondown_corrected.dds" Size="26,23" StateOffsetIncrement="0,23" Offset="0,23"/>
+                        </Container>
+                        <MakeInstance ID="UnknownType" Name="IconOnly" Anchor="L,C"/>
+                    </Stack>
+                    <Container Size="auto,auto" Anchor="R,C">
+                        <GridButton ID="AcceptDeal" Style="ButtonConfirm" Anchor="C,C" Size="200,41" String="LOC_DIPLOMACY_DEAL_ACCEPT_DEAL"/>
+                        <GridButton ID="DealDetails" Style="ButtonLightWeight" Anchor="C,C" Size="200,38" String="LOC_DIPLO_CHOICE_VIEW_DEAL" Hidden="1"/>
+                        <Label ID="ExtraIndicator" String="[ICON_NEW]" Anchor="R,T" Offset="-5,-3" Hidden="1"/>
+                    </Container>
+                </Container>
+            </Container>
+            <Grid Anchor="C,B" Offset="0,-10" Size="parent,8" Style="DividerGrid" Color="Dark_Gray"/>
+        </Container>
+    </Instance>
+
+    <!-- An instance of an AI offer for exchange -->
+    <Instance Name="AIExchangeOfferRowInstance">
+        <Container ID="OfferRowContainer" Size ="1200, auto" InnerPadding="0,10">
+            <Container Size ="parent,auto" InnerPadding="20,0">
+                <Stack StackGrowth="Bottom" Size ="64,auto" Anchor="L,C">
+                    <MakeInstance ID="LeaderTargetIcon" Name="LeaderIcon55" Anchor="C,T"/>
+                    <Label ID="GoldBalance" Anchor="L,T" Offset="2,2" Style="FontNormal14" FontStyle="shadow" ColorSet="ResGoldLabelCS" EffectColor="0,0,0,255" ToolTip="LOC_HUD_RIBBON_GOLD" ReduceWidth="61"/>
+                </Stack>
+                <Container Size="1100,auto" Offset="80,0" Anchor="L,C">
+                    <Stack StackGrowth="Right" Size="250,auto" Anchor="L,C" Offset="32,0">
+                        <MakeInstance ID="AIOneTimeGold" Name="IconOnly" Anchor="L,C"/>
+                        <MakeInstance ID="AIMultiTurnGold" Name="IconAndText" Anchor="L,C"/>
+                        <Container ID="AIMTGArrows" Size="26,50" Anchor="L,C" Hidden="1">
+                            <Button ID="AIIncreaseMTG" Texture="Controls_ArrowButtonUp" Size="26,23" StateOffsetIncrement="0,23"/>
+                            <Button ID="AIDecreaseMTG" Texture="controls_arrowbuttondown_corrected.dds" Size="26,23" StateOffsetIncrement="0,23" Offset="0,23"/>
+                        </Container>
+                    </Stack>
+                    <Stack StackGrowth="Right" Size="250,auto" Anchor="L,C" Offset="295,0">
+                        <MakeInstance ID="OneTimeGold" Name="IconOnly" Anchor="L,C"/>
+                        <MakeInstance ID="MultiTurnGold" Name="IconAndText" Anchor="L,C"/>
+                        <Container ID="MTGArrows" Size="26,50" Anchor="L,C" Hidden="1">
+                            <Button ID="IncreaseMTG" Texture="Controls_ArrowButtonUp" Size="26,23" StateOffsetIncrement="0,23"/>
+                            <Button ID="DecreaseMTG" Texture="controls_arrowbuttondown_corrected.dds" Size="26,23" StateOffsetIncrement="0,23" Offset="0,23"/>
+                        </Container>
+                    </Stack>
+                    <Label ID="GoldRatio" Style="FontNormalBold16" FontStyle="Stroke" Anchor="L,C" Offset="620,0"/>
+                    <Container Size="auto,auto" Anchor="R,C">
+                        <GridButton ID="AcceptDeal" Style="ButtonConfirm" Anchor="C,C" Size="200,41" String="LOC_DIPLOMACY_DEAL_ACCEPT_DEAL"/>
+                    </Container>
+                </Container>
+            </Container>
+            <Grid Anchor="C,B" Offset="0,-10" Size="parent,8" Style="DividerGrid" Color="Dark_Gray"/>
+        </Container>
+    </Instance>
+
+</Context>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <!-- Helper animation for async timer callback -->
+     <SlideAnim ID="RequestTimer" Start="0,0" End="0,0" Speed="1" Function="Root" Cycle="Once" Hidden="1"/>
+</Context>

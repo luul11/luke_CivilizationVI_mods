@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="83ffeb62-d680-4e18-8ac9-99693c49923f" version="1">
+	
+	<Properties>
+		<Name>Policy_FightFeedFight_luke</Name>
+		<Teaser>Policy_FightFeedFight_luke</Teaser>
+		<Description>Policy_FightFeedFight_luke_Descript</Description>
+		<Authors>LUKE_AUTHORS</Authors>
+		<Homepage>https://blog.csdn.net/qq_37195257</Homepage>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	
+	<Components>
+		<UpdateDatabase id="TEST_GAMEPLAY_DATA" LoadOrder="10000">
+			<Items>
+				<File>Policy_FightFeedFight_luke.sql</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="TEST2_GAMEPLAY_DATA" LoadOrder="10000">
+            <Items>
+                <File Priority="10000">Policy_FightFeedFight_luke_text.sql</File>
+            </Items>
+        </LocalizedText>
+	</Components>
+	
+	<Files>
+		<File>Policy_FightFeedFight_luke.sql</File>
+		<File>Policy_FightFeedFight_luke_text.sql</File>
+	</Files>
+	
+	<LocalizedText>
+		<Text id="Policy_FightFeedFight_luke">
+			<en_US>Policy_FightFeedFight_luke</en_US>
+		</Text>
+		<Text id="Policy_FightFeedFight_luke">
+			<zh_Hans_CN>以战养战（政策mod）</zh_Hans_CN>
+		</Text>
+		<Text id="Policy_FightFeedFight_luke_Descript">
+			<en_US>FightFeedFight Policy</en_US>
+		</Text>
+		<Text id="Policy_FightFeedFight_luke_Descript">
+			<zh_Hans_CN>以战养战（政策mod），劫掠增强mod，适配扫荡和全面战争政策</zh_Hans_CN>
+		</Text>		
+		<Text id="LUKE_AUTHORS">
+			<en_US>LUKE</en_US>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<zh_Hans_CN>LUKE</zh_Hans_CN>
+		</Text>
+	</LocalizedText>
+	
+</Mod>

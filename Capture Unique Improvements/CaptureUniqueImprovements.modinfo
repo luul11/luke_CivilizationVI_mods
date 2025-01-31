@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="d85b5f9b-5025-47d9-9f70-872175bcb17f">
+	<Properties>
+		<Name>Capture Unique Improvements</Name>
+		<Description>Unique improvements can be captured and are no longer automatically destroyed when conquering, trading, liberating, loyalty-flipping, or culture bombing a city.[NEWLINE][NEWLINE][ICON_CAPITAL] Applies to all unique, city-state, and governor improvements.[NEWLINE][ICON_CAPITAL] Works with all DLC and Expansions and should work for any modded unique improvements.[NEWLINE][ICON_CAPITAL] Can be enabled or disabled at any time. If disabled, unique improvements will remain until the next time the city changes ownership.</Description>
+		<Teaser>Unique improvements can be captured when acquiring a city.</Teaser>
+		<Authors>Sejick</Authors>
+		<SpecialThanks>Cuso for fixing Polders bug</SpecialThanks>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<References>
+		<Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+		<Mod id="643EA320-8E1A-4CF1-A01C-00D88DDD131A" title="DLC: Nubia Civilization Pack" />
+		<Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+	</References>
+	<InGameActions>
+		<AddGameplayScripts id="CUI_Script">
+			<File>CUI_Script.lua</File>
+		</AddGameplayScripts>
+		<UpdateArt id="CUI_Art">
+			<Properties>
+				<LoadOrder>500000</LoadOrder>
+			</Properties>
+			<File>CUI_DLC4.dep</File>
+			<File>CUI_DLC5.dep</File>
+			<File>CUI_DLC6.dep</File>
+			<File>CUI_Expac1.dep</File>
+		</UpdateArt>
+	</InGameActions>
+	<Files>
+		<File>CUI_Script.lua</File>
+		<File>CUI_DLC4.dep</File>
+		<File>CUI_DLC5.dep</File>
+		<File>CUI_DLC6.dep</File>
+		<File>CUI_Expac1.dep</File>
+	</Files>
+</Mod>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2c98a631-bd57-41b7-8032-a4e7c86c56c3" version="3">
+  <Properties>
+    <Name>Raising troops for a thousand days, using them for a moment</Name>
+    <Description>When the combat unit stays at the Encampment or Harbor or Aerodrome, 2 experience points are added at the beginning of each round
+When the army is not fighting, do they still need maintenance fees? Isn't this empty pay? No, Get out of here and train</Description>
+    <Created>1726748716</Created>
+    <Teaser>EXP+2</Teaser>
+    <Authors>品 尝 孤 独</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <AddGameplayScripts id="gameplay">
+      <File>BuildingChange.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>BuildingChange.lua</File>
+  </Files>
+</Mod>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2778f75d-9c72-4919-a081-620f6482f5d6" version="1">
+  <Properties>
+    <Name>Policy Change Reminder</Name>
+    <Description>This mod displays a pop up when trying to click next turn without changing policies when it is free to do so.</Description>
+    <Teaser>Displays a pop up prompt for unchanged policies.</Teaser>
+    <Authors>FinalFreak16</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+	  <CompatibleVersions>1.2,2.0</CompatibleVersions>
+	  <SubscriptionID>1132600299</SubscriptionID>
+  </Properties>
+
+  <InGameActions>
+    <UpdateText id="UpdateText">
+      <File>Locale/localisation.sql</File>
+    </UpdateText>
+
+    <ReplaceUIScript id="PolicyChangeReminder_Override">
+      <Properties>
+        <LoadOrder>6060</LoadOrder>
+        <LuaContext>ActionPanel</LuaContext>
+        <LuaReplace>UI/ActionPanel_FF16.lua</LuaReplace>
+      </Properties>
+    </ReplaceUIScript>
+    
+    <ReplaceUIScript id="PolicyChangeReminder_RF_Override">
+      <Properties>
+        <LoadOrder>6061</LoadOrder>
+			  <RuleSet>RULESET_EXPANSION_1</RuleSet>
+        <LuaContext>ActionPanel</LuaContext>
+        <LuaReplace>UI/ActionPanel_RF_FF16.lua</LuaReplace>
+      </Properties>
+    </ReplaceUIScript>
+    
+    <ReplaceUIScript id="PolicyChangeReminder_GS_Override">
+      <Properties>
+        <LoadOrder>6062</LoadOrder>
+			  <RuleSet>RULESET_EXPANSION_2</RuleSet>
+        <LuaContext>ActionPanel</LuaContext>
+        <LuaReplace>UI/ActionPanel_GS_FF16.lua</LuaReplace>
+      </Properties>
+    </ReplaceUIScript>
+
+    <GameplayScripts id="PolicyChangeReminder_Config">
+      <Properties>
+        <LoadOrder>6063</LoadOrder>
+      </Properties>
+      <File>FF16_Config_PCR.lua</File>
+    </GameplayScripts> 
+  </InGameActions>
+  
+  <Files>
+	  <File>FF16_Config_PCR.lua</File>
+    <File>Locale/localisation.sql</File>
+    <File>UI/ActionPanel_FF16.lua</File>
+    <File>UI/ActionPanel_RF_FF16.lua</File>  
+    <File>UI/ActionPanel_GS_FF16.lua</File>     
+  </Files>
+</Mod>

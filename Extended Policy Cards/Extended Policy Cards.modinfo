@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="382a187f-c8ba-4094-a6a7-0d5315661f33" version="1">
+  <Properties>
+    <Name>Extended Policy Cards</Name>
+    <Stability>Final</Stability>
+    <Teaser>Policy Cards that show effects.</Teaser>
+    <Description>This mod extends the Policy Cards description and adds a label at the bottom of the card to display all the relevant effects. Depends on Better Report Screen.</Description>
+    <Authors>Aristos</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+	<CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+ 
+  <InGameActions>
+	
+    <ImportFiles id="EPC_IMPORT_FILES">
+	  <Properties>
+        <LoadOrder>12000</LoadOrder>
+      </Properties>
+      <Items>
+		<File>GovernmentScreen.lua</File>
+		<File>GovernmentScreen.xml</File>
+      </Items>
+    </ImportFiles>
+	
+  </InGameActions>
+
+  <Files>
+	<File>GovernmentScreen.lua</File>
+	<File>GovernmentScreen.xml</File>
+  </Files>
+</Mod>

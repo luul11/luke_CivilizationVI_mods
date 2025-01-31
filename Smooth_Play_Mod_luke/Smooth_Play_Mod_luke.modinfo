@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="83ffeb62-d680-4e18-8ac9-f5693b49140f" version="2">
+	
+	<Properties>
+		<Name>Smooth_Play_Mod_luke</Name>
+		<Teaser>Smooth_Play_Mod_luke</Teaser>
+		<Description>Smooth_Play_Mod_lukedesc</Description>
+		<Authors>LUKE_AUTHORS</Authors>
+		<Homepage>https://blog.csdn.net/qq_37195257</Homepage>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	
+	<InGameActions>
+		<UpdateDatabase id="Smooth_GAMEPLAY_DATA">
+			<Properties>
+				<LoadOrder>100000</LoadOrder>
+			</Properties>
+			<File>Smooth_Play_Mod_luke.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>Smooth_Play_Mod_luke.sql</File>
+	</Files>
+	
+	<LocalizedText>
+		<Text id="Smooth_Play_Mod_luke">
+			<en_US>Smooth_Play_Mod_luke</en_US>
+		</Text>
+		<Text id="Smooth_Play_Mod_luke">
+			<zh_Hans_CN>LUKE体验优化包</zh_Hans_CN>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<en_US>LUKE</en_US>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<zh_Hans_CN>LUKE</zh_Hans_CN>
+		</Text>
+		<Text id="Smooth_Play_Mod_lukedesc">
+			<en_US>Created by LUKE, this MOD includes the following effects:1 Increase the range of the Chinese unique unit, the Tiger Gun.2 The Monument provides an additional +7 Loyalty per turn to the city it is built in.3 National Wonders provide +1 Housing to their host city.4 The Diplomatic Victory points penalty for capturing a rival's capital is reduced from 5 points to 1 point. 5.RESOURCECLASS_LUXURY add to 6 cities</en_US>
+		</Text>
+		<Text id="Smooth_Play_Mod_lukedesc">
+			<zh_Hans_CN>由LUKE制作，包含以下效果  1.增加中国特色单位虎蹲炮射程  2.纪念碑增加7点忠诚度  3.国家奇观为所在城市增加1点宜居度  4.占领他国首都扣减外交点数从5点降到1点  5.增加奢侈品给6个城市提供增益</zh_Hans_CN>
+		</Text>		
+	</LocalizedText>
+	
+</Mod>

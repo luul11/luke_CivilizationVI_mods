@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+    <Include File="qd_instances"/>
+
+    <Container Size="parent,parent">
+        <Stack StackGrowth="Bottom" Size="1200,parent" Anchor="C,T">
+            <Container ID="Filters" Size="auto,24" Offset="65,10">
+                <Stack StackGrowth="Right">
+                    <Label Anchor="L,C" Style="BodyText16" String="LOC_REPORTS_SORT_TYPE"/>
+                    <PullDown Anchor="L,C" ID="ItemTypeFilter" Style="PullDownBlue" Size="200,24" Offset="5,0"/>
+                    <PullDown Anchor="L,C" ID="SubTypeFilter" Style="PullDownBlue" Size="200,24" Offset="5,0" Hidden="1"/>
+                    <Label Anchor="L,C" Style="BodyText16" String="LOC_REPORTS_SORT_BY" Offset="50,0"/>
+                    <PullDown Anchor="L,C" ID="SortByFilter" Style="PullDownBlue" Size="200,24" Offset="5,0"/>
+                </Stack>
+            </Container>
+
+            <Grid Anchor="C,T" Size="parent,38" Offset="0,10" Style="DiplomacyTitleBarGrid">
+                <Container Size="257,parent" Anchor="L,T" Offset="150,0">
+                    <Label ID="TheirOfferLabel" Anchor="L,C" String="LOC_DIPLOMACY_DEAL_THEIR_OFFER" Style="DiplomacyIntelHeader" Offset="0,2"/>
+                </Container>
+                <Container Size="257,parent" Anchor="L,T" Offset="618,0">
+                    <Label ID="MyOfferLabel" Anchor="L,C" String="LOC_DIPLOMACY_DEAL_MY_OFFER" Style="DiplomacyIntelHeader" Offset="0,2"/>
+                </Container>
+            </Grid>
+
+            <Container ID="OfferPanel" Size="parent,parent-100" Anchor="L,T" Offset="0,10" InnerPadding="10,0">
+                <ScrollPanel ID="OffersScroll" Size="parent, parent" Vertical="1" AutoScollbar="1">
+                    <ScrollBar Size="12,parent" SliceTextureSize="11,11" SliceCorner="5,5" Anchor="L,B" Color="111,101,94,250" Offset="0,0" AnchorSide="I,I" Texture="Controls_ScrollBarBacking" StateOffsetIncrement="0,0" Vertical="1" >
+                        <Thumb Size="10,10" Texture="Controls_ScrollBarHandleV_Brown" StateOffsetIncrement="0,0" SliceCorner="6,6" SliceTextureSize="13,13"/>
+                    </ScrollBar>
+                    <AlphaAnim ID="OfferStackAlphaIn" AlphaBegin="0" AlphaEnd="1" Speed="10" Function="Root" Cycle="Once" Size="parent,auto">
+                        <SlideAnim ID="OfferStackSlideIn" Start="0,20" End="0,0" Speed="10" Function="Root" Cycle="Once" Size="parent,auto">
+                            <Stack ID="AIOffersStack" StackGrowth="Bottom" Anchor="C,T"/>
+                        </SlideAnim>
+                    </AlphaAnim>
+                </ScrollPanel>
+                <Label ID="FetchingDealLabel" Anchor="C,T" Offset="0,150" Align="center" Style="FontFlair20" SmallCapsType="EveryWord" SmallCaps="26" String="{LOC_LOADING_PLEASE_WAIT:upper}" Color="200,200,200,255" Hidden="1"/>
+                <Label ID="NoAvailableDealLabel" Anchor="C,T" Offset="0,150" Align="center" Style="FontFlair20" SmallCapsType="EveryWord" SmallCaps="26" String="{LOC_QD_NO_AVAILABLE_DEAL:upper}" Color="200,200,200,255" Hidden="1"/>
+            </Container>
+        </Stack>
+    </Container>
+</Context>

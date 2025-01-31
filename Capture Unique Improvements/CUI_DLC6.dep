@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameDependencyData>
+    <ID>
+        <name text="CUI_DLC6_Dep"/>
+        <id text="d85b5f9b-5025-47d9-9f70-872175bcb17f"/>
+    </ID>
+	<RequiredGameArtIDs>
+		<Element>
+			<name text="DLC6"/>
+			<id text="4fd22d21-5ec7-4ce9-aca6-8d8b623e5a82"/>
+		</Element>
+	</RequiredGameArtIDs>
+    <SystemDependencies>
+        <Element>
+            <ConsumerName text="Landmarks"/>
+            <ArtDefDependencyPaths>
+				<Element text="Landmarks_DLC6.artdef"/>
+			</ArtDefDependencyPaths>
+        </Element>
+    </SystemDependencies>
+</AssetObjects::GameDependencyData>

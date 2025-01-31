@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Gedemo -->
+<!-- DateCreated: 10/8/2020 11:41:58 PM -->
+<GameData>
+	<LocalizedText>
+
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="fr_FR">
+		<Text>La Fayette</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="fr_FR">
+		<Text>Le marquis de La Fayette appartient à une très ancienne famille noble d’Auvergne. Il commence à 14 ans une carrière militaire puis devient  lieutenant de la garde du roi Louis XVI en 1775.</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="fr_FR">
+		<Text>Le marquis de La Fayette s’illustre par sa bravoure militaire lors de la guerre d’Indépendance américaine (1775-1783), ce qui lui vaut le surnom de « héros des deux mondes ».</Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="fr_FR">
+		<Text>Les États-Unis ont fait germer en lui les idées de liberté et il entreprend à son retour en France la rédaction de la première Déclaration des droits de l’Homme. </Text>
+	</Replace>
+	<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="fr_FR">
+		<Text>Commandant de la Garde nationale lors de la Révolution et oscillant entre les monarchistes et les révolutionnaires, il est contraint de fuir à l’étranger.</Text>
+	</Replace>	
+		
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="en_US">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Marquis de La Fayette belongs to a very old noble family from Auvergne. At the age of 14, he began a military career then became lieutenant of the guard of King Louis XVI in 1775.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>The Marquis de La Fayette is renowned for his military bravery during the American War of Independence (1775-1783), which earned him the nickname "hero of both worlds".</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>The United States germinated in him the ideas of freedom and he undertook on his return to France the drafting of the first Declaration of the Rights of Man.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="en_US">
+			<Text>Commander of the National Guard during the Revolution and oscillating between monarchists and revolutionaries, he was forced to flee abroad.</Text>
+		</Replace>
+
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="zh_Hant_HK">
+		<Text>拉费耶特</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>La Fayette侯爵家族来自奥弗涅（Auvergne）一个非常古老的贵族。 14岁那年，他开始了军事生涯，然后于1775年成为路易十六国王的后卫。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>费耶特侯爵以其在美国独立战争（1775-1783）中的英勇军事闻名，这使他赢得了“两个世界的英雄”的绰号。	</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>美国使他萌生了自由思想，他保证返回法国起草了第一份《人的权利宣言》。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
+			<Text>革命时期国民警卫队司令官在君主主义者和革命者之间摇摆不定，被迫逃往国外。</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="es_ES">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="es_ES">
+			<Text>El Marqués de La Fayette pertenece a una antigua familia noble de Auvernia. A la edad de 14 años, comenzó una carrera militar y luego se convirtió en lugarteniente de la guardia del rey Luis XVI en 1775.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="es_ES">
+			<Text>El Marqués de La Fayette es conocido por su valentía militar durante la Guerra de Independencia de Estados Unidos (1775-1783), que le valió el apodo de "héroe de ambos mundos".</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="es_ES">
+			<Text>Los Estados Unidos germinaron en él las ideas de libertad y, a su regreso a Francia, emprendió la redacción de la primera Declaración de los Derechos del Hombre.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="es_ES">
+			<Text>Comandante de la Guardia Nacional durante la Revolución y oscilando entre monárquicos y revolucionarios, se vio obligado a huir al exterior.</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="zh_Hans_CN">
+		<Text>拉費耶特</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>La Fayette侯爵家族來自奧弗涅（Auvergne）一個非常古老的貴族。 14歲那年，他開始了軍事生涯，然後於1775年成為路易十六國王的後衛。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>費耶特侯爵以其在美國獨立戰爭（1775-1783年）中的英勇軍事聞名，這使他贏得了“兩個世界的英雄”的綽號。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>美國使他萌生了自由思想，他保證返回法國起草了第一份《人的權利宣言》。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>美國使他萌生了自由思想，他保證返回法國起草了第一份《人的權利宣言》。</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="ru_RU">
+		<Text>Маркиз де Ла Файетт</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="ru_RU">
+			<Text>Маркиз де Ла Файетт принадлежит очень старинной дворянской семье из Оверни. В возрасте 14 лет он начал военную карьеру, затем стал лейтенантом гвардии короля Людовика XVI в 1775 году.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="ru_RU">
+			<Text>Маркиз де Ла Файетт известен своей военной храбростью во время войны за независимость Америки (1775-1783 гг.), За которую он получил прозвище «герой обоих миров».</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="ru_RU">
+			<Text>Соединенные Штаты взрастили в нем идеи свободы, и по возвращении во Францию ​​он взялся за разработку первой Декларации прав человека.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="ru_RU">
+			<Text>Командующий Национальной гвардией во время революции, колеблясь между монархистами и революционерами, он был вынужден бежать за границу.</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="pl_PL">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="pl_PL">
+			<Text>Markiz de La Fayette należy do bardzo starej rodziny szlacheckiej z Owernii. W wieku 14 lat rozpoczął karierę wojskową, a następnie został porucznikiem gwardii króla Ludwika XVI w 1775 roku.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="pl_PL">
+			<Text>Markiz de La Fayette słynie z męstwa militarnego podczas amerykańskiej wojny o niepodległość (1775-1783), która przyniosła mu przydomek „bohatera obu światów”.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="pl_PL">
+			<Text>Stany Zjednoczone wykiełkowały w nim idee wolności i po powrocie do Francji podjął się zredagowania pierwszej Deklaracji Praw Człowieka.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="pl_PL">
+			<Text>Dowódca Gwardii Narodowej w czasie rewolucji, oscylujący między monarchistami a rewolucjonistami, został zmuszony do ucieczki za granicę.</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="ko_KR">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="ko_KR">
+			<Text>Marquis de La Fayette는 Auvergne의 아주 오래된 귀족 가족에 속합니다. 14 세에 군 경력을 시작하고 1775 년 루이 16 세의 경비 대장이되었습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="ko_KR">
+			<Text>Marquis de La Fayette는 미국 독립 전쟁 (1775-1783) 동안 군사적 용기로 유명하여 "양 세계의 영웅"이라는 별명을 얻었습니다.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="ko_KR">
+			<Text>미국은 그에게 자유에 대한 생각을 싹트게했고 그는 프랑스로 돌아와 인간의 권리에 대한 첫 번째 선언의 초안을 작성했습니다.	</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="ko_KR">
+			<Text>혁명 당시 방위군 사령관이었고 군주제와 혁명가 사이를 오가며 해외로 도망쳐 야했습니다.</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="ja_JP">
+		<Text>ラファイエット</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>マーキス・デ・ラ・ファイエットは、オーヴェルニュ出身の非常に古い高貴な家族に属しています。 14歳で軍事的キャリアを開始し、1775年にルイ16世の警備隊の副官になりました。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>マーキス・デ・ラ・ファイエットは、アメリカ独立戦争（1775-1783）の際の軍事的勇敢さで有名であり、「両方の世界の英雄」というニックネームを獲得しました。。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>米国は彼の中で自由の考えを発芽させ、彼はフランスへの帰国時に最初の人権宣言の起草に着手した。</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
+			<Text>革命中の国家警備隊の司令官であり、君主主義者と革命家の間で揺れ動いて、彼は海外に逃げることを余儀なくされました。</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="it_IT">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="it_IT">
+			<Text>Il marchese de La Fayette appartiene a un'antichissima famiglia nobile dell'Alvernia. All'età di 14 anni, iniziò la carriera militare poi divenne luogotenente della guardia del re Luigi XVI nel 1775.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="it_IT">
+			<Text>Il marchese de La Fayette è rinomato per il suo coraggio militare durante la guerra d'indipendenza americana (1775-1783), che gli valse il soprannome di "eroe di entrambi i mondi".</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="it_IT">
+			<Text>Gli Stati Uniti fecero germogliare in lui le idee di libertà e al suo ritorno in Francia intraprese la stesura della prima Dichiarazione dei diritti dell'uomo.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="it_IT">
+			<Text>Comandante della Guardia Nazionale durante la Rivoluzione e oscillante tra monarchici e rivoluzionari, fu costretto a fuggire all'estero.</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="de_DE">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Der Marquis de La Fayette gehört zu einer sehr alten Adelsfamilie aus der Auvergne. Im Alter von 14 Jahren begann er eine militärische Karriere und wurde 1775 Leutnant der Wache von König Ludwig XVI.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Der Marquis de La Fayette ist bekannt für seine militärische Tapferkeit während des amerikanischen Unabhängigkeitskrieges (1775-1783), die ihm den Spitznamen "Held beider Welten" einbrachte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Die Vereinigten Staaten keimten in ihm die Ideen der Freiheit und er unternahm bei seiner Rückkehr nach Frankreich die Ausarbeitung der ersten Erklärung der Menschenrechte.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="de_DE">
+			<Text>Während der Revolution war er Kommandeur der Nationalgarde und pendelte zwischen Monarchisten und Revolutionären. Er musste ins Ausland fliehen.</Text>
+		</Replace>
+		
+	<Replace Tag="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" Language="pt_BR">
+		<Text>La Fayette</Text>
+	</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_1" Language="pt_BR">
+			<Text>O Marquês de La Fayette pertence a uma família nobre muito antiga de Auvergne. Aos 14 anos, iniciou a carreira militar e tornou-se tenente da guarda do rei Luís XVI em 1775.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_2" Language="pt_BR">
+			<Text>O Marquês de La Fayette é conhecido por sua bravura militar durante a Guerra da Independência dos Estados Unidos (1775-1783), que lhe rendeu o apelido de "herói de ambos os mundos".</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_3" Language="pt_BR">
+			<Text>Os Estados Unidos germinaram nele as ideias de liberdade e ele empreendeu, no seu retorno à França, a redação da primeira Declaração dos Direitos do Homem.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_CHAPTER_HISTORY_PARA_4" Language="pt_BR">
+			<Text>Comandante da Guarda Nacional durante a Revolução e oscilando entre monarquistas e revolucionários, foi forçado a fugir para o exterior.</Text>
+		</Replace>
+
+	</LocalizedText>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</GameData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <EnglishText>
+        <Row Tag="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP">
+            <Text>Open Quick Deals Popup</Text>
+        </Row>
+        <Row Tag="LOC_QD_OPTIONS_HOTKEY_OPEN_POPUP_DESCRIPTION">
+            <Text>Open Quick Deals popup. Due to some limitations, please use ESC to close the popup.</Text>
+        </Row>
+    </EnglishText>
+</GameData>

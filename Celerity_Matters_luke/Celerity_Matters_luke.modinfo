@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="83ffeb62-d680-4e18-8ac9-f5693b49123f" version="1">
+	
+	<Properties>
+		<Name>Celerity_Matters_luke</Name>
+		<Teaser>Celerity_Matters_luke</Teaser>
+		<Description>Celerity_Matters_luke_des</Description>
+		<Authors>LUKE_AUTHORS</Authors>
+		<Homepage>https://blog.csdn.net/qq_37195257</Homepage>
+		<CompatibleVersions>1.2,2.0</CompatibleVersions>
+	</Properties>
+	
+	<Components>
+		<UpdateDatabase id="TEST_GAMEPLAY_DATA">
+			<Items>
+				<File>Celerity_Matters_luke.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+	
+	<Files>
+		<File>Celerity_Matters_luke.sql</File>
+	</Files>
+	
+	<LocalizedText>
+		<Text id="Celerity_Matters_luke">
+			<en_US>Celerity_Matters_luke</en_US>
+		</Text>
+		<Text id="Celerity_Matters_luke">
+			<zh_Hans_CN>兵贵神速（增加所有单位速度）</zh_Hans_CN>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<en_US>LUKE</en_US>
+		</Text>
+		<Text id="LUKE_AUTHORS">
+			<zh_Hans_CN>LUKE</zh_Hans_CN>
+		</Text>
+		<Text id="Celerity_Matters_luke_des">
+			<en_US>Faster units and roads</en_US>
+		</Text>
+		<Text id="Celerity_Matters_luke_des">
+			<zh_Hans_CN>兵贵神速（增加所有单位速度、增快道路的效果）</zh_Hans_CN>
+		</Text>		
+		
+	</LocalizedText>
+	
+</Mod>

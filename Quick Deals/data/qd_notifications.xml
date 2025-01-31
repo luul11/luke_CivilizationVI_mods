@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <Types>
+        <Row Type="NOTIFICATION_QUICK_DEAL" Kind="KIND_NOTIFICATION"/>
+    </Types>
+    <Notifications>
+        <Row NotificationType="NOTIFICATION_QUICK_DEAL" SeverityType="MID" ExpiresEndOfTurn="True" AutoNotify="False" GroupType="USER"/>
+    </Notifications>
+</GameInfo>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="911c78df-069e-442e-99ec-cfa2eca7b87e" version="1">
+  <Properties>
+    <Name>LOC_HUAN_PP_TITLE</Name>
+    <Description>LOC_HUAN_PP_DESCRIPTION</Description>
+    <Created>1728043384</Created>
+    <Teaser>LOC_HUAN_PP_TEASER</Teaser>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+        <Text id="LOC_HUAN_PP_TITLE">
+            <en_US>Gold Purchase Production</en_US>
+            <zh_Hans_CN>金币购买生产力</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_HUAN_PP_TEASER">
+            <en_US>Allows human players to use gold to purchase the remaining production for the city's ongoing construction projects.</en_US>
+            <zh_Hans_CN>允许人类玩家使用金币购买城市正在建造项目剩余所需的生产力</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_HUAN_PP_DESCRIPTION">
+            <en_US>Allows human players to use gold to purchase the remaining production for the city's ongoing construction projects.</en_US>
+            <zh_Hans_CN>允许人类玩家使用金币购买城市正在建造项目剩余所需的生产力</zh_Hans_CN>
+        </Text>
+        <Text id="LOC_HUAN_NAME">
+            <en_US>Huanjiwan</en_US>
+            <zh_Hans_CN>环己烷</zh_Hans_CN>
+        </Text>
+    </LocalizedText>
+  <InGameActions>
+    <UpdateDatabase id="PP_Database">
+      <Properties>
+        <LoadOrder>16001</LoadOrder>
+      </Properties>
+      <File>Data/PP_database.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="PP_Text">
+      <File>Text/PP_Localization.xml</File>
+    </UpdateText>
+    <ImportFiles id="PP_UI_Import">
+      <File>UI/Support_PP.lua</File>
+      <File>Assets/ICON_GOLD_PURCHASE_PRODUCTION_BUTTON_38.dds</File>
+    </ImportFiles>
+    <AddUserInterfaces id="PP_UserInterfaces">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/PP_UI.xml</File>
+    </AddUserInterfaces>
+    <AddGameplayScripts id="PP_Scripts">
+      <File>UI/PP_Operation.lua</File>
+      <File>UI/PP_Utils.lua</File>
+    </AddGameplayScripts>
+    <UpdateIcons id="PP_Icons">
+      <File>Data/PP_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Data/PP_database.sql</File>
+    <File>Text/PP_Localization.xml</File>
+    <File>UI/Support_PP.lua</File>
+    <File>UI/PP_UI.xml</File>
+    <File>UI/PP_UI.lua</File>
+    <File>UI/PP_Operation.lua</File>
+    <File>UI/PP_Utils.lua</File>
+  </Files>
+</Mod>

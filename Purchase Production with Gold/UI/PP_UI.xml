@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+	<Button	ID="GoldPurchaseButton" Size="44,53" Texture="UnitPanel_ActionButton" ToolTip="LOC_HUAN_GOLD_PURCHASE_TITLE">
+		<Image ID="GoldPurchaseButtonIcon"	Anchor="C,C" Offset="0,-2" Size="38,38"  Icon="ICON_UNITOPERATION_MERCHANT_ACTION"/>
+	</Button>
+	<!-- <Button	ID="FaithPurchaseButton" Size="44,53" Texture="UnitPanel_ActionButton" ToolTip="LOC_HUAN_GOLD_PURCHASE_TITLE">
+		<Image ID="FaithPurchaseButton"	Anchor="C,C" Offset="0,-2" Size="38,38"  Icon="ICON_FAITH"/>
+	</Button> -->
+</Context>

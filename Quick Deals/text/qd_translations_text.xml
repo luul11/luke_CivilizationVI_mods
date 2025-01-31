@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <LocalizedText>
+        <!-- de_DE -->
+        <Replace Tag="LOC_QD_NAME" Language="de_DE">
+            <Text>Schnelle Angebote</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="de_DE">
+            <Text>Verkauf</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="de_DE">
+            <Text>Austausch</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="de_DE">
+            <Text>Jeder</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="de_DE">
+            <Text>Keine verfügbaren Angebote.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="de_DE">
+            <Text>Neue Angebote verfügbar.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="de_DE">
+            <Text>Sie boten alles verfügbare Gold an.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="de_DE">
+            <Text>[COLOR_Civ6Red]Halten Sie die Strg-Taste gedrückt, um mehr hinzuzufügen.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="de_DE">
+            <Text>Klicken Sie mit der rechten Maustaste, um alle zu konvertieren.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="de_DE">
+            <Text>Sie benötigen</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="de_DE">
+            <Text>Verhältnis</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="de_DE">
+            <Text>Im Mehrspielermodus nicht unterstützt.</Text>
+        </Replace>
+
+        <!-- es_ES -->
+        <Replace Tag="LOC_QD_NAME" Language="es_ES">
+            <Text>Ofertas rápidas</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="es_ES">
+            <Text>Venta</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="es_ES">
+            <Text>Intercambio</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="es_ES">
+            <Text>Cada</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="es_ES">
+            <Text>No hay ofertas disponibles.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="es_ES">
+            <Text>Nuevas ofertas disponibles.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="es_ES">
+            <Text>Ofrecieron todo el oro disponible.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="es_ES">
+            <Text>[COLOR_Civ6Red]Mantenga la tecla Ctrl para añadir más.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="es_ES">
+            <Text>Haga clic con el botón derecho para convertir todo.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="es_ES">
+            <Text>Necesitas</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="es_ES">
+            <Text>Proporción</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="es_ES">
+            <Text>No es compatible con el modo multijugador.</Text>
+        </Replace>
+
+        <!-- fr_FR -->
+        <Replace Tag="LOC_QD_NAME" Language="fr_FR">
+            <Text>Offres rapides</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="fr_FR">
+            <Text>Vente</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="fr_FR">
+            <Text>Échange</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="fr_FR">
+            <Text>Chacun</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="fr_FR">
+            <Text>Aucune offre disponible.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="fr_FR">
+            <Text>Nouvelles offres disponibles.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="fr_FR">
+            <Text>Ils ont offert tout l'or disponible.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="fr_FR">
+            <Text>[COLOR_Civ6Red]Maintenez la touche Ctrl pour en ajouter d'autres.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="fr_FR">
+            <Text>Cliquez avec le bouton droit de la souris pour tout convertir.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="fr_FR">
+            <Text>Vous avez besoin</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="fr_FR">
+            <Text>Ratio :</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="fr_FR">
+            <Text>Non pris en charge en mode multijoueur.</Text>
+        </Replace>
+
+        <!-- it_IT -->
+        <Replace Tag="LOC_QD_NAME" Language="it_IT">
+            <Text>Offerte veloci</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="it_IT">
+            <Text>Vendita</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="it_IT">
+            <Text>Scambio</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="it_IT">
+            <Text>Ogni</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="it_IT">
+            <Text>Nessuna offerta disponibile.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="it_IT">
+            <Text>Nuove offerte disponibili.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="it_IT">
+            <Text>Hanno offerto tutto l'oro disponibile.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="it_IT">
+            <Text>[COLOR_Civ6Red]Tieni premuto il tasto Ctrl per aggiungerne altri.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="it_IT">
+            <Text>Cliccate con il tasto destro del mouse per convertire tutto.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="it_IT">
+            <Text>Hai bisogno di</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="it_IT">
+            <Text>Ratio</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="it_IT">
+            <Text>Non supportato in modalità multiplayer.</Text>
+        </Replace>
+
+        <!-- ja_JP -->
+        <Replace Tag="LOC_QD_NAME" Language="ja_JP">
+            <Text>お得な情報</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="ja_JP">
+            <Text>売却</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="ja_JP">
+            <Text>交換</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="ja_JP">
+            <Text>各々</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="ja_JP">
+            <Text>利用可能な取引はありません。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="ja_JP">
+            <Text>新しいお得な情報が満載です。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="ja_JP">
+            <Text>使える金をすべて提供した。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="ja_JP">
+            <Text>[COLOR_Civ6Red]Ctrlキーを押しながら追加します。[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="ja_JP">
+            <Text>右クリックで全てを変換します。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="ja_JP">
+            <Text>必要なのは</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="ja_JP">
+            <Text>比率</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="ja_JP">
+            <Text>マルチプレイヤーモードには対応していません。</Text>
+        </Replace>
+
+        <!-- ko_KR -->
+        <Replace Tag="LOC_QD_NAME" Language="ko_KR">
+            <Text>빠른 거래</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="ko_KR">
+            <Text>판매</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="ko_KR">
+            <Text>교환</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="ko_KR">
+            <Text>각</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="ko_KR">
+            <Text>사용 가능한 거래가 없습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="ko_KR">
+            <Text>새로운 딜을 사용할 수 있습니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="ko_KR">
+            <Text>그들은 이용 가능한 모든 금을 제공했다.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="ko_KR">
+            <Text>[COLOR_Civ6Red]Ctrl 키를 누른 채 추가.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="ko_KR">
+            <Text>모두 변환하려면 마우스 오른쪽 단추를 클릭합니다.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="ko_KR">
+            <Text>당신은 필요</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="ko_KR">
+            <Text>비율</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="ko_KR">
+            <Text>멀티플레이어 모드에서는 지원되지 않습니다.</Text>
+        </Replace>
+
+        <!-- pl_PL -->
+        <Replace Tag="LOC_QD_NAME" Language="pl_PL">
+            <Text>Szybkie transakcje</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="pl_PL">
+            <Text>Sprzedaż</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="pl_PL">
+            <Text>Wymiana</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="pl_PL">
+            <Text>Każdy</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="pl_PL">
+            <Text>Brak dostępnych transakcji.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="pl_PL">
+            <Text>Dostępne są nowe oferty.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="pl_PL">
+            <Text>Zaoferowali całe dostępne złoto.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="pl_PL">
+            <Text>[COLOR_Civ6Red]Przytrzymaj klawisz Ctrl, aby dodać więcej.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="pl_PL">
+            <Text>Kliknij prawym przyciskiem myszy, aby przekonwertować wszystkie.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="pl_PL">
+            <Text>Potrzebujesz</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="pl_PL">
+            <Text>Stosunek</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="pl_PL">
+            <Text>Nie jest obsługiwany w trybie multiplayer.</Text>
+        </Replace>
+
+        <!-- pt_BR -->
+        <Replace Tag="LOC_QD_NAME" Language="pt_BR">
+            <Text>Negociações rápidas</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="pt_BR">
+            <Text>Venda</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="pt_BR">
+            <Text>Troca</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="pt_BR">
+            <Text>Cada</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="pt_BR">
+            <Text>Sem negócios disponíveis.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="pt_BR">
+            <Text>Novos negócios disponíveis.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="pt_BR">
+            <Text>Eles ofereceram todo o ouro disponível.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="pt_BR">
+            <Text>[COLOR_Civ6Red]Segure a chave Ctrl para adicionar mais.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="pt_BR">
+            <Text>Clique com o botão direito do mouse para converter tudo.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="pt_BR">
+            <Text>Você precisa</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="pt_BR">
+            <Text>Proporção</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="pt_BR">
+            <Text>Não suportado no modo multiplayer.</Text>
+        </Replace>
+
+        <!-- ru_RU -->
+        <Replace Tag="LOC_QD_NAME" Language="ru_RU">
+            <Text>Квик Сделки</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="ru_RU">
+            <Text>Продажа</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="ru_RU">
+            <Text>Обмен</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="ru_RU">
+            <Text>Каждый</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="ru_RU">
+            <Text>Нет доступных сделок.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="ru_RU">
+            <Text>Доступны новые сделки.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="ru_RU">
+            <Text>Они предложили все имеющееся золото.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="ru_RU">
+            <Text>[COLOR_Civ6Red]Удерживайте клавишу Ctrl, чтобы добавить еще.[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="ru_RU">
+            <Text>Щелкните правой кнопкой мыши, чтобы преобразовать все.</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="ru_RU">
+            <Text>Вам нужно</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="ru_RU">
+            <Text>Соотношение</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="ru_RU">
+            <Text>Не поддерживается в многопользовательском режиме.</Text>
+        </Replace>
+
+        <!-- zh_Hans_CN -->
+        <Replace Tag="LOC_QD_NAME" Language="zh_Hans_CN">
+            <Text>快速交易</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="zh_Hans_CN">
+            <Text>出售</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="zh_Hans_CN">
+            <Text>交换</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="zh_Hans_CN">
+            <Text>每个</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="zh_Hans_CN">
+            <Text>没有可用的交易。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="zh_Hans_CN">
+            <Text>有新的可用交易。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="zh_Hans_CN">
+            <Text>他们提供了所有可用的金币。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="zh_Hans_CN">
+            <Text>[COLOR_Civ6Red]按住Ctrl键可添加更多。[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="zh_Hans_CN">
+            <Text>点击右键转换所有。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="zh_Hans_CN">
+            <Text>你需要</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="zh_Hans_CN">
+            <Text>比例</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="zh_Hans_CN">
+            <Text>不支持多人游戏模式。</Text>
+        </Replace>
+
+        <!-- zh_Hant_HK -->
+        <Replace Tag="LOC_QD_NAME" Language="zh_Hant_HK">
+            <Text>快速交易</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_SALE" Language="zh_Hant_HK">
+            <Text>出售</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EXCHANGE" Language="zh_Hant_HK">
+            <Text>交換</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_EACH" Language="zh_Hant_HK">
+            <Text>每個</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NO_AVAILABLE_DEAL" Language="zh_Hant_HK">
+            <Text>沒有可用的交易。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NEW_DEALS_AVAILABLE" Language="zh_Hant_HK">
+            <Text>有新的可用交易。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_ALL_GOLD_HINT" Language="zh_Hant_HK">
+            <Text>他們提供了所有可用的金幣。</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_BULK_ADD" Language="zh_Hant_HK">
+            <Text>[COLOR_Civ6Red]按住Ctrl鍵可添加更多。[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_CONVERT_ALL" Language="zh_Hant_HK">
+            <Text>點擊右鍵轉換所有</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_YOU_NEED" Language="zh_Hant_HK">
+            <Text>你需要</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_RATIO" Language="zh_Hant_HK">
+            <Text>比例</Text>
+        </Replace>
+        <Replace Tag="LOC_QD_NOT_SUPPORTED_IN_MULTIPLAYER" Language="zh_Hant_HK">
+            <Text>不支持多人遊戲模式。</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>
