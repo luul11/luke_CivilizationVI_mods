@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_WMD"/>
+	</Kinds>
+	<Types>
+		<Row Type="WMD_NUCLEAR_DEVICE" Kind="KIND_WMD"/>
+		<Row Type="WMD_THERMONUCLEAR_DEVICE" Kind="KIND_WMD"/>
+	</Types>
+	<WMDs>
+		<Row WeaponType="WMD_NUCLEAR_DEVICE" Name="LOC_WMD_NUCLEAR_DEVICE_NAME" BlastRadius="1" FalloutDuration="5" ICBMStrikeRange="15" AffectPopulation="true" AffectImprovements="true" AffectBuildings="true" AffectUnits="true" AffectResources="true" AffectRoutes="true" Maintenance="14"/>
+		<Row WeaponType="WMD_THERMONUCLEAR_DEVICE" Name="LOC_WMD_THERMONUCLEAR_DEVICE_NAME" BlastRadius="2" FalloutDuration="10" ICBMStrikeRange="20" AffectPopulation="true" AffectImprovements="true" AffectBuildings="true" AffectUnits="true" AffectResources="true" AffectRoutes="true" Maintenance="16"/>
+	</WMDs>
+</GameInfo>

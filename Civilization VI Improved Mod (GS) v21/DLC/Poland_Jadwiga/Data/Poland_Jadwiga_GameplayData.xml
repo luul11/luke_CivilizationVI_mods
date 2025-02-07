@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_POLAND" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_JADWIGA" Kind="KIND_LEADER"/>
+		<Row Type="BUILDING_SUKIENNICE" Kind="KIND_BUILDING"/>
+		<Row Type="UNIT_POLISH_HUSSAR" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_AGENDA_SAINT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_SUKIENNICE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_LITHUANIAN_UNION" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_GOLDEN_LIBERTY" Kind="KIND_TRAIT"/>
+	</Types>
+	<TypeTags>
+		<Row Type="UNIT_POLISH_HUSSAR" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_POLISH_HUSSAR" Tag="CLASS_PUSHBACK"/>
+	</TypeTags>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_POLAND" Name="LOC_CIVILIZATION_POLAND_NAME" Description="LOC_CIVILIZATION_POLAND_DESCRIPTION" Adjective="LOC_CIVILIZATION_POLAND_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_JADWIGA" ReligionType="RELIGION_CATHOLICISM"/>
+	</FavoredReligions>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_POLAND" LeaderType="LEADER_JADWIGA" CapitalName="LOC_CITY_NAME_KRAKOW"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_BUILDING_SUKIENNICE"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_GOLDEN_LIBERTY"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR"/>
+	</CivilizationTraits>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_POLAND" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_POLAND_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_POLAND_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_POLAND_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_POLAND_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CitizenName="LOC_CITIZEN_POLAND_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_KRAKOW"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_WARSAW"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_WROCLAW"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_POZNAN"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_GDANSK"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_BYDGOSZCZ"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_LUBLIN"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_RADOM"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_LODZ"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_GNIEZNO"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_PLOCK"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_TARNOW"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_KALISZ"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_LEGNICA"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_SZCZECIN"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_SACZ"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_PIOTRKOW_TRYBUNALSKI"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_KATOWICE"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_INOWROCLAW"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_GLOGOW"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_CZESTOCHOWA"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_ZAMOSC"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_RACIBORZ"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_SWIDNICA"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_RADOMSKO"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_KONIN"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_SLUPSK"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_WALBRZYCH"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_STALOWA_WOLA"/>
+		<Row CivilizationType="CIVILIZATION_POLAND" CityName="LOC_CITY_NAME_LWOW"/>
+	</CityNames>
+	<Leaders>
+		<Row LeaderType="LEADER_JADWIGA" Name="LOC_LEADER_JADWIGA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_JADWIGA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_JADWIGA_QUOTE" QuoteAudio="Play_POLA_JA_MISC_PEP_TALK_B_1"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_RELIGIOUS_MAJOR_CIV"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/>
+		<Row LeaderType="LEADER_JADWIGA" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+	</LeaderTraits>
+	<AiListTypes>
+		<Row ListType="JadwigaCivics"/>
+		<Row ListType="JadwigaTechs"/>
+		<Row ListType="JadwigaUnitBuilds"/>
+		<Row ListType="JadwigaWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="JadwigaCivics" LeaderType="TRAIT_LEADER_LITHUANIAN_UNION" System="Civics"/>
+		<Row ListType="JadwigaTechs" LeaderType="TRAIT_LEADER_LITHUANIAN_UNION" System="Technologies"/>
+		<Row ListType="JadwigaUnitBuilds" LeaderType="TRAIT_LEADER_LITHUANIAN_UNION" System="Units"/>
+		<Row ListType="JadwigaWonders" LeaderType="TRAIT_LEADER_LITHUANIAN_UNION" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="JadwigaCivics" Item="CIVIC_MYSTICISM" Favored="true"/>
+		<Row ListType="JadwigaCivics" Item="CIVIC_MERCENARIES" Favored="true"/>
+		<Row ListType="JadwigaCivics" Item="CIVIC_MILITARY_TRAINING" Favored="true"/>
+		<Row ListType="JadwigaCivics" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="JadwigaTechs" Item="TECH_ASTROLOGY" Favored="true"/>
+		<Row ListType="JadwigaTechs" Item="TECH_BRONZE_WORKING" Favored="true"/>
+		<Row ListType="JadwigaTechs" Item="TECH_MILITARY_ENGINEERING" Favored="true"/>
+		<Row ListType="JadwigaTechs" Item="TECH_SIEGE_TACTICS" Favored="true"/>
+		<Row ListType="JadwigaTechs" Item="TECH_CURRENCY" Favored="true"/>
+		<Row ListType="JadwigaUnitBuilds" Item="UNIT_MILITARY_ENGINEER" Value="1"/>
+		<Row ListType="JadwigaWonders" Item="BUILDING_STONEHENGE" Favored="true"/>
+		<Row ListType="JadwigaWonders" Item="BUILDING_CRISTO_REDENTOR" Favored="true"/>
+	</AiFavoredItems>
+	<Traits>
+		<Row TraitType="TRAIT_AGENDA_SAINT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_SUKIENNICE" Name="LOC_BUILDING_SUKIENNICE_NAME" Description="LOC_BUILDING_SUKIENNICE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR" Name="LOC_UNIT_POLISH_HUSSAR_NAME" Description="LOC_UNIT_POLISH_HUSSAR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LITHUANIAN_UNION" Name="LOC_TRAIT_LEADER_LITHUANIAN_UNION_NAME" Description="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GOLDEN_LIBERTY" Name="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_NAME" Description="LOC_TRAIT_CIVILIZATION_GOLDEN_LIBERTY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_LITHUANIAN_UNION</TraitType>
+			<ModifierId>TRAIT_LITHUANIANUNION_FAITH_RELIC</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LITHUANIAN_UNION</TraitType>
+			<ModifierId>TRAIT_LITHUANIANUNION_CULTURE_RELIC</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LITHUANIAN_UNION</TraitType>
+			<ModifierId>TRAIT_LITHUANIANUNION_GOLD_RELIC</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LITHUANIAN_UNION</TraitType>
+			<ModifierId>TRAIT_ADJACENT_DISTRICTS_HOLYSITE_ADJACENCYFAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_LITHUANIAN_UNION</TraitType>
+			<ModifierId>TRAIT_CULTURE_BOMB_CONVERTS_CITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GOLDEN_LIBERTY</TraitType>
+			<ModifierId>TRAIT_REPLACE_MILITARY_SLOT_WITH_WILDCARD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GOLDEN_LIBERTY</TraitType>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GOLDEN_LIBERTY</TraitType>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_FORT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<ExcludedAdjacencies>
+		<Row YieldChangeId="District_Faith" TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/>
+	</ExcludedAdjacencies>
+	<Buildings>
+		<Row BuildingType="BUILDING_SUKIENNICE" Name="LOC_BUILDING_SUKIENNICE_NAME" Description="LOC_BUILDING_SUKIENNICE_DESCRIPTION" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="120" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_SUKIENNICE"/>
+	</Buildings>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_SUKIENNICE</BuildingType>
+			<ModifierId>SUKIENNICE_DOMESTICGOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SUKIENNICE</BuildingType>
+			<ModifierId>SUKIENNICE_INTERNATIONALPRODUCTION</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>SUKIENNICE_DOMESTICGOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SUKIENNICE_INTERNATIONALPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_HIGH_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_FAITH</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_LOW_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_FAITH</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_FAITH_RELIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_CULTURE_RELIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_GOLD_RELIC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_CONVERTS_CITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CULTURE_BOMB_CONVERTS_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_REPLACE_MILITARY_SLOT_WITH_WILDCARD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_REPLACE_GOVERNMENT_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_FORT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SUKIENNICE_DOMESTICGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUKIENNICE_DOMESTICGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUKIENNICE_INTERNATIONALPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUKIENNICE_INTERNATIONALPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_HIGH_FAITH</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_HIGH_FAITH</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_JADWIGA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_HIGH_FAITH</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_SAINT_HIGH_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_LOW_FAITH</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_LOW_FAITH</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_JADWIGA_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SAINT_LOW_FAITH</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_SAINT_LOW_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_FAITH_RELIC</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_FAITH_RELIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_FAITH_RELIC</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_CULTURE_RELIC</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_CULTURE_RELIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_CULTURE_RELIC</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_GOLD_RELIC</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_RELIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_GOLD_RELIC</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LITHUANIANUNION_GOLD_RELIC</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_CONVERTS_CITY</ModifierId>
+			<Name>ConvertsCity</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_REPLACE_MILITARY_SLOT_WITH_WILDCARD</ModifierId>
+			<Name>ReplacedGovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_REPLACE_MILITARY_SLOT_WITH_WILDCARD</ModifierId>
+			<Name>AddedGovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_ENCAMPMENT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CULTURE_BOMB_TRIGGER_FORT</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FORT</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_SAINT_HIGH_FAITH" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_SAINT_LOW_FAITH" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_SUKIENNICE" ReplacesBuildingType="BUILDING_MARKET"/>
+	</BuildingReplaces>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_SUKIENNICE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_SUKIENNICE" YieldType="YIELD_GOLD" YieldChange="5"/>
+	</Building_YieldChanges>
+	<Units>
+		<Row UnitType="UNIT_POLISH_HUSSAR" BaseMoves="4" Cost="250" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_POLISH_HUSSAR_NAME" Description="LOC_UNIT_POLISH_HUSSAR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_MERCENARIES" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="3" Combat="117" TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR" MandatoryObsoleteTech="TECH_RIFLING"/>
+	</Units>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_POLISH_HUSSAR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitUpgrades>
+		<Row Unit="UNIT_POLISH_HUSSAR" UpgradeUnit="UNIT_TANK"/>
+	</UnitUpgrades>
+	<AiLists>
+		<Row ListType="FaithLoverFaithPreference" AgendaType="TRAIT_AGENDA_SAINT" System="Yields"/>
+	</AiLists>
+	<Agendas>
+		<Row AgendaType="AGENDA_SAINT" Name="LOC_AGENDA_SAINT_NAME" Description="LOC_AGENDA_SAINT_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_JADWIGA" AgendaType="AGENDA_SAINT"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_SAINT" TraitType="TRAIT_AGENDA_SAINT"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_SAINT" AgendaTwo="AGENDA_DEVOUT"/>
+	</ExclusiveAgendas>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AGENDA_SAINT" ModifierId="AGENDA_SAINT_HIGH_FAITH"/>
+		<Row TraitType="TRAIT_AGENDA_SAINT" ModifierId="AGENDA_SAINT_LOW_FAITH"/>
+	</TraitModifiers>
+</GameInfo>

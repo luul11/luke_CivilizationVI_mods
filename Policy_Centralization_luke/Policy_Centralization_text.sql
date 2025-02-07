@@ -63,10 +63,18 @@ VALUES
 ('zh_Hans_CN', 'LOC_Policy_Steppe_Cavalry_Tactics_DESCRIPTION', '草原游骑战术，+3 [ICON_Strength] 战斗力。');
 
 
-REPLACE INTO LocalizedText (Language, Tag, Text) VALUES ('zh_Hans_CN', 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT', '+{1_Amount}蒙古部落或游牧战术');
+--REPLACE INTO LocalizedText (Language, Tag, Text) VALUES ('zh_Hans_CN', 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT', '+{1_Amount}蒙古部落或游牧战术');
 
 
-REPLACE INTO LocalizedText (Language, Tag, Text) VALUES ('en_US', 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT', '+{1_Amount}Mongol or nomadic tribes');
+--REPLACE INTO LocalizedText (Language, Tag, Text) VALUES ('en_US', 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT', '+{1_Amount}Mongol or nomadic tribes');
+
+UPDATE LocalizedText 
+SET `Text` = '+{1_Amount}蒙古部落或游牧战术'
+WHERE Language = 'zh_Hans_CN' AND Tag = 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT';
+
+UPDATE LocalizedText 
+SET `Text` = '+{1_Amount}Mongol or nomadic tribes'
+WHERE Language = 'en_US' AND Tag = 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT';
 
 
 --UPDATE LocalizedText SET Text = '+{1_Amount}蒙古部落或游牧战术' WHERE Language = 'zh_Hans_CN' AND Tag = 'LOC_LEADER_CAVALRY_COMBAT_BONUS_PREVIEW_TEXT';

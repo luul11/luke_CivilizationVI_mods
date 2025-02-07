@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_SPEC_OPS" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_DRONE" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PIKE_AND_SHOT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_SUPPLY_CONVOY" Kind="KIND_UNIT"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_PARADROP" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SNIPER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_DRONE" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_TARGETTING_ASSIST" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_FIELD_SETUP" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SCOTTISH_HIGHLANDER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_DUTCH_ZEVEN_PROVINCIEN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MONGOLIAN_KESHIG" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GEORGIAN_KHEVSURETI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_MAPUCHE_MALON_RAIDER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_CREE_OKIHTCITAW" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ZULU_IMPI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_LOGISTIC_MOVEMENT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_SPEC_OPS" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SPEC_OPS" Tag="CLASS_PARADROP"/>
+		<Row Type="UNIT_SPEC_OPS" Tag="CLASS_SNIPER"/>
+		<Row Type="UNIT_DRONE" Tag="CLASS_OBSERVATION"/>
+		<Row Type="UNIT_DRONE" Tag="CLASS_DRONE"/>
+		<Row Type="UNIT_DRONE" Tag="CLASS_SUPPORT"/>
+		<Row Type="UNIT_PIKE_AND_SHOT" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_SUPPLY_CONVOY" Tag="CLASS_MEDIC"/>
+		<Row Type="UNIT_SUPPLY_CONVOY" Tag="CLASS_LOGISTIC_MOVEMENT"/>
+		<Row Type="UNIT_SUPPLY_CONVOY" Tag="CLASS_SUPPORT"/>
+		<!--BASE UNIT CHANGES-->
+		<Row Type="UNIT_ARTILLERY" Tag="CLASS_TARGETTING_ASSIST"/>
+		<Row Type="UNIT_ROCKET_ARTILLERY" Tag="CLASS_TARGETTING_ASSIST"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_SPEC_OPS" BaseMoves="3" Cost="520" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SPEC_OPS_NAME" Description="LOC_UNIT_SPEC_OPS_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="7" Combat="140" RangedCombat="150" Range="2" PrereqTech="TECH_PLASTICS"/>
+		<Row UnitType="UNIT_DRONE" BaseMoves="5" Cost="420" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="6" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" Name="LOC_UNIT_DRONE_NAME" Description="LOC_UNIT_DRONE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="3" PrereqTech="TECH_COMPUTERS"/>
+		<Row UnitType="UNIT_PIKE_AND_SHOT" BaseMoves="3" Cost="280" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PIKE_AND_SHOT_NAME" Description="LOC_UNIT_PIKE_AND_SHOT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="4" Combat="100" PrereqTech="TECH_METAL_CASTING" MandatoryObsoleteTech="TECH_COMBINED_ARMS"/>
+		<Row UnitType="UNIT_SUPPLY_CONVOY" BaseMoves="4" Cost="450" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" DOMAIN="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" Name="LOC_UNIT_SUPPLY_CONVOY_NAME" Description="LOC_UNIT_SUPPLY_CONVOY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="2" PrereqTech="TECH_COMBUSTION"/>
+	</Units>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_SPEC_OPS" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SPEC_OPS" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SPEC_OPS" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_DRONE" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="UNIT_PIKE_AND_SHOT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PIKE_AND_SHOT" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_PIKE_AND_SHOT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_PIKE_AND_SHOT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SUPPLY_CONVOY" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+	</UnitAiInfos>
+	<UnitUpgrades>
+		<Update>
+			<Where Unit="UNIT_PIKEMAN"/>
+			<Set>
+				<UpgradeUnit>UNIT_PIKE_AND_SHOT</UpgradeUnit>
+			</Set>
+		</Update>
+		<Row Unit="UNIT_RANGER" UpgradeUnit="UNIT_SPEC_OPS"/>
+		<Row Unit="UNIT_OBSERVATION_BALLOON" UpgradeUnit="UNIT_DRONE"/>
+		<Row Unit="UNIT_MEDIC" UpgradeUnit="UNIT_SUPPLY_CONVOY"/>
+		<Row Unit="UNIT_PIKE_AND_SHOT" UpgradeUnit="UNIT_AT_CREW"/>
+	</UnitUpgrades>
+</GameInfo>

@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_BOUDICA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SUN_TZU" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_EL_CID" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOUDICA" Name="LOC_GREAT_PERSON_INDIVIDUAL_BOUDICA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_CLASSICAL" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresAdjacentBarbarianUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA" Name="LOC_GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUN_TZU" Name="LOC_GREAT_PERSON_INDIVIDUAL_SUN_TZU_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="0" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" Name="LOC_GREAT_PERSON_INDIVIDUAL_AETHELFLAED_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EL_CID" Name="LOC_GREAT_PERSON_INDIVIDUAL_EL_CID_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC" Name="LOC_GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_RENAISSANCE" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresPlayerRelicSlot="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" Name="LOC_GREAT_PERSON_INDIVIDUAL_ANA_NZINGA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_RENAISSANCE" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE" Name="LOC_GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI" Name="LOC_GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INDUSTRIAL" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" Name="LOC_GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" Name="LOC_GREAT_PERSON_INDIVIDUAL_JOHN_MONASH_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" Name="LOC_GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MODERN" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="true" ActionRequiresCompletedDistrictType="DISTRICT_AERODROME" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" Name="LOC_GREAT_PERSON_INDIVIDUAL_SAMORI_TURE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" Name="LOC_GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" Name="LOC_GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR" Name="LOC_GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_SUDIRMAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD" Name="LOC_GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" Name="LOC_GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOUDICA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOUDICA" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUN_TZU" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUN_TZU" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EL_CID" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EL_CID" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD" ModifierId="GREATPERSON_MOVEMENT_AOE_INFORMATION_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" ModifierId="GREATPERSON_MOVEMENT_AOE_INFORMATION_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOUDICA" ModifierId="GREATPERSON_BOUDICA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HANNIBAL_BARCA" ModifierId="GREATPERSON_HANNIBAL_BARCA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EL_CID" ModifierId="GREATPERSON_EL_CID_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN" ModifierId="GREATPERSON_GENGHIS_KHAN_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GENGHIS_KHAN" ModifierId="GREATPERSON_GENGHIS_KHAN_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVUS_ADOLPHUS" ModifierId="GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAN_OF_ARC" ModifierId="GREATPERSON_JOAN_OF_ARC_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ANA_NZINGA" ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NAPOLEON_BONAPARTE" ModifierId="GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RANI_LAKSHMIBAI" ModifierId="GREATPERSON_RANI_LAKSHMIBAI_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" ModifierId="GREATPERSON_JOHN_MONASH_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_MONASH" ModifierId="GREATPERSON_JOHN_MONASH_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" ModifierId="GREATPERSON_MARINA_RASKOVA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" ModifierId="GREATPERSON_SAMORI_TURE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DWIGHT_EISENHOWER" ModifierId="GREATPERSON_DWIGHT_EISENHOWER_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GEORGY_ZHUKOV" ModifierId="GREATPERSON_GEORGY_ZHUKOV_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_SUDIRMAN_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DOUGLAS_MACARTHUR" ModifierId="GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AHMAD_SHAH_MASSOUD" ModifierId="GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_VIJAYA_WIMALARATNE" ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<!-- Generic Birth Modifiers, shared by all individuals -->
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RENAISSANCE_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INDUSTRIAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MODERN_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_ATOMIC_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INFORMATION_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_CLASSICAL_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_RENAISSANCE_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RENAISSANCE_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INDUSTRIAL_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MODERN_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MODERN_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_ATOMIC_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INFORMATION_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INFORMATION_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_BOUDICA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_OWNER</ModifierType>
+			<SubjectRequirementSetId>GREATPERSON_BOUDICA_ACTIVE_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HANNIBAL_BARCA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EL_CID_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GENGHIS_KHAN_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GENGHIS_KHAN_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOAN_OF_ARC_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RELIC</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RANI_LAKSHMIBAI_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ANA_NZINGA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOHN_MONASH_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOHN_MONASH_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MARINA_RASKOVA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_GRANT_AIR_SLOTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SAMORI_TURE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DWIGHT_EISENHOWER_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GEORGY_ZHUKOV_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GREATPERSON_GEORGY_ZHUKOV_LAND_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SUDIRMAN_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SUDIRMAN_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Generic Birth Modifiers, shared by all individuals -->
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_CLASSICAL_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_RENAISSANCE_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MODERN_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INFORMATION_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_GENERAL_MOVEMENT</Value>
+		</Row>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_BOUDICA_ACTIVE</ModifierId>
+			<Name>NewOwner</Name>
+			<Value>Player</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HANNIBAL_BARCA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_KNIGHT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EL_CID_ACTIVE</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>CORPS_MILITARY_FORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GENGHIS_KHAN_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GENGHIS_KHAN_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BOMBARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOAN_OF_ARC_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>ARMY_MILITARY_FORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RANI_LAKSHMIBAI_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RANI_LAKSHMIBAI_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ANA_NZINGA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOHN_MONASH_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOHN_MONASH_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>75</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MARINA_RASKOVA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SAMORI_TURE_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_INFANTRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SAMORI_TURE_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DWIGHT_EISENHOWER_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GEORGY_ZHUKOV_ACTIVE</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SUDIRMAN_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SUDIRMAN_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TANK</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MODERN_AT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_BOUDICA_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_GEORGY_ZHUKOV_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_CLASSICAL_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_MEDIEVAL_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_RENAISSANCE_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_INDUSTRIAL_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_MODERN_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_ATOMIC_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_INFORMATION_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_CAVALRY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_BOUDICA_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>GREATPERSON_BOUDICA_ACTIVE_REQUIRES_LAND_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_BOUDICA_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_BARBARIAN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_GEORGY_ZHUKOV_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_LAND</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENTS_MET_UNIT_IS_CAVALRY_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_LIGHT_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_HEAVY_CAVALRY</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_DOMAIN_LAND</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_BARBARIAN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_IS_BARBARIAN</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>GREATPERSON_BOUDICA_ACTIVE_REQUIRES_LAND_ADJACENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENTS_MET_UNIT_IS_CAVALRY_REQUIREMENTS</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>UNIT_IS_CAVALRY_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_LIGHT_CAVALRY</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_HEAVY_CAVALRY</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_DOMAIN_LAND</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<RequirementId>GREATPERSON_BOUDICA_ACTIVE_REQUIRES_LAND_ADJACENCY</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>GREATPERSON_BOUDICA_ACTIVE_REQUIRES_LAND_ADJACENCY</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<!-- Generic Birth Modifiers, shared by all individuals -->
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_LAND"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_LAND"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_LAND"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_LAND"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_LAND"/>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row ModifierId="GREATPERSON_BOUDICA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_BOUDICA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_HANNIBAL_BARCA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_HANNIBAL_BARCA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_AETHELFLAED_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_EL_CID_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_EL_CID_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GENGHIS_KHAN_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_GENGHIS_KHAN_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_GUSTAVUS_ADOLPHUS_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_JOAN_OF_ARC_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_JOAN_OF_ARC_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_ANA_NZINGA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_ANA_NZINGA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_NAPOLEON_BONAPARTE_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_RANI_LAKSHMIBAI_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_RANI_LAKSHMIBAI_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_JOHN_MONASH_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_JOHN_MONASH_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_MARINA_RASKOVA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_MARINA_RASKOVA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SAMORI_TURE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SAMORI_TURE_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_DWIGHT_EISENHOWER_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_DWIGHT_EISENHOWER_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GEORGY_ZHUKOV_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_GEORGY_ZHUKOV_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SUDIRMAN_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_DOUGLAS_MACARTHUR_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_AHMAD_SHAH_MASSOUD_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_VIJAYA_WIMALARATNE_ACTIVE"/>
+	</ModifierStrings>
+</GameInfo>

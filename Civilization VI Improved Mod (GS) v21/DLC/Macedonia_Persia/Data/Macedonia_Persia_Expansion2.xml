@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<GameInfo>
+	<Leaders>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER"/>
+			<Set>
+				<SameSexPercentage>50</SameSexPercentage>
+			</Set>
+		</Update>
+	</Leaders>
+	<Agendas>
+		<Update>
+			<Where AgendaType="AGENDA_SHORT_LIFE_GLORY"/>
+			<Set>
+				<Description>LOC_AGENDA_SHORT_LIFE_GLORY_XP2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Agendas>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_SHORT_LIFE_GLORY" AgendaTwo="AGENDA_TURTLER"/>
+	</ExclusiveAgendas>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MACEDONIAN_HETAIROI" Texture="Moment_UniqueUnit_Macedon_Hetairoi.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MACEDONIAN_HYPASPIST" Texture="Moment_UniqueUnit_Macedon_Hypaspist.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_PERSIAN_IMMORTAL" Texture="Moment_UniqueUnit_Persia.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_BASILIKOI_PAIDES" Texture="Moment_Infrastructure_Macedon.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_PAIRIDAEZA" Texture="Moment_Infrastructure_Persia.dds"/>
+	</MomentIllustrations>
+	<Traits>
+		<Update>
+			<Where Description="LOC_TRAIT_HELLENISTIC_FUSION_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_EXPANSION1_DESCRIPTION"/>
+		</Update>
+		<Update>
+			<Where Description="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION"/>
+			<Set Description="LOC_TRAIT_LEADER_FALL_BABYLON_EXPANSION2_DESCRIPTION"/>
+		</Update>
+	</Traits>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_ADDITIONAL_MARTIAL_LAW</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_LOYALTY_ADJUST_MARTIAL_LAW_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SHORT_LIFE_GRIEVANCE_DECAY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GRIEVANCE_DECAY</ModifierType>
+		</Row>
+	</Modifiers>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_BASILIKOI_PAIDES"/>
+			<Set Description="LOC_BUILDING_BASILIKOI_PAIDES_EXPANSION2_DESCRIPTION"/>
+		</Update>
+	</Buildings>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_BASILIKOI_PAIDES</BuildingType>
+			<ModifierId>BASILIKOI_PAIDES_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_ADDITIONAL_MARTIAL_LAW</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_ADJUST_RESOURCE_STOCKPILE_CAP</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SHORT_LIFE_GRIEVANCE_DECAY</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<Update>
+			<Where ModifierId="TRAIT_FALLBABYLON_NO_OCCUPATION_PENALTIES"/>
+			<Set ModifierId="TRAIT_ADDITIONAL_MARTIAL_LAW"/>
+		</Update>
+		<Row>
+			<TraitType>TRAIT_AGENDA_SHORT_LIFE_GLORY</TraitType>
+			<ModifierId>TRAIT_SHORT_LIFE_GRIEVANCE_DECAY</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_HALIACMON_RIVER" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedRiverType="NAMED_RIVER_JAJRUD_RIVER" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedRiverType="NAMED_RIVER_KARKHEH_RIVER" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedRiverType="NAMED_RIVER_KARUN" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedRiverType="NAMED_RIVER_SEFID_RIVER" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedRiverType="NAMED_RIVER_STRUMA_RIVER" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedRiverType="NAMED_RIVER_VARDAR" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedRiverType="NAMED_RIVER_ZAYANDE_RIVER" CivilizationType="CIVILIZATION_PERSIA"/>
+	</NamedRiverCivilizations>
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_DAMAVAND" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_MOUNT_SABALAN" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_SAHAND" CivilizationType="CIVILIZATION_PERSIA"/>
+	</NamedVolcanoCivilizations>
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ALBORZ" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ALADAGH_MOUNTAINS" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KARKAS_MOUNTAINS" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KOPET_DAG_RANGE" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_PINDUS" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_RHODOPES" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_VERMIO_MOUNTAINS" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_VORAS_MOUNTAIN_RANGE" CivilizationType="CIVILIZATION_MACEDON"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_TALYSH_MOUNTAINS" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ZAGROS" CivilizationType="CIVILIZATION_PERSIA"/>
+	</NamedMountainCivilizations>
+	<NamedDesertCivilizations>
+		<Row NamedDesertType="NAMED_DESERT_KAVIR" CivilizationType="CIVILIZATION_PERSIA"/>
+		<Row NamedDesertType="NAMED_DESERT_LUT" CivilizationType="CIVILIZATION_PERSIA"/>
+	</NamedDesertCivilizations>
+	<AiFavoredItems>
+		<Row ListType="KristinaWonders" Item="BUILDING_APADANA" Favored="true"/>
+		<Row ListType="MatthiasWonders" Item="BUILDING_APADANA" Favored="true"/>
+	</AiFavoredItems>
+	<Units>
+	<!--<Update>
+			<Where UnitType="UNIT_MACEDONIAN_HYPASPIST"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_MACEDONIAN_HETAIROI"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+<!--	<Update>
+			<Where UnitType="UNIT_PERSIAN_IMMORTAL"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	</Units>
+	<Units_XP2>
+		<Row UnitType="UNIT_MACEDONIAN_HYPASPIST" ResourceCost="5"/>
+		<Row UnitType="UNIT_MACEDONIAN_HETAIROI" ResourceCost="10"/>
+		<Row UnitType="UNIT_PERSIAN_IMMORTAL" ResourceCost="10"/>
+	</Units_XP2>
+</GameInfo>

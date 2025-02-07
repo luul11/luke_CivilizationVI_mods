@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_ANGKOR_WAT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PRASAT" Kind="KIND_BUILDING"/>
+		<Row Type="CIVILIZATION_INDONESIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_KHMER" Kind="KIND_CIVILIZATION"/>
+		<Row Type="FEATURE_HA_LONG_BAY" Kind="KIND_FEATURE"/>
+		<Row Type="IMPROVEMENT_KAMPUNG" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="LEADER_GITARJA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_JAYAVARMAN" Kind="KIND_LEADER"/>
+		<Row Type="UNIT_INDONESIAN_JONG" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_KHMER_DOMREY" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_INDONESIA_NUSANTARA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_INDONESIAN_JONG" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_KHMER_BARAYS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_PRASAT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_KHMER_DOMREY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_EXALTED_GODDESS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_MONASTERIES_KING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_END_TO_SUFFERING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_ARCHIPELAGIC_STATE" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_JONG" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MARTYR" Kind="KIND_ABILITY"/>
+	</Types>
+	<Traits>
+		<!--Indonesia Traits-->
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_INDONESIA_NUSANTARA" Name="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_NAME" Description="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_INDONESIAN_JONG" Name="LOC_TRAIT_CIVILIZATION_UNIT_INDONESIAN_JONG_NAME"/>
+		<Row TraitType="TRAIT_LEADER_EXALTED_GODDESS" Name="LOC_TRAIT_LEADER_EXALTED_GODDESS_NAME" Description="LOC_TRAIT_LEADER_EXALTED_GODDESS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_ARCHIPELAGIC_STATE" Name="LOC_AGENDA_ARCHIPELAGIC_STATE_NAME" Description="LOC_AGENDA_ARCHIPELAGIC_STATE_DESCRIPTION"/>
+		<!--Khmer Traits-->
+		<Row TraitType="TRAIT_CIVILIZATION_KHMER_BARAYS" Name="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_NAME" Description="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_PRASAT" Name="LOC_TRAIT_CIVILIZATION_BUILDING_PRASAT_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_KHMER_DOMREY" Name="LOC_TRAIT_CIVILIZATION_UNIT_KHMER_DOMREY_NAME"/>
+		<Row TraitType="TRAIT_LEADER_MONASTERIES_KING" Name="LOC_TRAIT_LEADER_MONASTERIES_KING_NAME" Description="LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_END_TO_SUFFERING" Name="LOC_AGENDA_END_TO_SUFFERING_NAME" Description="LOC_AGENDA_END_TO_SUFFERING_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_KHMER_BARAYS</TraitType>
+			<ModifierId>TRAIT_AQUEDUCT_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_KHMER_BARAYS</TraitType>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_KHMER_BARAYS</TraitType>
+			<ModifierId>TRAIT_FARM_AQUEDUCT_ADJECENCY_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MONASTERIES_KING</TraitType>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MONASTERIES_KING</TraitType>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_HOUSING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MONASTERIES_KING</TraitType>
+			<ModifierId>TRAIT_HOLY_SITE_CULTURE_BOMB</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_END_TO_SUFFERING</TraitType>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>TRAIT_NAVAL_MELEE_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>TRAIT_NAVAL_RANGED_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>TRAIT_NAVAL_RAIDER_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>TRAIT_NAVAL_CARRIER_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>TRAIT_IGNORE_EMBARK_DISEMBARK_COST_RELIGIOUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EXALTED_GODDESS</TraitType>
+			<ModifierId>TRAIT_FAITH_CITY_CENTER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDONESIA_NUSANTARA</TraitType>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDONESIA_NUSANTARA</TraitType>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDONESIA_NUSANTARA</TraitType>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDONESIA_NUSANTARA</TraitType>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDONESIA_NUSANTARA</TraitType>
+			<ModifierId>TRAIT_NUSANTARA_COAST_ENTERTAINMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_ARCHIPELAGIC_STATE</TraitType>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<AiListTypes>
+		<Row ListType="GitarjaCivics"/>
+		<Row ListType="GitarjaTechs"/>
+		<Row ListType="GitarjaWonders"/>
+		<Row ListType="JayavarmanCivics"/>
+		<Row ListType="JayavarmanTechs"/>
+		<Row ListType="JayavarmanUnitBuilds"/>
+		<Row ListType="JayavarmanWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="GitarjaCivics" LeaderType="TRAIT_LEADER_EXALTED_GODDESS" System="Civics"/>
+		<Row ListType="GitarjaTechs" LeaderType="TRAIT_LEADER_EXALTED_GODDESS" System="Technologies"/>
+		<Row ListType="GitarjaWonders" LeaderType="TRAIT_LEADER_EXALTED_GODDESS" System="Buildings"/>
+		<Row ListType="JayavarmanCivics" LeaderType="TRAIT_LEADER_MONASTERIES_KING" System="Civics"/>
+		<Row ListType="JayavarmanTechs" LeaderType="TRAIT_LEADER_MONASTERIES_KING" System="Technologies"/>
+		<Row ListType="JayavarmanUnitBuilds" LeaderType="TRAIT_LEADER_MONASTERIES_KING" System="Units"/>
+		<Row ListType="JayavarmanWonders" LeaderType="TRAIT_LEADER_MONASTERIES_KING" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="GitarjaCivics" Item="CIVIC_MERCENARIES" Favored="true"/>
+		<Row ListType="GitarjaCivics" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
+		<Row ListType="GitarjaTechs" Item="TECH_SAILING" Favored="true"/>
+		<Row ListType="GitarjaTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+		<Row ListType="GitarjaTechs" Item="TECH_FLIGHT" Favored="true"/>
+		<Row ListType="GitarjaTechs" Item="TECH_SHIPBUILDING" Favored="true"/>
+		<Row ListType="GitarjaTechs" Item="TECH_ELECTRICITY" Favored="true"/>
+		<Row ListType="GitarjaTechs" Item="TECH_MASS_PRODUCTION" Favored="true"/>
+		<Row ListType="GitarjaWonders" Item="BUILDING_GREAT_LIGHTHOUSE" Favored="true"/>
+		<Row ListType="JayavarmanCivics" Item="CIVIC_THEOLOGY" Favored="true"/>
+		<Row ListType="JayavarmanCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="JayavarmanTechs" Item="TECH_ASTROLOGY" Favored="true"/>
+		<Row ListType="JayavarmanTechs" Item="TECH_ENGINEERING" Favored="true"/>
+		<Row ListType="JayavarmanTechs" Item="TECH_MILITARY_ENGINEERING" Favored="true"/>
+		<Row ListType="JayavarmanTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true"/>
+		<Row ListType="JayavarmanUnitBuilds" Item="UNIT_MISSIONARY" Value="1"/>
+		<Row ListType="JayavarmanWonders" Item="BUILDING_CRISTO_REDENTOR" Favored="true"/>
+		<Row ListType="JayavarmanWonders" Item="BUILDING_ANGKOR_WAT" Favored="true"/>
+		<Row ListType="JayavarmanWonders" Item="BUILDING_HAGIA_SOPHIA" Favored="true"/>
+	</AiFavoredItems>
+	<Tags>
+		<Row Tag="CLASS_JONG" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_JONG" Tag="CLASS_JONG"/>
+		<Row Type="ABILITY_MARTYR" Tag="CLASS_MISSIONARY"/>
+		<Row Type="UNIT_INDONESIAN_JONG" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="UNIT_INDONESIAN_JONG" Tag="CLASS_JONG"/>
+		<Row Type="UNIT_KHMER_DOMREY" Tag="CLASS_SIEGE"/>
+		<Row Type="UNIT_KHMER_DOMREY" Tag="CLASS_FORWARD_OBSERVER"/>
+	</TypeTags>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_PRASAT" ReplacesBuildingType="BUILDING_TEMPLE"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_PRASAT" Name="LOC_BUILDING_PRASAT_NAME" Description="LOC_BUILDING_PRASAT_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_PRASAT"/>
+		<!-- Wonders-->
+		<Row BuildingType="BUILDING_ANGKOR_WAT" Name="LOC_BUILDING_ANGKOR_WAT_NAME" Description="LOC_BUILDING_ANGKOR_WAT_DESCRIPTION" PrereqCivic="CIVIC_MEDIEVAL_FAIRES" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" AdjacentDistrict="DISTRICT_AQUEDUCT" Quote="LOC_BUILDING_ANGKOR_WAT_QUOTE" QuoteAudio="Play_ANGKOR_WAT_QUOTE"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_PRASAT" PrereqBuilding="BUILDING_SHRINE"/>
+	</BuildingPrereqs>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_ANGKOR_WAT" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PRASAT" YieldType="YIELD_FAITH" YieldChange="6"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_PRASAT" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_PRASAT" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="2"/>
+	</Building_GreatWorks>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ModifierId>ANGKORWAT_ADDPOPULATION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<ModifierId>ANGKORWAT_ADDHOUSING</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PRASAT</BuildingType>
+			<ModifierId>PRASAT_GRANT_MARTYR</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<CityNames>
+		<!--Indonesia-->
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_MAJAPAHIT"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_TUBAN"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_PALEMBANG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_JAMBI"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_TERNATE"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BADUNG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_MATARAM"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_SURABAYA"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BANJARMASIN"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_JAKARTA"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BIMA"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_MAKASSAR"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_LAMPUNG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BARUS"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BANTEN"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_GELGEL"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BOGOR"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_PAGARUYUNG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_GORONTALO"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_PEKALONGAN"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_SUKADANA"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_MALANG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_LAMBRI"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_SUKABUMI"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_KAHURIPAN"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BENGKULU"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_KEDIRI"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_TANJUNGPINANG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_BAU_BAU"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_GRESIK"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_PONTIANAK"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CityName="LOC_CITY_NAME_PANGKALPINANG"/>
+		<!--Khmer-->
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_ANGKOR_THOM"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_ANGKOR_WAT"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_HARIHARALAYA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_YASODHARAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_MAHENDRAPARVATA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_VIMAYAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_INDRAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_LINGAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_PREAH_VIHEAR"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_BHAVAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_KOMPONG_SVAY"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_NAGARA_JAYASRI"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_VYADHAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_CHATURMUKHA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_DVIRADAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_RAJAVIHARA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_AMARENDRAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_PHANOM_RUNG"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_ISVARAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_MUANG_TAM"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_ANGKOR_BOREI"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_BANTEAY_KDEI"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_PHETCHABURI"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_CHAIYA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_ISANAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_PRE_RUP"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_BENG_MELEA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_LAVODAYAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_SHRESTAPURA"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CityName="LOC_CITY_NAME_ANINDITAPURA"/>
+	</CityNames>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" Name="LOC_CIVILIZATION_INDONESIA_NAME" Description="LOC_CIVILIZATION_INDONESIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_INDONESIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" Name="LOC_CIVILIZATION_KHMER_NAME" Description="LOC_CIVILIZATION_KHMER_DESCRIPTION" Adjective="LOC_CIVILIZATION_KHMER_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" LeaderType="LEADER_GITARJA" CapitalName="LOC_CITY_NAME_MAJAPAHIT"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" LeaderType="LEADER_JAYAVARMAN" CapitalName="LOC_CITY_NAME_ANGKOR_THOM"/>
+	</CivilizationLeaders>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_INDONESIA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_INDONESIA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_INDONESIA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_INDONESIA_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_KHMER_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_KHMER_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_KHMER_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_KHMER_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+	<CivilizationTraits>
+		<!--Indonesia Traits-->
+		<Row CivilizationType="CIVILIZATION_INDONESIA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" TraitType="TRAIT_CIVILIZATION_INDONESIA_NUSANTARA"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" TraitType="TRAIT_CIVILIZATION_UNIT_INDONESIAN_JONG"/>'
+		<!--Khmer Traits-->
+		<Row CivilizationType="CIVILIZATION_KHMER" TraitType="TRAIT_CIVILIZATION_KHMER_BARAYS"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" TraitType="TRAIT_CIVILIZATION_BUILDING_PRASAT"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" TraitType="TRAIT_CIVILIZATION_UNIT_KHMER_DOMREY"/>
+	</CivilizationTraits>
+	<Leaders>
+		<Row LeaderType="LEADER_GITARJA" Name="LOC_LEADER_GITARJA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" Name="LOC_LEADER_JAYAVARMAN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_GITARJA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_GITARJA_QUOTE" QuoteAudio="INDO_GI_MISC_PEP_TALK_A_1"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_JAYAVARMAN_QUOTE" QuoteAudio="KHME_JA_MISC_PEP_TALK_A_2"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="TRAIT_LEADER_MONASTERIES_KING"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_GITARJA" TraitType="TRAIT_LEADER_EXALTED_GODDESS"/>
+	</LeaderTraits>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" CitizenName="LOC_CITIZEN_INDONESIA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_KHMER" CitizenName="LOC_CITIZEN_KHMER_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_INDONESIA" TerrainType="TERRAIN_COAST" Tier="2"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_KHMER" Tier="3"/>
+	</StartBiasRivers>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_GITARJA" ReligionType="RELIGION_HINDUISM"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" ReligionType="RELIGION_BUDDHISM"/>
+	</FavoredReligions>
+	<Agendas>
+		<Row AgendaType="AGENDA_ARCHIPELAGIC_STATE" Name="LOC_AGENDA_ARCHIPELAGIC_STATE_NAME" Description="LOC_AGENDA_ARCHIPELAGIC_STATE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_END_TO_SUFFERING" Name="LOC_AGENDA_END_TO_SUFFERING_NAME" Description="LOC_AGENDA_END_TO_SUFFERING_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_GITARJA" AgendaType="AGENDA_ARCHIPELAGIC_STATE"/>
+		<Row LeaderType="LEADER_JAYAVARMAN" AgendaType="AGENDA_END_TO_SUFFERING"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_ARCHIPELAGIC_STATE" TraitType="TRAIT_AGENDA_ARCHIPELAGIC_STATE"/>
+		<Row AgendaType="AGENDA_END_TO_SUFFERING" TraitType="TRAIT_AGENDA_END_TO_SUFFERING"/>
+	</AgendaTraits>
+	<Features>
+		<Row FeatureType="FEATURE_HA_LONG_BAY" Name="LOC_FEATURE_HA_LONG_BAY_NAME" Description="LOC_FEATURE_HA_LONG_BAY_DESCRIPTION" Quote="LOC_FEATURE_HA_LONG_BAY_QUOTE" QuoteAudio="PLAY_HA_LONG_BAY_QUOTE" NaturalWonder="true" Appeal="2" MinDistanceLand="1" MaxDistanceLand="1" Tiles="2" FollowRulesInWB="false" Settlement="false" DefenseModifier="15" MinDistanceNW="8"/>
+	</Features>
+	<Feature_ValidTerrains>
+		<Row FeatureType="FEATURE_HA_LONG_BAY" TerrainType="TERRAIN_COAST"/>
+	</Feature_ValidTerrains>
+	<Feature_NotNearFeatures>
+		<!--Far based on map size -->
+		<Row FeatureType="FEATURE_HA_LONG_BAY" FeatureTypeAvoid="FEATURE_ICE"/>
+	</Feature_NotNearFeatures>
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row FeatureType="FEATURE_HA_LONG_BAY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Feature_YieldChanges>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" Name="LOC_IMPROVEMENT_KAMPUNG_NAME" Description="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION" Icon="ICON_IMPROVEMENT_KAMPUNG" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqTech="TECH_SHIPBUILDING" Housing="2" TilesRequired="2" Domain="DOMAIN_SEA" AdjacentSeaResource="true" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KAMPUNG"/>
+	</Improvements>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" TerrainType="TERRAIN_COAST"/>
+	</Improvement_ValidTerrains>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="23" ImprovementType="IMPROVEMENT_KAMPUNG" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" TourismSource="TOURISMSOURCE_FOOD" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_KAMPUNG" YieldChangeId="Kampung_FoodFishingBoats"/>
+	</Improvement_Adjacencies>
+	<Adjacency_YieldChanges>
+		<Row ID="Kampung_FoodFishingBoats" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FISHING_BOATS"/>
+	</Adjacency_YieldChanges>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_KAMPUNG</ImprovementType>
+			<ModifierId>KAMPUNG_HOUSING_WITHTECH</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_KHMER_DOMREY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_KHMER_DOMREY" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_KHMER_DOMREY" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="UNIT_KHMER_DOMREY" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_INDONESIAN_JONG" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_INDONESIAN_JONG" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_INDONESIAN_JONG" AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_INDONESIAN_JONG" ReplacesUnitType="UNIT_FRIGATE"/>
+	</UnitReplaces>
+	<Units>
+		<Row UnitType="UNIT_INDONESIAN_JONG" BaseMoves="5" Cost="300" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_SEA" FormationClass="FORMATION_CLASS_NAVAL" Name="LOC_UNIT_INDONESIAN_JONG_NAME" Description="LOC_UNIT_INDONESIAN_JONG_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" Maintenance="5" Combat="97" MandatoryObsoleteTech="TECH_LASERS" RangedCombat="107" Range="2" PrereqCivic="CIVIC_MERCENARIES" TraitType="TRAIT_CIVILIZATION_UNIT_INDONESIAN_JONG"/>
+		<Row UnitType="UNIT_KHMER_DOMREY" BaseMoves="3" Cost="220" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_KHMER_DOMREY_NAME" Description="LOC_UNIT_KHMER_DOMREY_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SIEGE" Maintenance="3" Combat="77" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" Range="2" PrereqTech="TECH_MILITARY_ENGINEERING" Bombard="87" TraitType="TRAIT_CIVILIZATION_UNIT_KHMER_DOMREY"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_KHMER_DOMREY" UpgradeUnit="UNIT_ARTILLERY"/>
+		<Row Unit="UNIT_INDONESIAN_JONG" UpgradeUnit="UNIT_BATTLESHIP"/>
+	</UnitUpgrades>
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_PRASAT"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_PRASAT"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_PRASAT"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_PRASAT"/>
+	</Unit_BuildingPrereqs>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_JONG" Name="LOC_ABILITY_JONG_NAME" Description="LOC_ABILITY_JONG_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MARTYR" Name="LOC_PROMOTION_MARTYR_NAME" Description="LOC_ABILITY_MARTYR_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_JONG</UnitAbilityType>
+			<ModifierId>JONG_BONUS_IN_FORMATION</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_JONG</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MARTYR</UnitAbilityType>
+			<ModifierId>APOSTLE_MARTYR</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!--Leader Agendas-->
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_END_TO_SUFFERING</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_ARCHIPELAGIC_STATE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!-- Building-->
+		<Row>
+			<ModifierId>ANGKORWAT_ADDPOPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>ANGKORWAT_ADDHOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_HOUSING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>PRASAT_GRANT_MARTYR</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- Unit-->
+		<Row>
+			<ModifierId>JONG_BONUS_IN_FORMATION</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CONVOY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Improvement-->
+		<Row>
+			<ModifierId>KAMPUNG_HOUSING_WITHTECH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_KAMPUNG_TECHNOLOGY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Trait-->
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_AQUEDUCT_AMENITY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_AQUEDUCT_FAITH</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FARM_AQUEDUCT_ADJECENCY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_FARM_AQUEDUCT_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_HOLY_SITE_RIVER_FOOD_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_CULTURE_BOMB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_MELEE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RANGED_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RAIDER_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_CARRIER_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IGNORE_EMBARK_DISEMBARK_COST_RELIGIOUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_IGNORE_SHORES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_RELIGIOUS_EMBARK_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_CITY_CENTER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_ENTERTAINMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENTERTAINMENT_COMPLEX_COAST</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Building-->
+		<Row>
+			<ModifierId>ANGKORWAT_ADDPOPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ANGKORWAT_ADDHOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRASAT_GRANT_MARTYR</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MARTYR</Value>
+		</Row>
+		<!-- Unit-->
+		<Row>
+			<ModifierId>JONG_BONUS_IN_FORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- Improvement-->
+		<Row>
+			<ModifierId>KAMPUNG_HOUSING_WITHTECH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Trait-->
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AQUEDUCT_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FARM_AQUEDUCT_ADJECENCY_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FARM_AQUEDUCT_ADJECENCY_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_RIVER_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HOLY_SITE_CULTURE_BOMB</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_MELEE_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RANGED_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_RAIDER_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NAVAL_CARRIER_FAITH</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_IGNORE_EMBARK_DISEMBARK_COST_RELIGIOUS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_CITY_CENTER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FAITH_CITY_CENTER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_HOLY_SITE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_NUSANTARA_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_CAMPUS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_NUSANTARA_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_INDUSTRIAL_ZONE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_NUSANTARA_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_THEATER</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_NUSANTARA_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NUSANTARA_COAST_ENTERTAINMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Agenda-->
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>AcceptableIslandPercentage</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>MaxTilesSmallIsland</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>MaxTilesMediumIsland</Name>
+			<Value>19</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>MaxTilesLargeIsland</Name>
+			<Value>37</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>MaxPositiveModifier</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>MaxNegativeModifier</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_ARCHIPELAGIC_STATE</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_ARCHIPELAGIC_STATE_WARNING</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>TargetHolySitePercentage</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>DisappointingHolySitePercentage</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>TargetLargeCityPercentage</Name>
+			<Value>65</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>DisappointingLargeCityPercentage</Name>
+			<Value>35</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>MaxPositiveModifier</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>MaxNegativeModifier</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_END_TO_SUFFERING</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_END_TO_SUFFERING_WARNING</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_ARCHIPELAGIC_STATE" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_END_TO_SUFFERING" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="JONG_BONUS_IN_FORMATION" Context="Preview" Text="LOC_PROMOTION_JONG_DESCRIPTION"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_KAMPUNG_TECHNOLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AQUEDUCT_AMENITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AQUEDUCT_FAITH</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_FARM_AQUEDUCT_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HOLY_SITE_RIVER_FOOD_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_RELIGIOUS_EMBARK_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENTERTAINMENT_COMPLEX_COAST</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MASS_PRODUCTION_TECHNOLOGY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MASS_PRODUCTION_TECHNOLOGY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MASS_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_KAMPUNG_TECHNOLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_MASS_PRODUCTION_TECHNOLOGY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AQUEDUCT_AMENITY</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_AQUEDUCT_FAITH</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_FARM_AQUEDUCT_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_FARM_AQUEDUCT_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HOLY_SITE_RIVER_FOOD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HOLY_SITE_RIVER_FOOD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_HOLY_SITE_RIVER_HOUSING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_RELIGIOUS_EMBARK_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_RELIGIOUS_ALL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_COAST_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_CITY_CENTER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENTERTAINMENT_COMPLEX_COAST</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_ENTERTAINMENT_COMPLEX</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DISTRICT_IS_ENTERTAINMENT_COMPLEX_COAST</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

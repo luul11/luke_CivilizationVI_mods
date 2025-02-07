@@ -1,0 +1,485 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_COASTAL_LOWLAND"/>
+		<Row Kind="KIND_RANDOM_EVENT"/>
+		<Row Kind="KIND_REALISM_SETTING"/>
+	</Kinds>
+	<Types>
+		<!--Environmental Effects-->
+		<Row Type="COASTAL_LOWLAND_1M" Kind="KIND_COASTAL_LOWLAND"/>
+		<Row Type="COASTAL_LOWLAND_2M" Kind="KIND_COASTAL_LOWLAND"/>
+		<Row Type="COASTAL_LOWLAND_3M" Kind="KIND_COASTAL_LOWLAND"/>
+		<Row Type="RANDOM_EVENT_FLOOD_MODERATE" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_FLOOD_MAJOR" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_FLOOD_1000_YEAR" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_KILIMANJARO_GENTLE" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_VOLCANO_GENTLE" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_VOLCANO_CATASTROPHIC" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_BLIZZARD_CRIPPLING" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_DUST_STORM_GRADIENT" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_DUST_STORM_HABOOB" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_TORNADO_FAMILY" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_TORNADO_OUTBREAK" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_HURRICANE_CAT_4" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_HURRICANE_CAT_5" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_DROUGHT_MAJOR" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_DROUGHT_EXTREME" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="REALISM_SETTING_MINIMAL" Kind="KIND_REALISM_SETTING"/>
+		<Row Type="REALISM_SETTING_LIGHT" Kind="KIND_REALISM_SETTING"/>
+		<Row Type="REALISM_SETTING_MODERATE" Kind="KIND_REALISM_SETTING"/>
+		<Row Type="REALISM_SETTING_HEAVY" Kind="KIND_REALISM_SETTING"/>
+		<Row Type="REALISM_SETTING_HYPERREAL" Kind="KIND_REALISM_SETTING"/>
+	</Types>
+	<RandomEvents>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" Name="LOC_RANDOM_EVENT_FLOOD_MODERATE_NAME" Description="LOC_RANDOM_EVENT_FLOOD_MODERATE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY" EffectOperatorType="FLOODPLAIN" Severity="0" ChanceIncreasePerDegree="20" MitigatedYieldReduction="50" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" Name="LOC_RANDOM_EVENT_FLOOD_MAJOR_NAME" Description="LOC_RANDOM_EVENT_FLOOD_MAJOR_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FLOODPLAIN" Severity="1" ChanceIncreasePerDegree="20" MitigatedYieldReduction="50" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" Name="LOC_RANDOM_EVENT_FLOOD_1000_YEAR_NAME" Description="LOC_RANDOM_EVENT_FLOOD_1000_YEAR_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FLOODPLAIN" Severity="2" ChanceIncreasePerDegree="20" MitigatedYieldReduction="50" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" Name="LOC_RANDOM_EVENT_KILIMANJARO_GENTLE_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_GENTLE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="0" NaturalWonder="FEATURE_KILIMANJARO" IconLarge="ClimateEvent_VolcanoInactive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" Name="LOC_RANDOM_EVENT_KILIMANJARO_CATASTROPHIC_NAME" Description="LOC_RANDOM_EVENT_KILIMANJARO_CATASTROPHIC_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="1" NaturalWonder="FEATURE_KILIMANJARO" IconLarge="ClimateEvent_VolcanoActive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" Name="LOC_RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL_NAME" Description="LOC_RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="FEATURE" Severity="2" NaturalWonder="FEATURE_VESUVIUS" IconLarge="ClimateEvent_VolcanoErupting" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" Name="LOC_RANDOM_EVENT_VOLCANO_GENTLE_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_GENTLE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY" EffectOperatorType="VOLCANO" Severity="0" IconLarge="ClimateEvent_VolcanoInactive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" Name="LOC_RANDOM_EVENT_VOLCANO_CATASTROPHIC_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_CATASTROPHIC_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="VOLCANO" Severity="1" IconLarge="ClimateEvent_VolcanoActive" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" Name="LOC_RANDOM_EVENT_VOLCANO_MEGACOLOSSAL_NAME" Description="LOC_RANDOM_EVENT_VOLCANO_MEGACOLOSSAL_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="VOLCANO" Severity="2" IconLarge="ClimateEvent_VolcanoErupting" IconSmall="ClimateEventStat_Volcanoes"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" Name="LOC_RANDOM_EVENT_BLIZZARD_SIGNIFICANT_NAME" Description="LOC_RANDOM_EVENT_BLIZZARD_SIGNIFICANT_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_NO_FERTILITY" EffectOperatorType="STORM" Severity="1" ChanceIncreasePerDegree="20" Hexes="7" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_Blizzard" IconSmall="ClimateEventStat_Blizzard"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" Name="LOC_RANDOM_EVENT_BLIZZARD_CRIPPLING_NAME" Description="LOC_RANDOM_EVENT_BLIZZARD_CRIPPLING_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_NO_FERTILITY" EffectOperatorType="STORM" Severity="2" ChanceIncreasePerDegree="20" Hexes="19" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_Blizzard" IconSmall="ClimateEventStat_Blizzard"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" Name="LOC_RANDOM_EVENT_DUST_STORM_GRADIENT_NAME" Description="LOC_RANDOM_EVENT_DUST_STORM_GRADIENT_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_FERTILITY" EffectOperatorType="STORM" Severity="1" ChanceIncreasePerDegree="20" Hexes="3" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_DustStorm" IconSmall="ClimateEventStat_DustStorm"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" Name="LOC_RANDOM_EVENT_DUST_STORM_HABOOB_NAME" Description="LOC_RANDOM_EVENT_DUST_STORM_HABOOB_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="STORM" Severity="2" ChanceIncreasePerDegree="20" Hexes="7" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_DustStorm" IconSmall="ClimateEventStat_DustStorm"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" Name="LOC_RANDOM_EVENT_TORNADO_FAMILY_NAME" Description="LOC_RANDOM_EVENT_TORNADO_FAMILY_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_DAMAGE_NO_FERTILITY" EffectOperatorType="STORM" Severity="1" ChanceIncreasePerDegree="20" Hexes="1" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_Tornado" IconSmall="ClimateEventStat_Tornado"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" Name="LOC_RANDOM_EVENT_TORNADO_OUTBREAK_NAME" Description="LOC_RANDOM_EVENT_TORNADO_OUTBREAK_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_NO_FERTILITY" EffectOperatorType="STORM" Severity="2" ChanceIncreasePerDegree="20" Hexes="3" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_Tornado" IconSmall="ClimateEventStat_Tornado"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" Name="LOC_RANDOM_EVENT_HURRICANE_CAT_4_NAME" Description="LOC_RANDOM_EVENT_HURRICANE_CAT_4_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_PROP_NAVAL_DAMAGE_FERTILITY" EffectOperatorType="STORM" Severity="1" ChanceIncreasePerDegree="20" Hexes="7" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_Hurricane" IconSmall="ClimateEventStat_Storms"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" Name="LOC_RANDOM_EVENT_HURRICANE_CAT_5_NAME" Description="LOC_RANDOM_EVENT_HURRICANE_CAT_5_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_ALL_DAMAGE_FERTILITY" EffectOperatorType="STORM" Severity="2" ChanceIncreasePerDegree="20" Hexes="19" Movement="8" Duration="3" Spacing="15" IconLarge="ClimateEvent_Hurricane" IconSmall="ClimateEventStat_Storms"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" Name="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR_NAME" Description="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR_DESCRIPTION" EffectOperatorType="NUCLEAR_ACCIDENT" Severity="0" MinTurnAtRisk="10" IconLarge="ICON_NOTIFICATION_NUCLEAR_ACCIDENT_SEV0" IconSmall="ICON_NOTIFICATION_NUCLEAR_ACCIDENT_SEV0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" Name="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR_NAME" Description="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR_DESCRIPTION" EffectOperatorType="NUCLEAR_ACCIDENT" Severity="1" MinTurnAtRisk="20" IconLarge="ICON_NOTIFICATION_NUCLEAR_ACCIDENT_SEV1" IconSmall="ICON_NOTIFICATION_NUCLEAR_ACCIDENT_SEV1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" Name="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC_NAME" Description="LOC_RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC_DESCRIPTION" EffectOperatorType="NUCLEAR_ACCIDENT" Severity="2" MinTurnAtRisk="30" IconLarge="ICON_NOTIFICATION_NUCLEAR_ACCIDENT_SEV2" IconSmall="ICON_NOTIFICATION_NUCLEAR_ACCIDENT_SEV2"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" Name="LOC_RANDOM_EVENT_DROUGHT_MAJOR_NAME" Description="LOC_RANDOM_EVENT_DROUGHT_MAJOR_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_DROUGHT_DAMAGE" EffectOperatorType="DROUGHT" Severity="0" ChanceIncreasePerDegree="20" Hexes="7" Duration="5" Spacing="15" IconLarge="ClimateEvent_Drought" IconSmall="ClimateEventStat_Drought"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" Name="LOC_RANDOM_EVENT_DROUGHT_EXTREME_NAME" Description="LOC_RANDOM_EVENT_DROUGHT_EXTREME_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_DROUGHT_DAMAGE" EffectOperatorType="DROUGHT" Severity="1" ChanceIncreasePerDegree="20" Hexes="7" Duration="10" Spacing="15" IconLarge="ClimateEvent_Drought" IconSmall="ClimateEventStat_Drought"/>
+		<!--These must be in ascending order of climate change points.-->
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE1" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE1_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE1_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="1" IceLoss="10" ClimateChangePoints="3" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE2" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE2_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE2_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="2" IceLoss="20" ClimateChangePoints="4" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE3" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE3_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE3_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="3" IceLoss="30" ClimateChangePoints="5" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE4" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE4_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE4_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="4" IceLoss="40" ClimateChangePoints="6" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE5_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE5_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="5" IceLoss="55" ClimateChangePoints="7" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE6_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE6_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="6" IceLoss="70" ClimateChangePoints="8" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" Name="LOC_RANDOM_EVENT_SEA_LEVEL_RISE7_NAME" Description="LOC_RANDOM_EVENT_SEA_LEVEL_RISE7_DESCRIPTION" EffectOperatorType="SEA_LEVEL" Severity="7" IceLoss="85" ClimateChangePoints="9" IconLarge="ClimateEvent_Flood" IconSmall="ClimateEventStat_Flooding"/>
+	</RandomEvents>
+	<RealismSettings>
+		<Row RealismSettingType="REALISM_SETTING_MINIMAL" Name="LOC_REALISM_SETTING_MINIMAL_NAME" PercentVolcanoesActive="45" ExtraRange="false"/>
+		<Row RealismSettingType="REALISM_SETTING_LIGHT" Name="LOC_REALISM_SETTING_LIGHT_NAME" PercentVolcanoesActive="60" ExtraRange="false"/>
+		<Row RealismSettingType="REALISM_SETTING_MODERATE" Name="LOC_REALISM_SETTING_MODERATE_NAME" PercentVolcanoesActive="70" ExtraRange="false"/>
+		<Row RealismSettingType="REALISM_SETTING_HEAVY" Name="LOC_REALISM_SETTING_HEAVY_NAME" PercentVolcanoesActive="80" ExtraRange="true"/>
+		<Row RealismSettingType="REALISM_SETTING_HYPERREAL" Name="LOC_REALISM_SETTING_HYPERREAL_NAME" PercentVolcanoesActive="95" ExtraRange="true"/>
+	</RealismSettings>
+	<RandomEvent_Terrains>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" TerrainType="TERRAIN_SNOW"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" TerrainType="TERRAIN_SNOW"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" TerrainType="TERRAIN_TUNDRA"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" TerrainType="TERRAIN_DESERT"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" TerrainType="TERRAIN_DESERT"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" TerrainType="TERRAIN_PLAINS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" TerrainType="TERRAIN_GRASS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" TerrainType="TERRAIN_PLAINS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" TerrainType="TERRAIN_GRASS"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" TerrainType="TERRAIN_OCEAN"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" TerrainType="TERRAIN_OCEAN"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" TerrainType="TERRAIN_PLAINS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" TerrainType="TERRAIN_GRASS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" TerrainType="TERRAIN_PLAINS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" TerrainType="TERRAIN_GRASS"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" TerrainType="TERRAIN_GRASS_HILLS"/>
+	</RandomEvent_Terrains>
+	<CoastalLowlands>
+		<Row CoastalLowlandType="COASTAL_LOWLAND_1M" Name="LOC_COASTAL_LOWLAND_1M_NAME" Description="LOC_COASTAL_LOWLAND_1M_DESCRIPTION" FloodedEvent="RANDOM_EVENT_SEA_LEVEL_RISE2" SubmergedEvent="RANDOM_EVENT_SEA_LEVEL_RISE4"/>
+		<Row CoastalLowlandType="COASTAL_LOWLAND_2M" Name="LOC_COASTAL_LOWLAND_2M_NAME" Description="LOC_COASTAL_LOWLAND_2M_DESCRIPTION" FloodedEvent="RANDOM_EVENT_SEA_LEVEL_RISE3" SubmergedEvent="RANDOM_EVENT_SEA_LEVEL_RISE6"/>
+		<Row CoastalLowlandType="COASTAL_LOWLAND_3M" Name="LOC_COASTAL_LOWLAND_3M_NAME" Description="LOC_COASTAL_LOWLAND_3M_DESCRIPTION" FloodedEvent="RANDOM_EVENT_SEA_LEVEL_RISE5" SubmergedEvent="RANDOM_EVENT_SEA_LEVEL_RISE7"/>
+	</CoastalLowlands>
+	<RandomEvent_Frequencies>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame=".6"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="0"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="0.5"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE1" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE2" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE3" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE4" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" RealismSettingType="REALISM_SETTING_MINIMAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="0.6"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="15"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE1" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE2" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE3" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE4" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" RealismSettingType="REALISM_SETTING_LIGHT" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2.5"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="7"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2.5"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="8"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="8"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="15"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="15"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="23"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE1" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE2" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE3" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE4" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" RealismSettingType="REALISM_SETTING_MODERATE" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="9"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="20"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="20"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="30"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="15"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE1" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE2" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE3" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE4" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" RealismSettingType="REALISM_SETTING_HEAVY" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1.5"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="3"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="9"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="6"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="5"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="20"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="10"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="20"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="15"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="30"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE1" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE2" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE3" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE4" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE5" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE6" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+		<Row RandomEventType="RANDOM_EVENT_SEA_LEVEL_RISE7" RealismSettingType="REALISM_SETTING_HYPERREAL" OccurrencesPerGame="1"/>
+	</RandomEvent_Frequencies>
+	<RandomEvent_Damages>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="IMPROVEMENT_DESTROYED" Percentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="DISTRICT_PILLAGED" Percentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="POPULATION_LOSS" Percentage="15"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="UNIT_KILLED_CIVILIAN" Percentage="15"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="30" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="CITY_GARRISON" Percentage="100" MinHP="30" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" DamageType="CITY_WALLS" Percentage="100" MinHP="30" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="IMPROVEMENT_DESTROYED" Percentage="80"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="DISTRICT_PILLAGED" Percentage="80"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="POPULATION_LOSS" Percentage="25"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="UNIT_KILLED_CIVILIAN" Percentage="25"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="50" MaxHP="70"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="CITY_GARRISON" Percentage="100" MinHP="50" MaxHP="70"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" DamageType="CITY_WALLS" Percentage="100" MinHP="50" MaxHP="70"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="POPULATION_LOSS" Percentage="20" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="CITY_GARRISON" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" DamageType="CITY_WALLS" Percentage="100" MinHP="40" MaxHP="60" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="POPULATION_LOSS" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN" Percentage="100" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="70" MaxHP="90" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="CITY_GARRISON" Percentage="100" MinHP="70" MaxHP="90" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" DamageType="CITY_WALLS" Percentage="100" MinHP="70" MaxHP="90" ExtraRangePercentage="50"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="IMPROVEMENT_DESTROYED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="DISTRICT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="CITY_GARRISON" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" DamageType="CITY_WALLS" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="IMPROVEMENT_DESTROYED" Percentage="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="IMPROVEMENT_PILLAGED" Percentage="100" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="DISTRICT_PILLAGED" Percentage="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="BUILDING_PILLAGED" Percentage="100" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="POPULATION_LOSS" Percentage="35" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="UNIT_KILLED_CIVILIAN" Percentage="35" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="CITY_GARRISON" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" DamageType="CITY_WALLS" Percentage="100" MinHP="60" MaxHP="80" ExtraRangePercentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="IMPROVEMENT_DESTROYED" Percentage="35"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="IMPROVEMENT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="DISTRICT_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_SIGNIFICANT" DamageType="BUILDING_PILLAGED" Percentage="60"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="IMPROVEMENT_DESTROYED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="DISTRICT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_BLIZZARD_CRIPPLING" DamageType="UNIT_DAMAGE_NAVAL" Percentage="60" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="IMPROVEMENT_DESTROYED" Percentage="35"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="IMPROVEMENT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="DISTRICT_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" DamageType="BUILDING_PILLAGED" Percentage="60"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="IMPROVEMENT_DESTROYED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="DISTRICT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" DamageType="UNIT_DAMAGE_NAVAL" Percentage="60" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="IMPROVEMENT_DESTROYED" Percentage="35"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="IMPROVEMENT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="DISTRICT_PILLAGED" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_FAMILY" DamageType="BUILDING_PILLAGED" Percentage="60"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="IMPROVEMENT_DESTROYED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="DISTRICT_PILLAGED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_TORNADO_OUTBREAK" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="IMPROVEMENT_DESTROYED" Percentage="35"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="IMPROVEMENT_PILLAGED" Percentage="75" CoastalLowlandPercentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="DISTRICT_PILLAGED" Percentage="20" CoastalLowlandPercentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="BUILDING_PILLAGED" Percentage="60"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" DamageType="UNIT_DAMAGE_NAVAL" Percentage="60" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="IMPROVEMENT_DESTROYED" Percentage="75"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="DISTRICT_PILLAGED" Percentage="75" CoastalLowlandPercentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="BUILDING_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="POPULATION_LOSS" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_KILLED_CIVILIAN" Percentage="20"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_DAMAGE_LAND" Percentage="100" MinHP="40" MaxHP="60"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" DamageType="UNIT_DAMAGE_NAVAL" Percentage="100" MinHP="60" MaxHP="80"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" DamageType="IMPROVEMENT_PILLAGED" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" DamageType="BUILDING_PILLAGED" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR" DamageType="RADIATION_LEAKED" Percentage="100" FalloutDuration="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="UNIT_KILLED_CIVILIAN" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="IMPROVEMENT_PILLAGED" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="DISTRICT_PILLAGED" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="BUILDING_PILLAGED" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="RADIATION_LEAKED" Percentage="100" FalloutDuration="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="UNIT_DAMAGE_LAND" Percentage="0" MinHP="20" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="UNIT_DAMAGE_NAVAL" Percentage="0" MinHP="20" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR" DamageType="CITY_GARRISON" Percentage="0" MinHP="20" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="IMPROVEMENT_PILLAGED" Percentage="10"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="BUILDING_DESTROYED" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="DISTRICT_PILLAGED" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="POPULATION_LOSS" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="RADIATION_LEAKED" Percentage="100" FalloutDuration="1"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="UNIT_DAMAGE_LAND" Percentage="0" MinHP="20" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="UNIT_DAMAGE_NAVAL" Percentage="0" MinHP="20" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="CITY_GARRISON" Percentage="0" MinHP="20" MaxHP="50"/>
+		<Row RandomEventType="RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC" DamageType="UNIT_KILLED_CIVILIAN" Percentage="0"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" DamageType="SPECIFIC_IMPROVEMENT_PILLAGED" Percentage="100"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" DamageType="SPECIFIC_IMPROVEMENT_DESTROYED" Percentage="30"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" DamageType="SPECIFIC_IMPROVEMENT_PILLAGED" Percentage="100"/>
+	</RandomEvent_Damages>
+	<RandomEvent_PillagedImprovements>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" ImprovementType="IMPROVEMENT_CAMP"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" ImprovementType="IMPROVEMENT_FARM"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" ImprovementType="IMPROVEMENT_PASTURE"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" ImprovementType="IMPROVEMENT_PLANTATION"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" ImprovementType="IMPROVEMENT_MOUND"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_MAJOR" ImprovementType="IMPROVEMENT_TERRACE_FARM"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" ImprovementType="IMPROVEMENT_CAMP"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" ImprovementType="IMPROVEMENT_FARM"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" ImprovementType="IMPROVEMENT_PASTURE"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" ImprovementType="IMPROVEMENT_PLANTATION"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" ImprovementType="IMPROVEMENT_MOUND"/>
+		<Row RandomEventType="RANDOM_EVENT_DROUGHT_EXTREME" ImprovementType="IMPROVEMENT_TERRACE_FARM"/>
+	</RandomEvent_PillagedImprovements>
+	<RandomEvent_Yields>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS" Percentage="25" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="15" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MODERATE" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="30" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS" Percentage="30" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS" Percentage="15" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="25" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="30" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="45" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_MAJOR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="10" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS" Percentage="45" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS" Percentage="25" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="40" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Percentage="40" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_FOOD" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="60" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_FLOOD_1000_YEAR" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Percentage="15" ReplaceFeature="false"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="50" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_GENTLE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="25" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="50" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="35" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_KILIMANJARO_CATASTROPHIC" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="15" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="25" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="25" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="25" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL" YieldType="YIELD_CULTURE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="50" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="35" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_GENTLE" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="15" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="50" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="25" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_CATASTROPHIC" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="10" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_FOOD" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="75" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="35" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_VOLCANO_MEGACOLOSSAL" YieldType="YIELD_SCIENCE" FeatureType="FEATURE_VOLCANIC_SOIL" Percentage="15" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="15" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_GRADIENT" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="30" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="30" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_DUST_STORM_HABOOB" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="45" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_4" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="30" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_FOOD" FeatureType="FEATURE_ICE" Percentage="45" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_HURRICANE_CAT_5" YieldType="YIELD_PRODUCTION" FeatureType="FEATURE_ICE" Percentage="15" ReplaceFeature="true"/>
+	</RandomEvent_Yields>
+	<PrevailingWinds>
+		<Row MinimumLatitude="60" MaximumLatitude="90" DirectionType="DIRECTION_NORTHWEST" Weight="1"/>
+		<Row MinimumLatitude="60" MaximumLatitude="90" DirectionType="DIRECTION_WEST" Weight="2"/>
+		<Row MinimumLatitude="60" MaximumLatitude="90" DirectionType="DIRECTION_SOUTHWEST" Weight="2"/>
+		<Row MinimumLatitude="30" MaximumLatitude="60" DirectionType="DIRECTION_NORTHEAST" Weight="2"/>
+		<Row MinimumLatitude="30" MaximumLatitude="60" DirectionType="DIRECTION_EAST" Weight="2"/>
+		<Row MinimumLatitude="30" MaximumLatitude="60" DirectionType="DIRECTION_SOUTHEAST" Weight="1"/>
+		<Row MinimumLatitude="5" MaximumLatitude="30" DirectionType="DIRECTION_NORTHWEST" Weight="2"/>
+		<Row MinimumLatitude="5" MaximumLatitude="30" DirectionType="DIRECTION_WEST" Weight="2"/>
+		<Row MinimumLatitude="5" MaximumLatitude="30" DirectionType="DIRECTION_SOUTHWEST" Weight="1"/>
+		<Row MinimumLatitude="0" MaximumLatitude="5" DirectionType="DIRECTION_NORTHWEST" Weight="1"/>
+		<Row MinimumLatitude="0" MaximumLatitude="5" DirectionType="DIRECTION_WEST" Weight="1"/>
+		<Row MinimumLatitude="-5" MaximumLatitude="0" DirectionType="DIRECTION_WEST" Weight="1"/>
+		<Row MinimumLatitude="-5" MaximumLatitude="0" DirectionType="DIRECTION_SOUTHWEST" Weight="1"/>
+		<Row MinimumLatitude="-30" MaximumLatitude="-5" DirectionType="DIRECTION_NORTHWEST" Weight="1"/>
+		<Row MinimumLatitude="-30" MaximumLatitude="-5" DirectionType="DIRECTION_WEST" Weight="2"/>
+		<Row MinimumLatitude="-30" MaximumLatitude="-5" DirectionType="DIRECTION_SOUTHWEST" Weight="2"/>
+		<Row MinimumLatitude="-60" MaximumLatitude="-30" DirectionType="DIRECTION_NORTHEAST" Weight="1"/>
+		<Row MinimumLatitude="-60" MaximumLatitude="-30" DirectionType="DIRECTION_EAST" Weight="2"/>
+		<Row MinimumLatitude="-60" MaximumLatitude="-30" DirectionType="DIRECTION_SOUTHEAST" Weight="2"/>
+		<Row MinimumLatitude="-90" MaximumLatitude="-60" DirectionType="DIRECTION_NORTHWEST" Weight="2"/>
+		<Row MinimumLatitude="-90" MaximumLatitude="-60" DirectionType="DIRECTION_WEST" Weight="2"/>
+		<Row MinimumLatitude="-90" MaximumLatitude="-60" DirectionType="DIRECTION_SOUTHWEST" Weight="1"/>
+	</PrevailingWinds>
+	<DeforestationLevels>
+		<Row DeforestationType="DEFORESTATION_LIGHT" Name="LOC_DEFORESTATION_LIGHT_NAME" Description="LOC_DEFORESTATION_LIGHT_DESCRIPTION" MaxDeforestationPercent="10" DeforestationPointsPerTurn="-1"/>
+		<Row DeforestationType="DEFORESTATION_EXPECTED" Name="LOC_DEFORESTATION_EXPECTED_NAME" Description="LOC_DEFORESTATION_EXPECTED_DESCRIPTION" MaxDeforestationPercent="25" DeforestationPointsPerTurn="1"/>
+		<Row DeforestationType="DEFORESTATION_HEAVY" Name="LOC_DEFORESTATION_HEAVY_NAME" Description="LOC_DEFORESTATION_HEAVY_DESCRIPTION" MaxDeforestationPercent="40" DeforestationPointsPerTurn="3"/>
+		<Row DeforestationType="DEFORESTATION_EXTREME" Name="LOC_DEFORESTATION_EXTREME_NAME" Description="LOC_DEFORESTATION_EXTREME_DESCRIPTION" MaxDeforestationPercent="100" DeforestationPointsPerTurn="5"/>
+	</DeforestationLevels>
+	<DeforestationEffects>
+		<Row DeforestationEffectType="DEFORESTATIONEFFECT_REDUCED" MaxAverageDeforestation="0.0" CO2PercentModifier="-20"/>
+		<Row DeforestationEffectType="DEFORESTATIONEFFECT_UNCHANGED" MaxAverageDeforestation="1.0" CO2PercentModifier="0"/>
+		<Row DeforestationEffectType="DEFORESTATIONEFFECT_SLIGHTINCREASE" MaxAverageDeforestation="2.0" CO2PercentModifier="10"/>
+		<Row DeforestationEffectType="DEFORESTATIONEFFECT_INCREASE" MaxAverageDeforestation="3.0" CO2PercentModifier="30"/>
+		<Row DeforestationEffectType="DEFORESTATIONEFFECT_HUGEINCREASE" MaxAverageDeforestation="5.0" CO2PercentModifier="50"/>
+	</DeforestationEffects>
+</GameInfo>

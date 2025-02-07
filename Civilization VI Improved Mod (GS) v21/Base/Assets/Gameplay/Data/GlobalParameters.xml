@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GlobalParameters>
+		
+		<Replace Name="AGENDAS_MAJOR_CIV_HISTORICAL_AGENDAS" Value="1" />
+		
+		<Replace Name="AGENDAS_MAJOR_CIV_RANDOM_AGENDAS" Value="1" />
+		
+		<Replace Name="AI_CURRENT_TASK_BIAS" Value="80" />
+		
+		<Replace Name="AI_DISCOUNT_RATE" Value="2.0" />
+		
+		<Replace Name="AI_ISLAND_COAST_PERCENTAGE" Value="20" />
+		
+		<Replace Name="AI_TURNS_BETWEEN_FRIENDSHIP_OFFERS" Value="5" />
+		
+		<Replace Name="AI_TURNS_BETWEEN_PEACE_OFFERS" Value="5" />
+		
+		<Replace Name="AI_TURNS_BETWEEN_TRADES" Value="10" />
+		
+		<Replace Name="AI_ZONE_OF_CONTROL_DISCOUNT" Value="0.1" />
+		
+		<Replace Name="ARCHAEOLOGY_MAX_ERA" Value="4" />
+		
+		<Replace Name="ARCHAEOLOGY_SITES_PER_CIV_LAND" Value="6" />
+		
+		<Replace Name="ARCHAEOLOGY_SITES_PER_CIV_SEA" Value="2" />
+		
+		<Replace Name="AVOID_FEATURE_MAX_MULTIPLIER" Value="0.004" />
+		
+		<Replace Name="AVOID_FEATURE_MAX_THRESHOLD" Value="24" />
+		
+		<Replace Name="BARBARIAN_BOLDNESS_PER_CAMP_ATTACK" Value="-30" />
+		
+		<Replace Name="BARBARIAN_BOLDNESS_PER_KILL" Value="15" />
+		
+		<Replace Name="BARBARIAN_BOLDNESS_PER_SCOUT_LOST" Value="-5" />
+		
+		<Replace Name="BARBARIAN_BOLDNESS_PER_TURN" Value="0" />
+		
+		<Replace Name="BARBARIAN_BOLDNESS_PER_UNIT_LOST" Value="-10" />
+		
+		<Replace Name="BARBARIAN_CAMP_COASTAL_SPAWN_ROLL" Value="6" />
+		
+		<Replace Name="BARBARIAN_CAMP_EXTRA_DISTANCE_PER_LOW_DIFFICULTY" Value="1" />
+		
+		<Replace Name="BARBARIAN_CAMP_FIRST_TURN_PERCENT_OF_TARGET_TO_ADD" Value="33" />
+		
+		<Replace Name="BARBARIAN_CAMP_MAX_PER_MAJOR_CIV" Value="1" />
+		
+		<Replace Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP" Value="7" />
+		
+		<Replace Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_CITY" Value="8" />
+		
+		<Replace Name="BARBARIAN_CAMP_ODDS_OF_NEW_CAMP_SPAWNING" Value="2" />
+		
+		<Replace Name="BARBARIAN_NUM_RANDOM_UNIT_CHOICES" Value="3" />
+		
+		<Replace Name="BARBARIAN_RELEASE_VARIATION" Value="20" />
+		
+		<Replace Name="BARBARIAN_TECH_PERCENT" Value="50" />
+		
+		<Replace Name="BONUS_RESOURCE_FERTILITY" Value="0" />
+		
+		<Replace Name="CITY_AMENITIES_FOR_FREE" Value="1" />
+		
+		<Replace Name="CITY_CAPTURED_DAMAGE_PERCENTAGE" Value="50" />
+		
+		<Replace Name="CITY_CENTER_TRAIN_WHEN_CONTAMINATED" Value="false" />
+		
+		<Replace Name="CITY_FOOD_CONSUMPTION_PER_POPULATION" Value="2" />
+		
+		<Replace Name="CITY_GROWTH_EXPONENT" Value="1.5" />
+		
+		<Replace Name="CITY_GROWTH_MULTIPLIER" Value="8" />
+		
+		<Replace Name="CITY_GROWTH_OCCUPATION_MULTIPLIER" Value="0.0" />
+		
+		<Replace Name="CITY_GROWTH_THRESHOLD" Value="15" />
+		
+		<Replace Name="CITY_HOUSING_LEFT_25PCT_GROWTH" Value="0" />
+		
+		<Replace Name="CITY_HOUSING_LEFT_50PCT_GROWTH" Value="1" />
+		
+		<Replace Name="CITY_HOUSING_LEFT_ZERO_GROWTH" Value="-4" />
+		
+		<Replace Name="CITY_MAX_BUY_PLOT_RANGE" Value="3" />
+		
+		<Replace Name="CITY_MIN_DISTANCE_FOR_INCURSION" Value="8" />
+		
+		<Replace Name="CITY_MIN_RANGE" Value="3" />
+		
+		<Replace Name="CITY_MOVEMENT_COST" Value="1" />
+		
+		<Replace Name="CITY_NORMAL_PLOT_WORKER_CAPACITY" Value="1" />
+		
+		<Replace Name="CITY_POP_PER_AMENITY" Value="2" />
+		
+		<Replace Name="CITY_POPULATION_AQUEDUCT_BOOST" Value="2" />
+		
+		<Replace Name="CITY_POPULATION_AQUEDUCT_MIN" Value="6" />
+		
+		<Replace Name="CITY_POPULATION_COAST" Value="3" />
+		
+		<Replace Name="CITY_POPULATION_LOSS_TO_CONQUEST_PERCENTAGE" Value="0.25" />
+		
+		<Replace Name="CITY_POPULATION_NO_WATER" Value="2" />
+		
+		<Replace Name="CITY_POPULATION_RIVER_LAKE" Value="5" />
+		
+		<Replace Name="COAST_FERTILITY" Value="2" />
+		
+		<Replace Name="COMBAT_AIR_SUPPORT_BONUS_MODIFIER" Value="5" />
+		
+		<Replace Name="COMBAT_AMPHIBIOUS_ATTACK_PENALTY" Value="-10" />
+		
+		<Replace Name="COMBAT_ANTI_AIR_SUPPORT_BONUS_MODIFIER" Value="5" />
+		
+		<Replace Name="COMBAT_ARMY_STRENGTH_MODIFIER" Value="17" />
+		
+		<Replace Name="COMBAT_BASE_CAPTURE_STRENGTH_DIFFERENCE" Value="20" />
+		
+		<Replace Name="COMBAT_BASE_DAMAGE" Value="24" />
+		
+		<Replace Name="COMBAT_BOMBARD_VS_UNIT_STRENGTH_MODIFIER" Value="17" />
+		
+		<Replace Name="COMBAT_CITIES_OCCUPIED_FOREVER" Value="false" />
+		
+		<Replace Name="COMBAT_CITY_RANGED_DAMAGE_THRESHOLD" Value="50" />
+		
+		<Replace Name="COMBAT_CORPS_STRENGTH_MODIFIER" Value="10" />
+		
+		<Replace Name="COMBAT_DAMAGE_MULTIPLIER_MINIMUM" Value="0.25" />
+		
+		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_BOMBARD" Value="100" />
+		
+		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_MELEE" Value="15" />
+		
+		<Replace Name="COMBAT_DEFENSE_DAMAGE_PERCENT_RANGED" Value="50" />
+		
+		<Replace Name="COMBAT_DISTRICT_STRENGTH_REDUCTION" Value="15" />
+		
+		<Replace Name="COMBAT_FLANKING_BONUS_MODIFIER" Value="2" />
+		
+		<Replace Name="COMBAT_GARRISON_MILITIA_MODIFIER" Value="10" />
+		
+		<Replace Name="COMBAT_HEAL_CITY_GARRISON" Value="30" />
+		
+		<Replace Name="COMBAT_HEAL_CITY_OUTER_DEFENSES" Value="1" />
+		
+		<Replace Name="COMBAT_HEAL_LAND_ENEMY" Value="10" />
+		
+		<Replace Name="COMBAT_HEAL_LAND_FRIENDLY" Value="20" />
+		
+		<Replace Name="COMBAT_HEAL_LAND_NEUTRAL" Value="15" />
+		
+		<Replace Name="COMBAT_HEAL_NAVAL_ENEMY" Value="10" />
+		
+		<Replace Name="COMBAT_HEAL_NAVAL_FRIENDLY" Value="20" />
+		
+		<Replace Name="COMBAT_HEAL_NAVAL_NEUTRAL" Value="15" />
+		
+		<Replace Name="COMBAT_HEAL_OUTER_DEFENSES_COOLDOWN" Value="3" />
+		
+		<Replace Name="COMBAT_HEAL_RELIGIOUS_CHARGE" Value="40" />
+		
+		<Replace Name="COMBAT_KEEP_ALL_CITIES_ON_CAPTURE" Value="false" />
+		
+		<Replace Name="COMBAT_MAX_EXTRA_DAMAGE" Value="12" />
+		
+		<Replace Name="COMBAT_MAX_HIT_POINTS" Value="100" />
+		
+		<Replace Name="COMBAT_MAX_NUM_ATTACKS" Value="1" />
+		
+		<Replace Name="COMBAT_MIN_CIVILIAN_DAMAGE_PERCENT" Value="65" />
+		
+		<Replace Name="COMBAT_MIN_HEALTH_PERCENT_TO_ADVANCED_AIR_PILLAGE" Value="1" />
+		
+		<Replace Name="COMBAT_MIN_HEALTH_PERCENT_TO_AIR_PILLAGE" Value="50" />
+		
+		<Replace Name="COMBAT_MINIMUM_CITY_STRIKE_STRENGTH" Value="3" />
+		
+		<Replace Name="COMBAT_MINIMUM_DAMAGE" Value="1" />
+		
+		<Replace Name="COMBAT_MINIMUM_GARRISON_STRENGTH" Value="0" />
+		
+		<Replace Name="COMBAT_POPULATION_PER_STRENGTH" Value="2" />
+		
+		<Replace Name="COMBAT_POWER_DAMPENER" Value="5" />
+		
+		<Replace Name="COMBAT_POWER_SCALING" Value="0.04" />
+		
+		<Replace Name="COMBAT_PUSHBACK_STRENGTH_MODIFIER" Value="10" />
+		
+		<Replace Name="COMBAT_RANGED_VS_DISTRICT_STRENGTH_MODIFIER" Value="17" />
+		
+		<Replace Name="COMBAT_RAZE_ANY_CITY" Value="false" />
+		
+		<Replace Name="COMBAT_RELIGIOUS_FOLLOWING_CITY_TILE" Value="5" />
+		
+		<Replace Name="COMBAT_RELIGIOUS_HOLY_CITY_TILE" Value="15" />
+		
+		<Replace Name="COMBAT_RIVER_DEFENSE" Value="5" />
+		
+		<Replace Name="COMBAT_STRENGTH_FROM_ENVOYS" Value="1.0" />
+		
+		<Replace Name="COMBAT_SUPPORT_BONUS_MODIFIER" Value="2" />
+		
+		<Replace Name="COMBAT_WOUNDED_DAMAGE_MULTIPLIER" Value="10" />
+		
+		<Replace Name="COMBAT_WOUNDED_DISTRICT_DAMAGE_MULTIPLIER" Value="10" />
+		
+		<Replace Name="CULTURE_COST_FIRST_PLOT" Value="10" />
+		
+		<Replace Name="CULTURE_COST_LATER_PLOT_EXPONENT" Value="1.3" />
+		
+		<Replace Name="CULTURE_COST_LATER_PLOT_MULTIPLIER" Value="6" />
+		
+		<Replace Name="CULTURE_PERCENTAGE_YIELD_PER_POP" Value="30" />
+		
+		<Replace Name="DIPLOMACY_ALLIANCE_TIME_LIMIT" Value="20" />
+		
+		<Replace Name="DIPLOMACY_DECLARED_FRIENDSHIP_TIME_LIMIT" Value="30" />
+		
+		<Replace Name="DIPLOMACY_DEFENSIVE_PACT_TIME_LIMIT" Value="30" />
+		
+		<Replace Name="DIPLOMACY_DENOUNCE_TIME_LIMIT" Value="30" />
+		
+		<Replace Name="DIPLOMACY_DENOUNCE_WAR_DELAY" Value="5" />
+		
+		<Replace Name="DIPLOMACY_EARLIEST_MAJOR_DOW_TURN" Value="0" />
+		
+		<Replace Name="DIPLOMACY_FIRST_MEET_HOSPITALITY_DISTANCE" Value="6" />
+		
+		<Replace Name="DIPLOMACY_MAXIMUM_LOPSIDED_DEAL_MODIFIER" Value="10" />
+		
+		<Replace Name="DIPLOMACY_PEACE_MIN_TURNS" Value="10" />
+		
+		<Replace Name="DIPLOMACY_RESEARCH_AGREEMENT_BEAKER_PERCENTAGE" Value="10" />
+		
+		<Replace Name="DIPLOMACY_SIGNIFICANTLY_LOPSIDED_DEAL" Value="10" />
+		
+		<Replace Name="DIPLOMACY_VISIBILITY_TO_SEE_THREAT" Value="2" />
+		
+		<Replace Name="DIPLOMACY_VISIBILITY_TO_SEE_TRUST" Value="3" />
+		
+		<Replace Name="DIPLOMACY_WAR_LAST_FOREVER" Value="false" />
+		
+		<Replace Name="DIPLOMACY_WAR_MIN_TURNS" Value="10" />
+		
+		<Replace Name="DIPLOMACY_WARMONGER_POINT_PERCENT_DECAY" Value="50" />
+		
+		<Replace Name="DISTRICT_POPULATION_REQUIRED_PER" Value="3" />
+		
+		<Replace Name="ESPIONAGE_BONUS_GAIN_SOURCES" Value="2" />
+		
+		<Replace Name="ESPIONAGE_ESCAPE_BASE_CHANCE" Value="10" />
+		
+		<Replace Name="ESPIONAGE_ESCAPE_COUNTERSPY_LEVEL_MODIFIER" Value="-1" />
+		
+		<Replace Name="ESPIONAGE_ESCAPE_LEVEL_BOOST" Value="1" />
+		
+		<Replace Name="ESPIONAGE_ESCAPE_POLICE_CORRECT_MODIFIER" Value="-4" />
+		
+		<Replace Name="ESPIONAGE_GAIN_SOURCES_DURATION_MULTIPLIER" Value="3" />
+		
+		<Replace Name="ESPIONAGE_MAX_LEVEL" Value="4" />
+		
+		<Replace Name="EXPERIENCE_ACTIVATE_GOODY_HUT" Value="5" />
+		
+		<Replace Name="EXPERIENCE_BARB_SOFT_CAP" Value="1" />
+		
+		<Replace Name="EXPERIENCE_CITY_CAPTURED" Value="10" />
+		
+		<Replace Name="EXPERIENCE_COMBAT_ATTACKER_BONUS" Value="2" />
+		
+		<Replace Name="EXPERIENCE_COMBAT_RANGED" Value="2" />
+		
+		<Replace Name="EXPERIENCE_DISTRICT_VS_UNIT" Value="2" />
+		
+		<Replace Name="EXPERIENCE_KILL_BONUS" Value="2" />
+		
+		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="2" />
+		
+		<Replace Name="EXPERIENCE_MAX_LEVEL" Value="6" />
+		
+		<Replace Name="EXPERIENCE_MAXIMUM_ONE_COMBAT" Value="10" />
+		
+		<Replace Name="EXPERIENCE_NEEDED_FOR_NEXT_LEVEL_MULTIPLIER" Value="5" />
+		
+		<Replace Name="EXPERIENCE_NOT_COMBAT_RANGED" Value="2" />
+		
+		<Replace Name="EXPERIENCE_PROMOTE_HEALED" Value="50" />
+		
+		<Replace Name="EXPERIENCE_RETRAIN_HEALED" Value="100" />
+		
+		<Replace Name="EXPERIENCE_REVEAL_NATURAL_WONDER" Value="10" />
+		
+		<Replace Name="EXPERIENCE_UNIT_VS_DISTRICT_NOT_CITY_CAPTURED" Value="3" />
+		
+		<Replace Name="FORTIFY_BONUS_PER_TURN" Value="5" />
+		
+		<Replace Name="FORTIFY_TURN_MAX" Value="1" />
+		
+		<Replace Name="FRESH_WATER_FERTILITY" Value="2" />
+		
+		<Replace Name="GAME_COST_ESCALATION" Value="1000" />
+		
+		<Replace Name="GOLD_EQUIVALENT_OTHER_YIELDS" Value="2" />
+		
+		<Replace Name="GOLD_NEGATIVE_BALANCE_AMENITY_LOSS_LINE" Value="0" />
+		
+		<Replace Name="GOLD_NEGATIVE_BALANCE_DISBAND_UNIT_LINE" Value="-10" />
+		
+		<Replace Name="GOLD_NEGATIVE_BALANCE_SUBSEQUENT_AMENITY_LOSS" Value="-10" />
+		
+		<Replace Name="GOLD_NEGATIVE_BALANCE_SUBSEQUENT_DISBAND_UNIT" Value="-10" />
+		
+		<Replace Name="GOLD_PERCENTAGE_YIELD_PER_UNASSIGNED_POP" Value="50" />
+		
+		<Replace Name="GOLD_PURCHASE_MULTIPLIER" Value="2" />
+		
+		<Replace Name="GOVERNMENT_ALLOW_EMPTY_POLICY_SLOTS" Value="false" />
+		
+		<Replace Name="GOVERNMENT_BASE_ANARCHY_TURNS" Value="2" />
+		
+		<Replace Name="GOVERNMENT_UNLOCK_WITH_FAITH" Value="false" />
+		
+		<Replace Name="GREATWORK_ART_LOCK_TIME" Value="10" />
+		
+		<Replace Name="HARVEST_IMPROVED_DEGRADATION" Value="50" />
+		
+		<Replace Name="HARVEST_PILLAGED_DEGRADATION" Value="30" />
+		
+		<Replace Name="INFLUENCE_TOKENS_FREE_FOR_FIRST_PLAYER_MEET" Value="1" />
+		
+		<Replace Name="INFLUENCE_TOKENS_MINIMUM_FOR_SUZERAIN" Value="3" />
+		
+		<Replace Name="LAKE_MAX_AREA_SIZE" Value="9" />
+		
+		<Replace Name="LAKE_PLOT_RANDOM" Value="40" />
+		
+		<Replace Name="LEVY_MILITARY_PERCENT_OF_UNIT_PURCHASE_COST" Value="25" />
+		
+		<Replace Name="LEVY_MILITARY_TURN_DURATION" Value="30" />
+		
+		<Replace Name="LUXURY_HAPPINESS_LOSS_PER_ERA" Value="2" />
+		
+		<Replace Name="LUXURY_HAPPINESS_MINIMUM" Value="2" />
+		
+		<Replace Name="LUXURY_RESOURCE_FERTILITY" Value="5" />
+		
+		<Replace Name="MAYHEM_BUILDING_PILLAGED" Value="2.0" />
+		
+		<Replace Name="MAYHEM_CAPTURE_CIVILIAN" Value="1" />
+		
+		<Replace Name="MAYHEM_CITY_DEATH" Value="3.0" />
+		
+		<Replace Name="MAYHEM_CITY_DEATH_WITH_BARBARIANS" Value="2.0" />
+		
+		<Replace Name="MAYHEM_DECLARATION_OF_WAR" Value="2" />
+		
+		<Replace Name="MAYHEM_DENOUNCEMENT" Value="1" />
+		
+		<Replace Name="MAYHEM_DISTRICT_DEATH" Value="1.0" />
+		
+		<Replace Name="MAYHEM_DISTRICT_DEATH_WITH_BARBARIANS" Value="0.5" />
+		
+		<Replace Name="MAYHEM_DISTRICT_PILLAGED" Value="1.5" />
+		
+		<Replace Name="MAYHEM_IMPROVEMENT_PILLAGED" Value="1.0" />
+		
+		<Replace Name="MAYHEM_NUCLEAR_LAUNCH" Value="5.0" />
+		
+		<Replace Name="MAYHEM_PEACE" Value="-1" />
+		
+		<Replace Name="MAYHEM_PLAYER_DESTROYED" Value="3.0" />
+		
+		<Replace Name="MAYHEM_UNIT_COMBAT" Value="1.0" />
+		
+		<Replace Name="MAYHEM_UNIT_COMBAT_WITH_BARBARIANS" Value="0.5" />
+		
+		<Replace Name="MAYHEM_UNIT_DEATH" Value="1.0" />
+		
+		<Replace Name="MAYHEM_UNIT_DEATH_WITH_BARBARIANS" Value="0.5" />
+		
+		<Replace Name="MOUNTAIN_ADJACENT_FERTILITY" Value="1" />
+		
+		<Replace Name="MOVEMENT_EMBARK_COST" Value="2" />
+		
+		<Replace Name="MOVEMENT_RIVER_COST" Value="2" />
+		
+		<Replace Name="MOVEMENT_WHILE_EMBARKED_BASE" Value="3" />
+		
+		<Replace Name="NATIONAL_PARK_AMENITIES_OWNING_CITY" Value="2" />
+		
+		<Replace Name="NATIONAL_PARK_GOLD_YIELD_PER_TOURISM" Value="0" />
+		
+		<Replace Name="NATIONAL_PARK_NUM_OTHER_AMENITY_CITIES" Value="4" />
+		
+		<Replace Name="NATURAL_WONDER_ADJACENT_FERTILITY" Value="1" />
+		
+		<Replace Name="OCEAN_MIN_WATER_SIZE" Value="10" />
+		
+		<Replace Name="PILLAGE_ADVANCED_MOVEMENT_COST" Value="1" />
+		
+		<Replace Name="PILLAGE_BUILDING_REPAIR_PERCENT" Value="25" />
+		
+		<Replace Name="PILLAGE_MOVEMENT_COST" Value="2" />
+		
+		<Replace Name="PLOT_BUY_BASE_COST" Value="50" />
+		
+		<Replace Name="PLOT_CONTAMINATION_DAMAGE_BASE" Value="50" />
+		
+		<Replace Name="PLOT_INFLUENCE_BASE_MULTIPLIER" Value="100" />
+		
+		<Replace Name="PLOT_INFLUENCE_DISTANCE_DIVISOR" Value="2" />
+		
+		<Replace Name="PLOT_INFLUENCE_DISTANCE_MULTIPLIER" Value="100" />
+		
+		<Replace Name="PLOT_INFLUENCE_IMPROVEMENT_COST" Value="-5" />
+		
+		<Replace Name="PLOT_INFLUENCE_MAX_ACQUIRE_DISTANCE" Value="5" />
+		
+		<Replace Name="PLOT_INFLUENCE_NW_COST" Value="-105" />
+		
+		<Replace Name="PLOT_INFLUENCE_RESOURCE_COST" Value="-105" />
+		
+		<Replace Name="PLOT_INFLUENCE_RING_COST" Value="100" />
+		
+		<Replace Name="PLOT_INFLUENCE_WATER_COST" Value="25" />
+		
+		<Replace Name="PLOT_INFLUENCE_YIELD_POINT_COST" Value="-1" />
+		
+		<Replace Name="PLOT_UNIT_LIMIT" Value="1" />
+		
+		<Replace Name="POLICY_COST_BASE" Value="25" />
+		
+		<Replace Name="POLICY_COST_EXPONENT" Value="1.5" />
+		
+		<Replace Name="POLICY_COST_INCREASE_TO_BE_EXPONENTED" Value="3" />
+		
+		<Replace Name="POLICY_COST_VISIBLE_DIVISOR" Value="5" />
+		
+		<Replace Name="POLICY_ENACTED_DISCOUNT" Value="50" />
+		
+		<Replace Name="PURCHASE_DIVISOR" Value="5" />
+		
+		<Replace Name="REBELLION_CHANCE_PER_POINT" Value="2.0" />
+		
+		<Replace Name="REBELLION_COOLDOWN_TURNS" Value="20" />
+		
+		<Replace Name="RELIGION_HEALING_MULTIPLIER" Value="3" />
+		
+		<Replace Name="RELIGION_INITIAL_BELIEFS" Value="2" />
+		
+		<Replace Name="RELIGION_PANTHEON_MIN_FAITH" Value="25" />
+		
+		<Replace Name="RELIGION_SPREAD_ADJACENT_CITY_DISTANCE" Value="10" />
+		
+		<Replace Name="RELIGION_SPREAD_ADJACENT_PER_TURN_PRESSURE" Value="1" />
+		
+		<Replace Name="RELIGION_SPREAD_ATHEISM_PRESSURE_PER_POP" Value="50" />
+		
+		<Replace Name="RELIGION_SPREAD_COMBAT_VICTORY" Value="250" />
+		
+		<Replace Name="RELIGION_SPREAD_HOLY_CITY_PRESSURE_MULTIPLIER" Value="4" />
+		
+		<Replace Name="RELIGION_SPREAD_HOLY_CITY_PRESSURE_PER_POP" Value="200" />
+		
+		<Replace Name="RELIGION_SPREAD_HOLY_SITE_PRESSURE_MULTIPLIER" Value="2" />
+		
+		<Replace Name="RELIGION_SPREAD_RANGE_COMBAT_VICTORY" Value="6" />
+		
+		<Replace Name="RELIGION_SPREAD_RANGE_UNIT_CAPTURE" Value="6" />
+		
+		<Replace Name="RELIGION_SPREAD_STRENGTH_MULTIPLIER" Value="200" />
+		
+		<Replace Name="RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_DESTINATION" Value="1.0" />
+		
+		<Replace Name="RELIGION_SPREAD_TRADE_ROUTE_PRESSURE_FOR_ORIGIN" Value="0.5" />
+		
+		<Replace Name="RELIGION_SPREAD_UNIT_CAPTURE" Value="125" />
+		
+		<Replace Name="RIVER_FERTILITY" Value="1" />
+		
+		<Replace Name="RIVER_PLOTS_PER_EDGE" Value="12" />
+		
+		<Replace Name="RIVER_SEA_WATER_RANGE_DEFAULT" Value="3" />
+		
+		<Replace Name="RIVER_SOURCE_MIN_RIVER_RANGE" Value="4" />
+		
+		<Replace Name="RIVER_SOURCE_MIN_SEAWATER_RANGE" Value="2" />
+		
+		<Replace Name="RIVER_SOURCE_RANGE_DEFAULT" Value="4" />
+		
+		<Replace Name="SCIENCE_PERCENTAGE_YIELD_PER_POP" Value="70" />
+		
+		<Replace Name="SNOW_ICE_FERTILITY" Value="0" />
+		
+		<Replace Name="START_DISTANCE_MAJOR_CIVILIZATION" Value="12" />
+		
+		<Replace Name="START_DISTANCE_MAJOR_NATURAL_WONDER" Value="3" />
+		
+		<Replace Name="START_DISTANCE_MINOR_CIVILIZATION_START" Value="7" />
+		
+		<Replace Name="START_DISTANCE_MINOR_MAJOR_CIVILIZATION" Value="7" />
+		
+		<Replace Name="START_DISTANCE_MINOR_NATURAL_WONDER" Value="3" />
+		
+		<Replace Name="START_DISTANCE_RANGE_MAJOR" Value="2" />
+		
+		<Replace Name="START_DISTANCE_RANGE_MINOR" Value="4" />
+		
+		<Replace Name="START_FERTILITY_WEIGHT_BONUS" Value="75" />
+		
+		<Replace Name="START_FERTILITY_WEIGHT_CONTINENTAL_DIVIDE" Value="250" />
+		
+		<Replace Name="START_FERTILITY_WEIGHT_LUXURY" Value="250" />
+		
+		<Replace Name="START_LEGENDARY_BONUS_QUANTITY" Value="5" />
+		
+		<Replace Name="START_LEGENDARY_LUXURY_QUANTITY" Value="3" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_FERTILITY" Value="0" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_FERTILITY_STARTING_ERA_ADDITIONAL" Value="5" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_FERTILITY_STARTING_ERA_RANGE" Value="1" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_MINIMUM_FOR_PRODUCTION_ANYWHERE" Value="2" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_MINIMUM_FOR_PRODUCTION_WITH_DISTRICT" Value="1" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_MINIMUM_FOR_PURCHASE_ANYWHERE" Value="2" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_MINIMUM_FOR_PURCHASE_WITH_DISTRICT" Value="1" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_MINIMUM_FOR_UNIT_HEALING" Value="1" />
+		
+		<Replace Name="STRATEGIC_RESOURCE_MINIMUM_FOR_UNIT_UPGRADING" Value="1" />
+		
+		<Replace Name="TOURISM_ADVANCED_ERA_WONDER" Value="true" />
+		
+		<Replace Name="TOURISM_BASE_FROM_WONDER" Value="2" />
+		
+		<Replace Name="TOURISM_CONFLICTING_GOVERNMENT_MULTIPLIER" Value="3" />
+		
+		<Replace Name="TOURISM_CULTURE_PER_CITIZEN" Value="100" />
+		
+		<Replace Name="TOURISM_DIFFERENT_RELIGION_REDUCTION" Value="50" />
+		
+		<Replace Name="TOURISM_FROM_HOLY_CITY" Value="8" />
+		
+		<Replace Name="TOURISM_OPEN_BORDERS_BONUS" Value="25" />
+		
+		<Replace Name="TOURISM_TOURISM_TO_MOVE_CITIZEN" Value="150" />
+		
+		<Replace Name="TOURISM_TRADE_ROUTE_BONUS" Value="25" />
+		
+		<Replace Name="TRADE_ROUTE_BASE_RANGE" Value="15" />
+		
+		<Replace Name="TRADE_ROUTE_GOLD_PER_DESTINATION_DISTRICT" Value="2" />
+		
+		<Replace Name="TRADE_ROUTE_GOLD_PER_ORIGIN_DISTRICT" Value="2" />
+		
+		<Replace Name="TRADE_ROUTE_LAND_RANGE_REFUEL" Value="15" />
+		
+		<Replace Name="TRADE_ROUTE_PLACES_ROADS" Value="true" />
+		
+		<Replace Name="TRADE_ROUTE_TURN_DURATION_BASE" Value="20" />
+		
+		<Replace Name="TRADE_ROUTE_WATER_RANGE_REFUEL" Value="30" />
+		
+		<Replace Name="TRADING_POST_GOLD_IN_FOREIGN_CITY" Value="1" />
+		
+		<Replace Name="TRADING_POST_GOLD_IN_OWN_CITY" Value="0" />
+		
+		<Replace Name="TUNDRA_FERTILITY_MODIFIER" Value="-5" />
+		
+		<Replace Name="UNIT_ARMY_COST_MODIFIER" Value="2.0" />
+		
+		<Replace Name="UNIT_CORPS_COST_MODIFIER" Value="1.5" />
+		
+		<Replace Name="UNLOCK_EMBARKATION" Value="false" />
+		
+		<Replace Name="UPGRADE_BASE_COST" Value="10" />
+		
+		<Replace Name="UPGRADE_MINIMUM_COST" Value="15" />
+		
+		<Replace Name="UPGRADE_NET_PRODUCTION_PERCENT_COST" Value="75" />
+		
+		<Replace Name="WAR_WEARINESS_DECAY_PEACE_DECLARED" Value="2000" />
+		
+		<Replace Name="WAR_WEARINESS_DECAY_TURN_AT_PEACE" Value="200" />
+		
+		<Replace Name="WAR_WEARINESS_DECAY_TURN_AT_WAR" Value="50" />
+		
+		<Replace Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_AT_WAR_CITY" Value="3" />
+		
+		<Replace Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_FOUNDED_CITY" Value="0" />
+		
+		<Replace Name="WAR_WEARINESS_LOSS_OVER_REQ_AMENITIES_NONFOUNDED_CITY" Value="1" />
+		
+		<Replace Name="WAR_WEARINESS_PER_COMBAT_IN_ALLIED_LANDS" Value="1" />
+		
+		<Replace Name="WAR_WEARINESS_PER_COMBAT_IN_FOREIGN_LANDS" Value="2" />
+		
+		<Replace Name="WAR_WEARINESS_PER_UNIT_KILLED" Value="3" />
+		
+		<Replace Name="WAR_WEARINESS_PER_WMD_LAUNCHED" Value="10" />
+		
+		<Replace Name="WAR_WEARINESS_POINTS_FOR_AMENITY_LOSS" Value="400" />
+		
+		<Replace Name="WAR_WEARINESS_WARMONGER_BASE" Value="16" />
+		
+		<Replace Name="WARMONGER_CITY_PERCENT_OF_DOW" Value="50" />
+		
+		<Replace Name="WARMONGER_FINAL_MAJOR_CITY_MULTIPLIER" Value="200" />
+		
+		<Replace Name="WARMONGER_FINAL_MINOR_CITY_MULTIPLIER" Value="100" />
+		
+		<Replace Name="WARMONGER_LIBERATE_POINTS" Value="32" />
+		
+		<Replace Name="WARMONGER_RAZE_PENALTY_PERCENT" Value="200" />
+		
+		<Replace Name="WARMONGER_REDUCTION_IF_AT_WAR" Value="40" />
+		
+		<Replace Name="WARMONGER_REDUCTION_IF_DENOUNCED" Value="20" />
+		
+		<Replace Name="WARMONGER_STOP_OCCUPYING_REFUND_PERCENT" Value="-100" />
+		
+		<Replace Name="WONDER_FREE_TILES_UPON_COMPLETION" Value="2" />
+		
+		<Replace Name="YIELD_FOOD_CITY_TERRAIN_REPLACE" Value="2" />
+		
+		<Replace Name="YIELD_PRODUCTION_CITY_TERRAIN_REPLACE" Value="1" />
+ 
+	</GlobalParameters>
+</GameInfo>

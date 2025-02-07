@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GOVERNMENT_CORPORATE_LIBERTARIANISM" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_DIGITAL_DEMOCRACY" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_SYNTHETIC_TECHNOCRACY" Kind="KIND_GOVERNMENT"/>
+	</Types>
+	<GovernmentTiers>
+		<Row TierType="Tier4" Sorting="4"/>
+	</GovernmentTiers>
+	<Governments>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_AUTOCRACY"/>
+      <Set>
+        <OtherGovernmentIntolerance>0</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_OLIGARCHY"/>
+      <Set>
+        <OtherGovernmentIntolerance>0</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"/>
+      <Set>
+        <OtherGovernmentIntolerance>0</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_MONARCHY"/>
+      <Set>
+        <OtherGovernmentIntolerance>0</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_THEOCRACY"/>
+      <Set>
+        <OtherGovernmentIntolerance>0</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"/>
+      <Set>
+        <OtherGovernmentIntolerance>0</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_FASCISM"/>
+      <Set>
+        <OtherGovernmentIntolerance>-20</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_COMMUNISM"/>
+      <Set>
+        <OtherGovernmentIntolerance>-20</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <Update>
+      <Where GovernmentType="GOVERNMENT_DEMOCRACY"/>
+      <Set>
+        <OtherGovernmentIntolerance>-20</OtherGovernmentIntolerance>
+      </Set>
+    </Update>
+    <!--Note that many of the meanings of these fields have changed. BonusType needs to be present for UI but is not used for gameplay bonuses any longer. Accumulated bonuses no longer accumulate, they are just another type of gameplay effect.-->
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" Name="LOC_GOVERNMENT_CORPORATE_LIBERTARIANISM_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CORPORATE_LIBERTARIANISM" BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CORPORATE_LIBERTARIANISM" PrereqCivic="CIVIC_CORPORATE_LIBERTARIANISM" OtherGovernmentIntolerance="-20" InfluencePointsPerTurn="9" InfluencePointsThreshold="250" InfluenceTokensPerThreshold="4" Tier="Tier4"/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" Name="LOC_GOVERNMENT_DIGITAL_DEMOCRACY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DIGITAL_DEMOCRACY" BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DIGITAL_DEMOCRACY" PrereqCivic="CIVIC_DIGITAL_DEMOCRACY" OtherGovernmentIntolerance="-20" InfluencePointsPerTurn="9" InfluencePointsThreshold="250" InfluenceTokensPerThreshold="4" Tier="Tier4"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" Name="LOC_GOVERNMENT_SYNTHETIC_TECHNOCRACY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_SYNTHETIC_TECHNOCRACY" BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_SYNTHETIC_TECHNOCRACY" PrereqCivic="CIVIC_SYNTHETIC_TECHNOCRACY" OtherGovernmentIntolerance="-20" InfluencePointsPerTurn="9" InfluencePointsThreshold="250" InfluenceTokensPerThreshold="4" Tier="Tier4"/>
+	</Governments>
+	<Governments_XP2>
+		<Row GovernmentType="GOVERNMENT_CHIEFDOM" Favor="0"/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" Favor="1"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" Favor="1"/>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" Favor="1"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" Favor="2"/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" Favor="2"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" Favor="2"/>
+		<Row GovernmentType="GOVERNMENT_FASCISM" Favor="3"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" Favor="3"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" Favor="3"/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" Favor="4"/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" Favor="4"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" Favor="4"/>
+	</Governments_XP2>
+	<Government_SlotCounts>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_MILITARY" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM" GovernmentSlotType="SLOT_WILDCARD" NumSlots="6"/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_MILITARY" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="6"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_MILITARY" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="6"/>
+	</Government_SlotCounts>
+  <GovernmentModifiers>
+    <Row GovernmentType="GOVERNMENT_DEMOCRACY">
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODTOALLY</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DEMOCRACY">
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DEMOCRACY">
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODFROMALLY</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DEMOCRACY">
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DEMOCRACY">
+      <ModifierId>DEMOCRACY_ALLIANCEPOINTS</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_COMMUNISM">
+      <ModifierId>COMMUNISM_SCIENCE</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM">
+      <ModifierId>CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM">
+      <ModifierId>CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM">
+      <ModifierId>CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM">
+      <ModifierId>CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY">
+      <ModifierId>DIGITAL_DEMOCRACY_CITY_AMENITIES</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY">
+      <ModifierId>DIGITAL_DEMOCRACY_DISTRICT_CULTURE</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY">
+      <ModifierId>DIGITAL_DEMOCRACY_COMBAT_STRENGTH_PENALTY</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY">
+      <ModifierId>SYNTHETIC_TECHNOCRACY_CITY_POWER</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY">
+      <ModifierId>SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION</ModifierId>
+    </Row>
+    <Row GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY">
+      <ModifierId>SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY</ModifierId>
+    </Row>
+  </GovernmentModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODTOALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODFROMALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_ALLIANCEPOINTS</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_ALLIANCE_POINTS</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>COMMUNISM_SCIENCE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMULATION</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+      <SubjectRequirementSetId>CITY_HAS_COMMERCIAL_HUB</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+      <SubjectRequirementSetId>CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_CITY_AMENITIES</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_DISTRICT_CULTURE</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_COMBAT_STRENGTH_PENALTY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>SYNTHETIC_TECHNOCRACY_CITY_POWER</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_PROJECTS_PRODUCTION</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY</ModifierId>
+      <ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM</ModifierType>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODTOALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODTOALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODFROMALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FOOD</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEFOODFROMALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>DEMOCRACY_ALLIANCEPOINTS</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>COMMUNISM_SCIENCE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>COMMUNISM_SCIENCE</ModifierId>
+      <Name>Amount</Name>
+      <Value>15</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_RESOURCE_EXTRACTION</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_COMMERCIAL_HUB_PRODUCTION</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_PRODUCTION</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_ENCAMPMENT_PRODUCTION</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>CORPORATE_LIBERTARIANISM_SCIENCE_PENALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>0</Value>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_CITY_AMENITIES</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_DISTRICT_CULTURE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_DISTRICT_CULTURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>2</Value>
+    </Row>
+    <Row>
+      <ModifierId>DIGITAL_DEMOCRACY_COMBAT_STRENGTH_PENALTY</ModifierId>
+      <Name>AbilityType</Name>
+      <Value>ABILITY_DIGITAL_DEMOCRACY_DEBUFF</Value>
+    </Row>
+    <Row>
+      <ModifierId>SYNTHETIC_TECHNOCRACY_CITY_POWER</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>SYNTHETIC_TECHNOCRACY_CITY_PROJECT_PRODUCTION</ModifierId>
+      <Name>Amount</Name>
+      <Value>30</Value>
+    </Row>
+    <Row>
+      <ModifierId>SYNTHETIC_TECHNOCRACY_TOURISM_PENALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>0</Value>
+    </Row>
+  </ModifierArguments>
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>CITY_HAS_ENCAMPMENT</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>CITY_HAS_COMMERCIAL_HUB</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>CITY_IS_POWERED</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>CITY_HAS_ENCAMPMENT</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_HAS_ENCAMPMENT</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>CITY_HAS_COMMERCIAL_HUB</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_HAS_COMMERCIAL_HUB</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>CITY_IS_POWERED</RequirementSetId>
+      <RequirementId>REQUIRES_CITY_IS_POWERED</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_CITY_IS_POWERED</RequirementId>
+      <RequirementType>REQUIREMENT_CITY_IS_POWERED</RequirementType>
+    </Row>
+  </Requirements>
+</GameInfo>

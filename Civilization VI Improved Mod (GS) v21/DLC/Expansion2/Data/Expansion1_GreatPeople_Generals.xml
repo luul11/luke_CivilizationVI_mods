@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_TIMUR" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TIMUR" Name="LOC_GREAT_PERSON_INDIVIDUAL_TIMUR_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_LAND" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_SUDIRMAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" AreaHighlightRadius="2"/>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED"/>
+			<Set>
+				<ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
+				<ActionRequiresNoMilitaryUnit>false</ActionRequiresNoMilitaryUnit>
+				<ActionEffectTileHighlighting>true</ActionEffectTileHighlighting>
+				<ActionRequiresCompletedDistrictType>DISTRICT_CITY_CENTER</ActionRequiresCompletedDistrictType>
+			</Set>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR"/>
+			<Set>
+				<ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
+				<ActionRequiresNoMilitaryUnit>false</ActionRequiresNoMilitaryUnit>
+				<ActionEffectTileHighlighting>true</ActionEffectTileHighlighting>
+				<ActionRequiresCompletedDistrictType>DISTRICT_CITY_CENTER</ActionRequiresCompletedDistrictType>
+			</Set>
+		</Update>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TIMUR" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TIMUR" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_LAND"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_LAND"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_AETHELFLAED" ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TIMUR" ModifierId="GREATPERSON_TIMUR_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TIMUR" ModifierId="GREATPERSON_TIMUR_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SAMORI_TURE" ModifierId="GREATPERSON_SAMORI_TURE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SIMON_BOLIVAR" ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SUDIRMAN" ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TIMUR_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TIMUR_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SAMORI_TURE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SUDIRMAN_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_AETHELFLAED_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TIMUR_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TIMUR_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SIMON_BOLIVAR_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SAMORI_TURE_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPEC_OPS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SAMORI_TURE_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SUDIRMAN_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row ModifierId="GREATPERSON_AETHELFLAED_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_AETHELFLAED_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_TIMUR_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_TIMUR_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SIMON_BOLIVAR_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SIMON_BOLIVAR_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SAMORI_TURE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SAMORI_TURE_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SUDIRMAN_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SUDIRMAN_ACTIVE"/>
+	</ModifierStrings>
+</GameInfo>

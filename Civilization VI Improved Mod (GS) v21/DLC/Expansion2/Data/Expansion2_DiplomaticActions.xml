@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<DiplomaticActions_XP2>
+		<Row DiplomaticActionType="DIPLOACTION_KEEP_PROMISE_DONT_SPY" PromiseType="PROMISE_DONT_SPY_ON_ME" FavorCost="0" GrievancesForRefusal="0" GrievancesPerIncursion="0"/>
+		<Row DiplomaticActionType="DIPLOACTION_KEEP_PROMISE_DONT_CONVERT" PromiseType="PROMISE_DONT_CONVERT_MY_CITIES" FavorCost="30" GrievancesForRefusal="25" GrievancesPerIncursion="25"/>
+		<Row DiplomaticActionType="DIPLOACTION_KEEP_PROMISE_DONT_DIG_ARTIFACTS" PromiseType="PROMISE_DONT_DIG_UP_MY_ARTIFACTS" FavorCost="30" GrievancesForRefusal="25" GrievancesPerIncursion="25"/>
+		<Row DiplomaticActionType="DIPLOACTION_KEEP_PROMISE_DONT_SETTLE_TOO_NEAR" PromiseType="PROMISE_DONT_SETTLE_NEAR_ME" FavorCost="30" GrievancesForRefusal="25" GrievancesPerIncursion="25"/>
+	</DiplomaticActions_XP2>
+</GameInfo>

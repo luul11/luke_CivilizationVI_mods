@@ -1,0 +1,904 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- Major-->
+		<Row Type="LEADER_DIDO" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_ELEANOR_ENGLAND" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_ELEANOR_FRANCE" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_KRISTINA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_KUPE" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_LAURIER" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MANSA_MUSA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MATTHIAS_CORVINUS" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_PACHACUTI" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_SULEIMAN" Kind="KIND_LEADER"/>
+		<!-- Major Traits-->
+		<Row Type="TRAIT_LEADER_FOUNDER_CARTHAGE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_ELEANOR_LOYALTY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_QUEENS_BIBLIOTHEQUE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_KRISTINA_AUTO_THEME" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_KUPES_VOYAGE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_LAST_BEST_WEST" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_RAVEN_KING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_MATTHIAS_BLACK_ARMY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_SAHEL_MERCHANTS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_SULEIMAN_JANISSARY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_SULEIMAN_GOVERNOR" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<!-- Major-->
+		<Row LeaderType="LEADER_DIDO" Name="LOC_LEADER_DIDO_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND" Name="LOC_LEADER_ELEANOR_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_ELEANOR_FRANCE" Name="LOC_LEADER_ELEANOR_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_KRISTINA" Name="LOC_LEADER_KRISTINA_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_KUPE" Name="LOC_LEADER_KUPE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_LAURIER" Name="LOC_LEADER_LAURIER_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_MANSA_MUSA" Name="LOC_LEADER_MANSA_MUSA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" Name="LOC_LEADER_MATTHIAS_CORVINUS_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_PACHACUTI" Name="LOC_LEADER_PACHACUTI_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_SULEIMAN" Name="LOC_LEADER_SULEIMAN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<DuplicateLeaders>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND" OtherLeaderType="LEADER_ELEANOR_FRANCE"/>
+	</DuplicateLeaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_DIDO" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_DIDO_QUOTE" QuoteAudio="PHOENICIA_MA_MISC_PEP_TALK_A_3"/>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_ELEANOR_ENGLAND_QUOTE" QuoteAudio="ELENOR_MA_MISC_PEP_TALK_A_2"/>
+		<Row LeaderType="LEADER_ELEANOR_FRANCE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_ELEANOR_FRANCE_QUOTE" QuoteAudio="ELENOR_MA_MISC_PEP_TALK_A_2"/>
+		<Row LeaderType="LEADER_KRISTINA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_KRISTINA_QUOTE" QuoteAudio="KRISTINA_MA_MISC_PEP_TALK_A_1"/>
+		<Row LeaderType="LEADER_KUPE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_KUPE_QUOTE" QuoteAudio="KUPE_MA_MISC_PEP_TALK_B_3"/>
+		<Row LeaderType="LEADER_LAURIER" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_LAURIER_QUOTE" QuoteAudio="LAURIER_MA_MISC_PEP_TALK_A_2"/>
+		<Row LeaderType="LEADER_MANSA_MUSA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_MANSA_MUSA_QUOTE" QuoteAudio="MANSA_MUSA_MA_MISC_PEP_TALK_B_1"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_MATTHIAS_CORVINUS_QUOTE" QuoteAudio="HUNGARY_MA_MISC_PEP_TALK_A_2"/>
+		<Row LeaderType="LEADER_PACHACUTI" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_PACHACUTI_QUOTE" QuoteAudio="INCA_MA_MISC_1_PEP_TALK_A_1"/>
+		<Row LeaderType="LEADER_SULEIMAN" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_SULEIMAN_QUOTE" QuoteAudio="SULEIMAN_MA_MISC_PEP_TALK_B_3"/>
+	</LeaderQuotes>
+	<Leaders_XP2>
+		<!-- Major-->
+		<Row LeaderType="LEADER_KUPE" OceanStart="true"/>
+	</Leaders_XP2>
+	<LeaderTraits>
+		<!-- Major-->
+		<Row LeaderType="LEADER_DIDO" TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE"/>
+		<Row LeaderType="LEADER_DIDO" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND" TraitType="TRAIT_LEADER_ELEANOR_LOYALTY"/>
+		<Row LeaderType="LEADER_ELEANOR_FRANCE" TraitType="TRAIT_LEADER_ELEANOR_LOYALTY"/>
+		<Row LeaderType="LEADER_KRISTINA" TraitType="TRAIT_LEADER_BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Row LeaderType="LEADER_KRISTINA" TraitType="TRAIT_LEADER_KRISTINA_AUTO_THEME"/>
+		<Row LeaderType="LEADER_KRISTINA" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_KUPE" TraitType="TRAIT_LEADER_KUPES_VOYAGE"/>
+		<Row LeaderType="LEADER_LAURIER" TraitType="TRAIT_LEADER_LAST_BEST_WEST"/>
+		<Row LeaderType="LEADER_LAURIER" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_LAURIER" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" TraitType="TRAIT_LEADER_RAVEN_KING"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" TraitType="TRAIT_LEADER_UNIT_MATTHIAS_BLACK_ARMY"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_MANSA_MUSA" TraitType="TRAIT_LEADER_SAHEL_MERCHANTS"/>
+		<Row LeaderType="LEADER_PACHACUTI" TraitType="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD"/>
+		<Row LeaderType="LEADER_PACHACUTI" TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN"/>
+		<Row LeaderType="LEADER_PACHACUTI" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_SULEIMAN" TraitType="TRAIT_LEADER_UNIT_SULEIMAN_JANISSARY"/>
+		<Row LeaderType="LEADER_SULEIMAN" TraitType="TRAIT_LEADER_SULEIMAN_GOVERNOR"/>
+	</LeaderTraits>
+	<AiListTypes>
+		<Row ListType="DidoCivics"/>
+		<Row ListType="DidoCoastalSettlements"/>
+		<Row ListType="DidoTechs"/>
+		<Row ListType="DidoWonders"/>
+		<Row ListType="EleanorCivics"/>
+		<Row ListType="EleanorDistricts"/>
+		<Row ListType="EleanorWonders"/>
+		<Row ListType="EleanorGreatWorks"/>
+		<Row ListType="KristinaCivics"/>
+		<Row ListType="KristinaTechs"/>
+		<Row ListType="KristinaBuildings"/>
+		<Row ListType="KristinaWonders"/>
+		<Row ListType="KristinaFavor"/>
+		<Row ListType="KupeCivics"/>
+		<Row ListType="KupeTechs"/>
+		<Row ListType="LaurierCivics"/>
+		<Row ListType="LaurierWonders"/>
+		<Row ListType="LaurierTourism"/>
+		<Row ListType="LaurierUnits"/>
+		<Row ListType="MansaMusaCivics"/>
+		<Row ListType="MansaMusaTechs"/>
+		<Row ListType="MansaMusaWonders"/>
+		<Row ListType="MansaMusaGold"/>
+		<Row ListType="MatthiasCivics"/>
+		<Row ListType="MatthiasTechs"/>
+		<Row ListType="MatthiasWonders"/>
+		<Row ListType="MatthiasInflluence"/>
+		<Row ListType="PachacutiCivics"/>
+		<Row ListType="PachacutiTechs"/>
+		<Row ListType="PachacutiWonders"/>
+		<Row ListType="SuliemanCivics"/>
+		<Row ListType="SuliemanTechs"/>
+		<Row ListType="SuliemanGovernor"/>
+		<Row ListType="SuliemanUnits"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="DidoCivics" LeaderType="TRAIT_LEADER_FOUNDER_CARTHAGE" System="Civics"/>
+		<Row ListType="DidoCoastalSettlements" LeaderType="TRAIT_LEADER_FOUNDER_CARTHAGE" System="PlotEvaluations"/>
+		<Row ListType="DidoTechs" LeaderType="TRAIT_LEADER_FOUNDER_CARTHAGE" System="Technologies"/>
+		<Row ListType="DidoWonders" LeaderType="TRAIT_LEADER_FOUNDER_CARTHAGE" System="Buildings"/>
+		<Row ListType="EleanorCivics" LeaderType="TRAIT_LEADER_ELEANOR_LOYALTY" System="Civics"/>
+		<Row ListType="EleanorDistricts" LeaderType="TRAIT_LEADER_ELEANOR_LOYALTY" System="Districts"/>
+		<Row ListType="EleanorWonders" LeaderType="TRAIT_LEADER_ELEANOR_LOYALTY" System="Buildings"/>
+		<Row ListType="EleanorGreatWorks" LeaderType="TRAIT_LEADER_ELEANOR_LOYALTY" System="PseudoYields"/>
+		<Row ListType="KristinaCivics" LeaderType="TRAIT_LEADER_KRISTINA_AUTO_THEME" System="Civics"/>
+		<Row ListType="KristinaTechs" LeaderType="TRAIT_LEADER_KRISTINA_AUTO_THEME" System="Technologies"/>
+		<Row ListType="KristinaBuildings" LeaderType="TRAIT_LEADER_BUILDING_QUEENS_BIBLIOTHEQUE" System="Buildings"/>
+		<Row ListType="KristinaWonders" LeaderType="TRAIT_LEADER_KRISTINA_AUTO_THEME" System="Buildings"/>
+		<Row ListType="KristinaFavor" LeaderType="TRAIT_LEADER_KRISTINA_AUTO_THEME" System="PseudoYields"/>
+		<Row ListType="KupeCivics" LeaderType="TRAIT_LEADER_KUPES_VOYAGE" System="Civics"/>
+		<Row ListType="KupeTechs" LeaderType="TRAIT_LEADER_KUPES_VOYAGE" System="Technologies"/>
+		<Row ListType="LaurierCivics" LeaderType="TRAIT_LEADER_LAST_BEST_WEST" System="Civics"/>
+		<Row ListType="LaurierWonders" LeaderType="TRAIT_LEADER_LAST_BEST_WEST" System="Buildings"/>
+		<Row ListType="LaurierUnits" LeaderType="TRAIT_LEADER_LAST_BEST_WEST" System="Units"/>
+		<Row ListType="LaurierTourism" LeaderType="TRAIT_LEADER_LAST_BEST_WEST" System="PseudoYields"/>
+		<Row ListType="MansaMusaCivics" LeaderType="TRAIT_LEADER_SAHEL_MERCHANTS" System="Civics"/>
+		<Row ListType="MansaMusaTechs" LeaderType="TRAIT_LEADER_SAHEL_MERCHANTS" System="Technologies"/>
+		<Row ListType="MansaMusaWonders" LeaderType="TRAIT_LEADER_SAHEL_MERCHANTS" System="Buildings"/>
+		<Row ListType="MansaMusaGold" LeaderType="TRAIT_LEADER_SAHEL_MERCHANTS" System="Yields"/>
+		<Row ListType="MatthiasCivics" LeaderType="TRAIT_LEADER_RAVEN_KING" System="Civics"/>
+		<Row ListType="MatthiasTechs" LeaderType="TRAIT_LEADER_RAVEN_KING" System="Technologies"/>
+		<Row ListType="MatthiasWonders" LeaderType="TRAIT_LEADER_RAVEN_KING" System="Buildings"/>
+		<Row ListType="MatthiasInflluence" LeaderType="TRAIT_LEADER_RAVEN_KING" System="PseudoYields"/>
+		<Row ListType="PachacutiCivics" LeaderType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" System="Civics"/>
+		<Row ListType="PachacutiTechs" LeaderType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" System="Technologies"/>
+		<Row ListType="PachacutiWonders" LeaderType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" System="Buildings"/>
+		<Row ListType="SuliemanCivics" LeaderType="TRAIT_LEADER_SULEIMAN_GOVERNOR" System="Civics"/>
+		<Row ListType="SuliemanTechs" LeaderType="TRAIT_LEADER_SULEIMAN_GOVERNOR" System="Technologies"/>
+		<Row ListType="SuliemanGovernor" LeaderType="TRAIT_LEADER_SULEIMAN_GOVERNOR" System="Buildings"/>
+		<Row ListType="SuliemanUnits" LeaderType="TRAIT_LEADER_SULEIMAN_GOVERNOR" System="UnitPromotionClasses"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="CleopatraWonders" Item="BUILDING_GREAT_BATH" Favored="false"/>
+		<Row ListType="DidoCivics" Item="CIVIC_POLITICAL_PHILOSOPHY" Favored="true"/>
+		<Row ListType="DidoCoastalSettlements" Item="Coastal" Favored="false" Value="35"/>
+		<Row ListType="DidoTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+		<Row ListType="DidoTechs" Item="TECH_SAILING" Favored="true"/>
+		<Row ListType="DidoTechs" Item="TECH_CONSTRUCTION" Favored="true"/>
+		<Row ListType="EleanorCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="EleanorCivics" Item="CIVIC_HUMANISM" Favored="true"/>
+		<Row ListType="EleanorDistricts" Item="DISTRICT_THEATER" Favored="true"/>
+		<Row ListType="EleanorWonders" Item="BUILDING_ESTADIO_DO_MARACANA" Favored="true"/>
+		<Row ListType="EleanorWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_SCULPTURE" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_PORTRAIT" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_LANDSCAPE" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_RELIGIOUS" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_ARTIFACT" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_WRITING" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_MUSIC" Value="50"/>
+		<Row ListType="EleanorGreatWorks" Item="PSEUDOYIELD_GREATWORK_RELIC" Value="50"/>
+		<Row ListType="KristinaCivics" Item="CIVIC_NATIONALISM" Favored="true"/>
+		<Row ListType="KristinaCivics" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="KristinaCivics" Item="CIVIC_HUMANISM" Favored="true"/>
+		<Row ListType="KristinaCivics" Item="CIVIC_EXPLORATION" Favored="true"/>
+		<Row ListType="KristinaCivics" Item="CIVIC_REFORMED_CHURCH" Favored="true"/>
+		<Row ListType="KristinaCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="KristinaTechs" Item="TECH_METAL_CASTING" Favored="true"/>
+		<Row ListType="KristinaBuildings" Item="BUILDING_QUEENS_BIBLIOTHEQUE" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_BOLSHOI_THEATRE" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_BROADWAY" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_HERMITAGE" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_MONT_ST_MICHEL" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/>
+		<Row ListType="KristinaWonders" Item="BUILDING_SYDNEY_OPERA_HOUSE" Favored="true"/>
+		<Row ListType="KristinaFavor" Item="PSEUDOYIELD_DIPLOMATIC_FAVOR" Value="50"/>
+		<Row ListType="KupeCivics" Item="CIVIC_DRAMA_POETRY" Favored="true"/>
+		<Row ListType="KupeCivics" Item="CIVIC_CONSERVATION" Favored="true"/>
+		<Row ListType="KupeTechs" Item="TECH_PLASTICS" Favored="true"/>
+		<Row ListType="KupeTechs" Item="TECH_CARTOGRAPHY" Favored="true"/>
+		<Row ListType="KupeTechs" Item="TECH_FLIGHT" Favored="true"/>
+		<Row ListType="LaurierCivics" Item="CIVIC_CONSERVATION" Favored="true"/>
+		<Row ListType="LaurierCivics" Item="CIVIC_COLONIALISM" Favored="true"/>
+		<Row ListType="LaurierCivics" Item="CIVIC_PROFESSIONAL_SPORTS" Favored="true"/>
+		<Row ListType="LaurierWonders" Item="BUILDING_EIFFEL_TOWER" Favored="true"/>
+		<Row ListType="LaurierTourism" Item="PSEUDOYIELD_TOURISM" Value="20"/>
+		<Row ListType="LaurierUnits" Item="UNIT_NATURALIST" Value="-1"/>
+		<Row ListType="MansaMusaCivics" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="MansaMusaTechs" Item="TECH_CURRENCY" Favored="true"/>
+		<Row ListType="MansaMusaTechs" Item="TECH_STIRRUPS" Favored="true"/>
+		<Row ListType="MansaMusaWonders" Item="BUILDING_UNIVERSITY_SANKORE" Favored="true"/>
+		<Row ListType="MansaMusaWonders" Item="BUILDING_PETRA" Favored="true"/>
+		<Row ListType="MansaMusaWonders" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="MansaMusaWonders" Item="BUILDING_BIG_BEN" Favored="true"/>
+		<Row ListType="MansaMusaWonders" Item="BUILDING_GREAT_ZIMBABWE" Favored="true"/>
+		<Row ListType="MansaMusaGold" Item="YIELD_GOLD" Value="20"/>
+		<Row ListType="MatthiasCivics" Item="CIVIC_NATURAL_HISTORY" Favored="true"/>
+		<Row ListType="MatthiasTechs" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="MatthiasTechs" Item="TECH_MILITARY_SCIENCE" Favored="true"/>
+		<Row ListType="MatthiasWonders" Item="BUILDING_ORSZAGHAZ" Favored="true"/>
+		<Row ListType="MatthiasInflluence" Item="PSEUDOYIELD_INFLUENCE" Value="25"/>
+		<Row ListType="PachacutiCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="PachacutiCivics" Item="CIVIC_FOREIGN_TRADE" Favored="true"/>
+		<Row ListType="PachacutiTechs" Item="TECH_ENGINEERING" Favored="true"/>
+		<Row ListType="PachacutiTechs" Item="TECH_REPLACABLE_PARTS" Favored="true"/>
+		<Row ListType="PachacutiTechs" Item="TECH_MACHINERY" Favored="true"/>
+		<Row ListType="PachacutiWonders" Item="BUILDING_MACHU_PICCHU" Favored="true"/>
+		<Row ListType="SuliemanCivics" Item="CIVIC_MEDIEVAL_FAIRES" Favored="true"/>
+		<Row ListType="SuliemanTechs" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="SuliemanTechs" Item="TECH_BANKING" Favored="true"/>
+		<Row ListType="SuliemanTechs" Item="TECH_GUNPOWER" Favored="true"/>
+		<Row ListType="SuliemanGovernor" Item="PSEUDOYIELD_GOVERNOR" Value="50"/>
+		<Row ListType="SuliemanUnits" Item="PROMOTION_CLASS_SIEGE" Value="1"/>
+		<Row ListType="RooseveltWonders" Item="BUILDING_PANAMA_CANAL" Favored="true"/>
+	</AiFavoredItems>
+	<Agendas>
+		<Row AgendaType="AGENDA_ANGEVIN_EMPIRE" Name="LOC_AGENDA_ANGEVIN_EMPIRE_NAME" Description="LOC_AGENDA_ANGEVIN_EMPIRE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_CANADIAN_EXPEDITIONARY" Name="LOC_AGENDA_CANADIAN_EXPEDITIONARY_NAME" Description="LOC_AGENDA_CANADIAN_EXPEDITIONARY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_KAITIAKITANGA" Name="LOC_AGENDA_KAITIAKITANGA_NAME" Description="LOC_AGENDA_KAITIAKITANGA_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_LAWGIVER" Name="LOC_AGENDA_LAWGIVER_NAME" Description="LOC_AGENDA_LAWGIVER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_LORD_OF_MINES" Name="LOC_AGENDA_LORD_OF_MINES_NAME" Description="LOC_AGENDA_LORD_OF_MINES_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_RAVEN_BANNER" Name="LOC_AGENDA_RAVEN_BANNER_NAME" Description="LOC_AGENDA_RAVEN_BANNER_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_PATRON_OF_ARTS" Name="LOC_AGENDA_PATRON_OF_ARTS_NAME" Description="LOC_AGENDA_PATRON_OF_ARTS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SAPA_INCA" Name="LOC_AGENDA_SAPA_INCA_NAME" Description="LOC_AGENDA_SAPA_INCA_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SICILIAN_WARS" Name="LOC_AGENDA_SICILIAN_WARS_NAME" Description="LOC_AGENDA_SICILIAN_WARS_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_DIDO" AgendaType="AGENDA_SICILIAN_WARS"/>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND" AgendaType="AGENDA_ANGEVIN_EMPIRE"/>
+		<Row LeaderType="LEADER_ELEANOR_FRANCE" AgendaType="AGENDA_ANGEVIN_EMPIRE"/>
+		<Row LeaderType="LEADER_KRISTINA" AgendaType="AGENDA_PATRON_OF_ARTS"/>
+		<Row LeaderType="LEADER_KUPE" AgendaType="AGENDA_KAITIAKITANGA"/>
+		<Row LeaderType="LEADER_LAURIER" AgendaType="AGENDA_CANADIAN_EXPEDITIONARY"/>
+		<Row LeaderType="LEADER_MANSA_MUSA" AgendaType="AGENDA_LORD_OF_MINES"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" AgendaType="AGENDA_RAVEN_BANNER"/>
+		<Row LeaderType="LEADER_PACHACUTI" AgendaType="AGENDA_SAPA_INCA"/>
+		<Row LeaderType="LEADER_SULEIMAN" AgendaType="AGENDA_LAWGIVER"/>
+	</HistoricalAgendas>
+	<Traits>
+		<!-- Major-->
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" Name="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_NAME" Description="LOC_TRAIT_LEADER_FOUNDER_CARTHAGE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_ELEANOR_LOYALTY" Name="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_NAME" Description="LOC_TRAIT_LEADER_ELEANOR_LOYALTY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_QUEENS_BIBLIOTHEQUE" Name="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME"/>
+		<Row TraitType="TRAIT_LEADER_KRISTINA_AUTO_THEME" Name="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_NAME" Description="LOC_TRAIT_LEADER_KRISTINA_AUTO_THEME_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" Name="LOC_TRAIT_LEADER_KUPES_VOYAGE_NAME" Description="LOC_TRAIT_LEADER_KUPES_VOYAGE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" Name="LOC_TRAIT_LEADER_LAST_BEST_WEST_NAME" Description="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_RAVEN_KING" Name="LOC_TRAIT_LEADER_RAVEN_KING_NAME" Description="LOC_TRAIT_LEADER_RAVEN_KING_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_MATTHIAS_BLACK_ARMY" Name="LOC_UNIT_HUNGARY_BLACK_ARMY_NAME"/>
+		<Row TraitType="TRAIT_LEADER_SAHEL_MERCHANTS" Name="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_NAME" Description="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD" Name="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME"/>
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" Name="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_NAME" Description="LOC_TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_SULEIMAN_JANISSARY" Name="LOC_UNIT_SULEIMAN_JANISSARY_NAME"/>
+		<Row TraitType="TRAIT_LEADER_SULEIMAN_GOVERNOR" Name="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_NAME" Description="LOC_TRAIT_LEADER_SULEIMAN_GOVERNOR_DESCRIPTION"/>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_FIRST_EMPEROR_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="FIRST_EMPEROR_TRAIT"/>
+		</Update>
+	</Traits>
+	<TraitModifiers>
+		<!--Dido-->
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRADE_ROUTE_GOVERNMENT_DISTRICT"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRADE_ROUTE_GOVERNMENT_TIER_1_BUILDING"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRADE_ROUTE_GOVERNMENT_TIER_2_BUILDING"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="TRADE_ROUTE_GOVERNMENT_TIER_3_BUILDING"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="PRODUCTION_GOVERNMENT_DISTRICT"/>
+		<Row TraitType="TRAIT_LEADER_FOUNDER_CARTHAGE" ModifierId="DISTRICT_COMPLETE_MOVE_CAPITAL"/>
+		<!--Eleanor-->
+		<Row TraitType="TRAIT_LEADER_ELEANOR_LOYALTY" ModifierId="SKIP_FREE_CITY"/>
+		<Row TraitType="TRAIT_LEADER_ELEANOR_LOYALTY" ModifierId="IDENTITY_NEARBY_GREATWORKS"/>
+		<!--Kristina-->
+		<Row TraitType="TRAIT_LEADER_KRISTINA_AUTO_THEME" ModifierId="AUTO_THEME_AT_LEAST_3_SLOTS"/>
+		<Row TraitType="TRAIT_LEADER_KRISTINA_AUTO_THEME" ModifierId="AUTO_THEME_AT_LEAST_2_SLOTS"/>
+		<Row TraitType="TRAIT_LEADER_KRISTINA_AUTO_THEME" ModifierId="THEMED_YIELD_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_KRISTINA_AUTO_THEME" ModifierId="THEMED_TOURISM_MODIFIER"/>
+		<!--Kupe-->
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" ModifierId="SCIENCE_PRESETTLEMENT"/>
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" ModifierId="CULTURE_PRESETTLEMENT"/>
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" ModifierId="BUILDER_PRESETTLEMENT"/>
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" ModifierId="POPULATION_PRESETTLEMENT"/>
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" ModifierId="CAPITAL_ENTERTAINMENT"/>
+		<Row TraitType="TRAIT_LEADER_KUPES_VOYAGE" ModifierId="CAPITAL_HOUSING"/>
+		<!--Laurier-->
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="TUNDRA_FARMS"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="TUNDRA_HILLS_FARMS"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="TUNDRA_PLOT_COST"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="TUNDRA_HILLS_PLOT_COST"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="SNOW_PLOT_COST"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="SNOW_HILLS_PLOT_COST"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="TUNDRA_RESOURCE_EXTRACTION"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="TUNDRA_HILLS_RESOURCE_EXTRACTION"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="SNOW_RESOURCE_EXTRACTION"/>
+		<Row TraitType="TRAIT_LEADER_LAST_BEST_WEST" ModifierId="SNOW_HILLS_RESOURCE_EXTRACTION"/>
+		<!--Matthias-->
+		<Row TraitType="TRAIT_LEADER_RAVEN_KING" ModifierId="LEVY_MILITARY_TWO_FREE_ENVOYS"/>
+		<Row TraitType="TRAIT_LEADER_RAVEN_KING" ModifierId="LEVY_UNITS_GRANT_ABILITY"/>
+		<Row TraitType="TRAIT_LEADER_RAVEN_KING" ModifierId="LEVY_UNITUPGRADEDISCOUNT"/>
+		<Row TraitType="TRAIT_LEADER_RAVEN_KING" ModifierId="LEVY_IGNORERESOURCES"/>
+		<!--Mansa Musa-->
+		<Row TraitType="TRAIT_LEADER_SAHEL_MERCHANTS" ModifierId="TRADE_ROUTE_GOLD_DESERT_ORIGIN"/>
+		<Row TraitType="TRAIT_LEADER_SAHEL_MERCHANTS" ModifierId="GOLDEN_AGE_TRADE_ROUTE"/>
+		<!--Pachacuti-->
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" ModifierId="DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN"/>
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" ModifierId="DOMESTIC_TRADE_ROUTE_FOOD_PLAINS_MOUNTAIN_ORIGIN"/>
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" ModifierId="DOMESTIC_TRADE_ROUTE_FOOD_DESERT_MOUNTAIN_ORIGIN"/>
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" ModifierId="DOMESTIC_TRADE_ROUTE_FOOD_TUNDRA_MOUNTAIN_ORIGIN"/>
+		<Row TraitType="TRAIT_LEADER_PACHACUTI_QHAPAQ_NAN" ModifierId="DOMESTIC_TRADE_ROUTE_FOOD_SNOW_MOUNTAIN_ORIGIN"/>
+		<!--Qin (Update)-->
+		<Row TraitType="FIRST_EMPEROR_TRAIT" ModifierId="TRAIT_CANAL_UNLOCK_MASONRY"/>
+	</TraitModifiers>
+	<Modifiers>
+		<!-- Dido -->
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_1_BUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_TIER_1_GOV_BUILDING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_2_BUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_TIER_2_GOV_BUILDING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_3_BUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_TIER_3_GOV_BUILDING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PRODUCTION_GOVERNMENT_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOV_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CAPITAL</ModifierType>
+		</Row>
+		<!--Laurier-->
+		<Row>
+			<ModifierId>TUNDRA_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_PLOT_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_PLOT_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_PLOT_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_HILLS_PLOT_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_PLOT_PURCHASE_COST_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_RESOURCE_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMALATION_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_RESOURCE_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMALATION_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_RESOURCE_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMALATION_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_HILLS_RESOURCE_EXTRACTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMALATION_TERRAIN</ModifierType>
+		</Row>
+		<!--Matthias-->
+		<Row>
+			<ModifierId>LEVY_MILITARY_TWO_FREE_ENVOYS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ENVOYS_FROM_LEVIED_CITY_STATES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LEVY_UNITS_GRANT_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_LEVIED_REQUIREMENTS_XP2</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>LEVY_UNITUPGRADEDISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVIED_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>LEVY_IGNORERESOURCES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVIED_UNIT_IGNORE_STRATEGIC_RESOURCE</ModifierType>
+		</Row>
+		<!--Mansa Musa-->
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOLD_DESERT_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_INTERNATIONAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AGE_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY_GOLDEN_AGE</ModifierType>
+		</Row>
+		<!--Kristina-->
+		<Row>
+			<ModifierId>AUTO_THEME_AT_LEAST_3_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEME_BUILDINGS_WITH_X_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AUTO_THEME_AT_LEAST_2_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEME_BUILDINGS_WITH_X_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THEMED_YIELD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_THEMED_ALL_YIELDS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THEMED_TOURISM_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_THEMED_TOURISM</ModifierType>
+		</Row>
+		<!--Kupe-->
+		<Row>
+			<ModifierId>SCIENCE_PRESETTLEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_CITIES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CULTURE_PRESETTLEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_CITIES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BUILDER_PRESETTLEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_BUILT_CITIES_GRANT_FREE_UNIT</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_ONE_CITY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>POPULATION_PRESETTLEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_BUILT_CITIES_GRANT_FREE_POPULATION</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_ONE_CITY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CAPITAL_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_BUILDING_HOUSING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CAPITAL_ENTERTAINMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_ENTERTAINMENT</ModifierType>
+		</Row>
+		<!--Eleanor-->
+		<Row>
+			<ModifierId>SKIP_FREE_CITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SKIP_FREE_CITY_STEP</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IDENTITY_NEARBY_GREATWORKS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_IDENTITY_PER_TURN_FROM_NEARBY_GREAT_WORKS</ModifierType>
+		</Row>
+		<!--Pachacuti-->
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_PLAINS_MOUNTAIN_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_DESERT_MOUNTAIN_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_TUNDRA_MOUNTAIN_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_SNOW_MOUNTAIN_ORIGIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_PER_TERRAIN_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_MASONRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_UNLOCK</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Dido -->
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_1_BUILDING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_2_BUILDING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOVERNMENT_TIER_3_BUILDING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PRODUCTION_GOVERNMENT_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>DISTRICT_COMPLETE_MOVE_CAPITAL</ModifierId>
+			<Name>ProjectType</Name>
+			<Value>PROJECT_COTHON_CAPITAL_MOVE</Value>
+		</Row>
+		<!--Matthias-->
+		<Row>
+			<ModifierId>LEVY_MILITARY_TWO_FREE_ENVOYS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEVY_UNITS_GRANT_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_THE_RAVEN_KING</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEVY_UNITUPGRADEDISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEVY_IGNORERESOURCES</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<!--Mansa Musa-->
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOLD_DESERT_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOLD_DESERT_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOLD_DESERT_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_GOLD_DESERT_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDEN_AGE_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Kristina-->
+		<Row>
+			<ModifierId>AUTO_THEME_AT_LEAST_3_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTO_THEME_AT_LEAST_3_SLOTS</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTO_THEME_AT_LEAST_2_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTO_THEME_AT_LEAST_2_SLOTS</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEMED_YIELD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEMED_TOURISM_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Kupe-->
+		<Row>
+			<ModifierId>SCIENCE_PRESETTLEMENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SCIENCE_PRESETTLEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>CULTURE_PRESETTLEMENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CULTURE_PRESETTLEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDER_PRESETTLEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDER_PRESETTLEMENT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>POPULATION_PRESETTLEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPITAL_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPITAL_ENTERTAINMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Eleanor-->
+		<Row>
+			<ModifierId>SKIP_FREE_CITY</ModifierId>
+			<Name>Skip</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>IDENTITY_NEARBY_GREATWORKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IDENTITY_NEARBY_GREATWORKS</ModifierId>
+			<Name>ForeignCities</Name>
+			<Value>true</Value>
+		</Row>
+		<!--Laurier-->
+		<Row>
+			<ModifierId>TUNDRA_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_PLOT_COST</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_PLOT_COST</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_PLOT_COST</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_PLOT_COST</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_PLOT_COST</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_PLOT_COST</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_HILLS_PLOT_COST</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_HILLS_PLOT_COST</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_RESOURCE_EXTRACTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_RESOURCE_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_RESOURCE_EXTRACTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TUNDRA_HILLS_RESOURCE_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_RESOURCE_EXTRACTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_RESOURCE_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_HILLS_RESOURCE_EXTRACTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SNOW_HILLS_RESOURCE_EXTRACTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Pachacuti-->
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_GRASS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_PLAINS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_PLAINS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_PLAINS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_PLAINS_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_DESERT_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_DESERT_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_DESERT_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_DESERT_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_TUNDRA_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_TUNDRA_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_TUNDRA_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_TUNDRA_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_SNOW_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Origin</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_SNOW_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_SNOW_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>DOMESTIC_TRADE_ROUTE_FOOD_SNOW_MOUNTAIN_ORIGIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_MASONRY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CANAL_UNLOCK_MASONRY</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MASONRY</Value>
+		</Row>
+	</ModifierArguments>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_DIDO" ReligionType="RELIGION_JUDAISM"/>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_ELEANOR_FRANCE" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_KRISTINA" ReligionType="RELIGION_PROTESTANTISM"/>
+		<Row LeaderType="LEADER_LAURIER" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_MANSA_MUSA" ReligionType="RELIGION_ISLAM"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_SULEIMAN" ReligionType="RELIGION_ISLAM"/>
+	</FavoredReligions>
+</GameInfo>

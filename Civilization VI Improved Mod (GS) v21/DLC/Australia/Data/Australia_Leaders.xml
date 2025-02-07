@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_JOHN_CURTIN" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_AGENDA_PERPETUALLY_ON_GUARD" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_CITADEL_CIVILIZATION" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_JOHN_CURTIN" Name="LOC_LEADER_JOHN_CURTIN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_JOHN_CURTIN" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_JOHN_CURTIN_QUOTE" QuoteAudio="AUST_JN_MISC_PEP_TALK_Aa"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" Name="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_NAME" Description="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_PERPETUALLY_ON_GUARD" />
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_LEADER_CITADEL_CIVILIZATION</TraitType>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_CITADEL_CIVILIZATION</TraitType>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_PERPETUALLY_ON_GUARD</TraitType>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_PERPETUALLY_ON_GUARD</TraitType>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_OCCUPATION</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<AiListTypes>
+		<Row ListType="CurtinCivics"/>
+		<Row ListType="CurtinTechs"/>
+		<Row ListType="CurtinWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="CurtinCivics" LeaderType="TRAIT_LEADER_CITADEL_CIVILIZATION" System="Civics"/>
+		<Row ListType="CurtinTechs" LeaderType="TRAIT_LEADER_CITADEL_CIVILIZATION" System="Technologies"/>
+		<Row ListType="CurtinWonders" LeaderType="TRAIT_LEADER_CITADEL_CIVILIZATION" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="CurtinCivics" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
+		<Row ListType="CurtinCivics" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="CurtinCivics" Item="CIVIC_RAPID_DEPLOYMENT" Favored="true"/>
+		<Row ListType="CurtinTechs" Item="TECH_ANIMAL_HUSBANDRY" Favored="true"/>
+		<Row ListType="CurtinTechs" Item="TECH_STEAM_POWER" Favored="true"/>
+		<Row ListType="CurtinTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true"/>
+		<Row ListType="CurtinWonders" Item="BUILDING_EIFFEL_TOWER" Favored="true"/>
+	</AiFavoredItems>
+	<Agendas>
+		<Row AgendaType="AGENDA_PERPETUALLY_ON_GUARD" Name="LOC_AGENDA_PERPETUALLY_ON_GUARD_NAME" Description="LOC_AGENDA_PERPETUALLY_ON_GUARD_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_JOHN_CURTIN" AgendaType="AGENDA_PERPETUALLY_ON_GUARD"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_PERPETUALLY_ON_GUARD" TraitType="TRAIT_AGENDA_PERPETUALLY_ON_GUARD"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_PERPETUALLY_ON_GUARD" AgendaTwo="AGENDA_DARWINIST"/>
+	</ExclusiveAgendas>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_CITY_LIBERATED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_OCCUPATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_PERPETUALLY_ON_GUARD</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>LIBERATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>WAR_DECLARATION_RECEIVED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_JOHN_CURTIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_LIBERATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ON_GUARD_LIBERATE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_OCCUPATION</ModifierId>
+			<Name>PenaltyPerOccupiedCity</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_OCCUPATION</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_JOHN_CURTIN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PERPETUALLY_ON_GUARD_OCCUPATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_ON_GUARD_OCCUPY</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_PERPETUALLY_ON_GUARD_LIBERATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_PERPETUALLY_ON_GUARD_OCCUPATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+</GameInfo>

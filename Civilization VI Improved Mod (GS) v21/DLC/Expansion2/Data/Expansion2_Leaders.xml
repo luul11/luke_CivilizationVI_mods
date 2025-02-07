@@ -1,0 +1,1436 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_MINORCIVBONUS"/>
+	</Kinds>
+	<Types>
+		<!-- Minor-->
+		<Row Type="LEADER_MINOR_CIV_AKKAD" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_BOLOGNA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_CAHOKIA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_CARDIFF" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_FEZ" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_MEXICO_CITY" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_NAZCA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_NGAZARGAMU" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_MINOR_CIV_RAPA_NUI" Kind="KIND_LEADER"/>
+		<!-- Minor Traits-->
+		<Row Type="MINOR_CIV_AKKAD_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_BOLOGNA_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_CAHOKIA_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_CARDIFF_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_FEZ_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_MEXICO_CITY_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_NAZCA_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_NGAZARGAMU_TRAIT" Kind="KIND_TRAIT"/>
+		<Row Type="MINOR_CIV_RAPA_NUI_TRAIT" Kind="KIND_TRAIT"/>
+		<!-- Minor Bonus Types-->
+		<Row Type="MINOR_CIV_BONUS_SCIENTIFIC" Kind="KIND_MINORCIVBONUS"/>
+		<Row Type="MINOR_CIV_BONUS_RELIGIOUS" Kind="KIND_MINORCIVBONUS"/>
+		<Row Type="MINOR_CIV_BONUS_TRADE" Kind="KIND_MINORCIVBONUS"/>
+		<Row Type="MINOR_CIV_BONUS_CULTURAL" Kind="KIND_MINORCIVBONUS"/>
+		<Row Type="MINOR_CIV_BONUS_MILITARISTIC" Kind="KIND_MINORCIVBONUS"/>
+		<Row Type="MINOR_CIV_BONUS_INDUSTRIAL" Kind="KIND_MINORCIVBONUS"/>
+	</Types>
+	<Leaders>
+		<!-- Minor-->
+		<Row LeaderType="LEADER_MINOR_CIV_AKKAD" Name="LOC_CIVILIZATION_AKKAD_NAME" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BOLOGNA" Name="LOC_CIVILIZATION_BOLOGNA_NAME" InheritFrom="LEADER_MINOR_CIV_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CAHOKIA" Name="LOC_CIVILIZATION_CAHOKIA_NAME" InheritFrom="LEADER_MINOR_CIV_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CARDIFF" Name="LOC_CIVILIZATION_CARDIFF_NAME" InheritFrom="LEADER_MINOR_CIV_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_FEZ" Name="LOC_CIVILIZATION_FEZ_NAME" InheritFrom="LEADER_MINOR_CIV_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MEXICO_CITY" Name="LOC_CIVILIZATION_MEXICO_CITY_NAME" InheritFrom="LEADER_MINOR_CIV_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NAZCA" Name="LOC_CIVILIZATION_NAZCA_NAME" InheritFrom="LEADER_MINOR_CIV_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NGAZARGAMU" Name="LOC_CIVILIZATION_NGAZARGAMU_NAME" InheritFrom="LEADER_MINOR_CIV_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_RAPA_NUI" Name="LOC_CIVILIZATION_RAPA_NUI_NAME" InheritFrom="LEADER_MINOR_CIV_CULTURAL"/>
+	</Leaders>
+	<LeaderTraits>
+		<!-- Minor-->
+		<Row LeaderType="LEADER_MINOR_CIV_AKKAD" TraitType="MINOR_CIV_AKKAD_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BOLOGNA" TraitType="MINOR_CIV_BOLOGNA_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CAHOKIA" TraitType="MINOR_CIV_CAHOKIA_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CARDIFF" TraitType="MINOR_CIV_CARDIFF_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_FEZ" TraitType="MINOR_CIV_FEZ_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MEXICO_CITY" TraitType="MINOR_CIV_MEXICO_CITY_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NAZCA" TraitType="MINOR_CIV_NAZCA_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NGAZARGAMU" TraitType="MINOR_CIV_NGAZARGAMU_TRAIT"/>
+		<Row LeaderType="LEADER_MINOR_CIV_RAPA_NUI" TraitType="MINOR_CIV_RAPA_NUI_TRAIT"/>
+	</LeaderTraits>
+	<Traits>
+		<!-- Major-->
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_PAX_BRITANNICA_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_PAX_BRITANNICA"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_DIVINE_WIND_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_DIVINE_WIND"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_LEADER_EL_ESCORIAL_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_LEADER_EL_ESCORIAL"/>
+		</Update>
+		<!-- Minor-->
+		<Row TraitType="MINOR_CIV_AKKAD_TRAIT" Name="LOC_LEADER_TRAIT_AKKAD_NAME" Description="LOC_LEADER_TRAIT_AKKAD_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" Name="LOC_LEADER_TRAIT_BOLOGNA_NAME" Description="LOC_LEADER_TRAIT_BOLOGNA_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_CAHOKIA_TRAIT" Name="LOC_LEADER_TRAIT_CAHOKIA_NAME" Description="LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" Name="LOC_LEADER_TRAIT_CARDIFF_NAME" Description="LOC_LEADER_TRAIT_CARDIFF_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_FEZ_TRAIT" Name="LOC_LEADER_TRAIT_FEZ_NAME" Description="LOC_LEADER_TRAIT_FEZ_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_MEXICO_CITY_TRAIT" Name="LOC_LEADER_TRAIT_MEXICO_CITY_NAME" Description="LOC_LEADER_TRAIT_MEXICO_CITY_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_NAZCA_TRAIT" Name="LOC_LEADER_TRAIT_NAZCA_NAME" Description="LOC_LEADER_TRAIT_NAZCA_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_NGAZARGAMU_TRAIT" Name="LOC_LEADER_TRAIT_NGAZARGAMU_NAME" Description="LOC_LEADER_TRAIT_NGAZARGAMU_DESCRIPTION"/>
+		<Row TraitType="MINOR_CIV_RAPA_NUI_TRAIT" Name="LOC_LEADER_TRAIT_RAPA_NUI_NAME" Description="LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION"/>
+		<Update>
+			<Set Description="LOC_LEADER_TRAIT_HATTUSA_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="MINOR_CIV_HATTUSA_TRAIT"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_LEADER_TRAIT_LA_VENTA_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="MINOR_CIV_LA_VENTA_TRAIT"/>
+		</Update>
+	</Traits>
+	<MinorCivBonuses>
+		<Row MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC" Name="LOC_MINOR_CIV_SCIENTIFIC_TRAIT_NAME"/>
+		<Row MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS" Name="LOC_MINOR_CIV_RELIGIOUS_TRAIT_NAME"/>
+		<Row MinorCivBonusType="MINOR_CIV_BONUS_TRADE" Name="LOC_MINOR_CIV_TRADE_TRAIT_NAME"/>
+		<Row MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL" Name="LOC_MINOR_CIV_CULTURAL_TRAIT_NAME"/>
+		<Row MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC" Name="LOC_MINOR_CIV_MILITARISTIC_TRAIT_NAME"/>
+		<Row MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL" Name="LOC_MINOR_CIV_INDUSTRIAL_TRAIT_NAME"/>
+	</MinorCivBonuses>
+	<Leaders_XP2>
+		<Row LeaderType="LEADER_MINOR_CIV_GENEVA" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HATTUSA" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_STOCKHOLM" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BABYLON" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BOLOGNA" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_FEZ" MinorCivBonusType="MINOR_CIV_BONUS_SCIENTIFIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_JERUSALEM" MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_KANDY" MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LA_VENTA" MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_YEREVAN" MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NAZCA" MinorCivBonusType="MINOR_CIV_BONUS_RELIGIOUS"/>
+		<Row LeaderType="LEADER_MINOR_CIV_JAKARTA" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_LISBON" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ZANZIBAR" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_ANTIOCH" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CAHOKIA" MinorCivBonusType="MINOR_CIV_BONUS_TRADE"/>
+		<Row LeaderType="LEADER_MINOR_CIV_KUMASI" MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MOHENJO_DARO" MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NAN_MADOL" MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_VILNIUS" MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_RAPA_NUI" MinorCivBonusType="MINOR_CIV_BONUS_CULTURAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CARTHAGE" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_KABUL" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_PRESLAV" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_VALLETTA" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_AKKAD" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_NGAZARGAMU" MinorCivBonusType="MINOR_CIV_BONUS_MILITARISTIC"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BRUSSELS" MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_BUENOS_AIRES" MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_HONG_KONG" MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_CARDIFF" MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL"/>
+		<Row LeaderType="LEADER_MINOR_CIV_MEXICO_CITY" MinorCivBonusType="MINOR_CIV_BONUS_INDUSTRIAL"/>
+	</Leaders_XP2>
+	<!-- Agendas. Note that there is a lot here since existing agendas need to be categorized for new second agenda to work -->
+	<AgendaTags>
+		<Row AgendaTagType="AGENDA_EARLY_ERA_ONLY"/>
+		<Row AgendaTagType="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaTagType="AGENDA_ANY_ERA"/>
+	</AgendaTags>
+	<RandomAgendasInEra>
+		<Row EraType="ERA_ANCIENT" NumAgendas="1" VisibilityType="VISIBILITY_FULL"/>
+	</RandomAgendasInEra>
+	<RandomAgendasForCivic>
+		<Row CivicType="CIVIC_NATIONALISM" NumAgendas="1" VisibilityType="VISIBILITY_SECRET"/>
+	</RandomAgendasForCivic>
+	<RandomAgendaEraTags>
+		<Row EraType="ERA_ANCIENT" AgendaTag="AGENDA_EARLY_ERA_ONLY"/>
+		<Row EraType="ERA_ANCIENT" AgendaTag="AGENDA_ANY_ERA"/>
+	</RandomAgendaEraTags>
+	<RandomAgendaCivicTags>
+		<Row CivicType="CIVIC_NATIONALISM" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row CivicType="CIVIC_NATIONALISM" AgendaTag="AGENDA_ANY_ERA"/>
+	</RandomAgendaCivicTags>
+	<RandomAgendas_XP2>
+		<Row AgendaType="AGENDA_AIRPOWER" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_CITY_STATE_ALLY" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_CITY_STATE_PROTECTOR" AgendaTag="AGENDA_EARLY_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_CIVILIZED" AgendaTag="AGENDA_EARLY_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_CULTURED" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_DARWINIST" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_DEVOUT" AgendaTag="AGENDA_EARLY_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_ENVIRONMENTALIST" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_EXPLOITATIVE" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_EXPLORER" AgendaTag="AGENDA_EARLY_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_FUN_LOVING" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_GREAT_PERSON_ADVOCATE" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_IDEOLOGUE" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_INDUSTRIALIST" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_MONEY_GRUBBER" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_NUKE_LOVER" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_PARANOID" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_POPULOUS" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_STANDING_ARMY" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_TECHNOPHILE" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_WONDER_ADVOCATE" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_GOSSIP" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_SYCOPHANT" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_SYMPATHIZER" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_DEMAGOGUE" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_DESTINATION_CIV" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_EXPANSIONIST" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_FLAT_EARTHER" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_GREAT_WHITE_FLEET" AgendaTag="AGENDA_ANY_ERA"/>
+		<Row AgendaType="AGENDA_INTOLERANT" AgendaTag="AGENDA_LATE_ERA_ONLY" RequiresReligion="true"/>
+		<Row AgendaType="AGENDA_LIBERTARIAN" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_PILLAGER" AgendaTag="AGENDA_EARLY_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_TURTLER" AgendaTag="AGENDA_LATE_ERA_ONLY"/>
+		<Row AgendaType="AGENDA_ZEALOT" AgendaTag="AGENDA_LATE_ERA_ONLY" RequiresReligion="true"/>
+	</RandomAgendas_XP2>
+	<!-- AI Leader specific -->
+	<AiListTypes>
+		<Row ListType="VictoriaUnits"/>
+		<Row ListType="CleopatraDistricts"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="VictoriaUnits" LeaderType="TRAIT_LEADER_PAX_BRITANNICA" System="Units"/>
+		<Row ListType="CleopatraDistricts" LeaderType="TRAIT_LEADER_MEDITERRANEAN" System="Districts"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="MinorCivDistricts" Item="DISTRICT_CANAL" Favored="false"/>
+		<Row ListType="MinorCivDistricts" Item="DISTRICT_DAM" Favored="false"/>
+		<Row ListType="CleopatraDistricts" Item="DISTRICT_DAM" Favored="false"/>
+		<Row ListType="VictoriaTechs" Item="TECH_INDUSTRIALIZATION" Favored="true"/>
+		<Row ListType="VictoriaUnits" Item="UNIT_MILITARY_ENGINEER" Value="1"/>
+	</AiFavoredItems>
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="STANDARD_DIPLOMATIC_BROKEN_PROMISE"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="STANDARD_DIPLOMATIC_KEPT_PROMISE"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="STANDARD_DIPLOMATIC_NO_PROMISE"/>
+		<Delete TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="STANDARD_DIPLOMATIC_LIBERATED_CITY"/>
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER"/>
+		<!-- England-->
+		<Row>
+			<TraitType>TRAIT_LEADER_PAX_BRITANNICA</TraitType>
+			<ModifierId>TRAIT_FOREIGN_CONTINENT_TRADE_ROUTE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_PAX_BRITANNICA</TraitType>
+			<ModifierId>TRAIT_FOREIGN_CONTINENT_MELEE_UNIT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_PAX_BRITANNICA</TraitType>
+			<ModifierId>TRAIT_ROYAL_NAVY_DOCKYARD_NAVAL_UNIT</ModifierId>
+		</Row>
+		<!--Japan-->
+		<Row>
+			<TraitType>TRAIT_LEADER_DIVINE_WIND</TraitType>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_4</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_DIVINE_WIND</TraitType>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_5</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_DIVINE_WIND</TraitType>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_4</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_DIVINE_WIND</TraitType>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_EL_ESCORIAL</TraitType>
+			<ModifierId>TRAIT_INQUISITORS_FULL_EVICT</ModifierId>
+		</Row>
+		<!-- Grievances-->
+		<Row>
+			<TraitType>TRAIT_AGENDA_WITH_SHIELD</TraitType>
+			<ModifierId>TRAIT_WITH_SHIELD_GRIEVANCE_DECAY</ModifierId>
+		</Row>
+		<!-- Minor-->
+		<Row TraitType="MINOR_CIV_AKKAD_TRAIT" ModifierId="MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_MELEE"/>
+		<Row TraitType="MINOR_CIV_AKKAD_TRAIT" ModifierId="MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_ANTI_CAVALRY"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS"/>
+		<Row TraitType="MINOR_CIV_CAHOKIA_TRAIT" ModifierId="MINOR_CIV_CAHOKIA_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" ModifierId="MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_LIGHTHOUSE"/>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" ModifierId="MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_SHIPYARD"/>
+		<Row TraitType="MINOR_CIV_CARDIFF_TRAIT" ModifierId="MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_SEAPORT"/>
+		<Row TraitType="MINOR_CIV_FEZ_TRAIT" ModifierId="MINOR_CIV_FEZ_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_ALUMINUM_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_COAL_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_HORSES_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_IRON_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_NITER_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_OIL_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_HATTUSA_TRAIT" ModifierId="MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_URANIUM_RESOURCE_XP2"/>
+		<Row TraitType="MINOR_CIV_MEXICO_CITY_TRAIT" ModifierId="MINOR_CIV_MEXICO_CITY_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_NAZCA_TRAIT" ModifierId="MINOR_CIV_NAZCA_UNIQUE_INFLUENCE_BONUS"/>
+		<Row TraitType="MINOR_CIV_NGAZARGAMU_TRAIT" ModifierId="MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_BARRACKS_STABLE_PURCHASE_BONUS"/>
+		<Row TraitType="MINOR_CIV_NGAZARGAMU_TRAIT" ModifierId="MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_ARMORY_PURCHASE_BONUS"/>
+		<Row TraitType="MINOR_CIV_NGAZARGAMU_TRAIT" ModifierId="MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_MILITARY_ACADEMY_PURCHASE_BONUS"/>
+		<Row TraitType="MINOR_CIV_RAPA_NUI_TRAIT" ModifierId="MINOR_CIV_RAPA_NUI_UNIQUE_INFLUENCE_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_THIRD_PARTY_WARMONGER</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_NEW_WARMONGER_SUBJECT</SubjectRequirementSetId>
+		</Row>
+		<!-- England-->
+		<Row>
+			<ModifierId>TRAIT_FOREIGN_CONTINENT_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY_FOUND_FOREIGN_CITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOREIGN_CONTINENT_MELEE_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SETTLE_FOREIGN_CONTINENT_UNIT_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ROYAL_NAVY_DOCKYARD_NAVAL_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_ADD_NAVAL_UNIT</ModifierType>
+		</Row>
+		<!--Japan-->
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_MODIFIED_DAMAGE_OPPOSING_PLAYER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_MODIFIED_DAMAGE_OPPOSING_PLAYER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INQUISITORS_FULL_EVICT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EVICT_PERCENT</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_INQUISITOR</SubjectRequirementSetId>
+		</Row>
+		<!-- Grievances-->
+		<Row>
+			<ModifierId>TRAIT_WITH_SHIELD_GRIEVANCE_DECAY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GRIEVANCE_DECAY</ModifierType>
+		</Row>
+		<!-- Minor-->
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_MELEE</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_ENABLE_WALL_ATTACK_WHOLE_GAME_MELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ENABLE_WALL_ATTACK_WHOLE_GAME_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_ANTI_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_ENABLE_WALL_ATTACK_WHOLE_GAME_ANTI_CAVALRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ENABLE_WALL_ATTACK_WHOLE_GAME_PROMOTION_CLASS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BARRACKS_STABLE_MILITARITIC_CITY_STATE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_LIGHTHOUSE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_WORKSHOP</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_MARKET</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SHRINE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_LIBRARY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_AMPHITHEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_AMPHITHEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_AMPHITHEATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CAHOKIA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CAHOKIA_CAN_MOUND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_LIGHTHOUSE</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_LIGHTHOUSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_LIGHTHOUSE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_SHIPYARD</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_SHIPYARD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SHIPYARD</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_SEAPORT</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_SEAPORT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_SEAPORT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FEZ_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_INITIATION_YIELD_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_ALUMINUM_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_ALUMINUM_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_ALUMINUM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_COAL_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_COAL_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_COAL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_HORSES_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_HORSES_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_HORSES</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_IRON_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_IRON_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_IRON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_NITER_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_NITER_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_NITER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_OIL_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_OIL_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_OIL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_URANIUM_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_URANIUM_RESOURCE_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT_EXTRACTION</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_NO_IMPROVED_URANIUM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEXICO_CITY_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEXICO_CITY_REGIONAL_RANGE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_REGIONAL_RANGE</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE_OR_ENTERTAINMENT_COMPLEX</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_BARRACKS_STABLE_PURCHASE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NAZCA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NAZCA_CAN_NAZCA_LINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNITS_PURCHASE_COST</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_BARRACKS_STABLE_MILITARITIC_CITY_STATE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_ARMORY_PURCHASE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNITS_PURCHASE_COST</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_ARMORY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_MILITARY_ACADEMY_PURCHASE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNITS_PURCHASE_COST</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_MILITARY_ACADEMY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RAPA_NUI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RAPA_NUI_CAN_MOAI</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_VALID_IMPROVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--England-->
+		<Row>
+			<ModifierId>TRAIT_FOREIGN_CONTINENT_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ROYAL_NAVY_DOCKYARD_NAVAL_UNIT</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ROYAL_NAVY_DOCKYARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FOREIGN_CONTINENT_MELEE_UNIT</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<!--Japan-->
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_4</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_HURRICANE_CAT_4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_4</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_5</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_HURRICANE_CAT_5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_PREVENTION_CAT_5</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_4</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_HURRICANE_CAT_4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_HURRICANE_CAT_5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HURRICANE_DOUBLE_DAMAGE_CAT_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INQUISITORS_FULL_EVICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Grievances-->
+		<Row>
+			<ModifierId>TRAIT_WITH_SHIELD_GRIEVANCE_DECAY</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Minor-->
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_MELEE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_AKKAD_ENABLE_WALL_ATTACK_WHOLE_GAME_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_ENABLE_WALL_ATTACK_WHOLE_GAME_MELEE</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_UNIQUE_INFLUENCE_BONUS_ANTI_CAVALRY</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_AKKAD_ENABLE_WALL_ATTACK_WHOLE_GAME_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_AKKAD_ENABLE_WALL_ATTACK_WHOLE_GAME_ANTI_CAVALRY</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_GENERAL_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_GENERAL_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_ADMIRAL_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ADMIRAL_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_ENGINEER_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ENGINEER_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_MERCHANT_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_MERCHANT_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_PROPHET_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_PROPHET_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_SCIENTIST_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_SCIENTIST_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_WRITER_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_WRITER_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_ARTIST_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_ARTIST_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_BOLOGNA_GREAT_MUSICIAN_POINTS_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_BOLOGNA_GREAT_MUSICIAN_POINTS_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CAHOKIA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CAHOKIA_CAN_MOUND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CAHOKIA_CAN_MOUND</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MOUND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_LIGHTHOUSE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARDIFF_POWER_LIGHTHOUSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_LIGHTHOUSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_LIGHTHOUSE</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_SHIPYARD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARDIFF_POWER_SHIPYARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_SHIPYARD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_SHIPYARD</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_UNIQUE_INFLUENCE_POWER_SEAPORT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_CARDIFF_POWER_SEAPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_SEAPORT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_CARDIFF_POWER_SEAPORT</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_ALUMINUM_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_ALUMINUM_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_ALUMINUM_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_ALUMINUM_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_COAL_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_COAL_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_COAL_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_COAL_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_HORSES_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_HORSES_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_HORSES_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_HORSES_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_IRON_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_IRON_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_IRON_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_IRON_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_NITER_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_NITER_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_NITER_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_NITER_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_OIL_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_OIL_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_OIL_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_OIL_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_UNIQUE_INFLUENCE_URANIUM_RESOURCE_XP2</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_HATTUSA_URANIUM_RESOURCE_XP2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_URANIUM_RESOURCE_XP2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_URANIUM</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_HATTUSA_URANIUM_RESOURCE_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FEZ_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEXICO_CITY_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_MEXICO_CITY_REGIONAL_RANGE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_MEXICO_CITY_REGIONAL_RANGE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NAZCA_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NAZCA_CAN_NAZCA_LINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NAZCA_CAN_NAZCA_LINE</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_NAZCA_LINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_BARRACKS_STABLE_PURCHASE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_ARMORY_PURCHASE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_UNIQUE_INFLUENCE_MILITARY_ACADEMY_PURCHASE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RAPA_NUI_UNIQUE_INFLUENCE_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MINOR_CIV_RAPA_NUI_CAN_MOAI</Value>
+		</Row>
+		<Row>
+			<ModifierId>MINOR_CIV_RAPA_NUI_CAN_MOAI</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MOAI</Value>
+		</Row>
+		<!-- Updated Diplo-->
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_WARMONGER</ModifierId>
+			<Name>LowerLimit</Name>
+			<Value>-60</Value>
+		</Row>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_WARMONGER</ModifierId>
+			<Name>PercentOfGrievances</Name>
+			<Value>20</Value>
+		</Row>
+		<!-- New Diplo-->
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER</ModifierId>
+			<Name>LowerLimit</Name>
+			<Value>-40</Value>
+		</Row>
+		<Row>
+			<ModifierId>STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER</ModifierId>
+			<Name>PercentOfGrievancesDelta</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="STANDARD_DIPLOMATIC_THIRD_PARTY_WARMONGER" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOV_DISTRICT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER_1_GOV_BUILDING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER_2_GOV_BUILDING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER_3_GOV_BUILDING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_LEVIED_REQUIREMENTS_XP2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_CITIES</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ONE_CITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHIPYARD</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SEAPORT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_ALUMINUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_COAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_HORSES</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_IRON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_NITER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_OIL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_URANIUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_GOV_DISTRICT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER_1_GOV_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_1_GOV_BUILDING</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER_2_GOV_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_2_GOV_BUILDING</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_TIER_3_GOV_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_3_GOV_BUILDING</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_LEVIED_REQUIREMENTS_XP2</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_LEVIED_XP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_CITIES</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_AT_LEAST_NO_CITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ONE_CITY</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_ONLY_ONE_CITY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_ENGINEERING_CIVIC</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SHIPYARD</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_SEAPORT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SEAPORT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_ALUMINUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_ALUMINUM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_ALUMINUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_ALUMINUM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_COAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_COAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_COAL</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_COAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_HORSES</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_HORSES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_HORSES</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_HORSES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_IRON</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_IRON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_IRON</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_IRON</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_NITER</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_NITER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_NITER</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_NITER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_OIL</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_OIL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_OIL</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_OIL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_URANIUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_URANIUM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NO_IMPROVED_URANIUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_SEE_URANIUM</RequirementId>
+		</Row>
+		<!--Extending suzerain bonus requirement set to accommodate possible disabling via the World Congress-->
+		<Row>
+			<RequirementSetId>PLAYER_IS_SUZERAIN</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_IS_SUZERAIN_BONUS_ENABLED</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_1_GOV_BUILDING</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_GOVERNMENT_BUILDING_TIER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_2_GOV_BUILDING</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_GOVERNMENT_BUILDING_TIER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_3_GOV_BUILDING</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_GOVERNMENT_BUILDING_TIER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_LEVIED_XP2</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_IS_LEVIED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_AT_LEAST_NO_CITY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_AT_LEAST_NUMBER_CITIES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_ONLY_ONE_CITY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_AT_LEAST_NUMBER_CITIES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_ENGINEERING_CIVIC</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_IS_SUZERAIN_BONUS_ENABLED</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_SUZERAIN_BONUS_ENABLED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_ALUMINUM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_COAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_HORSES</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_IRON</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_NITER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_OIL</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_URANIUM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_RESOURCE_IMPROVED</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_1_GOV_BUILDING</RequirementId>
+			<Name>GovernmentBuildingTier</Name>
+			<Value>Tier1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_2_GOV_BUILDING</RequirementId>
+			<Name>GovernmentBuildingTier</Name>
+			<Value>Tier2</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_TIER_3_GOV_BUILDING</RequirementId>
+			<Name>GovernmentBuildingTier</Name>
+			<Value>Tier3</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_AT_LEAST_NO_CITY</RequirementId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_ONLY_ONE_CITY</RequirementId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_ENGINEERING_CIVIC</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_ENGINEERING</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_SHIPYARD</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_SHIPYARD</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_ALUMINUM</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_COAL</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_HORSES</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_HORSES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_IRON</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_NITER</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_NITER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_OIL</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NO_IMPROVED_URANIUM</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_URANIUM</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

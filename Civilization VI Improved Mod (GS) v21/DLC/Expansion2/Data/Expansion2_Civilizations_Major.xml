@@ -1,0 +1,1916 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- Full Civs -->
+		<Row Type="CIVILIZATION_CANADA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_HUNGARY" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_INCA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MALI" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MAORI" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_OTTOMAN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_PHOENICIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_SWEDEN" Kind="KIND_CIVILIZATION"/>
+		<!--CIV TRAITS-->
+		<Row Type="TRAIT_CIVILIZATION_FACES_OF_PEACE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_GREAT_MOUNTAINS" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_MALI_GOLD_DESERT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_MAORI_MANA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_NOBEL_PRIZE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_PEARL_DANUBE" Kind="KIND_TRAIT"/>
+		<!--UNIQUE BUILDINGS-->
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_GRAND_BAZAAR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_MARAE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_THERMAL_BATH" Kind="KIND_TRAIT"/>
+		<!--UNIQUE DISTRICTS-->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_COTHON" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_SUGUBA" Kind="KIND_TRAIT"/>
+		<!--UNIQUE IMPROVEMENTS-->
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_OPEN_AIR_MUSEUM" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ICE_HOCKEY_RINK" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_TERRACE_FARM" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_MAORI_PA" Kind="KIND_TRAIT"/>
+		<!--UNIQUE UNITS-->
+		<Row Type="TRAIT_CIVILIZATION_UNIT_CANADA_MOUNTIE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HUNGARY_HUSZAR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_INCA_WARAKAQ" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MALI_MANDEKALU_CAVALRY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MAORI_TOA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_OTTOMAN_BARBARY_CORSAIR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_PHOENICIA_BIREME" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SWEDEN_CAROLEAN" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_CANADA" Name="LOC_CIVILIZATION_CANADA_NAME" Description="LOC_CIVILIZATION_CANADA_DESCRIPTION" Adjective="LOC_CIVILIZATION_CANADA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" Name="LOC_CIVILIZATION_HUNGARY_NAME" Description="LOC_CIVILIZATION_HUNGARY_DESCRIPTION" Adjective="LOC_CIVILIZATION_HUNGARY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
+		<Row CivilizationType="CIVILIZATION_INCA" Name="LOC_CIVILIZATION_INCA_NAME" Description="LOC_CIVILIZATION_INCA_DESCRIPTION" Adjective="LOC_CIVILIZATION_INCA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_SOUTHAM"/>
+		<Row CivilizationType="CIVILIZATION_MALI" Name="LOC_CIVILIZATION_MALI_NAME" Description="LOC_CIVILIZATION_MALI_DESCRIPTION" Adjective="LOC_CIVILIZATION_MALI_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_AFRICAN"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" Name="LOC_CIVILIZATION_MAORI_NAME" Description="LOC_CIVILIZATION_MAORI_DESCRIPTION" Adjective="LOC_CIVILIZATION_MAORI_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_SOUTHAM"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" Name="LOC_CIVILIZATION_OTTOMAN_NAME" Description="LOC_CIVILIZATION_OTTOMAN_DESCRIPTION" Adjective="LOC_CIVILIZATION_OTTOMAN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_MEDIT"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" Name="LOC_CIVILIZATION_PHOENICIA_NAME" Description="LOC_CIVILIZATION_PHOENICIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_PHOENICIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_MEDIT"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" Name="LOC_CIVILIZATION_SWEDEN_NAME" Description="LOC_CIVILIZATION_SWEDEN_DESCRIPTION" Adjective="LOC_CIVILIZATION_SWEDEN_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_CANADA" LeaderType="LEADER_LAURIER" CapitalName="LOC_CITY_NAME_OTTAWA"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" LeaderType="LEADER_ELEANOR_ENGLAND" CapitalName="LOC_CITY_NAME_LONDON"/>
+		<Row CivilizationType="CIVILIZATION_FRANCE" LeaderType="LEADER_ELEANOR_FRANCE" CapitalName="LOC_CITY_NAME_PARIS"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" LeaderType="LEADER_MATTHIAS_CORVINUS" CapitalName="LOC_CITY_NAME_BUDA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" LeaderType="LEADER_PACHACUTI" CapitalName="LOC_CITY_NAME_QUSQU"/>
+		<Row CivilizationType="CIVILIZATION_MALI" LeaderType="LEADER_MANSA_MUSA" CapitalName="LOC_CITY_NAME_NIANI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" LeaderType="LEADER_KUPE" CapitalName="LOC_CITY_NAME_TE_HOKIANGA_NU_A_KUPE"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" LeaderType="LEADER_SULEIMAN" CapitalName="LOC_CITY_NAME_ISTANBUL"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" LeaderType="LEADER_DIDO" CapitalName="LOC_CITY_NAME_TYRE"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" LeaderType="LEADER_KRISTINA" CapitalName="LOC_CITY_NAME_STOCKHOLM"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_CANADA" TraitType="TRAIT_CIVILIZATION_FACES_OF_PEACE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ICE_HOCKEY_RINK"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" TraitType="TRAIT_CIVILIZATION_UNIT_CANADA_MOUNTIE"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" TraitType="TRAIT_CIVILIZATION_PEARL_DANUBE"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" TraitType="TRAIT_CIVILIZATION_BUILDING_THERMAL_BATH"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" TraitType="TRAIT_CIVILIZATION_UNIT_HUNGARY_HUSZAR"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TraitType="TRAIT_CIVILIZATION_GREAT_MOUNTAINS"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_TERRACE_FARM"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TraitType="TRAIT_CIVILIZATION_UNIT_INCA_WARAKAQ"/>
+		<Row CivilizationType="CIVILIZATION_MALI" TraitType="TRAIT_CIVILIZATION_MALI_GOLD_DESERT"/>
+		<Row CivilizationType="CIVILIZATION_MALI" TraitType="TRAIT_CIVILIZATION_DISTRICT_SUGUBA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" TraitType="TRAIT_CIVILIZATION_UNIT_MALI_MANDEKALU_CAVALRY"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_BUILDING_MARAE"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_MAORI_MANA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MAORI_PA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_UNIT_MAORI_TOA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" TraitType="TRAIT_CIVILIZATION_BUILDING_GRAND_BAZAAR"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" TraitType="TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" TraitType="TRAIT_CIVILIZATION_UNIT_OTTOMAN_BARBARY_CORSAIR"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" TraitType="TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" TraitType="TRAIT_CIVILIZATION_DISTRICT_COTHON"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" TraitType="TRAIT_CIVILIZATION_UNIT_PHOENICIA_BIREME"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" TraitType="TRAIT_CIVILIZATION_NOBEL_PRIZE"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_OPEN_AIR_MUSEUM"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" TraitType="TRAIT_CIVILIZATION_UNIT_SWEDEN_CAROLEAN"/>
+	</CivilizationTraits>
+	<ExcludedGreatPersonClasses>
+		<Row GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" TraitType="TRAIT_CIVILIZATION_MAORI_MANA"/>
+	</ExcludedGreatPersonClasses>
+	<Traits>
+		<!--Canada-->
+		<Row TraitType="TRAIT_CIVILIZATION_FACES_OF_PEACE" Name="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_NAME" Description="LOC_TRAIT_CIVILIZATION_FACES_OF_PEACE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ICE_HOCKEY_RINK" Name="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_CANADA_MOUNTIE" Name="LOC_UNIT_CANADA_MOUNTIE_NAME"/>
+		<!--Hungary-->
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_THERMAL_BATH" Name="LOC_TRAIT_CIVILIZATION_BUILDING_THERMAL_BATH_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_PEARL_DANUBE" Name="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_NAME" Description="LOC_TRAIT_CIVILIZATION_PEARL_DANUBE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HUNGARY_HUSZAR" Name="LOC_UNIT_HUNGARY_HUSZAR_NAME"/>
+		<!--Inca-->
+		<Row TraitType="TRAIT_CIVILIZATION_GREAT_MOUNTAINS" Name="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_NAME" Description="LOC_TRAIT_CIVILIZATION_GREAT_MOUNTAINS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_TERRACE_FARM" Name="LOC_IMPROVEMENT_TERRACE_FARM_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_INCA_WARAKAQ" Name="LOC_UNIT_UNIT_INCA_WARAKAQ_NAME"/>
+		<!--Mali-->
+		<Row TraitType="TRAIT_CIVILIZATION_MALI_GOLD_DESERT" Name="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_NAME" Description="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_SUGUBA" Name="LOC_DISTRICT_SUGUBA_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MALI_MANDEKALU_CAVALRY" Name="LOC_UNIT_MALI_MANDEKALU_CAVALRY_NAME"/>
+		<!--Maori-->
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_MARAE" Name="LOC_TRAIT_CIVILIZATION_BUILDING_MARAE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_MAORI_MANA" Name="LOC_TRAIT_CIVILIZATION_MAORI_MANA_NAME" Description="LOC_TRAIT_CIVILIZATION_MAORI_MANA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MAORI_PA" Name="LOC_IMPROVEMENT_MAORI_PA_NAME" Description="LOC_LOADING_UNIQUE_IMPROVEMENT"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MAORI_TOA" Name="LOC_UNIT_MAORI_TOA_NAME"/>
+		<!--Ottoman-->
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_GRAND_BAZAAR" Name="LOC_TRAIT_CIVILIZATION_BUILDING_GRAND_BAZAAR_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD" Name="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_NAME" Description="LOC_TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_OTTOMAN_BARBARY_CORSAIR" Name="LOC_UNIT_OTTOMAN_BARBARY_CORSAIR_NAME"/>
+		<!--Phoenicia-->
+		<Row TraitType="TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES" Name="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_NAME" Description="LOC_TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_COTHON" Name="LOC_TRAIT_CIVILIZATION_DISTRICT_COTHON_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_PHOENICIA_BIREME" Name="LOC_UNIT_PHOENICIA_BIREME_NAME"/>
+		<!--Sweden-->
+		<Row TraitType="TRAIT_CIVILIZATION_NOBEL_PRIZE" Name="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_NAME" Description="LOC_TRAIT_CIVILIZATION_NOBEL_PRIZE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_OPEN_AIR_MUSEUM" Name="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SWEDEN_CAROLEAN" Name="LOC_UNIT_CANADA_MOUNTIE_NAME"/>
+	</Traits>
+	<!--Modifier and Requirement data is kept in the main Civilizations file-->
+	<TraitModifiers>
+		<!--Canada-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FACES_OF_PEACE</TraitType>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_FOR_CANADA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_MAJOR_CIV</TraitType>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_ON_CANADA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FACES_OF_PEACE</TraitType>
+			<ModifierId>TRAIT_TOURISM_INTO_FAVOR</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FACES_OF_PEACE</TraitType>
+			<ModifierId>TRAIT_EMERGENCY_FAVOR_MODIFIER</ModifierId>
+		</Row>
+		<!--Hungary-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEARL_DANUBE</TraitType>
+			<ModifierId>TRAIT_CITY_ADJACENT_RIVER_BUILDING_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_PEARL_DANUBE</TraitType>
+			<ModifierId>TRAIT_CITY_ADJACENT_RIVER_DISTRICT_PRODUCTION</ModifierId>
+		</Row>
+		<!--Inca-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_TERRACE_GRASS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_TERRACE_PLAINS_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_TERRACE_DESERT_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_TERRACE_TUNDRA_MOUNTAIN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_MOUNTAINS</TraitType>
+			<ModifierId>TRAIT_TERRACE_SNOW_MOUNTAIN</ModifierId>
+		</Row>
+		<!--Mali-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_MALI_MINES_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_MALI_MINES_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_PURCHASE_COMMERCIAL_HUB_BUILDINGS_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_LESS_BUILDING_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MALI_GOLD_DESERT</TraitType>
+			<ModifierId>TRAIT_LESS_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<!--Maori-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_MANA_OCEAN</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_MANA_SAILING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_MANA_SHIPBUILDING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_EMBARKED_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_PREVENT_HARVEST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST_CONSERVATION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS_CONSERVATION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MAORI_MANA</TraitType>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_CULTURE_BOMB</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_IMPROVEMENT_MAORI_PA</TraitType>
+			<ModifierId>TRAIT_MAORI_PA</ModifierId>
+		</Row>
+		<!--Phoenicia-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES</TraitType>
+			<ModifierId>TRAIT_COASTAL_CITIES_FULL_LOYALTY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES</TraitType>
+			<ModifierId>TRAIT_MEDITERRANEAN_COLONIES_GRANT_SETTLERS_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MEDITERRANEAN_COLONIES</TraitType>
+			<ModifierId>TRAIT_FREE_TECH_BOOST_WRITING</ModifierId>
+		</Row>
+		<!--Ottomans-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD</TraitType>
+			<ModifierId>TRAIT_SIEGE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD</TraitType>
+			<ModifierId>TRAIT_SIEGE_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD</TraitType>
+			<ModifierId>TRAIT_CAPTURED_LOYALTY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD</TraitType>
+			<ModifierId>TRAIT_CAPTURED_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GREAT_TURKISH_BOMBARD</TraitType>
+			<ModifierId>TRAIT_CAPTURED_NO_POPULATION_LOSS</ModifierId>
+		</Row>
+		<!--Sweden-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_NOBEL_PRIZE</TraitType>
+			<ModifierId>TRAIT_GREATPERSON_FAVOR_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_NOBEL_PRIZE</TraitType>
+			<ModifierId>TRAIT_GREAT_SCIENTIST_UNIVERSITY_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_NOBEL_PRIZE</TraitType>
+			<ModifierId>TRAIT_GREAT_ENGINEER_FACTORY_MODIFIER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--Canada-->
+		<Row>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_FOR_CANADA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BANNED_DIPLOMATIC_ACTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_ON_CANADA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_BANNED_DIPLOMATIC_ACTION_SPECIFIC_CIVILIZATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOURISM_INTO_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM_INTO_FAVOR</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EMERGENCY_FAVOR_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMERGENCY_FAVOR_MODIFIER</ModifierType>
+		</Row>
+		<!--Hungary-->
+		<Row>
+			<ModifierId>TRAIT_CITY_ADJACENT_RIVER_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ADJACENT_RIVER_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITY_ADJACENT_RIVER_DISTRICT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ADJACENT_RIVER_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<!--Inca-->
+		<Row>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_GRASS_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_PLAINS_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_TUNDRA_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_DESERT_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_SNOW_MOUNTAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType>
+		</Row>
+		<!--Mali-->
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PURCHASE_COMMERCIAL_HUB_BUILDINGS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MALI_MINES_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MALI_MINES_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LESS_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LESS_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION_MODIFIER</ModifierType>
+		</Row>
+		<!--Maori-->
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_SAILING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_SHIPBUILDING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_EMBARKED_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PREVENT_HARVEST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PREVENT_HARVEST_RESOURCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_NO_IMPROVEMENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST_CONSERVATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_CONSERVATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS_CONSERVATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FOREST_CONSERVATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_CULTURE_BOMB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_HEAL_AFTER_ACTION</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MAORI_PA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!--Phoenicia-->
+		<Row>
+			<ModifierId>TRAIT_COASTAL_CITIES_FULL_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALWAYS_LOYAL_COASTAL_HOME_CONTINENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDITERRANEAN_COLONIES_GRANT_SETTLERS_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_TECH_BOOST_WRITING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Ottomans-->
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_NO_POPULATION_LOSS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_POPULATION_AFTER_CONQUEST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SIEGE_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SIEGE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<!--Sweden-->
+		<Row>
+			<ModifierId>TRAIT_GREATPERSON_FAVOR_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREATPERSON_FAVOR_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_SCIENTIST_UNIVERSITY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_UNIVERSITY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_ENGINEER_FACTORY_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREAT_PERSON_POINT</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_FACTORY</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Canada-->
+		<Row>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_FOR_CANADA</ModifierId>
+			<Name>Banned</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_FOR_CANADA</ModifierId>
+			<Name>DiplomaticActionType</Name>
+			<Value>DIPLOACTION_DECLARE_SURPRISE_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_ON_CANADA</ModifierId>
+			<Name>CivilizationType</Name>
+			<Value>CIVILIZATION_CANADA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_NO_SUPRISE_WAR_ON_CANADA</ModifierId>
+			<Name>DiplomaticActionType</Name>
+			<Value>DIPLOACTION_DECLARE_SURPRISE_WAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOURISM_INTO_FAVOR</ModifierId>
+			<Name>Tourism</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOURISM_INTO_FAVOR</ModifierId>
+			<Name>Favor</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EMERGENCY_FAVOR_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EMERGENCY_FAVOR_MODIFIER</ModifierId>
+			<Name>Member</Name>
+			<Value>true</Value>
+		</Row>
+		<!--Hungary-->
+		<Row>
+			<ModifierId>TRAIT_CITY_ADJACENT_RIVER_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CITY_ADJACENT_RIVER_DISTRICT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Inca-->
+		<Row>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_GRASS_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_PLAINS_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_DESERT_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_TUNDRA_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WORK_SNOW_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PRODUCTION_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_GRASS_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_GRASS_MOUNTAIN</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_TERRACE_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_GRASS_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_GRASS_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_PLAINS_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_PLAINS_MOUNTAIN</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_TERRACE_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_PLAINS_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_PLAINS_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_DESERT_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_DESERT_MOUNTAIN</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_TERRACE_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_DESERT_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_DESERT_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_TUNDRA_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_TUNDRA_MOUNTAIN</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_TERRACE_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_TUNDRA_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_TUNDRA_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_SNOW_MOUNTAIN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_SNOW_MOUNTAIN</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_TERRACE_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_SNOW_MOUNTAIN</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TERRACE_SNOW_MOUNTAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Mali-->
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DESERT_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DESERT_HILLS_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DESERT_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_CITY_CENTER_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_DESERT_HILLS_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DESERT_HILLS_CITY_CENTER_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MALI_MINES_PRODUCTION </ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MALI_MINES_PRODUCTION </ModifierId>
+			<Name>Amount</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MALI_MINES_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MALI_MINES_GOLD </ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PURCHASE_COMMERCIAL_HUB_BUILDINGS_FAITH</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LESS_BUILDING_PRODUCTION </ModifierId>
+			<Name>Amount</Name>
+			<Value>-30</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LESS_BUILDING_PRODUCTION</ModifierId>
+			<Name>IsWonder</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LESS_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-30</Value>
+		</Row>
+		<!--Maori-->
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_OCEAN</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_OCEAN</ModifierId>
+			<Name>Valid</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_SAILING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SAILING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_MANA_SHIPBUILDING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_SHIPBUILDING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_EMBARKED_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MANA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PREVENT_HARVEST</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST_CONSERVATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_RAINFOREST_CONSERVATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS_CONSERVATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_PRODUCTION_WOODS_CONSERVATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MAORI_FISHING_BOAT_CULTURE_BOMB</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FISHING_BOATS</Value>
+		</Row>
+		<!--Phoenicia-->
+		<Row>
+			<ModifierId>TRAIT_MEDITERRANEAN_COLONIES_GRANT_SETTLERS_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_MEDITERRANEAN_COLONIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FREE_TECH_BOOST_WRITING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_WRITING</Value>
+		</Row>
+		<!--Ottoman-->
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_NO_POPULATION_LOSS</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SIEGE_ABILITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_TURKISH_BOMBARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SIEGE_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SIEGE_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SIEGE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Sweden-->
+		<Row>
+			<ModifierId>TRAIT_GREATPERSON_FAVOR_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_SCIENTIST_UNIVERSITY_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_SCIENTIST_UNIVERSITY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_ENGINEER_FACTORY_MODIFIER</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GREAT_ENGINEER_FACTORY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<CityNames>
+		<!--Brazil-->
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_VITORIA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_BELO_HORIZONTE"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_GOIANIA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_DUQUE_DE_CAXIAS"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_CAMPO_GRANDE"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_PARNAIBA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_FLORIANOPOLIS"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_NOVA_IGUACU"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_SAO_BERNARDO_DO_CAMPO"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_JOAO_PESSOA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_OSASCO"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_JABOATAO_DOS_GUARARAPES"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_SAO_JOSE_DOS_CAMPOS"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_CONTAGEM"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_UBERLANDIA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_ARACAJU"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_CUIABA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_FEIRA_DE_SANTANA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_JUIZ_DE_FORA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_JOINVILLE"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_MACAPA"/>
+		<Row CivilizationType="CIVILIZATION_BRAZIL" CityName="LOC_CITY_NAME_JUNDIAI"/>
+		<!--Canada-->
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_OTTAWA"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_MONTREAL"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_TORONTO"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_QUEBEC_CITY"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_HAMILTON"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_WINNIPEG"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_HALIFAX"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SAINT_JOHN"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_VANCOUVER"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_VICTORIA"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_KINGSTON"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_BRANTFORD"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_WINDSOR"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_CHARLOTTETOWN"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_CALGARY"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SHERBROOKE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_GUELPH"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_PETERBOROUGH"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_VALLEYFIELD"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_EDMONTON"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_TROIS_RIVIERES"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_STRATFORD"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SAINT_CATHERINES"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_WATERLOO"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SAINT_HYACINTHE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SAINT_JOHNS"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_DAWSON_CITY"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_BELLEVILLE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_CHATHAM"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SASKATOON"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_MONCTON"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_MISSISSAUGA"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_BROCKVILLE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_REGINA"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_RED_DEER"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_BRANDON"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SAULT_SAINTE_MARIE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_LETHBRIDGE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_SAINT_LIN"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_WHITEHORSE"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CityName="LOC_CITY_NAME_THUNDER_BAY"/>
+		<!--Hungary-->
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_BUDA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_DEBRECEN"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_ESZTERGOM"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_PECS"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SZEGED"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_PEST"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_EGER"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_MISKOLC"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_GYOR"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SZEKESFEHERVAR"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_OBUDA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_KOSZEG"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_TATABANYA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_KOLOZSVAR"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_DIOSGYOR"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_MOHACS"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_TATA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SZOLNOK"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_KASSA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_KECSKEMET"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SZOMBATHELY"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SIMONTORNYA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_NYIREGYHAZA"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SARVAR"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SOPRON"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_CSESZNEK"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_ZAGRAB"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_TEMESVAR"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_NAGYVAZSONY"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_HODMEZOVASARHELY"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_SUMEG"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CityName="LOC_CITY_NAME_BAJA"/>
+		<!--Inca-->
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_QUSQU"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_ANTAWAYLLA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_WANUKU"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_WILLKA_WAMAN"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_MACHU"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_OLLANTAYTAMBO"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_SAUSA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_KASHAMARKA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_CHUCUITO"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_KITU_KARA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_AYACUCHU"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_CHAN_CHAN"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PISAC"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_HUANCABAMBA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_AYAVIRI"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_ROSASPATA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PARIA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_CHUQUIABO"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PACHAKAMAQ"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_TUMBEZ"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_TUMIPAMPA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INGAPIRCA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_INKA_WASI"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_ICA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PARAMONGA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PUKATAMPU"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_CHIQUITOY"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PUKARA_CHENA"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_RANCHILLOS"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PUMPU"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CityName="LOC_CITY_NAME_PUKARA_ACONQUIJA"/>
+		<!--Mali-->
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_NIANI"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_TIMBUKTU"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_JENNE"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_GAO"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KUMBI_SALEH"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_WALATA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_TAWDENNI"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_TADMEKKA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_AWDAGHUST"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KIRINA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_SEGU"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_NIORO"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KANGABA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KOUROUSSA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_NIAGASSOLA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_DIARA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KAYES"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_NTERET"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_DIA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_ARAWAN"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KIRI"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_MOPTI"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_NARENA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_DAKADIALA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KUKYA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_SIBY"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_FADAMA"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_TABON"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_SIGUIRI"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CityName="LOC_CITY_NAME_KANIANA"/>
+		<!--Maori-->
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_TE_HOKIANGA_NU_A_KUPE"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_NGARUAWAHIA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_OPANGO"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_WHAKAREWAREWA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_KAIAPOI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_WHANGANUI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_KAWHIA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_TAUMUTU"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_KAPITI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_TE_POKOHIWI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_OTATARA_PA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_MOTUPOHUE"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_RUATORIA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_MAUNGAKIEKIE_PA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_TAUPIRI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_WHAINGAROA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_PUKEMAIRE"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_PARI_RU"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_OPOTIKI"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_TAUMATAWHANA_PA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_WHANGANUI_A_TARA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_WAIMAPIHI_PA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_KORORIPO_PA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="LOC_CITY_NAME_MOTAKIORA"/>
+		<!--Ottoman-->
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_ISTANBUL"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_BURSA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_EDIRNE"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_ANKARA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_HALEP"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_KONYA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_ADANA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_TRABZON"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_SIVAS"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_IZMIR"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_ERZURUM"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_KAYSERI"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_AYDIN"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_TRABLUSGARP"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_URFA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_AMASYA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_CEZAYIR"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_MONASTIR"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_SINOP"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_ISKENDERUN"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_DIYARBEKIR"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_MARAS"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_AKSARAY"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_GELIBOLU"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_AINTAB"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_IZMIT"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_BOSNA_SARAY"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_MOCHA"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_VAN"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_SAMSUN"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_ESKISEHIR"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_SOGUT"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CityName="LOC_CITY_NAME_TIRGOVISTE"/>
+		<!--Phoenicia-->
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_TYRE"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_BYBLOS"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_SIDON"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_BIRUTA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_UGARIT"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_KTY"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_AYNOOK"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_LPQY"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_CARTHAGE"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_ZIZ"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_UTICA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_SBRT_N"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_MTW"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_LIXUS"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_NORA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_AMRIT"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_OEA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_GADIR"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_THAPSUS"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_MALAKA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_KERKOUANE"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_ADRYMES"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_SEXI"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_HIPPONENSIS_SINUS"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_IBOSSIM"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_ONOBA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_IOL"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_RUSUCURRU"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_MAGO"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_SALA"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CityName="LOC_CITY_NAME_TAS_SILG"/>
+		<!--Rome-->
+		<Row CivilizationType="CIVILIZATION_ROME" CityName="LOC_CITY_NAME_POMPEII"/>
+		<!--Sweden-->
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_STOCKHOLM"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_GOTEBORG"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_UPPSALA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_LINKOPING"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_OREBRO"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_VASTERAS"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_JONKOPING"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_NORRKOPING"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_HELSINGBORG"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_KARLSTAD"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_LUND"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_MALMO"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_UMEA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_ABO"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_HALMSTAD"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_STRANGNAS"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_KALMAR"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_FALUN"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_NYKOPING"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_KARLSKRONA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_BORAS"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_FORT_KRISTINA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_REVAL"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_VASA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_OSTERSUND"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_TORSHALLA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_KUNGALV"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_VAXJO"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_RIGA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_SUNDSVALL"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_VASTERVIK"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_GAVLE"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_VIBORG"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_HUDIKSVALL"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_VISBY"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_FORT_CAROLUSBORG"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_AMAL"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_TORNEA"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CityName="LOC_CITY_NAME_KINDA"/>
+		<!-- City-States-->
+		<Row CivilizationType="CIVILIZATION_AKKAD" CityName="LOC_CITY_NAME_AKKAD"/>
+		<Row CivilizationType="CIVILIZATION_BOLOGNA" CityName="LOC_CITY_NAME_BOLOGNA"/>
+		<Row CivilizationType="CIVILIZATION_CAHOKIA" CityName="LOC_CITY_NAME_CAHOKIA"/>
+		<Row CivilizationType="CIVILIZATION_CARDIFF" CityName="LOC_CITY_NAME_CARDIFF"/>
+		<Row CivilizationType="CIVILIZATION_FEZ" CityName="LOC_CITY_NAME_FEZ"/>
+		<Row CivilizationType="CIVILIZATION_MEXICO_CITY" CityName="LOC_CITY_NAME_MEXICO_CITY"/>
+		<Row CivilizationType="CIVILIZATION_NAZCA" CityName="LOC_CITY_NAME_NAZCA"/>
+		<Row CivilizationType="CIVILIZATION_NGAZARGAMU" CityName="LOC_CITY_NAME_NGAZARGAMU"/>
+		<Row CivilizationType="CIVILIZATION_RAPA_NUI" CityName="LOC_CITY_NAME_RAPA_NUI"/>
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" CitizenName="LOC_CITIZEN_CANADA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" CitizenName="LOC_CITIZEN_HUNGARY_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_INCA" CitizenName="LOC_CITIZEN_INCA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MALI" CitizenName="LOC_CITIZEN_MALI_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CitizenName="LOC_CITIZEN_MAORI_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" CitizenName="LOC_CITIZEN_OTTOMAN_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" CitizenName="LOC_CITIZEN_PHOENICIA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" CitizenName="LOC_CITIZEN_SWEDEN_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" FeatureType="FEATURE_GEOTHERMAL_FISSURE" Tier="5"/>
+	</StartBiasFeatures>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" Tier="3"/>
+	</StartBiasRivers>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_CANADA" TerrainType="TERRAIN_TUNDRA" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" TerrainType="TERRAIN_SNOW" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" TerrainType="TERRAIN_SNOW_HILLS" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TerrainType="TERRAIN_DESERT_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TerrainType="TERRAIN_GRASS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TerrainType="TERRAIN_PLAINS_MOUNTAIN" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TerrainType="TERRAIN_TUNDRA_MOUNTAIN" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_INCA" TerrainType="TERRAIN_SNOW_MOUNTAIN" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" TerrainType="TERRAIN_DESERT" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_MALI" TerrainType="TERRAIN_DESERT_HILLS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" TerrainType="TERRAIN_COAST" Tier="2"/>
+	</StartBiasTerrains>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" ResourceType="RESOURCE_COAL" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" ResourceType="RESOURCE_IRON" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_COPPER" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_DIAMONDS" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_JADE" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_MERCURY" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_SALT" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_SILVER" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_ALUMINUM" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_COAL" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_IRON" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_MALI" ResourceType="RESOURCE_NITER" Tier="5"/>
+	</StartBiasResources>
+	<NamedRiverCivilizations>
+		<Row NamedRiverType="NAMED_RIVER_APURIMAQ_MAYU" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_ARAS_RIVER" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedRiverType="NAMED_RIVER_ATHABASCA_RIVER" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_AWRIQ_MAYU" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_BANI_RIVER" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedRiverType="NAMED_RIVER_BEIRUT_RIVER" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedRiverType="NAMED_RIVER_CHINCHIPE_RIVER" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_COLUMBIA" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_DAL" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedRiverType="NAMED_RIVER_DANUBE" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedRiverType="NAMED_RIVER_FRASER_RIVER" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_GAMBIA_RIVER" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedRiverType="NAMED_RIVER_INDAL_RIVER" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedRiverType="NAMED_RIVER_JORDAN" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedRiverType="NAMED_RIVER_KAWARAU_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_KAWATIRI_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_KISISKACIWANI_SIPIY" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_KIZILIRMAK" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedRiverType="NAMED_RIVER_KLARA_RIVER" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedRiverType="NAMED_RIVER_KOROS_RIVER" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedRiverType="NAMED_RIVER_LITANI" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedRiverType="NAMED_RIVER_LULE_RIVER" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedRiverType="NAMED_RIVER_MACKENZIE" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_MAIPO_RIVER" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_MATA_AU_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_MAULE_RIVER" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_MEDJERDA_RIVER" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedRiverType="NAMED_RIVER_MURAT_RIVER" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedRiverType="NAMED_RIVER_NIGER" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedRiverType="NAMED_RIVER_ORONTES_RIVER" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedRiverType="NAMED_RIVER_POWINIGOW" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_PUTUMAYU" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_RABA_RIVER" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedRiverType="NAMED_RIVER_RAKAIA_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_RANGATIKEI_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_SAINT_LAWRENCE" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_SAKARYA_RIVER" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedRiverType="NAMED_RIVER_SANKARANI_RIVER" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedRiverType="NAMED_RIVER_SENEGAL_RIVER" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedRiverType="NAMED_RIVER_TE_AWAKAIRANGI" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_TISZA_RIVER" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedRiverType="NAMED_RIVER_TONGARIRO_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_TORNE_RIVER" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedRiverType="NAMED_RIVER_UCAYALI" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_WAIAPU_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_WAIAU_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_WAIKATO" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_WAIMAKARIRI_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_WAITAKI_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_WALLAQA_MAYU" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_WHANGANUI_RIVER" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedRiverType="NAMED_RIVER_WILLKAMAYU" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedRiverType="NAMED_RIVER_YESILIRMAK_RIVER" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedRiverType="NAMED_RIVER_YUKON" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedRiverType="NAMED_RIVER_ZAGYVA_RIVER" CivilizationType="CIVILIZATION_HUNGARY"/>
+	</NamedRiverCivilizations>
+	<NamedVolcanoCivilizations>
+		<Row NamedVolcanoType="NAMED_VOLCANO_AGRI_DAGI" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_ALLARPS_BJAR_VOLCANO" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_CHHACHANI" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_FRUALID_VOLCANO" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_GALLABJER_VOLCANO" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_HAMPATU" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_HUAYNAPUTINA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_LILLO_VOLCANO" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_MOUNT_ERCIYES" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_MOUNT_HASAN" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_MOUNT_TARANAKI" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_MOUNT_TONGARIRO" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_NEMRUT" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_NGAURUHOE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_PIHANGA" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_QURUPUNA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_RALLATE_VOLCANO" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_RANGITOTO" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_RUAPEHU" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_SAWANQAYA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_TARAWERA" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_TAUPO" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_TSEAX_CONE" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_UWINAS" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedVolcanoType="NAMED_VOLCANO_WHAKAARI" CivilizationType="CIVILIZATION_MAORI"/>
+	</NamedVolcanoCivilizations>.
+	<NamedMountainCivilizations>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ALADAGH_MOUNTAINS" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ANDES" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ANTILIBANUS_MOUNTAINS" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ATLAS" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_BAMBOUK_MOUNTAINS" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_BANDIAGARA_ESCARPMENT" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_BARGYLUS_MOUNTAINS" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_BUKK_MOUNTAINS" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_CARPATHIANS" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_CASCADES" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_CAUCASUS" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_COAST" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_CORDILLERA_DEL_CONDOR" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_GWAZHAL" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_HOMBORI_MOUNTAINS" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_HUIARAU_RANGE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KACKAR_MOUNTAINS" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KAIKOURA_RANGE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KAIMAI_RANGE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KEBNEKAISE_MASSIF" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_KOSZEG_MOUNTAINS" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_LEBANON" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_MACKENZIE" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_MANDING_MOUNTAINS" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_MATRA_MOUNTAINS" CivilizationType="CIVILIZATION_HUNGARY"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_NORRA_STORFJALLET" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_NUR_MOUNTAINS" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_PONTIC_ALPS" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_RAUKUMARA_RANGE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_RIMUTAKA_RANGE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_ROCKIES" CivilizationType="CIVILIZATION_CANADA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_SCANDES" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_SYLAN" CivilizationType="CIVILIZATION_SWEDEN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_TARARUA_RANGE" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_TAURUS" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_TIRITIRI_O_TE_MOANA" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_URUPAMPA_RANGE" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_WAYTAPALLANA_WALLA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_WAYWASH_WALLA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_WILLKANUTA_RANGE" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_WILLKAPAMPA_RANGE" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YANA_WALLA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedMountainType="NAMED_MOUNTAIN_YURAQ_WALLA" CivilizationType="CIVILIZATION_INCA"/>
+	</NamedMountainCivilizations>
+	<NamedDesertCivilizations>
+		<Row NamedDesertType="NAMED_DESERT_ATACAMA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedDesertType="NAMED_DESERT_EL_DJOUF" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedDesertType="NAMED_DESERT_HAMAD" CivilizationType="CIVILIZATION_PHOENICIA"/>
+		<Row NamedDesertType="NAMED_DESERT_HAMAD" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedDesertType="NAMED_DESERT_KARAPINAR_DESERT" CivilizationType="CIVILIZATION_OTTOMAN"/>
+		<Row NamedDesertType="NAMED_DESERT_MANIOTOTO" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedDesertType="NAMED_DESERT_RANGIPO" CivilizationType="CIVILIZATION_MAORI"/>
+		<Row NamedDesertType="NAMED_DESERT_SAHARA" CivilizationType="CIVILIZATION_MALI"/>
+		<Row NamedDesertType="NAMED_DESERT_SECHURA" CivilizationType="CIVILIZATION_INCA"/>
+		<Row NamedDesertType="NAMED_DESERT_TANEZROUFT_BASIN" CivilizationType="CIVILIZATION_MALI"/>
+	</NamedDesertCivilizations>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_CANADA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_CANADA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_CANADA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_CANADA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_CANADA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_CANADA_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_HUNGARY_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_HUNGARY_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_HUNGARY_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_HUNGARY" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_HUNGARY_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_INCA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_INCA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_INCA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_INCA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_INCA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_INCA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_INCA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_INCA_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_MALI" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_MALI_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_MALI" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_MALI_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_MALI" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_MALI_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_MALI" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_MALI_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_MAORI_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_MAORI_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_MAORI_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_MAORI_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_OTTOMAN_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_OTTOMAN_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_OTTOMAN_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_OTTOMAN" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_OTTOMAN_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_PHOENICIA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_PHOENICIA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_PHOENICIA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_PHOENICIA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_PHOENICIA_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_SWEDEN_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_SWEDEN_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_SWEDEN_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_SWEDEN" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_SWEDEN_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+</GameInfo>

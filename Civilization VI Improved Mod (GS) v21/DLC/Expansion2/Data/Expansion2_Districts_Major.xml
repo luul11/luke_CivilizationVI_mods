@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_COTHON" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_SUGUBA" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_COTHON" ReplacesDistrictType="DISTRICT_HARBOR"/>
+		<Row CivUniqueDistrictType="DISTRICT_SUGUBA" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_COTHON" Name="LOC_DISTRICT_COTHON_NAME" Description="LOC_DISTRICT_COTHON_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" RequiresPlacement="true" RequiresPopulation="true" Coast="true" Aqueduct="false" FreeEmbark="true" NoAdjacentCity="false" AdjacentToLand="true" InternalOnly="false" ZOC="false" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_SEA" TravelTime="2" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_COTHON"/>
+		<Row DistrictType="DISTRICT_SUGUBA" Name="LOC_DISTRICT_SUGUBA_NAME" Description="LOC_DISTRICT_SUGUBA_DESCRIPTION" PrereqTech="TECH_CURRENCY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" TravelTime="3" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_SUGUBA"/>
+	</Districts>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Cothon_Gold"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldChangeId="SeaResource_Gold"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldChangeId="Harbor_City_Gold"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldChangeId="Government_Gold"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="River_Gold"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Holy_Site_Gold"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Lavra_Gold"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldChangeId="Government_Gold"/>
+	</District_Adjacencies>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_COTHON" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SUGUBA" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_COTHON" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="4"/>
+	</District_TradeRouteYields>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_COTHON" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_COTHON" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_SUGUBA" YieldType="YIELD_GOLD" YieldChange="3"/>
+	</District_CitizenYieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Cothon_Gold" Description="LOC_DISTRICT_COTHON_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COTHON"/>
+		<Row ID="Holy_Site_Gold" Description="LOC_DISTRICT_HOLY_SITE_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Lavra_Gold" Description="LOC_DISTRICT_LAVRA_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_LAVRA"/>
+	</Adjacency_YieldChanges>
+	<DistrictModifiers>
+		<!-- Modifier and Requirement data is stored in main district file -->
+		<Row DistrictType="DISTRICT_COTHON" ModifierId="COTHON_HEALFRIENDLY"/>
+		<Row DistrictType="DISTRICT_COTHON" ModifierId="COTHON_NAVAL_UNIT_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_COTHON" ModifierId="COTHON_SETTLER_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_SUGUBA" ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE"/>
+		<Row DistrictType="DISTRICT_SUGUBA" ModifierId="SUGUBA_CHEAPER_DISTRICT_PURCHASE"/>
+		<Row DistrictType="DISTRICT_SUGUBA" ModifierId="SUGUBA_CHEAPER_UNIT_PURCHASE"/>
+	</DistrictModifiers>
+</GameInfo>

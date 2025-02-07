@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_TLACHTLI" Kind="KIND_BUILDING"/>
+		<Row Type="CIVILIZATION_AZTEC" Kind="KIND_CIVILIZATION"/>
+		<Row Type="LEADER_MONTEZUMA" Kind="KIND_LEADER"/>
+		<Row Type="UNIT_AZTEC_EAGLE_WARRIOR" Kind="KIND_UNIT"/>
+
+		<Row Type="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_TLACHTLI" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_AZTEC_EAGLE_WARRIOR" Kind="KIND_TRAIT" />
+	</Types>
+	<TypeTags>
+		<Row Type="UNIT_AZTEC_EAGLE_WARRIOR" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_AZTEC_EAGLE_WARRIOR" Tag="CLASS_CAPTURE_WORKER"/>
+	</TypeTags>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS" Name="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_NAME" Description="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TLACHTLI" Name="LOC_TRAIT_CIVILIZATION_BUILDING_TLACHTLI_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_AZTEC_EAGLE_WARRIOR" Name="LOC_TRAIT_CIVILIZATION_UNIT_AZTEC_EAGLE_WARRIOR_NAME"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS</TraitType>
+			<ModifierId>TRAIT_BUILDER_DISTRICT_PERCENT</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_DISTRICT_PERCENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_BUILDER_DISTRICT_PERCENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_AZTEC" Name="LOC_CIVILIZATION_AZTEC_NAME" Description="LOC_CIVILIZATION_AZTEC_DESCRIPTION" Adjective="LOC_CIVILIZATION_AZTEC_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_AZTEC" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_AZTEC_LOCATION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_AZTEC" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_AZTEC_SIZE" SortIndex="20" />
+		<Row CivilizationType="CIVILIZATION_AZTEC" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_AZTEC_POPULATION" SortIndex="30" />
+		<Row CivilizationType="CIVILIZATION_AZTEC" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_AZTEC_CAPITAL" SortIndex="40" />
+	</CivilizationInfo>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_AZTEC" LeaderType="LEADER_MONTEZUMA" CapitalName="LOC_CITY_NAME_TENOCHTITLAN"/>
+	</CivilizationLeaders>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TENOCHTITLAN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TEXCOCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_ATZCAPOTZALCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TEOTIHUACAN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TLACOPAN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_XOCHICALCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_MALINALCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TEAYO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_CEMPOALA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_CHALCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_IXTAPALUCA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TENAYUCA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_HUEXOTLA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_CHAPULTEPEC"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TEPEXPAN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_ZITLALTEPEC"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_XALAPA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TAMUIN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TELOLOAPAN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_MITLA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TLATELOLCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_COYOTEPEC"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_ZACATULA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_YUCUNUDAHUI"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_ECATEPEC"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_MAZATAN"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_IZTAPALAPA"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_TLALMANALCO"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_HUAXYACAC"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CityName="LOC_CITY_NAME_ACATITLAN"/>
+
+	</CityNames>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" CitizenName="LOC_CITIZEN_AZTEC_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_BUILDING_TLACHTLI"/>
+		<Row CivilizationType="CIVILIZATION_AZTEC" TraitType="TRAIT_CIVILIZATION_UNIT_AZTEC_EAGLE_WARRIOR"/>
+	</CivilizationTraits>
+	<Leaders>
+		<Row LeaderType="LEADER_MONTEZUMA" Name="LOC_LEADER_MONTEZUMA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MONTEZUMA" TraitType="TRAIT_LEADER_GIFTS_FOR_TLATOANI"/>
+	</LeaderTraits>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_MONTEZUMA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_MONTEZUMA_QUOTE" QuoteAudio="Play_AZTE_MO_MISC_PEP_TALK_D"/>
+	</LeaderQuotes>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MONTEZUMA" AgendaType="AGENDA_TLATOANI"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="MontezumaCivics"/>
+		<Row ListType="MontezumaTechs"/>
+		<Row ListType="MontezumaWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="MontezumaWonders" LeaderType="TRAIT_LEADER_GIFTS_FOR_TLATOANI" System="Buildings"/>
+		<Row ListType="MontezumaCivics" LeaderType="TRAIT_LEADER_GIFTS_FOR_TLATOANI" System="Civics"/>
+		<Row ListType="MontezumaTechs" LeaderType="TRAIT_LEADER_GIFTS_FOR_TLATOANI" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="MontezumaWonders" Item="BUILDING_PYRAMIDS"/>
+		<Row ListType="MontezumaWonders" Item="BUILDING_ALHAMBRA"/>
+		<Row ListType="MontezumaCivics" Item="CIVIC_CRAFTSMANSHIP"/>
+		<Row ListType="MontezumaCivics" Item="CIVIC_GAMES_RECREATION"/>
+		<Row ListType="MontezumaCivics" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="MontezumaCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="MontezumaTechs" Item="TECH_ASTROLOGY"/>
+		<Row ListType="MontezumaTechs" Item="TECH_WRITING"/>
+		<Row ListType="MontezumaTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="MontezumaTechs" Item="TECH_APPRENTICESHIP"/>
+	</AiFavoredItems>
+	<Buildings>
+		<Row BuildingType="BUILDING_TLACHTLI" Name="LOC_BUILDING_TLACHTLI_NAME" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="135" Maintenance="1" Entertainment="1" TraitType="TRAIT_CIVILIZATION_BUILDING_TLACHTLI"/>
+	</Buildings>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_TLACHTLI" ReplacesBuildingType="BUILDING_ARENA"/>
+	</BuildingReplaces>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_TLACHTLI" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TLACHTLI" YieldType="YIELD_FAITH" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Units>
+		<Row UnitType="UNIT_AZTEC_EAGLE_WARRIOR" BaseMoves="3" Cost="65" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_AZTEC_EAGLE_WARRIOR_NAME" Description="LOC_UNIT_AZTEC_EAGLE_WARRIOR_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Combat="27" TraitType="TRAIT_CIVILIZATION_UNIT_AZTEC_EAGLE_WARRIOR" MandatoryObsoleteTech="TECH_GUNPOWDER"/>
+	</Units>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_AZTEC_EAGLE_WARRIOR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_AZTEC_EAGLE_WARRIOR" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_AZTEC_EAGLE_WARRIOR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_AZTEC_EAGLE_WARRIOR" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_AZTEC_EAGLE_WARRIOR" ReplacesUnitType="UNIT_WARRIOR"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_AZTEC_EAGLE_WARRIOR" UpgradeUnit="UNIT_SWORDSMAN"/>
+	</UnitUpgrades>
+</GameInfo>

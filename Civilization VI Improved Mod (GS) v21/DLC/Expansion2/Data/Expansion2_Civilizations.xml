@@ -1,0 +1,539 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- Minor Civs -->
+		<Row Type="CIVILIZATION_AKKAD" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_BOLOGNA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_CAHOKIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_CARDIFF" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_FEZ" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MEXICO_CITY" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_NAZCA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_NGAZARGAMU" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_RAPA_NUI" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<TypeProperties>
+		<Row Type="CIVILIZATION_AKKAD" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_BOLOGNA" Name="CityStateCategory" Value="SCIENTIFIC"/>
+		<Row Type="CIVILIZATION_CAHOKIA" Name="CityStateCategory" Value="TRADE"/>
+		<Row Type="CIVILIZATION_CARDIFF" Name="CityStateCategory" Value="INDUSTRIAL"/>
+		<Row Type="CIVILIZATION_FEZ" Name="CityStateCategory" Value="SCIENTIFIC"/>
+		<Row Type="CIVILIZATION_MEXICO_CITY" Name="CityStateCategory" Value="INDUSTRIAL"/>
+		<Row Type="CIVILIZATION_NAZCA" Name="CityStateCategory" Value="RELIGIOUS"/>
+		<Row Type="CIVILIZATION_NGAZARGAMU" Name="CityStateCategory" Value="MILITARISTIC"/>
+		<Row Type="CIVILIZATION_RAPA_NUI" Name="CityStateCategory" Value="CULTURAL"/>
+	</TypeProperties>
+	<Civilizations>
+		<!-- Minor Civs -->
+		<Row CivilizationType="CIVILIZATION_AKKAD" Name="LOC_CIVILIZATION_AKKAD_NAME" Description="LOC_CIVILIZATION_AKKAD_DESCRIPTION" Adjective="LOC_CIVILIZATION_AKKAD_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_BOLOGNA" Name="LOC_CIVILIZATION_BOLOGNA_NAME" Description="LOC_CIVILIZATION_BOLOGNA_DESCRIPTION" Adjective="LOC_CIVILIZATION_BABYLON_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_CAHOKIA" Name="LOC_CIVILIZATION_CAHOKIA_NAME" Description="LOC_CIVILIZATION_CAHOKIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_CAHOKIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_CARDIFF" Name="LOC_CIVILIZATION_CARDIFF_NAME" Description="LOC_CIVILIZATION_CARDIFF_DESCRIPTION" Adjective="LOC_CIVILIZATION_CARDIFF_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_FEZ" Name="LOC_CIVILIZATION_FEZ_NAME" Description="LOC_CIVILIZATION_FEZ_DESCRIPTION" Adjective="LOC_CIVILIZATION_FEZ_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_MEXICO_CITY" Name="LOC_CIVILIZATION_MEXICO_CITY_NAME" Description="LOC_CIVILIZATION_MEXICO_CITY_DESCRIPTION" Adjective="LOC_CIVILIZATION_MEXICO_CITY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_NAZCA" Name="LOC_CIVILIZATION_NAZCA_NAME" Description="LOC_CIVILIZATION_NAZCA_DESCRIPTION" Adjective="LOC_CIVILIZATION_NAZCA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_NGAZARGAMU" Name="LOC_CIVILIZATION_NGAZARGAMU_NAME" Description="LOC_CIVILIZATION_NGAZARGAMU_DESCRIPTION" Adjective="LOC_CIVILIZATION_NGAZARGAMU_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+		<Row CivilizationType="CIVILIZATION_RAPA_NUI" Name="LOC_CIVILIZATION_RAPA_NUI_NAME" Description="LOC_CIVILIZATION_RAPA_NUI_DESCRIPTION" Adjective="LOC_CIVILIZATION_RAPA_NUI_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_CITY_STATE" RandomCityNameDepth="1"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<!-- Minor Civs -->
+		<Row CivilizationType="CIVILIZATION_AKKAD" LeaderType="LEADER_MINOR_CIV_AKKAD" CapitalName="LOC_CITY_NAME_AKKAD"/>
+		<Row CivilizationType="CIVILIZATION_BOLOGNA" LeaderType="LEADER_MINOR_CIV_BOLOGNA" CapitalName="LOC_CITY_NAME_BOLOGNA"/>
+		<Row CivilizationType="CIVILIZATION_CAHOKIA" LeaderType="LEADER_MINOR_CIV_CAHOKIA" CapitalName="LOC_CITY_NAME_CAHOKIA"/>
+		<Row CivilizationType="CIVILIZATION_CARDIFF" LeaderType="LEADER_MINOR_CIV_CARDIFF" CapitalName="LOC_CITY_NAME_CARDIFF"/>
+		<Row CivilizationType="CIVILIZATION_FEZ" LeaderType="LEADER_MINOR_CIV_FEZ" CapitalName="LOC_CITY_NAME_FEZ"/>
+		<Row CivilizationType="CIVILIZATION_MEXICO_CITY" LeaderType="LEADER_MINOR_CIV_MEXICO_CITY" CapitalName="LOC_CITY_NAME_MEXICO_CITY"/>
+		<Row CivilizationType="CIVILIZATION_NAZCA" LeaderType="LEADER_MINOR_CIV_NAZCA" CapitalName="LOC_CITY_NAME_NAZCA"/>
+		<Row CivilizationType="CIVILIZATION_NGAZARGAMU" LeaderType="LEADER_MINOR_CIV_NGAZARGAMU" CapitalName="LOC_CITY_NAME_NGAZARGAMU"/>
+		<Row CivilizationType="CIVILIZATION_RAPA_NUI" LeaderType="LEADER_MINOR_CIV_RAPA_NUI" CapitalName="LOC_CITY_NAME_RAPA_NUI"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_ENGLAND" TraitType="TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION"/>
+	</CivilizationTraits>
+	<Traits>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_ITERU_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_ITERU"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_MOTHER_RUSSIA_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_MOTHER_RUSSIA"/>
+		</Update>
+		<Row TraitType="TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION" Name="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_NAME" Description="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION"/>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_FOUNDING_FATHERS"/>
+		</Update>
+		<Update>
+			<Set Description="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION"/>
+			<Where TraitType="TRAIT_CIVILIZATION_TREASURE_FLEET"/>
+		</Update>
+		<Update>
+			<Where TraitType="TRAIT_CIVILIZATION_DYNASTIC_CYCLE"/>
+			<Set Description="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION"/>
+		</Update>
+	</Traits>
+	<TraitModifiers>
+		<!--America-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FOUNDING_FATHERS</TraitType>
+			<ModifierId>TRAIT_WILD_CARD_FAVOR</ModifierId>
+		</Row>
+		<!--England-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_COAL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_IRON</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION</TraitType>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_BUILDCHARGES</ModifierId>
+		</Row>
+		<!--Egypt-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ITERU</TraitType>
+			<ModifierId>TRAIT_AVOID_MODERATE_FLOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ITERU</TraitType>
+			<ModifierId>TRAIT_AVOID_MAJOR_FLOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_ITERU</TraitType>
+			<ModifierId>TRAIT_AVOID_THOUSAND_FLOOD</ModifierId>
+		</Row>
+		<!--Russia-->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MOTHER_RUSSIA</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MOTHER_RUSSIA</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_CRIPPLING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MOTHER_RUSSIA</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MOTHER_RUSSIA</TraitType>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<!--America-->
+		<Row>
+			<ModifierId>TRAIT_WILD_CARD_FAVOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNMENT_SLOT_TYPE_GRANT_FAVOR</ModifierType>
+		</Row>
+		<!--England-->
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_YIELD_FROM_POWERED_BUILDINGS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_COAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMULATION_SPECIFIC_RESOURCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_IRON</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_ACCUMULATION_SPECIFIC_RESOURCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_BUILDCHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_TRAINED_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_MILITARY_ENGINEER</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Egypt-->
+		<Row>
+			<ModifierId>TRAIT_AVOID_MODERATE_FLOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AVOID_MAJOR_FLOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AVOID_THOUSAND_FLOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType>
+		</Row>
+		<!--Russia-->
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_CRIPPLING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_NO_UNIT_DAMAGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_MODIFIED_DAMAGE_OPPOSING_PLAYER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RANDOM_EVENT_MODIFIED_DAMAGE_OPPOSING_PLAYER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--America-->
+		<Row>
+			<ModifierId>TRAIT_WILD_CARD_FAVOR</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WILD_CARD_FAVOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--England-->
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_POWERED_BUILDINGS_MORE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_COAL</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_COAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_COAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_IRON</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ACCUMULATE_MORE_IRON</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_PRODUCTION</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MILITARY_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADJUST_MILITARY_ENGINEER_BUILDCHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--Egypt-->
+		<Row>
+			<ModifierId>TRAIT_AVOID_MODERATE_FLOOD</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_FLOOD_MODERATE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AVOID_MAJOR_FLOOD</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_FLOOD_MAJOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AVOID_THOUSAND_FLOOD</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_FLOOD_1000_YEAR</Value>
+		</Row>
+		<!--Russia-->
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_BLIZZARD_SIGNIFICANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_CRIPPLING</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_BLIZZARD_CRIPPLING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_PREVENTION_CRIPPLING</ModifierId>
+			<Name>NoDamage</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_BLIZZARD_SIGNIFICANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_SIGNIFICANT</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING</ModifierId>
+			<Name>RandomEventType</Name>
+			<Value>RANDOM_EVENT_BLIZZARD_CRIPPLING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BLIZZARD_DOUBLE_DAMAGE_CRIPPLING</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_NOT_FOUNDED</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MAORI_PA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_JUNGLE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_NO_IMPROVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_MILITARY_ENGINEER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_UNIVERSITY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>PLOT_IS_COASTAL_LAND_XP2</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_COASTAL_LAND</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_OWNER_CAPITAL_CONTINENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_OWNER_CAPITAL_CONTINENT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_IS_MOUNTAIN</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_MOUNTAIN</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>CITY_IS_NOT_ORIGINAL_OWNER_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_IS_ORIGINAL_OWNER</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_MAORI_PA</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSERVATION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_MILITARY_ENGINEER</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_HAS_ANY_IMPROVEMENT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_MAORI_PA</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MAORI_PA</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSERVATION</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CONSERVATION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_MILITARY_ENGINEER</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_MILITARY_ENGINEER</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_PLOT_IS_MOUNTAIN</RequirementSetId>
+			<RequirementId>PLOT_IS_MOUNTAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_NOT_FOUNDED</RequirementSetId>
+			<RequirementId>CITY_IS_NOT_ORIGINAL_OWNER_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MAORI_PA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MAORI_PA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_NO_IMPROVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_NO_IMPROVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_NO_IMPROVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSERVATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_JUNGLE_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CONSERVATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_IMPROVEMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_FOREST_CONSERVATION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_MILITARY_ENGINEER</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_MILITARY_ENGINEER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_UNIVERSITY</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_UNIVERSITY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<StartBiasTerrains>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivilizationType="CIVILIZATION_RUSSIA" TerrainType="TERRAIN_TUNDRA"/>
+		</Update>
+		<Update>
+			<Set Tier="2"/>
+			<Where CivilizationType="CIVILIZATION_RUSSIA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		</Update>
+		<Row CivilizationType="CIVILIZATION_NAZCA" TerrainType="TERRAIN_DESERT" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_RAPA_NUI" TerrainType="TERRAIN_COAST" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasFeatures>
+		<Row CivilizationType="CIVILIZATION_RAPA_NUI" FeatureType="FEATURE_VOLCANO" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_EGYPT" FeatureType="FEATURE_FLOODPLAINS_PLAINS" Tier="2"/>
+	</StartBiasFeatures>
+</GameInfo>

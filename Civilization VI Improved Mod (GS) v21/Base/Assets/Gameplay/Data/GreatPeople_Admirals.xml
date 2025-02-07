@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ARTEMISIA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_THEMISTOCLES" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ZHENG_HE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CHING_SHIH" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARTEMISIA" Name="LOC_GREAT_PERSON_INDIVIDUAL_ARTEMISIA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_CLASSICAL" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_THEMISTOCLES" Name="LOC_GREAT_PERSON_INDIVIDUAL_THEMISTOCLES_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON" Name="LOC_GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA" Name="LOC_GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHENG_HE" Name="LOC_GREAT_PERSON_INDIVIDUAL_ZHENG_HE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE" Name="LOC_GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ" Name="LOC_GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionRequiresUnitMilitaryFormation="STANDARD_MILITARY_FORMATION" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHING_SHIH" Name="LOC_GREAT_PERSON_INDIVIDUAL_CHING_SHIH_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_INDUSTRIAL" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON" Name="LOC_GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" Name="LOC_GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_INDUSTRIAL" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER" Name="LOC_GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresNoMilitaryUnit="true" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA" Name="LOC_GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" Name="LOC_GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ" Name="LOC_GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER" Name="LOC_GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_ATOMIC" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" Name="LOC_GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" Name="LOC_GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresMilitaryUnitDomain="DOMAIN_SEA" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="2"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARTEMISIA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARTEMISIA" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_THEMISTOCLES" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_THEMISTOCLES" ModifierId="GREATPERSON_MOVEMENT_AOE_CLASSICAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHENG_HE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHENG_HE" ModifierId="GREATPERSON_MOVEMENT_AOE_MEDIEVAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN" ModifierId="GREATPERSON_MOVEMENT_AOE_RENAISSANCE_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHING_SHIH" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHING_SHIH" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" ModifierId="GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_MOVEMENT_AOE_MODERN_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" ModifierId="GREATPERSON_MOVEMENT_AOE_ATOMIC_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" ModifierId="GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA"/>
+	</GreatPersonIndividualBirthModifiers>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARTEMISIA" ModifierId="GREATPERSON_ARTEMISIA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GAIUS_DUILIUS" ModifierId="GREATPERSON_GAIUS_DUILIUS_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_THEMISTOCLES" ModifierId="GREATPERSON_THEMISTOCLES_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEIF_ERIKSON" ModifierId="GREATPERSON_LEIF_ERIKSON_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA" ModifierId="GREATPERSON_RAJENDRA_CHOLA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_RAJENDRA_CHOLA" ModifierId="GREATPERSON_RAJENDRA_CHOLA_ACTIVE_PLUNDER_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ZHENG_HE" ModifierId="GREATPERSON_ZHENG_HE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE" ModifierId="GREATPERSON_FRANCIS_DRAKE_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANCIS_DRAKE" ModifierId="GREATPERSON_FRANCIS_DRAKE_ACTIVE_PLUNDER_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SANTA_CRUZ" ModifierId="GREATPERSON_SANTA_CRUZ_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_YI_SUN_SIN" ModifierId="GREATPERSON_YI_SUN_SIN_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHING_SHIH" ModifierId="GREATPERSON_CHING_SHIH_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHING_SHIH" ModifierId="GREATPERSON_CHING_SHIH_ACTIVE_PLUNDER_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HORATIO_NELSON" ModifierId="GREATPERSON_HORATIO_NELSON_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" ModifierId="GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LASKARINA_BOUBOULINA" ModifierId="GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FRANZ_VON_HIPPER" ModifierId="GREATPERSON_FRANZ_VON_HIPPER_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOAQUIM_MARQUES_LISBOA" ModifierId="GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_TOGO_HEIHACHIRO" ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHESTER_NIMITZ" ModifierId="GREATPERSON_CHESTER_NIMITZ_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER" ModifierId="GREATPERSON_GRACE_HOPPER_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" ModifierId="GREATPERSON_SERGEY_GORSHKOV_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEY_GORSHKOV" ModifierId="GREATPERSON_SERGEY_GORSHKOV_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" ModifierId="GREATPERSON_CLANCY_FERNANDO_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CLANCY_FERNANDO" ModifierId="GREATPERSON_CLANCY_FERNANDO_ACTIVE_UNIT_BONUS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_DOMAIN_MILITARY_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_CLASSICAL_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INDUSTRIAL_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MODERN_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_ATOMIC_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INFORMATION_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_CLASSICAL_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_CLASSICAL_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MEDIEVAL_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MEDIEVAL_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_RENAISSANCE_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INDUSTRIAL_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MODERN_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_MODERN_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_ATOMIC_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_ATOMIC_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_INFORMATION_SEA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_ARTEMISIA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GAIUS_DUILIUS_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_THEMISTOCLES_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LEIF_ERIKSON_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>GREATPERSON_LEIF_ERIKSON_ACTIVE_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RAJENDRA_CHOLA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RAJENDRA_CHOLA_ACTIVE_PLUNDER_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_PLUNDER_YIELDS</ModifierType>
+			<SubjectRequirementSetId>SEA_TRADE_ROUTE_PLUNDER_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANCIS_DRAKE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANCIS_DRAKE_ACTIVE_PLUNDER_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_PLUNDER_YIELDS</ModifierType>
+			<SubjectRequirementSetId>SEA_TRADE_ROUTE_PLUNDER_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ZHENG_HE_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SANTA_CRUZ_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MILITARY_FORMATION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_YI_SUN_SIN_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHING_SHIH_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHING_SHIH_ACTIVE_PLUNDER_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_PLUNDER_YIELDS</ModifierType>
+			<SubjectRequirementSetId>SEA_TRADE_ROUTE_PLUNDER_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HORATIO_NELSON_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GREATPERSON_HORATIO_NELSON_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANZ_VON_HIPPER_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNIT_WITH_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHESTER_NIMITZ_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRACE_HOPPER_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SERGEY_GORSHKOV_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SERGEY_GORSHKOV_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLANCY_FERNANDO_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLANCY_FERNANDO_ACTIVE_UNIT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Generic Birth Modifiers, shared by all individuals -->
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_CLASSICAL_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MEDIEVAL_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_RENAISSANCE_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INDUSTRIAL_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_MODERN_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_ATOMIC_SEA</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ABILITY_GREAT_ADMIRAL_MOVEMENT</Value>
+		</Row>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_ARTEMISIA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GAIUS_DUILIUS_ACTIVE</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>CORPS_MILITARY_FORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_THEMISTOCLES_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_QUADRIREME</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_THEMISTOCLES_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LEIF_ERIKSON_ACTIVE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_OCEAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LEIF_ERIKSON_ACTIVE</ModifierId>
+			<Name>Valid</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RAJENDRA_CHOLA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RAJENDRA_CHOLA_ACTIVE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_RAJENDRA_CHOLA_ACTIVE_PLUNDER_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANCIS_DRAKE_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>300</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANCIS_DRAKE_ACTIVE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANCIS_DRAKE_ACTIVE_PLUNDER_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>70</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ZHENG_HE_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SANTA_CRUZ_ACTIVE</ModifierId>
+			<Name>MilitaryFormationType</Name>
+			<Value>ARMY_MILITARY_FORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_YI_SUN_SIN_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_IRONCLAD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_YI_SUN_SIN_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHING_SHIH_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>400</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHING_SHIH_ACTIVE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHING_SHIH_ACTIVE_PLUNDER_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>80</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HORATIO_NELSON_ACTIVE</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANZ_VON_HIPPER_ACTIVE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BATTLESHIP</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FRANZ_VON_HIPPER_ACTIVE</ModifierId>
+			<Name>Experience</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_TOGO_HEIHACHIRO_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>75</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHESTER_NIMITZ_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHESTER_NIMITZ_ACTIVE</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRACE_HOPPER_ACTIVE</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRACE_HOPPER_ACTIVE</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRACE_HOPPER_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SERGEY_GORSHKOV_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SERGEY_GORSHKOV_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLANCY_FERNANDO_ACTIVE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CLANCY_FERNANDO_ACTIVE_UNIT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_LEIF_ERIKSON_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SEA_TRADE_ROUTE_PLUNDER_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_HORATIO_NELSON_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_CHESTER_NIMITZ_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_CLASSICAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_CLASSICAL_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MEDIEVAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_MEDIEVAL_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_RENAISSANCE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_RENAISSANCE_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INDUSTRIAL_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_INDUSTRIAL_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_MODERN_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_MODERN_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_ATOMIC_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_ATOMIC_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_INFORMATION_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_INFORMATION_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_LEIF_ERIKSON_ACTIVE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_SEA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SEA_TRADE_ROUTE_PLUNDER_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_SEA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GREATPERSON_HORATIO_NELSON_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_SEA</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_SUBMARINE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_DOMAIN_SEA</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>AOE_REQUIRES_SEA_DOMAIN</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>AOE_REQUIRES_OWNER_ADJACENCY</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_SUBMARINE</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SUBMARINE</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_IS_DOMAIN_SEA</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<!-- Generic Birth Modifiers, shared by all individuals -->
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_CLASSICAL_SEA"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MEDIEVAL_SEA"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_RENAISSANCE_SEA"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INDUSTRIAL_SEA"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_MODERN_SEA"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_ATOMIC_SEA"/>
+		<Row ModifierId="GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA" Context="Summary" Text="LOC_GREATPERSON_COMBAT_STRENGTH_AOE_INFORMATION_SEA"/>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row ModifierId="GREATPERSON_ARTEMISIA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_ARTEMISIA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GAIUS_DUILIUS_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_GAIUS_DUILIUS_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_THEMISTOCLES_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_THEMISTOCLES_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_LEIF_ERIKSON_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_LEIF_ERIKSON_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_RAJENDRA_CHOLA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_RAJENDRA_CHOLA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_FRANCIS_DRAKE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_FRANCIS_DRAKE_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_ZHENG_HE_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_ZHENG_HE_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SANTA_CRUZ_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SANTA_CRUZ_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_YI_SUN_SIN_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_YI_SUN_SIN_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_CHING_SHIH_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_CHING_SHIH_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_HORATIO_NELSON_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_HORATIO_NELSON_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_LASKARINA_BOUBOULINA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_FRANZ_VON_HIPPER_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_FRANZ_VON_HIPPER_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_JOAQUIM_MARQUES_LISBOA_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_TOGO_HEIHACHIRO_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_TOGO_HEIHACHIRO_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_CHESTER_NIMITZ_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_CHESTER_NIMITZ_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_GRACE_HOPPER_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_GRACE_HOPPER_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_SERGEY_GORSHKOV_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_SERGEY_GORSHKOV_ACTIVE"/>
+		<Row ModifierId="GREATPERSON_CLANCY_FERNANDO_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_CLANCY_FERNANDO_ACTIVE"/>
+	</ModifierStrings>
+</GameInfo>

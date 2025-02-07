@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_BUILDING"/>
+	</Kinds>
+	<Types>
+		<Row Type="BUILDING_AIRPORT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ALHAMBRA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_AMPHITHEATER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ARENA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ARMORY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BANK" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BARRACKS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BIG_BEN" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BOLSHOI_THEATRE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BROADCAST_CENTER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BROADWAY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CASTLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CATHEDRAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CHICHEN_ITZA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_COLOSSEUM" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_COLOSSUS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CRISTO_REDENTOR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_DAR_E_MEHR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_EIFFEL_TOWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ELECTRONICS_FACTORY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ESTADIO_DO_MARACANA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FACTORY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FILM_STUDIO" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_FORBIDDEN_CITY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GRANARY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_LIBRARY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_LIGHTHOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_ZIMBABWE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GURDWARA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HAGIA_SOPHIA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HANGAR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HANGING_GARDENS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HERMITAGE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_LIBRARY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_LIGHTHOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MADRASA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MAHABODHI_TEMPLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MARKET" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MEETING_HOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MILITARY_ACADEMY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MONT_ST_MICHEL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MONUMENT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MOSQUE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MUSEUM_ART" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MUSEUM_ARTIFACT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ORACLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_OXFORD_UNIVERSITY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PAGODA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PALACE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PETRA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_POTALA_PALACE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_POWER_PLANT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PYRAMIDS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_RESEARCH_LAB" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_RUHR_VALLEY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SEAPORT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SEWER" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SHIPYARD" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SHRINE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STABLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STADIUM" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STAR_FORT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STAVE_CHURCH" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STOCK_EXCHANGE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STONEHENGE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STUPA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SYDNEY_OPERA_HOUSE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SYNAGOGUE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TEMPLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TERRACOTTA_ARMY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_UNIVERSITY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_VENETIAN_ARSENAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WALLS" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WAT" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WATER_MILL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_WORKSHOP" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ZOO" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_LARGE_ROCKET" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MEDIUM_ROCKET" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_SMALL_ROCKET" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_FILM_STUDIO" ReplacesBuildingType="BUILDING_BROADCAST_CENTER"/>
+		<Row CivUniqueBuildingType="BUILDING_MADRASA" ReplacesBuildingType="BUILDING_UNIVERSITY"/>
+		<Row CivUniqueBuildingType="BUILDING_STAVE_CHURCH" ReplacesBuildingType="BUILDING_TEMPLE"/>
+		<Row CivUniqueBuildingType="BUILDING_ELECTRONICS_FACTORY" ReplacesBuildingType="BUILDING_FACTORY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<!-- Pre Ancient Era-->
+		<Row BuildingType="BUILDING_MONUMENT" Name="LOC_BUILDING_MONUMENT_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" AdvisorType="ADVISOR_CULTURE"/>
+		<Row BuildingType="BUILDING_PALACE" Name="LOC_BUILDING_PALACE_NAME" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" Housing="1" Entertainment="1" Capital="true" MaxPlayerInstances="1"/>
+		<!-- Ancient Era-->
+		<Row BuildingType="BUILDING_BARRACKS" Name="LOC_BUILDING_BARRACKS_NAME" Description="LOC_BUILDING_BARRACKS_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1"/>
+		<Row BuildingType="BUILDING_GRANARY" Name="LOC_BUILDING_GRANARY_NAME" PrereqTech="TECH_POTTERY" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="65" AdvisorType="ADVISOR_GENERIC" Housing="2"/>
+		<Row BuildingType="BUILDING_LIBRARY" Name="LOC_BUILDING_LIBRARY_NAME" PrereqTech="TECH_WRITING" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_SHRINE" Name="LOC_BUILDING_SHRINE_NAME" Description="LOC_BUILDING_SHRINE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="70" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_WALLS" Name="LOC_BUILDING_WALLS_NAME" Description="LOC_BUILDING_WALLS_DESCRIPTION" PrereqTech="TECH_MASONRY" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="80" AdvisorType="ADVISOR_GENERIC" OuterDefenseHitPoints="100" OuterDefenseStrength="3"/>
+		<Row BuildingType="BUILDING_WATER_MILL" Name="LOC_BUILDING_WATER_MILL_NAME" Description="LOC_BUILDING_WATER_MILL_DESCRIPTION" PrereqTech="TECH_THE_WHEEL" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="80" AdvisorType="ADVISOR_GENERIC" RequiresAdjacentRiver="true"/>
+		<!-- Classical Era-->
+		<Row BuildingType="BUILDING_ARENA" Name="LOC_BUILDING_ARENA_NAME" PrereqCivic="CIVIC_GAMES_RECREATION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_GENERIC" Maintenance="1" Entertainment="1"/>
+		<Row BuildingType="BUILDING_LIGHTHOUSE" Name="LOC_BUILDING_LIGHTHOUSE_NAME" Description="LOC_BUILDING_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_MARKET" Name="LOC_BUILDING_MARKET_NAME" PrereqTech="TECH_CURRENCY" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_STABLE" Name="LOC_BUILDING_STABLE_NAME" Description="LOC_BUILDING_STABLE_DESCRIPTION" PrereqTech="TECH_HORSEBACK_RIDING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" Housing="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_TEMPLE" Name="LOC_BUILDING_TEMPLE_NAME" Description="LOC_BUILDING_TEMPLE_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" Name="LOC_BUILDING_STAVE_CHURCH_NAME" Description="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_RELIGIOUS" Maintenance="2" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_STAVE_CHURCH"/>
+		<Row BuildingType="BUILDING_AMPHITHEATER" Name="LOC_BUILDING_AMPHITHEATER_NAME" PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_CULTURE" Maintenance="1" CitizenSlots="1"/>
+		<!-- Medieval Era-->
+		<Row BuildingType="BUILDING_CASTLE" Name="LOC_BUILDING_CASTLE_NAME" Description="LOC_BUILDING_CASTLE_DESCRIPTION" PrereqTech="TECH_CASTLES" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="225" AdvisorType="ADVISOR_GENERIC" OuterDefenseHitPoints="100" OuterDefenseStrength="3"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" Name="LOC_BUILDING_UNIVERSITY_NAME" PrereqTech="TECH_EDUCATION" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="1" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_MADRASA" Name="LOC_BUILDING_MADRASA_NAME" Description="LOC_BUILDING_MADRASA_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="250" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="2" Housing="1" CitizenSlots="2" TraitType="TRAIT_CIVILIZATION_BUILDING_MADRASA"/>
+		<Row BuildingType="BUILDING_WORKSHOP" Name="LOC_BUILDING_WORKSHOP_NAME" PrereqTech="TECH_APPRENTICESHIP" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="195" AdvisorType="ADVISOR_GENERIC" Maintenance="1" CitizenSlots="1"/>
+		<Row BuildingType="BUILDING_ARMORY" Name="LOC_BUILDING_ARMORY_NAME" Description="LOC_BUILDING_ARMORY_DESCRIPTION" PrereqTech="TECH_MILITARY_ENGINEERING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="195" AdvisorType="ADVISOR_CONQUEST" Maintenance="2" CitizenSlots="2"/>
+		<!-- Renaissance Era-->
+		<Row BuildingType="BUILDING_SHIPYARD" Name="LOC_BUILDING_SHIPYARD_NAME" Description="LOC_BUILDING_SHIPYARD_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="290" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_BANK" Name="LOC_BUILDING_BANK_NAME" PrereqTech="TECH_BANKING" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="290" AdvisorType="ADVISOR_GENERIC" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_STAR_FORT" Name="LOC_BUILDING_STAR_FORT_NAME" Description="LOC_BUILDING_STAR_FORT_DESCRIPTION" PrereqTech="TECH_SIEGE_TACTICS" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="305" AdvisorType="ADVISOR_GENERIC" OuterDefenseHitPoints="100" OuterDefenseStrength="3"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" Name="LOC_BUILDING_MUSEUM_ART_NAME" Description="LOC_BUILDING_MUSEUM_ART_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="290" AdvisorType="ADVISOR_CULTURE" Maintenance="2" CitizenSlots="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" Name="LOC_BUILDING_MUSEUM_ARTIFACT_NAME" Description="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="290" AdvisorType="ADVISOR_CULTURE" Maintenance="2" CitizenSlots="2"/>
+		<!-- Industrial Era-->
+		<Row BuildingType="BUILDING_FACTORY" Name="LOC_BUILDING_FACTORY_NAME" Description="LOC_BUILDING_FACTORY_DESCRIPTION" PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="2" RegionalRange="9"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" PrereqTech="TECH_INDUSTRIALIZATION" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" Maintenance="2" CitizenSlots="2" RegionalRange="9" TraitType="TRAIT_CIVILIZATION_BUILDING_ELECTRONICS_FACTORY"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" Name="LOC_BUILDING_STOCK_EXCHANGE_NAME" PrereqTech="TECH_ECONOMICS" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_GENERIC" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_MILITARY_ACADEMY" Name="LOC_BUILDING_MILITARY_ACADEMY_NAME" Description="LOC_BUILDING_MILITARY_ACADEMY_DESCRIPTION" PrereqTech="TECH_MILITARY_SCIENCE" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="390" AdvisorType="ADVISOR_CONQUEST" Maintenance="2" Housing="1" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_SEWER" Name="LOC_BUILDING_SEWER_NAME" PrereqTech="TECH_SANITATION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="200" AdvisorType="ADVISOR_GENERIC" Housing="2" Maintenance="2"/>
+		<Row BuildingType="BUILDING_ZOO" Name="LOC_BUILDING_ZOO_NAME" Description="LOC_BUILDING_ZOO_DESCRIPTION" PrereqCivic="CIVIC_NATURAL_HISTORY" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="445" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Entertainment="1" RegionalRange="6"/>
+		<!-- Modern Era-->
+		<Row BuildingType="BUILDING_HANGAR" Name="LOC_BUILDING_HANGAR_NAME" Description="LOC_BUILDING_HANGAR_DESCRIPTION" PrereqTech="TECH_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="465" AdvisorType="ADVISOR_CONQUEST" Maintenance="1"/>
+		<Row BuildingType="BUILDING_SEAPORT" Name="LOC_BUILDING_SEAPORT_NAME" Description="LOC_BUILDING_SEAPORT_DESCRIPTION" PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_HARBOR" PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_GENERIC" Housing="1" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_POWER_PLANT" Name="LOC_BUILDING_POWER_PLANT_NAME" Description="LOC_BUILDING_POWER_PLANT_DESCRIPTION" PrereqTech="TECH_ELECTRICITY" PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_GENERIC" Maintenance="3" CitizenSlots="3" RegionalRange="9"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" Name="LOC_BUILDING_BROADCAST_CENTER_NAME" PrereqTech="TECH_RADIO" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" Name="LOC_BUILDING_FILM_STUDIO_NAME" Description="LOC_BUILDING_FILM_STUDIO_DESCRIPTION" PrereqTech="TECH_RADIO" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_CULTURE" Maintenance="3" CitizenSlots="3" TraitType="TRAIT_CIVILIZATION_BUILDING_FILM_STUDIO"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" Name="LOC_BUILDING_RESEARCH_LAB_NAME" PrereqTech="TECH_CHEMISTRY" PrereqDistrict="DISTRICT_CAMPUS" PurchaseYield="YIELD_GOLD" Cost="580" AdvisorType="ADVISOR_TECHNOLOGY" Maintenance="3" CitizenSlots="3"/>
+		<!-- Atomic Era-->
+		<Row BuildingType="BUILDING_AIRPORT" Name="LOC_BUILDING_AIRPORT_NAME" Description="LOC_BUILDING_AIRPORT_DESCRIPTION" PrereqTech="TECH_ADVANCED_FLIGHT" PrereqDistrict="DISTRICT_AERODROME" PurchaseYield="YIELD_GOLD" Cost="600" AdvisorType="ADVISOR_CONQUEST" Maintenance="2"/>
+		<Row BuildingType="BUILDING_STADIUM" Name="LOC_BUILDING_STADIUM_NAME" Description="LOC_BUILDING_STADIUM_DESCRIPTION" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="660" AdvisorType="ADVISOR_GENERIC" Maintenance="3" Entertainment="2" RegionalRange="6"/>
+		<!--Religious-->
+		<Row BuildingType="BUILDING_CATHEDRAL" Name="LOC_BUILDING_CATHEDRAL_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_GURDWARA" Name="LOC_BUILDING_GURDWARA_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" Name="LOC_BUILDING_MEETING_HOUSE_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_MOSQUE" Name="LOC_BUILDING_MOSQUE_NAME" Description="LOC_BUILDING_MOSQUE_DESCRIPTION" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_PAGODA" Name="LOC_BUILDING_PAGODA_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" Housing="1" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_SYNAGOGUE" Name="LOC_BUILDING_SYNAGOGUE_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_WAT" Name="LOC_BUILDING_WAT_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_STUPA" Name="LOC_BUILDING_STUPA_NAME" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" Entertainment="1" CitizenSlots="3"/>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" Name="LOC_BUILDING_DAR_E_MEHR_NAME" Description="LOC_BUILDING_DAR_E_MEHR_DESCRIPTION" PrereqDistrict="DISTRICT_HOLY_SITE" PurchaseYield="YIELD_FAITH" Cost="190" EnabledByReligion="true" CitizenSlots="3"/>
+		<!-- Wonders NOTE!!! the following fields should only be used for wondersAdjacentDistrict, AdjacentResource, Coast,RequiresPlacement NOTE: the follow should NOT be used for wonders PrereqDistrict-->
+		<Row BuildingType="BUILDING_STONEHENGE" Name="LOC_BUILDING_STONEHENGE_NAME" Description="LOC_BUILDING_STONEHENGE_DESCRIPTION" PrereqTech="TECH_ASTROLOGY" Cost="180" AdvisorType="ADVISOR_RELIGIOUS" AdjacentResource="RESOURCE_STONE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AllowsHolyCity="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_STONEHENGE_QUOTE" QuoteAudio="Play_STONEHENGE_QUOTE"/>
+		<Row BuildingType="BUILDING_HANGING_GARDENS" Name="LOC_BUILDING_HANGING_GARDENS_NAME" Description="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION" PrereqTech="TECH_IRRIGATION" Cost="180" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" Housing="2" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_HANGING_GARDENS_QUOTE" QuoteAudio="Play_HANGINGGARDENS_QUOTE"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" Name="LOC_BUILDING_PYRAMIDS_NAME" Description="LOC_BUILDING_PYRAMIDS_DESCRIPTION" PrereqTech="TECH_MASONRY" Cost="220" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_PYRAMIDS_QUOTE" QuoteAudio="Play_PYRAMIDS_QUOTE"/>
+		<Row BuildingType="BUILDING_ORACLE" Name="LOC_BUILDING_ORACLE_NAME" Description="LOC_BUILDING_ORACLE_DESCRIPTION" PrereqCivic="CIVIC_MYSTICISM" Cost="290" AdvisorType="ADVISOR_CULTURE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_ORACLE_QUOTE" QuoteAudio="Play_ORACLE_QUOTE"/>
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" Name="LOC_BUILDING_GREAT_LIGHTHOUSE_NAME" Description="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" PrereqTech="TECH_CELESTIAL_NAVIGATION" Cost="290" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_LIGHTHOUSE_QUOTE" QuoteAudio="Play_GREATLIGHTHOUSE_QUOTE"/>
+		<Row BuildingType="BUILDING_COLOSSUS" Name="LOC_BUILDING_COLOSSUS_NAME" Description="LOC_BUILDING_COLOSSUS_DESCRIPTION" PrereqTech="TECH_SHIPBUILDING" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_COLOSSUS_QUOTE" QuoteAudio="Play_COLOSSUS_QUOTE"/>
+		<Row BuildingType="BUILDING_PETRA" Name="LOC_BUILDING_PETRA_NAME" Description="LOC_BUILDING_PETRA_DESCRIPTION" PrereqTech="TECH_MATHEMATICS" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_PETRA_QUOTE" QuoteAudio="Play_PETRA_QUOTE"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" Name="LOC_BUILDING_COLOSSEUM_NAME" Description="LOC_BUILDING_COLOSSEUM_DESCRIPTION" PrereqCivic="CIVIC_GAMES_RECREATION" Cost="400" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="3" RegionalRange="6" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_COLOSSEUM_QUOTE" QuoteAudio="Play_COLOSSEUM_QUOTE"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" Name="LOC_BUILDING_GREAT_LIBRARY_NAME" Description="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION" PrereqCivic="CIVIC_RECORDED_HISTORY" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_GREAT_LIBRARY_QUOTE" QuoteAudio="Play_GREATLIBRARY_QUOTE"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" Name="LOC_BUILDING_MAHABODHI_TEMPLE_NAME" Description="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION" PrereqCivic="CIVIC_THEOLOGY" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_MAHABODHI_TEMPLE_QUOTE" QuoteAudio="Play_MAHABODHITEMPLE_QUOTE"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" Name="LOC_BUILDING_TERRACOTTA_ARMY_NAME" Description="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION" PrereqTech="TECH_CONSTRUCTION" Cost="400" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_ENCAMPMENT" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_TERRACOTTA_ARMY_QUOTE" QuoteAudio="Play_TERRACOTTAARMY_QUOTE"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" Name="LOC_BUILDING_HAGIA_SOPHIA_NAME" Description="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" PrereqTech="TECH_EDUCATION" Cost="710" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresReligion="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_HAGIA_SOPHIA_QUOTE" QuoteAudio="Play_HAGIASOPHIA_QUOTE"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" Name="LOC_BUILDING_ALHAMBRA_NAME" Description="LOC_BUILDING_ALHAMBRA_DESCRIPTION" PrereqTech="TECH_CASTLES" Cost="710" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_ENCAMPMENT" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="2" ObsoleteEra="ERA_INDUSTRIAL" DefenseModifier="4" GrantFortification="2" Quote="LOC_BUILDING_ALHAMBRA_QUOTE" QuoteAudio="Play_ALHAMBRA_QUOTE"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" Name="LOC_BUILDING_CHICHEN_ITZA_NAME" Description="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION" PrereqCivic="CIVIC_GUILDS" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_CHICHEN_ITZA_QUOTE" QuoteAudio="Play_CHICHENITZA_QUOTE"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" Name="LOC_BUILDING_MONT_ST_MICHEL_NAME" Description="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION" PrereqCivic="CIVIC_DIVINE_RIGHT" Cost="710" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" DefenseModifier="6" GrantFortification="2" Quote="LOC_BUILDING_MONT_ST_MICHEL_QUOTE" QuoteAudio="Play_MONTSTMICHEL_QUOTE"/>
+		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" Name="LOC_BUILDING_VENETIAN_ARSENAL_NAME" Description="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" PrereqTech="TECH_MASS_PRODUCTION" Cost="920" AdvisorType="ADVISOR_CONQUEST" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_VENETIAN_ARSENAL_QUOTE" QuoteAudio="Play_VENETIANARSENAL_QUOTE_01"/>
+		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" Name="LOC_BUILDING_GREAT_ZIMBABWE_NAME" Description="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" PrereqTech="TECH_BANKING" Cost="920" AdvisorType="ADVISOR_GENERIC" AdjacentResource="RESOURCE_CATTLE" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_GREAT_ZIMBABWE_QUOTE" QuoteAudio="Play_GREATZIMBABWE_QUOTE"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" Name="LOC_BUILDING_FORBIDDEN_CITY_NAME" Description="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION" PrereqTech="TECH_PRINTING" Cost="920" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_FORBIDDEN_CITY_QUOTE" QuoteAudio="Play_FORBIDDENCITY_QUOTE"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" Name="LOC_BUILDING_POTALA_PALACE_NAME" Description="LOC_BUILDING_POTALA_PALACE_DESCRIPTION" PrereqTech="TECH_ASTRONOMY" Cost="1060" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentToMountain="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_POTALA_PALACE_QUOTE" QuoteAudio="Play_POTALAPALACE_QUOTE"/>
+		<Row BuildingType="BUILDING_RUHR_VALLEY" Name="LOC_BUILDING_RUHR_VALLEY_NAME" Description="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" PrereqTech="TECH_INDUSTRIALIZATION" Cost="1240" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE" RequiresRiver="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_RUHR_VALLEY_QUOTE" QuoteAudio="Play_RUHRVALLEY_QUOTE"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" Name="LOC_BUILDING_BOLSHOI_THEATRE_NAME" Description="LOC_BUILDING_BOLSHOI_THEATRE_DESCRIPTION" PrereqCivic="CIVIC_OPERA_BALLET" Cost="1240" AdvisorType="ADVISOR_CULTURE" AdjacentDistrict="DISTRICT_THEATER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_BOLSHOI_THEATER_QUOTE" QuoteAudio="Play_BOLSHOITHEATRE_QUOTE"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" Name="LOC_BUILDING_OXFORD_UNIVERSITY_NAME" Description="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION" PrereqTech="TECH_SCIENTIFIC_THEORY" Cost="1240" AdvisorType="ADVISOR_TECHNOLOGY" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_OXFORD_UNIVERSITY_QUOTE" QuoteAudio="Play_OXFORDUNIVERSITY_QUOTE"/>
+		<Row BuildingType="BUILDING_BIG_BEN" Name="LOC_BUILDING_BIG_BEN_NAME" Description="LOC_BUILDING_BIG_BEN_DESCRIPTION" PrereqTech="TECH_ECONOMICS" Cost="1450" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_BIG_BEN_QUOTE" QuoteAudio="Play_BIGBEN_QUOTE"/>
+		<Row BuildingType="BUILDING_HERMITAGE" Name="LOC_BUILDING_HERMITAGE_NAME" Description="LOC_BUILDING_HERMITAGE_DESCRIPTION" PrereqCivic="CIVIC_NATURAL_HISTORY" Cost="1450" AdvisorType="ADVISOR_CULTURE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_HERMITAGE_QUOTE" QuoteAudio="Play_HERMITAGE_QUOTE"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" Name="LOC_BUILDING_EIFFEL_TOWER_NAME" Description="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" PrereqTech="TECH_STEEL" Cost="1620" AdvisorType="ADVISOR_CULTURE" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_EIFFEL_TOWER_QUOTE" QuoteAudio="Play_EIFFELTOWER_QUOTE"/>
+		<Row BuildingType="BUILDING_BROADWAY" Name="LOC_BUILDING_BROADWAY_NAME" Description="LOC_BUILDING_BROADWAY_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" Cost="1620" AdvisorType="ADVISOR_CULTURE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentDistrict="DISTRICT_THEATER" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_BROADWAY_QUOTE" QuoteAudio="Play_BROADWAY_QUOTE"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" Name="LOC_BUILDING_CRISTO_REDENTOR_NAME" Description="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION" PrereqCivic="CIVIC_MASS_MEDIA" Cost="1620" AdvisorType="ADVISOR_CULTURE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_CRISTO_REDENTOR_QUOTE" QuoteAudio="Play_CRISTOREDENTOR_QUOTE"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" Name="LOC_BUILDING_ESTADIO_DO_MARACANA_NAME" Description="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" Cost="1740" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Entertainment="2" RegionalRange="100000" Quote="LOC_BUILDING_ESTADIO_DO_MARACANA_QUOTE" QuoteAudio="Play_ESTADIODOMARACANA_QUOTE"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" Name="LOC_BUILDING_SYDNEY_OPERA_HOUSE_NAME" Description="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" PrereqCivic="CIVIC_CULTURAL_HERITAGE" Cost="1850" AdvisorType="ADVISOR_CULTURE" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" Quote="LOC_BUILDING_SYDNEY_OPERA_HOUSE_QUOTE" QuoteAudio="Play_SYDNEYOPERAHOUSE_QUOTE"/>
+		<!-- Projects - These are "fake" buildings which are only used for visualization purposes-->
+		<Row BuildingType="BUILDING_SMALL_ROCKET" Name="LOC_BUILDING_SMALL_ROCKET_NAME" PrereqDistrict="DISTRICT_SPACEPORT" Cost="1" InternalOnly="true"/>
+		<Row BuildingType="BUILDING_MEDIUM_ROCKET" Name="LOC_BUILDING_MEDIUM_ROCKET_NAME" PrereqDistrict="DISTRICT_SPACEPORT" Cost="1" InternalOnly="true"/>
+		<Row BuildingType="BUILDING_LARGE_ROCKET" Name="LOC_BUILDING_LARGE_ROCKET_NAME" PrereqDistrict="DISTRICT_SPACEPORT" Cost="1" InternalOnly="true"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_TEMPLE" PrereqBuilding="BUILDING_SHRINE"/>
+		<Row Building="BUILDING_STAVE_CHURCH" PrereqBuilding="BUILDING_SHRINE"/>
+		<Row Building="BUILDING_UNIVERSITY" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_MADRASA" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_MUSEUM_ART" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_MUSEUM_ARTIFACT" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_CASTLE" PrereqBuilding="BUILDING_WALLS"/>
+		<Row Building="BUILDING_ARMORY" PrereqBuilding="BUILDING_BARRACKS"/>
+		<Row Building="BUILDING_ARMORY" PrereqBuilding="BUILDING_STABLE"/>
+		<Row Building="BUILDING_SHIPYARD" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+		<Row Building="BUILDING_BANK" PrereqBuilding="BUILDING_MARKET"/>
+		<Row Building="BUILDING_STAR_FORT" PrereqBuilding="BUILDING_CASTLE"/>
+		<Row Building="BUILDING_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
+		<Row Building="BUILDING_ELECTRONICS_FACTORY" PrereqBuilding="BUILDING_WORKSHOP"/>
+		<Row Building="BUILDING_STOCK_EXCHANGE" PrereqBuilding="BUILDING_BANK"/>
+		<Row Building="BUILDING_MILITARY_ACADEMY" PrereqBuilding="BUILDING_ARMORY"/>
+		<Row Building="BUILDING_ZOO" PrereqBuilding="BUILDING_ARENA"/>
+		<Row Building="BUILDING_STADIUM" PrereqBuilding="BUILDING_ZOO"/>
+		<Row Building="BUILDING_SEAPORT" PrereqBuilding="BUILDING_SHIPYARD"/>
+		<Row Building="BUILDING_POWER_PLANT" PrereqBuilding="BUILDING_FACTORY"/>
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Row Building="BUILDING_BROADCAST_CENTER" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ART"/>
+		<Row Building="BUILDING_FILM_STUDIO" PrereqBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_RESEARCH_LAB" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_CATHEDRAL" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_DAR_E_MEHR" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_GURDWARA" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_MEETING_HOUSE" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_MOSQUE" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_PAGODA" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_STUPA" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_SYNAGOGUE" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_WAT" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_AIRPORT" PrereqBuilding="BUILDING_HANGAR"/>
+		<!--Wonders Now Have Building Prereqs-->
+		<Row Building="BUILDING_BIG_BEN" PrereqBuilding="BUILDING_BANK"/>
+		<Row Building="BUILDING_ESTADIO_DO_MARACANA" PrereqBuilding="BUILDING_STADIUM"/>
+		<Row Building="BUILDING_GREAT_LIBRARY" PrereqBuilding="BUILDING_LIBRARY"/>
+		<Row Building="BUILDING_GREAT_LIGHTHOUSE" PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+		<Row Building="BUILDING_GREAT_ZIMBABWE" PrereqBuilding="BUILDING_MARKET"/>
+		<Row Building="BUILDING_MAHABODHI_TEMPLE" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_OXFORD_UNIVERSITY" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_RUHR_VALLEY" PrereqBuilding="BUILDING_FACTORY"/>
+		<Row Building="BUILDING_TERRACOTTA_ARMY" PrereqBuilding="BUILDING_BARRACKS"/>
+		<Row Building="BUILDING_TERRACOTTA_ARMY" PrereqBuilding="BUILDING_STABLE"/>
+	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_STABLE" MutuallyExclusiveBuilding="BUILDING_BARRACKS"/>
+		<Row Building="BUILDING_BARRACKS" MutuallyExclusiveBuilding="BUILDING_STABLE"/>
+		<Row Building="BUILDING_MUSEUM_ART" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+		<Row Building="BUILDING_MUSEUM_ARTIFACT" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ART"/>
+		<!--Though these are "fake" buildings for visualization, only one can be on the Spaceport district at a time, so use gameplay exclusivity rules to enforce this-->
+		<Row Building="BUILDING_SMALL_ROCKET" MutuallyExclusiveBuilding="BUILDING_MEDIUM_ROCKET"/>
+		<Row Building="BUILDING_SMALL_ROCKET" MutuallyExclusiveBuilding="BUILDING_LARGE_ROCKET"/>
+		<Row Building="BUILDING_MEDIUM_ROCKET" MutuallyExclusiveBuilding="BUILDING_SMALL_ROCKET"/>
+		<Row Building="BUILDING_MEDIUM_ROCKET" MutuallyExclusiveBuilding="BUILDING_LARGE_ROCKET"/>
+		<Row Building="BUILDING_LARGE_ROCKET" MutuallyExclusiveBuilding="BUILDING_SMALL_ROCKET"/>
+		<Row Building="BUILDING_LARGE_ROCKET" MutuallyExclusiveBuilding="BUILDING_MEDIUM_ROCKET"/>
+	</MutuallyExclusiveBuildings>
+	<!--NOTE: Right now only use it for Wonders-->
+	<Building_ValidFeatures>
+		<Row BuildingType="BUILDING_PETRA" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" FeatureType="FEATURE_FLOODPLAINS"/>
+	</Building_ValidFeatures>
+	<Building_RequiredFeatures>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" FeatureType="FEATURE_JUNGLE"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" FeatureType="FEATURE_FOREST"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" FeatureType="FEATURE_MARSH"/>
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" TerrainType="TERRAIN_DESERT"/>		
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_DESERT"/>
+	    <Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_BROADWAY" TerrainType="TERRAIN_DESERT_HILLS"/>				
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_DESERT"/>
+	    <Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" TerrainType="TERRAIN_DESERT_HILLS"/>			
+		<Row BuildingType="BUILDING_COLOSSUS" TerrainType="TERRAIN_COAST"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_DESERT"/>		
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_EIFFEL_TOWER" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" TerrainType="TERRAIN_DESERT_HILLS"/>			
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" TerrainType="TERRAIN_DESERT_HILLS"/>			
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" TerrainType="TERRAIN_COAST"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_ORACLE" TerrainType="TERRAIN_DESERT"/>	
+		
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		<Row BuildingType="BUILDING_PYRAMIDS" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_PETRA" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" TerrainType="TERRAIN_DESERT"/>		
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_STONEHENGE" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" TerrainType="TERRAIN_COAST"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_DESERT"/>			
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" TerrainType="TERRAIN_COAST"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_AMPHITHEATER" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" YieldType="YIELD_CULTURE" YieldChange="6"/>
+		<Row BuildingType="BUILDING_MONUMENT" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_PALACE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_SHRINE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TEMPLE" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_GURDWARA" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MOSQUE" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_PAGODA" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_STUPA" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_SYNAGOGUE" YieldType="YIELD_FAITH" YieldChange="5"/>
+		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_GRANARY" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_GURDWARA" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_LIGHTHOUSE" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_LIGHTHOUSE" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row BuildingType="BUILDING_MARKET" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_BANK" YieldType="YIELD_GOLD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" YieldType="YIELD_GOLD" YieldChange="7"/>
+		<Row BuildingType="BUILDING_PALACE" YieldType="YIELD_GOLD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SEAPORT" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ARMORY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_BARRACKS" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_HANGAR" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MEETING_HOUSE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_MILITARY_ACADEMY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row BuildingType="BUILDING_PALACE" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_POWER_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<Row BuildingType="BUILDING_STABLE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_WATER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row BuildingType="BUILDING_WORKSHOP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+		<Row BuildingType="BUILDING_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_PALACE" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" YieldType="YIELD_SCIENCE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MADRASA" YieldType="YIELD_SCIENCE" YieldChange="6"/>
+		<Row BuildingType="BUILDING_WAT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" YieldType="YIELD_SCIENCE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_AIRPORT" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_BIG_BEN" YieldType="YIELD_GOLD" YieldChange="6"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_COLOSSUS" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_CRISTO_REDENTOR" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_ESTADIO_DO_MARACANA" YieldType="YIELD_CULTURE" YieldChange="6"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" YieldType="YIELD_CULTURE" YieldChange="5"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" YieldType="YIELD_GOLD" YieldChange="3"/>
+		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" YieldType="YIELD_GOLD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" YieldType="YIELD_FAITH" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_POTALA_PALACE" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_ORACLE" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_ORACLE" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row BuildingType="BUILDING_STONEHENGE" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" YieldType="YIELD_CULTURE" YieldChange="8"/>
+	</Building_YieldChanges>
+	<Building_YieldsPerEra>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Building_YieldsPerEra>
+	<Building_GreatPersonPoints>
+		<!-- District buildings -->
+		<Row BuildingType="BUILDING_LIGHTHOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SHIPYARD" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SEAPORT" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_AMPHITHEATER" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_WORKSHOP" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ELECTRONICS_FACTORY" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_POWER_PLANT" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_SHRINE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TEMPLE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_BARRACKS" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_STABLE" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_ARMORY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MILITARY_ACADEMY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MARKET" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_BANK" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_STOCK_EXCHANGE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MADRASA" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_COLOSSUS" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GREAT_LIGHTHOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_BROADWAY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_BROADWAY" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_GREAT_ZIMBABWE" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_BIG_BEN" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_HERMITAGE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="5"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldDistrictCopies>
+		<Row BuildingType="BUILDING_MADRASA" OldYieldType="YIELD_SCIENCE" NewYieldType="YIELD_FAITH"/>
+		<Row BuildingType="BUILDING_SHIPYARD" OldYieldType="YIELD_GOLD" NewYieldType="YIELD_PRODUCTION"/>
+	</Building_YieldDistrictCopies>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="5" NonUniquePersonYield="1" NonUniquePersonTourism="1"/>
+		<Row BuildingType="BUILDING_SHRINE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="2"/>		
+		<Row BuildingType="BUILDING_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="3"/>
+		<Row BuildingType="BUILDING_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>		
+		<Row BuildingType="BUILDING_GURDWARA" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_DAR_E_MEHR" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>		
+		<Row BuildingType="BUILDING_STAVE_CHURCH" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>	
+		<Row BuildingType="BUILDING_MEETING_HOUSE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>		
+		<Row BuildingType="BUILDING_MOSQUE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>		
+		<Row BuildingType="BUILDING_PAGODA" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>		
+		<Row BuildingType="BUILDING_STUPA" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>			
+		<Row BuildingType="BUILDING_SYNAGOGUE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>			
+		<Row BuildingType="BUILDING_AMPHITHEATER" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_MUSEUM_ART" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3" ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+		<Row BuildingType="BUILDING_MUSEUM_ARTIFACT" GreatWorkSlotType="GREATWORKSLOT_ARTIFACT" NumSlots="3" ThemingSameEras="true" ThemingUniqueCivs="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ARCHAEOLOGY"/>
+		<Row BuildingType="BUILDING_BROADCAST_CENTER" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
+		<Row BuildingType="BUILDING_FILM_STUDIO" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
+		<Row BuildingType="BUILDING_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_UNIVERSITY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="3"/>
+		<Row BuildingType="BUILDING_RESEARCH_LAB" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+		<Row BuildingType="BUILDING_MADRASA" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+		<Row BuildingType="BUILDING_MONT_ST_MICHEL" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="4"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_BOLSHOI_THEATRE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2"/>
+		<Row BuildingType="BUILDING_OXFORD_UNIVERSITY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+		<Row BuildingType="BUILDING_HERMITAGE" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="4" NonUniquePersonYield="3" NonUniquePersonTourism="2"/>
+		<Row BuildingType="BUILDING_BROADWAY" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_BROADWAY" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2"/>
+		<Row BuildingType="BUILDING_SYDNEY_OPERA_HOUSE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="4"/>
+		<Row BuildingType="BUILDING_MAHABODHI_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_HAGIA_SOPHIA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_CHICHEN_ITZA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_FORBIDDEN_CITY" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+        <Row BuildingType="BUILDING_POTALA_PALACE" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_ALHAMBRA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_BIG_BEN" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_HANGING_GARDENS" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_VENETIAN_ARSENAL" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_ORACLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_PETRA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_PYRAMIDS" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="4"/>
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+        <Row BuildingType="BUILDING_STONEHENGE" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="4"/>
+
+	</Building_GreatWorks>
+	<Modifiers>
+		<!-- Adjust city garrison strength -->
+		<Row>
+			<ModifierId>PALACE_ADJUST_GARRISON_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_INNER_DEFENSE</ModifierType>
+		</Row>
+		<!--Adjust Builder Chargers-->
+		<Row>
+			<ModifierId>MOSQUE_ADJUST_SPREAD_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_RELIGIOUS_SPREADS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>MOSQUE_RELIGIOUS_UNIT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PYRAMID_ADJUST_BUILDER_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BUILDER_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_BUILDER</SubjectRequirementSetId>
+		</Row>
+		<!--Adjust City Appeal-->
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADDAPPEAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_APPEAL</ModifierType>
+		</Row>
+		<!--Adjust City Growth-->
+		<Row>
+			<ModifierId>HANGING_GARDEN_ADDGROWTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<!--Adjust City Trade Route Capacity-->
+		<Row>
+			<ModifierId>COLOSSUS_ADDTRADEROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ADDTRADEROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+		<!--Adjust Unit Experience Modifier-->
+		<Row>
+			<ModifierId>BARRACKS_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>BARRACKS_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STABLE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>STABLE_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>ARMORY_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<SubjectRequirementSetId>MILITARYACADEMY_XP_LAND_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<SubjectRequirementSetId>LIGHTHOUSE_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<SubjectRequirementSetId>SHIPYARD_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<SubjectRequirementSetId>SEAPORT_SEA_REQUIREMENTS</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>HANGAR_TRAINED_AIRCRAFT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>HANGAR_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HANGAR_BONUS_AIR_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_GRANT_AIR_SLOTS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>AIRPORT_TRAINED_AIRCRAFT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>AIRPORT_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AIRPORT_BONUS_AIR_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_GRANT_AIR_SLOTS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Adjust City Corps and Army Production-->
+		<Row>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_CITY_CORPS_ARMY_ADJUST_DISCOUNT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_CITY_CORPS_ARMY_ADJUST_DISCOUNT</ModifierType>
+		</Row>
+		<!--Adjust City Yield-->
+		<Row>
+			<ModifierId>BROADWAY_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_ADDPRODUCTIONYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_ELECTRICITYTECHNOLOGY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!--Adjust Dynamic Plot Yield-->
+		<Row>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_FEATURE_ADJACENCY</ModifierType>
+		</Row>
+		<!--Adjust Government Slots-->
+		<Row>
+			<ModifierId>ALHAMBRA_MILITARY_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_DIPLOMATIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BIG_BEN_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+		<!--Adjust Plot Yield-->
+		<Row>
+			<ModifierId>WATERMILL_ADDRICEFOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_RICE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>WATERMILL_ADDWHEATYIELD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RESOURCE_IS_WHEAT</SubjectRequirementSetId>
+		</Row>
+		<!--Adjust Trade Route Yield-->
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITY_TRADE_ROUTE_YIELD_PER_LOCAL_BONUS_RESOURCE_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITY_TRADE_ROUTE_YIELD_PER_LOCAL_BONUS_RESOURCE_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!--Adjust Great Person Points - uses RequirementSets defined elsewhere (Leaders.xml)-->
+		<Row>
+			<ModifierId>ORACLE_GREATGENERALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATADMIRALPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATENGINEERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATMERCHANTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATPROPHETPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATSCIENTISTPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATWRITERPOINTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_DISTRICTS_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_THEATER</SubjectRequirementSetId>
+		</Row>
+		<!--Adjust Great Person Patronage Discount Percent-->
+		<Row>
+			<ModifierId>ORACLE_PATRONAGE_FAITH_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_PATRONAGE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+		<!--Boost Tourism-->
+		<Row>
+			<ModifierId>CRISTOREDENTOR_BEACHTOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CRISTOREDENTOR_FULLRELIGIOUSTOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALWAYS_FULL_RELIGIOUS_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FILMSTUDIO_ENHANCEDLATETOURISM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TOURISM_LATE_ERAS</ModifierType>
+		</Row>
+		<!--Duplicate Units-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALMELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALRANGED</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALCARRIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_UNIT_COPY_TAG</ModifierType>
+		</Row>
+		<!--Grant All Tech Boosts-->
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_ALL_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Free Techs/Civics-->
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_FREE_CIVICS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_FREE_TECHS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Unit-->
+		<Row>
+			<ModifierId>COLOSSUS_GRANT_TRADER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PYRAMID_GRANT_BUILDERS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_GRANT_PROPHET</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>STONEHENGE_PROPHET_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ALTERNATE_GRANT_APOSTLE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<SubjectRequirementSetId>STONEHENGE_APOSTLE_REQUIREMENTS</SubjectRequirementSetId>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHITEMPLE_APOSTLE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Ability-->
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_ARCHAEOLOGIST_OPEN_BORDERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Promotion-->
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_GRANT_MARTYR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Experience-->
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_LEVEL_UP_UNITS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<!--Multiply Treasury-->
+		<Row>
+			<ModifierId>BIG_BEN_DOUBLE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_MULTIPLY_TREASURY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Units Adjust Sea Movement-->
+		<Row>
+			<ModifierId>GREATLIGHTHOUSE_ADJUST_SEA_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT</ModifierType>
+		</Row>
+		<!-- Embarked Unit Movement -->
+		<Row>
+			<ModifierId>GREATLIGHTHOUSE_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARKED_MOVEMENT</ModifierType>
+		</Row>
+		<!--Adjust Religious Unit Charges-->
+		<Row>
+			<ModifierId>HAGIA_SOPHIA_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SPREAD_CHARGES</ModifierType>
+		</Row>
+		<!--Random Civic Boost-->
+		<Row>
+			<ModifierId>BUILDING_BROADWAY_RANDOMCIVICBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LIGHTHOUSE_COAST_FOOD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_YIELD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PETRA_YIELD_MODIFIER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_VALLEY_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>RUHR_VALLEY_PRODUCTION_MODIFIER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_COAST_GOLD</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STAVECHURCH_SEARESOURCE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>STAVE_CHURCH_SEA_RESOURCE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Adjust city garrison strength -->
+		<Row>
+			<ModifierId>PALACE_ADJUST_GARRISON_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--Adjust Charges-->
+		<Row>
+			<ModifierId>MOSQUE_ADJUST_SPREAD_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PYRAMID_ADJUST_BUILDER_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Adjust City Appeal-->
+		<Row>
+			<ModifierId>EIFFEL_TOWER_ADDAPPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Adjust City Growth-->
+		<Row>
+			<ModifierId>HANGING_GARDEN_ADDGROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<!--Adjust City Trade Route Capacity-->
+		<Row>
+			<ModifierId>COLOSSUS_ADDTRADEROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_ADDTRADEROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Adjust Unit Experience Modifier-->
+		<Row>
+			<ModifierId>BARRACKS_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>STABLE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>HANGAR_TRAINED_AIRCRAFT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>HANGAR_BONUS_AIR_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>AIRPORT_TRAINED_AIRCRAFT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>AIRPORT_BONUS_AIR_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!--Adjust City Yield-->
+		<Row>
+			<ModifierId>BROADWAY_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>BROADWAY_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_ADDPRODUCTIONYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHRVALLEY_ADDPRODUCTIONYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_ELECTRONICS_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<!--Adjust Dynamic Plot Yield-->
+		<Row>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<Row>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_STAVE_CHURCH_FOREST_FAITH</Value>
+		</Row>
+		<!--Adjust Government Slots-->
+		<Row>
+			<ModifierId>ALHAMBRA_MILITARY_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>POTALA_PALACE_DIPLOMATIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_DIPLOMATIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>FORBIDDEN_CITY_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_WILDCARD</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIG_BEN_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_ECONOMIC</Value>
+		</Row>
+		<!--Adjust Plot Yield-->
+		<Row>
+			<ModifierId>WATERMILL_ADDRICEFOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>WATERMILL_ADDRICEFOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>WATERMILL_ADDWHEATYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>WATERMILL_ADDWHEATYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<!--Adjust Trade Route Yield-->
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_ZIMBABWE_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!--Adjust Great Person Points-->
+		<Row>
+			<ModifierId>ORACLE_GREATGENERALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATGENERALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATADMIRALPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATADMIRALPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATENGINEERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATENGINEERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATMERCHANTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATMERCHANTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATPROPHETPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATPROPHETPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATSCIENTISTPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATSCIENTISTPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATWRITERPOINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_GREATWRITERPOINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Adjust Great Person Patronage Discount Percent-->
+		<Row>
+			<ModifierId>ORACLE_PATRONAGE_FAITH_DISCOUNT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORACLE_PATRONAGE_FAITH_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!--Boost Tourism-->
+		<Row>
+			<ModifierId>CRISTOREDENTOR_BEACHTOURISM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_BEACH_RESORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTOREDENTOR_BEACHTOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>CRISTOREDENTOR_FULLRELIGIOUSTOURISM</ModifierId>
+			<Name>Enable</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>FILMSTUDIO_ENHANCEDLATETOURISM</ModifierId>
+			<Name>Modifier</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>FILMSTUDIO_ENHANCEDLATETOURISM</ModifierId>
+			<Name>MinimumEra</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<!--Duplicate Units-->
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALMELEE</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALMELEE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALRANGED</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALRANGED</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALCARRIER</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_NAVAL_CARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALCARRIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Grant All Tech Boosts-->
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<!--Free Techs/Civics-->
+		<Row>
+			<ModifierId>BOLSHOI_THEATRE_FREE_CIVICS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>OXFORD_UNIVERSITY_FREE_TECHS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Grant Unit-->
+		<Row>
+			<ModifierId>COLOSSUS_GRANT_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>COLOSSUS_GRANT_TRADER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PYRAMID_GRANT_BUILDERS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>PYRAMID_GRANT_BUILDERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_GRANT_PROPHET</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_GRANT_PROPHET</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ALTERNATE_GRANT_APOSTLE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STONEHENGE_ALTERNATE_GRANT_APOSTLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHITEMPLE_APOSTLE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MAHABODHITEMPLE_APOSTLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Grant Ability-->
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_ARCHAEOLOGIST_OPEN_BORDERS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ARCHAEOLOGIST_ENTER_FOREIGN_LANDS</Value>
+		</Row>
+		<!--Grant Promotion-->
+		<Row>
+			<ModifierId>MONT_ST_MICHEL_GRANT_MARTYR</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_MARTYR</Value>
+		</Row>
+		<!--Grant Experience-->
+		<Row>
+			<ModifierId>TERRACOTTA_ARMY_LEVEL_UP_UNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<!--Multiply Treasury-->
+		<Row>
+			<ModifierId>BIG_BEN_DOUBLE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!--Units Adjust Sea Movement-->
+		<Row>
+			<ModifierId>GREATLIGHTHOUSE_ADJUST_SEA_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- Embarked Unit Movement -->
+		<Row>
+			<ModifierId>GREATLIGHTHOUSE_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Adjust Religious Unit Charges-->
+		<Row>
+			<ModifierId>HAGIA_SOPHIA_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Random Civic Boost-->
+		<Row>
+			<ModifierId>BUILDING_BROADWAY_RANDOMCIVICBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_BROADWAY_RANDOMCIVICBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>BUILDING_BROADWAY_RANDOMCIVICBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Plot Yield-->
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CHICHEN_ITZA_JUNGLE_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>CHICHEN_ITZA_JUNGLE_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIGHTHOUSE_COAST_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>LIGHTHOUSE_COAST_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+	
+		
+		<Row>
+			<ModifierId>PETRA_YIELD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD,YIELD_GOLD,YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>PETRA_YIELD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2,2,2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_VALLEY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>RUHR_VALLEY_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_COAST_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SEAPORT_COAST_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
+	
+		
+		<Row>
+			<ModifierId>STAVECHURCH_SEARESOURCE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STAVECHURCH_SEARESOURCE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<!-- Adjust city garrison strength -->
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<ModifierId>PALACE_ADJUST_GARRISON_STRENGTH</ModifierId>
+		</Row>
+		<!--Adjust Chargers-->
+		<Row>
+			<BuildingType>BUILDING_MOSQUE</BuildingType>
+			<ModifierId>MOSQUE_ADJUST_SPREAD_CHARGES</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMIDS</BuildingType>
+			<ModifierId>PYRAMID_ADJUST_BUILDER_CHARGES</ModifierId>
+		</Row>
+		<!--Adjust City Growth-->
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<ModifierId>EIFFEL_TOWER_ADDAPPEAL</ModifierId>
+		</Row>
+		<!--Adjust City Growth-->
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDENS</BuildingType>
+			<ModifierId>HANGING_GARDEN_ADDGROWTH</ModifierId>
+		</Row>
+		<!--Adjust City Trade Route Capacity-->
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ModifierId>COLOSSUS_ADDTRADEROUTE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_ZIMBABWE</BuildingType>
+			<ModifierId>GREAT_ZIMBABWE_ADDTRADEROUTE</ModifierId>
+		</Row>
+		<!--Adjust Unit Experience Modifier-->
+		<Row>
+			<BuildingType>BUILDING_BARRACKS</BuildingType>
+			<ModifierId>BARRACKS_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STABLE</BuildingType>
+			<ModifierId>STABLE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ARMORY</BuildingType>
+			<ModifierId>ARMORY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
+			<ModifierId>MILITARY_ACADEMY_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<ModifierId>LIGHTHOUSE_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHIPYARD</BuildingType>
+			<ModifierId>SHIPYARD_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
+			<ModifierId>SEAPORT_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
+			<ModifierId>SEAPORT_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGAR</BuildingType>
+			<ModifierId>HANGAR_TRAINED_AIRCRAFT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGAR</BuildingType>
+			<ModifierId>HANGAR_BONUS_AIR_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<ModifierId>AIRPORT_TRAINED_AIRCRAFT_XP_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_AIRPORT</BuildingType>
+			<ModifierId>AIRPORT_BONUS_AIR_SLOTS</ModifierId>
+		</Row>
+		<!--Adjust City Yield-->
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ModifierId>BROADWAY_ADDCULTUREYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ModifierId>OXFORD_ADDSCIENCEYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RUHR_VALLEY</BuildingType>
+			<ModifierId>RUHRVALLEY_ADDPRODUCTIONYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ELECTRONICS_FACTORY</BuildingType>
+			<ModifierId>ELECTRONICSFACTORY_CULTURE</ModifierId>
+		</Row>
+		<!--Adjust City Yield-->
+		<Row>
+			<BuildingType>BUILDING_WATER_MILL</BuildingType>
+			<ModifierId>WATERMILL_ADDRICEFOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WATER_MILL</BuildingType>
+			<ModifierId>WATERMILL_ADDWHEATYIELD</ModifierId>
+		</Row>
+		<!--Adjust Dynamic Plot Yield-->
+		<Row>
+			<BuildingType>BUILDING_STAVE_CHURCH</BuildingType>
+			<ModifierId>STAVE_CHURCH_FAITHWOODSADJACENCY</ModifierId>
+		</Row>
+		<!--Adjust Government Slots-->
+		<Row>
+			<BuildingType>BUILDING_ALHAMBRA</BuildingType>
+			<ModifierId>ALHAMBRA_MILITARY_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_POTALA_PALACE</BuildingType>
+			<ModifierId>POTALA_PALACE_DIPLOMATIC_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_CITY</BuildingType>
+			<ModifierId>FORBIDDEN_CITY_WILDCARD_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ModifierId>BIG_BEN_ECONOMIC_GOVERNMENT_SLOT</ModifierId>
+		</Row>
+		<!--Adjust Trade Route Yield-->
+		<Row>
+			<BuildingType>BUILDING_GREAT_ZIMBABWE</BuildingType>
+			<ModifierId>GREAT_ZIMBABWE_DOMESTICBONUSRESOURCEGOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_ZIMBABWE</BuildingType>
+			<ModifierId>GREAT_ZIMBABWE_INTERNATIONALBONUSRESOURCEGOLD</ModifierId>
+		</Row>
+		<!--Adjust Great Person Points-->
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATGENERALPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATADMIRALPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATENGINEERPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATMERCHANTPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATPROPHETPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATSCIENTISTPOINTS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_GREATWRITERPOINTS</ModifierId>
+		</Row>
+		<!--Adjust Great Person Patronage Discount Percent-->
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<ModifierId>ORACLE_PATRONAGE_FAITH_DISCOUNT</ModifierId>
+		</Row>
+		<!--Boost Tourism-->
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ModifierId>CRISTOREDENTOR_BEACHTOURISM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<ModifierId>CRISTOREDENTOR_FULLRELIGIOUSTOURISM</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FILM_STUDIO</BuildingType>
+			<ModifierId>FILMSTUDIO_ENHANCEDLATETOURISM</ModifierId>
+		</Row>
+		<!--Duplicate Units-->
+		<Row>
+			<BuildingType>BUILDING_VENETIAN_ARSENAL</BuildingType>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALMELEE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENETIAN_ARSENAL</BuildingType>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALRANGED</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_VENETIAN_ARSENAL</BuildingType>
+			<ModifierId>VENETIAN_ARSENAL_EXTRANAVALCARRIER</ModifierId>
+		</Row>
+		<!--Grant Tech Boosts-->
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<ModifierId>GREAT_LIBRARY_ANCIENT_CLASSICAL_TECH_BOOSTS</ModifierId>
+		</Row>
+		<!--Grant Free Techs/Civics-->
+		<Row>
+			<BuildingType>BUILDING_BOLSHOI_THEATRE</BuildingType>
+			<ModifierId>BOLSHOI_THEATRE_FREE_CIVICS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<ModifierId>OXFORD_UNIVERSITY_FREE_TECHS</ModifierId>
+		</Row>
+		<!--Grant Unit-->
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<ModifierId>COLOSSUS_GRANT_TRADER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMIDS</BuildingType>
+			<ModifierId>PYRAMID_GRANT_BUILDERS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ModifierId>STONEHENGE_GRANT_PROPHET</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<ModifierId>STONEHENGE_ALTERNATE_GRANT_APOSTLE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAHABODHI_TEMPLE</BuildingType>
+			<ModifierId>MAHABODHITEMPLE_APOSTLE</ModifierId>
+		</Row>
+		<!--Grant Ability-->
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY">
+			<ModifierId>TERRACOTTA_ARMY_ARCHAEOLOGIST_OPEN_BORDERS</ModifierId>
+		</Row>
+		<!--Grant Promotion-->
+		<Row>
+			<BuildingType>BUILDING_MONT_ST_MICHEL</BuildingType>
+			<ModifierId>MONT_ST_MICHEL_GRANT_MARTYR</ModifierId>
+		</Row>
+		<!--Grant Experience-->
+		<Row BuildingType="BUILDING_TERRACOTTA_ARMY">
+			<ModifierId>TERRACOTTA_ARMY_LEVEL_UP_UNITS</ModifierId>
+		</Row>
+		<!--Multiply Treasury-->
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<ModifierId>BIG_BEN_DOUBLE_GOLD</ModifierId>
+		</Row>
+		<!--Units Adjust Sea Movement-->
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ModifierId>GREATLIGHTHOUSE_ADJUST_SEA_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<ModifierId>GREATLIGHTHOUSE_ADJUST_EMBARKED_MOVEMENT</ModifierId>
+		</Row>
+		<!--Adjust Religious Unit Charges-->
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<ModifierId>HAGIA_SOPHIA_ADJUST_RELIGIOUS_CHARGES</ModifierId>
+		</Row>
+		<!--Plot Yield-->
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<ModifierId>CHICHEN_ITZA_JUNGLE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
+			<ModifierId>LIGHTHOUSE_COAST_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PETRA</BuildingType>
+			<ModifierId>PETRA_YIELD_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_RUHR_VALLEY</BuildingType>
+			<ModifierId>RUHR_VALLEY_PRODUCTION_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
+			<ModifierId>SEAPORT_COAST_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STAVE_CHURCH</BuildingType>
+			<ModifierId>STAVECHURCH_SEARESOURCE_PRODUCTION</ModifierId>
+		</Row>
+		<!--Random Civic Boost-->
+		<Row>
+			<BuildingType>BUILDING_BROADWAY</BuildingType>
+			<ModifierId>BUILDING_BROADWAY_RANDOMCIVICBOOST</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NOT_COAST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_RICE_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_CHICHEN_ITZA</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_JUNGLE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_OWNS_OBJECT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_LAKE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_LAKE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_LIGHTHOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PETRA_YIELD_MODIFIER_REQUIRES_PLOT_HAS_DESERT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_MELEE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_RANGED</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_ANTI_CAV</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_LIGHT_CAV</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_SIEGE</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LAND_DOMAIN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AIR_DOMAIN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_DOMAIN_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_RELIGIOUS_UNIT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_ELECTRICITYTECHNOLOGY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_CAN_EVER_EARN_PROPHET</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_CAN_NOT_EVER_EARN_PROPHET</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_CAN_EVER_EARN_GREAT_PERSON_CLASS</RequirementType>
+			<Inverse>True</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NOT_COAST</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_RICE_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_RICE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT</RequirementId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_WHEAT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_CHICHEN_ITZA</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CHICHEN_ITZA</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_JUNGLE</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_LIGHTHOUSE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIGHTHOUSE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<RequirementId>PETRA_YIELD_MODIFIER_REQUIRES_PLOT_HAS_DESERT</RequirementId>
+			<Name>TerrainClass</Name>
+			<Value>TERRAIN_CLASS_DESERT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_MELEE</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_RANGED</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_ANTI_CAV</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_LIGHT_CAV</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_SIEGE</RequirementId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LAND_DOMAIN</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_AIR_DOMAIN</RequirementId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_AIR</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_RELIGIOUS_UNIT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_RELIGIOUS_SPREAD</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_ELECTRICITYTECHNOLOGY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ELECTRICITY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_CAN_EVER_EARN_PROPHET</RequirementId>
+			<Name>GreatPersonClass</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_CAN_NOT_EVER_EARN_PROPHET</RequirementId>
+			<Name>GreatPersonClass</Name>
+			<Value>GREAT_PERSON_CLASS_PROPHET</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_RICE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_WHEAT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_LIGHTHOUSE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PETRA_YIELD_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RUHR_VALLEY_PRODUCTION_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_SEAPORT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BARRACKS_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>STABLE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>ARMORY_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MILITARYACADEMY_XP_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>LIGHTHOUSE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SHIPYARD_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SEAPORT_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HANGAR_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AIRPORT_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MOSQUE_RELIGIOUS_UNIT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ELECTRICITYTECHNOLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>STONEHENGE_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>STONEHENGE_APOSTLE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>STAVE_CHURCH_SEA_RESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_RICE</RequirementSetId>
+			<RequirementId>REQUIRES_RICE_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RESOURCE_IS_WHEAT</RequirementSetId>
+			<RequirementId>REQUIRES_WHEAT_IN_PLOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_CHICHEN_ITZA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_CHICHEN_ITZA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_JUNGLE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_JUNGLE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_LIGHTHOUSE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_LIGHTHOUSE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_COAST_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PETRA_YIELD_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PETRA_YIELD_MODIFIER_REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PETRA_YIELD_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RUHR_VALLEY_PRODUCTION_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_QUARRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RUHR_VALLEY_PRODUCTION_MODIFIER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_SEAPORT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_SEAPORT</RequirementId>
+		</Row>
+		<!--Barracks Unit Requirements-->
+		<Row>
+			<RequirementSetId>BARRACKS_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BARRACKS_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BARRACKS_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_ANTI_CAV</RequirementId>
+		</Row>
+		<!--Stable Unit Requirements-->
+		<Row>
+			<RequirementSetId>STABLE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_HEAVY_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STABLE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_LIGHT_CAVALRY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STABLE_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_SIEGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ARMORY_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MILITARYACADEMY_XP_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>LIGHTHOUSE_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SHIPYARD_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SEAPORT_SEA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_SEA_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HANGAR_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_AIR_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AIRPORT_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_AIR_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MOSQUE_RELIGIOUS_UNIT</RequirementSetId>
+			<RequirementId>REQUIRES_RELIGIOUS_UNIT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_ELECTRICITYTECHNOLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_ELECTRICITYTECHNOLOGY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STONEHENGE_PROPHET_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_EVER_EARN_PROPHET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STONEHENGE_APOSTLE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_CAN_NOT_EVER_EARN_PROPHET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STAVE_CHURCH_SEA_RESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_VISIBLE_RESOURCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STAVE_CHURCH_SEA_RESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_COAST</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!--Double Modifiers-->
+	<!-- Deprecated Requirements -->
+	<!-- Do not reference these as they are only kept here for save game compatibility. -->
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PETRA</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PETRA</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PETRA</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FLOODPLAINS</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_PETRA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PRODUCTION_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>FOOD_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLD_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PRODUCTION_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>FOOD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_PETRA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_PETRA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PRODUCTION_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLD_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>FOOD_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PRODUCTION_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLD_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>FOOD_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PRODUCTION_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>FOOD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_NO_FLOODPLAINS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PRODUCTION_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>FOOD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GOLD_PLOT_HAS_DESERT_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_MINE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>
+<!--NOTE: Building Prereqs are satisfied if any ONE of the prerequisite buildings is present.  They don't ALL have to be there.  This handles unique buildings and mutually exclusive ones.-->

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_BI_SHENG" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JANE_DREW" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" Name="LOC_GREAT_PERSON_INDIVIDUAL_BI_SHENG_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS" Name="LOC_GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="2" ActionRequiresIncompleteWonder="true"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" Name="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="3" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER" ActionRequiresMissingBuildingType="BUILDING_CASTLE" ActionEffectTextOverride="LOC_GREATPERSON_JAMES_OF_ST_GEORGE_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI" Name="LOC_GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="2" ActionRequiresIncompleteWonder="true"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI" Name="LOC_GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="2" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" Name="LOC_GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INDUSTRIAL" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL" Name="LOC_GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="2" ActionRequiresIncompleteWonder="true"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" Name="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_WATT_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE" ActionEffectTextOverride="LOC_GREATPERSON_JAMES_WATT_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO" Name="LOC_GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA" Name="LOC_GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD" Name="LOC_GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" Name="LOC_GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_ATOMIC" Gender="M" ActionCharges="2" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANE_DREW" Name="LOC_GREAT_PERSON_INDIVIDUAL_JANE_DREW_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_ATOMIC" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV" Name="LOC_GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_SPACEPORT" ActionRequiresIncompleteSpaceRaceProject="true"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA" Name="LOC_GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CITY_CENTER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" Name="LOC_GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN" Name="LOC_GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_SPACEPORT"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="GREATPERSON_EXTRA_DISTRICT_CAPACITY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="GREATPERSON_PRINTINGTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ISIDORE_OF_MILETUS" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" ModifierId="GREATPERSON_WALLS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_OF_ST_GEORGE" ModifierId="GREATPERSON_CASTLE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_FILIPPO_BRUNELLESCHI" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI" ModifierId="GREATPERSON_WORKSHOP_CULTURE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI" ModifierId="GREATPERSON_1MODERNTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" ModifierId="GREATPERSON_CITY_HOUSING_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" ModifierId="GREATPERSON_CITY_AMENITIES_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="GREATPERSON_EXTRA_DISTRICT_CAPACITY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="GREATPERSON_COMPUTERSTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GUSTAVE_EIFFEL" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_WORKSHOP" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_FACTORY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_WATT" ModifierId="GREATPERSON_FACTORIES_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO" ModifierId="GREATPERSON_CITY_APPEAL_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA" ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_NIKOLA_TESLA" ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD" ModifierId="GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ROBERT_GODDARD" ModifierId="GREATPERSON_ROCKETRYTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" ModifierId="GREATPERSON_CITY_HOUSING_MEDIUM" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" ModifierId="GREATPERSON_CITY_AMENITIES_SMALL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANE_DREW" ModifierId="GREATPERSON_CITY_HOUSING_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANE_DREW" ModifierId="GREATPERSON_CITY_AMENITIES_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SERGEI_KOROLEV" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA" ModifierId="GREATPERSON_CITY_APPEAL_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_WERNHER_VON_BRAUN" ModifierId="GREATPERSON_SPACE_RACE_PRODUCTION_RATE_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_DISTRICT_CAPACITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_EXTRA_DISTRICT</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PRINTINGTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WALLS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CASTLE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_HOUSING_SMALL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_HOUSING_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_AMENITIES_SMALL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_AMENITIES_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORIES_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_APPEAL_SMALL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_APPEAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_EXTRA_REGIONAL_RANGE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_EXTRA_REGIONAL_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ROCKETRYTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_HOUSING_MEDIUM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_HOUSING_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_HOUSING_LARGE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_HOUSING_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_AMENITIES_LARGE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_AMENITIES_FROM_GREAT_PEOPLE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_APPEAL_LARGE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_APPEAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_EXTRA_REGIONAL_ENTERTAINMENT</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_DISTRICT_CAPACITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_PRINTINGTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_PRINTING</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>215</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+    <Row>
+      <ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+		<Row>
+			<ModifierId>GREATPERSON_WALLS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CASTLE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>315</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+    <Row>
+      <ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WORKSHOP</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_HOUSING_SMALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_AMENITIES_SMALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>480</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+    <Row>
+      <ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+		<Row>
+			<ModifierId>GREATPERSON_WORKSHOP</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WORKSHOP</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORY</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORIES_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORIES_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FACTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FACTORIES_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_APPEAL_SMALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ROCKETRYTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ROCKETRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_HOUSING_MEDIUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_HOUSING_LARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_AMENITIES_LARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1500</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+    <Row>
+      <ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+		<Row>
+			<ModifierId>GREATPERSON_CITY_APPEAL_LARGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>990</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+    <Row>
+      <ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION</ModifierId>
+      <Name>KeepOverflow</Name>
+      <Value>false</Value>
+    </Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_EXTRA_DISTRICT_CAPACITY" Context="Summary" Text="LOC_GREATPERSON_EXTRA_DISTRICT_CAPACITY"/>
+		<Row ModifierId="GREATPERSON_PRINTINGTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_PRINTINGTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL" Context="Summary" Text="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_MEDIEVAL"/>
+		<Row ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE" Context="Summary" Text="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_RENAISSANCE"/>
+		<Row ModifierId="GREATPERSON_WORKSHOP_CULTURE" Context="Summary" Text="LOC_GREATPERSON_WORKSHOP_CULTURE"/>
+		<Row ModifierId="GREATPERSON_CITY_HOUSING_SMALL" Context="Summary" Text="LOC_GREATPERSON_CITY_HOUSING_SMALL"/>
+		<Row ModifierId="GREATPERSON_CITY_AMENITIES_SMALL" Context="Summary" Text="LOC_GREATPERSON_CITY_AMENITIES_SMALL"/>
+		<Row ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL" Context="Summary" Text="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INDUSTRIAL"/>
+		<Row ModifierId="GREATPERSON_CITY_APPEAL_SMALL" Context="Summary" Text="LOC_GREATPERSON_CITY_APPEAL_SMALL"/>
+		<Row ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE" Context="Summary" Text="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE"/>
+		<Row ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION" Context="Summary" Text="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_PRODUCTION"/>
+		<Row ModifierId="GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL" Context="Summary" Text="LOC_GREATPERSON_SPACE_RACE_PRODUCTION_RATE_SMALL"/>
+		<Row ModifierId="GREATPERSON_ROCKETRYTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_ROCKETRYTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_CITY_HOUSING_MEDIUM" Context="Summary" Text="LOC_GREATPERSON_CITY_HOUSING_MEDIUM"/>
+		<Row ModifierId="GREATPERSON_CITY_HOUSING_LARGE" Context="Summary" Text="LOC_GREATPERSON_CITY_HOUSING_LARGE"/>
+		<Row ModifierId="GREATPERSON_CITY_AMENITIES_LARGE" Context="Summary" Text="LOC_GREATPERSON_CITY_AMENITIES_LARGE"/>
+		<Row ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE" Context="Summary" Text="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_EARLY_SPACE_RACE"/>
+		<Row ModifierId="GREATPERSON_CITY_APPEAL_LARGE" Context="Summary" Text="LOC_GREATPERSON_CITY_APPEAL_LARGE"/>
+		<Row ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT" Context="Summary" Text="LOC_GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT"/>
+		<Row ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION" Context="Summary" Text="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_INFORMATION"/>
+	</ModifierStrings>
+</GameInfo>

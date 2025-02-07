@@ -1,0 +1,904 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- BUILDINGS -->
+		<Row Type="BUILDING_GRAND_BAZAAR" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MARAE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_QUEENS_BIBLIOTHEQUE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_THERMAL_BATH" Kind="KIND_BUILDING"/>
+		<!-- WORLD WONDERS -->
+		<Row Type="BUILDING_GOLDEN_GATE_BRIDGE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_GREAT_BATH" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MACHU_PICCHU" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MEENAKSHI_TEMPLE" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ORSZAGHAZ" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_PANAMA_CANAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_UNIVERSITY_SANKORE" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_GRAND_BAZAAR" ReplacesBuildingType="BUILDING_BANK"/>
+		<Row CivUniqueBuildingType="BUILDING_MARAE" ReplacesBuildingType="BUILDING_AMPHITHEATER"/>
+		<Row CivUniqueBuildingType="BUILDING_THERMAL_BATH" ReplacesBuildingType="BUILDING_ZOO"/>
+	</BuildingReplaces>
+	<Buildings>
+		<!-- Unique Buildings-->
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" Name="LOC_BUILDING_GRAND_BAZAAR_NAME" Description="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION" PrereqTech="TECH_BANKING" PrereqDistrict="DISTRICT_COMMERCIAL_HUB" PurchaseYield="YIELD_GOLD" Cost="220" AdvisorType="ADVISOR_GENERIC" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_GRAND_BAZAAR"/>
+		<Row BuildingType="BUILDING_MARAE" Name="LOC_BUILDING_MARAE_NAME" Description="LOC_BUILDING_MARAE_DESCRIPTION" PrereqCivic="CIVIC_DRAMA_POETRY" PrereqDistrict="DISTRICT_THEATER" PurchaseYield="YIELD_GOLD" Cost="150" AdvisorType="ADVISOR_CULTURE" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MARAE"/>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" Name="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_NAME" Description="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION" PrereqDistrict="DISTRICT_GOVERNMENT" Cost="217" AdvisorType="ADVISOR_CULTURE" Maintenance="2" TraitType="TRAIT_LEADER_BUILDING_QUEENS_BIBLIOTHEQUE" UnlocksGovernmentPolicy="True" GovernmentTierRequirement="Tier2"/>
+		<Row BuildingType="BUILDING_THERMAL_BATH" Name="LOC_BUILDING_THERMAL_BATH_NAME" Description="LOC_BUILDING_THERMAL_BATH_DESCRIPTION" PrereqCivic="CIVIC_NATURAL_HISTORY" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" PurchaseYield="YIELD_GOLD" Cost="445" AdvisorType="ADVISOR_GENERIC" Maintenance="2" Entertainment="2" RegionalRange="6" TraitType="TRAIT_CIVILIZATION_BUILDING_THERMAL_BATH"/>
+		<!-- Wonders-->
+		<Row BuildingType="BUILDING_GREAT_BATH" Name="LOC_BUILDING_GREAT_BATH_NAME" Description="LOC_BUILDING_GREAT_BATH_DESCRIPTION" PrereqTech="TECH_POTTERY" Cost="180" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Housing="3" Entertainment="1" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_GREAT_BATH_QUOTE" QuoteAudio="Play_LOC_BUILDING_GREAT_BATH_QUOTE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" Name="LOC_BUILDING_MACHU_PICCHU_NAME" Description="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION" PrereqTech="TECH_ENGINEERING" Cost="400" AdvisorType="ADVISOR_TECHNOLOGY" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_MACHU_PICCHU_QUOTE" QuoteAudio="Play_LOC_BUILDING_MACHU_PICCHU_QUOTE"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" Name="LOC_BUILDING_MEENAKSHI_TEMPLE_NAME" Description="LOC_BUILDING_MEENAKSHI_TEMPLE_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_SERVICE" Cost="710" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" AdjacentDistrict="DISTRICT_HOLY_SITE" Quote="LOC_BUILDING_MEENAKSHI_TEMPLE_QUOTE" RequiresReligion="true" QuoteAudio="Play_LOC_BUILDING_MEENAKSHI_TEMPLE_QUOTE"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" Name="LOC_BUILDING_UNIVERSITY_SANKORE_NAME" Description="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION" PrereqTech="TECH_EDUCATION" Cost="710" AdvisorType="ADVISOR_TECHNOLOGY" ObsoleteEra="ERA_INDUSTRIAL" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_UNIVERSITY_SANKORE_QUOTE" QuoteAudio="Play_LOC_BUILDING_UNIVERSITY_SANKORE_QUOTE"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" Name="LOC_BUILDING_ORSZAGHAZ_NAME" Description="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION" RequiresRiver="true" PrereqTech="TECH_SANITATION" Cost="920" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_ORSZAGHAZ_QUOTE" QuoteAudio="Play_LOC_BUILDING_ORSZAGHAZ_QUOTE"/>
+		<Row BuildingType="BUILDING_PANAMA_CANAL" Name="LOC_BUILDING_PANAMA_CANAL_NAME" Description="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION" PrereqTech="TECH_STEAM_POWER" Cost="920" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_ATOMIC" Quote="LOC_BUILDING_PANAMA_CANAL_QUOTE" QuoteAudio="Play_LOC_BUILDING_PANAMA_CANAL_QUOTE"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" Name="LOC_BUILDING_GOLDEN_GATE_BRIDGE_NAME" Description="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION" PrereqTech="TECH_COMBUSTION" Cost="1620" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" Entertainment="3" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_GOLDEN_GATE_BRIDGE_QUOTE" QuoteAudio="Play_LOC_BUILDING_GOLDEN_GATE_BRIDGE_QUOTE"/>
+	</Buildings>
+	<Buildings_XP2>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_GREAT_BATH" PreventsFloods="true"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" Bridge="true"/>
+		<Row BuildingType="BUILDING_PANAMA_CANAL" CanalWonder="true"/>
+	</Buildings_XP2>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_GRAND_BAZAAR" PrereqBuilding="BUILDING_MARKET"/>
+		<Row Building="BUILDING_QUEENS_BIBLIOTHEQUE" PrereqBuilding="BUILDING_GOV_TALL"/>
+		<Row Building="BUILDING_QUEENS_BIBLIOTHEQUE" PrereqBuilding="BUILDING_GOV_WIDE"/>
+		<Row Building="BUILDING_QUEENS_BIBLIOTHEQUE" PrereqBuilding="BUILDING_GOV_CONQUEST"/>
+		<Row Building="BUILDING_THERMAL_BATH" PrereqBuilding="BUILDING_ARENA"/>
+		<Row Building="BUILDING_UNIVERSITY_SANKORE" PrereqBuilding="BUILDING_UNIVERSITY"/>
+		<Row Building="BUILDING_GOV_MILITARY" PrereqBuilding="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Row Building="BUILDING_GOV_CULTURE" PrereqBuilding="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Row Building="BUILDING_GOV_SCIENCE" PrereqBuilding="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+	</BuildingPrereqs>
+	<MutuallyExclusiveBuildings>
+		<!-- Tier 2 Government District Buildings -->
+		<Row Building="BUILDING_GOV_CITYSTATES" MutuallyExclusiveBuilding="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Row Building="BUILDING_GOV_SPIES" MutuallyExclusiveBuilding="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Row Building="BUILDING_GOV_FAITH" MutuallyExclusiveBuilding="BUILDING_QUEENS_BIBLIOTHEQUE"/>
+		<Row Building="BUILDING_QUEENS_BIBLIOTHEQUE" MutuallyExclusiveBuilding="BUILDING_GOV_CITYSTATES"/>
+		<Row Building="BUILDING_QUEENS_BIBLIOTHEQUE" MutuallyExclusiveBuilding="BUILDING_GOV_SPIES"/>
+		<Row Building="BUILDING_QUEENS_BIBLIOTHEQUE" MutuallyExclusiveBuilding="BUILDING_GOV_FAITH"/>
+	</MutuallyExclusiveBuildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" YieldType="YIELD_GOLD" YieldChange="8"/>
+		<Row BuildingType="BUILDING_THERMAL_BATH" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_MACHU_PICCHU" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" YieldType="YIELD_CULTURE" YieldChange="4"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Building_YieldChanges>
+	<Building_RequiredFeatures>
+		<Row BuildingType="BUILDING_GREAT_BATH" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row BuildingType="BUILDING_GREAT_BATH" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row BuildingType="BUILDING_GREAT_BATH" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+	</Building_RequiredFeatures>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" TerrainType="TERRAIN_COAST"/>
+	</Building_ValidTerrains>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="2"/>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="2" NonUniquePersonYield="3" NonUniquePersonTourism="2"/>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatWorkSlotType="GREATWORKSLOT_MUSIC" NumSlots="2"/>
+		<Row BuildingType="BUILDING_GREAT_BATH" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="4"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>	
+	</Building_GreatWorks>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_QUEENS_BIBLIOTHEQUE" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+	</Building_GreatPersonPoints>
+	<Building_TourismBombs_XP2>
+		<Row BuildingType="BUILDING_MARAE" TourismBombValue="250"/>
+	</Building_TourismBombs_XP2>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_THERMAL_BATH" ModifierId="THERMALBATH_ADDTOURISM"/>
+		<Row BuildingType="BUILDING_THERMAL_BATH" ModifierId="THERMALBATH_ADDAMENITIES"/>
+		<Row BuildingType="BUILDING_MARAE" ModifierId="MARAE_FAITH_FEATURES"/>
+		<Row BuildingType="BUILDING_MARAE" ModifierId="MARAE_CULTURE_FEATURES"/>
+		<Row BuildingType="BUILDING_MARAE" ModifierId="MARAE_TOURISM_FEATURES"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" ModifierId="GRANDBAZAAR_AMENITIES_LUXURIES"/>
+		<Row BuildingType="BUILDING_GRAND_BAZAAR" ModifierId="GRANDBAZAAR_ACCUMULATION_STRATEGICS"/>
+		<!--Wonder-->
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" ModifierId="GOLDENGATE_CITYAPPEAL"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" ModifierId="GOLDENGATE_GRANT_ROUTES"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" ModifierId="GOLDENGATE_IMPROVEMENT_TOURISM"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" ModifierId="GOLDENGATE_NATIONAL_PARK_TOURISM"/>
+		<Row BuildingType="BUILDING_GOLDEN_GATE_BRIDGE" ModifierId="GOLDENGATE_REMOVE_CLIFFS"/>
+		<Row BuildingType="BUILDING_GREAT_BATH" ModifierId="GREATBATH_FLOODFAITH"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE"/>
+		<Row BuildingType="BUILDING_MACHU_PICCHU" ModifierId="MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" ModifierId="MEENAKSHITEMPLE_FREE_GURU"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" ModifierId="MEENAKSHITEMPLE_RELIGIOUS_UNITS_MOVEMENT"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" ModifierId="MEENAKSHITEMPLE_RELIGIOUS_UNITS_COMBAT"/>
+		<Row BuildingType="BUILDING_ORSZAGHAZ" ModifierId="ORSZAGHAZ_DOUBLE_FAVOR_SUZERAIN"/>
+		<Row BuildingType="BUILDING_MEENAKSHI_TEMPLE" ModifierId="MEENAKSHITEMPLE_GURU_DISCOUNT"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_OFFER_SCIENCE"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_OFFER_GOLD"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_GAIN_SCIENCE"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_DOMESTIC_SCIENCE"/>
+		<Row BuildingType="BUILDING_UNIVERSITY_SANKORE" ModifierId="SANKORE_TRADE_DOMESTIC_FAITH"/>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>QUEENS_BIBLIOTHEQUE_GRANT_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_QUEENS_BIBLIOTHEQUE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THERMALBATH_ADDTOURISM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_1_OR_MORE_GEOTHERMALFISSURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THERMALBATH_ADDAMENITIES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_ENTERTAINMENT</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_1_OR_MORE_GEOTHERMALFISSURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_FAITH_FEATURES</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ANY_PASSABLE_FEATURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_CULTURE_FEATURES</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ANY_PASSABLE_FEATURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_TOURISM_FEATURES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TOURISM_PER_FEATURE</ModifierType>
+			<SubjectRequirementSetId>MAORI_MARAE_FLIGHT_REQUIREMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GRANDBAZAAR_AMENITIES_LUXURIES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_EXTRA_AMENITY_FOR_LUXURY_DIVERSITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GRANDBAZAAR_ACCUMULATION_STRATEGICS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_EXTRA_ACCUMULATION_FOR_STRATEGIC_DIVERSITY</ModifierType>
+		</Row>
+		<!--Wonder-->
+		<Row>
+			<ModifierId>GOLDENGATE_CITYAPPEAL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_APPEAL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_GRANT_ROUTES</ModifierId>
+			<ModifierType>MODIFIER_GRANT_ROUTE_IN_RADIUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_IMPROVEMENT_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_NATIONAL_PARK_TOURISM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_NATIONAL_PARK_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_REMOVE_CLIFFS</ModifierId>
+			<ModifierType>MODIFIER_MAP_REMOVE_CLIFFS_IN_DIRECTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREATBATH_FLOODFAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_FOR_FLOOD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_FREE_GURU</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_RELIGIOUS_UNITS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_RELIGIOUS_UNITS_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_GURU_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ORSZAGHAZ_DOUBLE_FAVOR_SUZERAIN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SUZERAIN_FAVOR_MULTIPLIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_OFFER_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_OFFER_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_GAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TRADE_ROUTE_YIELD_TO_OTHERS</ModifierType>
+		</Row>
+	</Modifiers>
+	<GameModifiers>
+		<Row ModifierId="QUEENS_BIBLIOTHEQUE_GRANT_GOVERNOR_POINTS"/>
+	</GameModifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>QUEENS_BIBLIOTHEQUE_GRANT_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THERMALBATH_ADDTOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>THERMALBATH_ADDAMENITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_FAITH_FEATURES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_FAITH_FEATURES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_CULTURE_FEATURES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_CULTURE_FEATURES</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>MARAE_TOURISM_FEATURES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANDBAZAAR_AMENITIES_LUXURIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRANDBAZAAR_ACCUMULATION_STRATEGICS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Wonder-->
+		<Row>
+			<ModifierId>GOLDENGATE_CITYAPPEAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_GRANT_ROUTES</ModifierId>
+			<Name>RouteType</Name>
+			<Value>ROUTE_MODERN_ROAD</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_GRANT_ROUTES</ModifierId>
+			<Name>Radius</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_IMPROVEMENT_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_NATIONAL_PARK_TOURISM</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLDENGATE_REMOVE_CLIFFS</ModifierId>
+			<Name>Radius</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATBATH_FLOODFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATBATH_FLOODFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_GRASSMOUNTAIN_GOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_PLAINSMOUNTAIN_GOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_DESERTMOUNTAIN_GOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_TUNDRAMOUNTAIN_GOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_COMMERCIALHUB_SNOWMOUNTAIN_GOLD</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_GRASSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_PLAINSMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_DESERTMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_TUNDRAMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_INDUSTRIALZONE_SNOWMOUNTAIN_PRODUCTION</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_GRASSMOUNTAIN_CULTURE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_PLAINSMOUNTAIN_CULTURE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_DESERTMOUNTAIN_CULTURE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_TUNDRAMOUNTAIN_CULTURE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MACHUPICCHU_THEATER_SNOWMOUNTAIN_CULTURE</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_BUILDING_MACHU_PICCHU_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_FREE_GURU</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GURU</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_FREE_GURU</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_RELIGIOUS_UNITS_MOVEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_RELIGIOUS_UNITS_COMBAT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SAGE_COMBAT_AOE_RELIGIOUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_GURU_DISCOUNT</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GURU</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEENAKSHITEMPLE_GURU_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORSZAGHAZ_DOUBLE_FAVOR_SUZERAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_OFFER_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_OFFER_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_OFFER_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_OFFER_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_GAIN_SCIENCE</ModifierId>
+			<Name>Domestic</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_SCIENCE</ModifierId>
+			<Name>Domestic</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>SANKORE_TRADE_DOMESTIC_FAITH</ModifierId>
+			<Name>Domestic</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MAORI_MARAE_FLIGHT_REQUIREMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MAORI_MARAE_FLIGHT_REQUIREMENT</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_FLIGHT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

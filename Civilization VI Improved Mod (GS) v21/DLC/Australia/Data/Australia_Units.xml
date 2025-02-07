@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!-- Melee-->
+		<Row Type="UNIT_DIGGER" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<!-- Melee-->
+		<Row UnitType="UNIT_DIGGER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DIGGER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_DIGGER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DIGGER" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_DIGGER" ReplacesUnitType="UNIT_INFANTRY"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_DIGGER" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+	</UnitUpgrades>
+	<TypeTags>
+		<Row Type="UNIT_DIGGER" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_DIGGER" Tag="CLASS_DIGGER"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_DIGGER" BaseMoves="3" Cost="430" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_DIGGER_NAME" Description="LOC_UNIT_DIGGER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="6" Combat="137" PrereqTech="TECH_REPLACEABLE_PARTS" TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER"/>
+	</Units>
+</GameInfo>

@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_IMPROVEMENT"/>
+	</Kinds>
+	<Types>
+		<Row Type="IMPROVEMENT_BARBARIAN_CAMP" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_FARM" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MINE" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_QUARRY" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_FISHING_BOATS" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_PASTURE" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_PLANTATION" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_CAMP" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_LUMBER_MILL" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_GOODY_HUT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_OIL_WELL" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_OFFSHORE_OIL_RIG" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_FORT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_AIRSTRIP" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_BEACH_RESORT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MISSILE_SILO" Kind="KIND_IMPROVEMENT"/>
+		<!--Unique Improvements -->
+		<Row Type="IMPROVEMENT_CHATEAU" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_COLOSSAL_HEAD" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_GREAT_WALL" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_KURGAN" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MISSION" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_ROMAN_FORT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_SPHINX" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_STEPWELL" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_ZIGGURAT" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<!-- Improvements Notes: To make an improvement give housing look at the stepwell,  All improvements have a domain it is defaulted at DOMAIN_LAND the other value that is checked is DOMAIN_SEA -->
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" Name="LOC_IMPROVEMENT_BARBARIAN_CAMP_NAME" Description="LOC_IMPROVEMENT_BARBARIAN_CAMP_DESCRIPTION" Icon="ICON_IMPROVEMENT_BARBARIAN_CAMP" PlunderType="NO_PLUNDER" BarbarianCamp="true" RemoveOnEntry="true" DispersalGold="50" TraitType="TRAIT_BARBARIAN" Appeal="-1"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" Name="LOC_IMPROVEMENT_FARM_NAME" Description="LOC_IMPROVEMENT_FARM_DESCRIPTION" Icon="ICON_IMPROVEMENT_FARM" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" Housing="1" TilesRequired="2"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" Name="LOC_IMPROVEMENT_MINE_NAME" Description="LOC_IMPROVEMENT_MINE_DESCRIPTION" Icon="ICON_IMPROVEMENT_MINE" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" Buildable="true" PrereqTech="TECH_MINING" Appeal="-1"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" Name="LOC_IMPROVEMENT_QUARRY_NAME" Description="LOC_IMPROVEMENT_QUARRY_DESCRIPTION" Icon="ICON_IMPROVEMENT_QUARRY" PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true" PrereqTech="TECH_MINING" Appeal="-1"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" Name="LOC_IMPROVEMENT_FISHING_BOATS_NAME" Description="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION" Icon="ICON_IMPROVEMENT_FISHING_BOATS" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqTech="TECH_SAILING" Housing="1" TilesRequired="2" Domain="DOMAIN_SEA"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" Name="LOC_IMPROVEMENT_PASTURE_NAME" Description="LOC_IMPROVEMENT_PASTURE_DESCRIPTION" Icon="ICON_IMPROVEMENT_PASTURE" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_ANIMAL_HUSBANDRY" Housing="1" TilesRequired="2"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" Name="LOC_IMPROVEMENT_PLANTATION_NAME" Description="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION" Icon="ICON_IMPROVEMENT_PLANTATION" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_IRRIGATION" Housing="1" TilesRequired="2"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" Name="LOC_IMPROVEMENT_CAMP_NAME" Description="LOC_IMPROVEMENT_CAMP_DESCRIPTION" Icon="ICON_IMPROVEMENT_CAMP" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_ANIMAL_HUSBANDRY" Housing="1" TilesRequired="2"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" Name="LOC_IMPROVEMENT_LUMBER_MILL_NAME" Description="LOC_IMPROVEMENT_LUMBER_MILL_DESCRIPTION" Icon="ICON_IMPROVEMENT_LUMBER_MILL" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" Buildable="true" PrereqTech="TECH_MACHINERY"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" Name="LOC_IMPROVEMENT_GOODY_HUT_NAME" Description="LOC_IMPROVEMENT_GOODY_HUT_DESCRIPTION" Icon="ICON_IMPROVEMENT_GOODY_HUT" PlunderType="NO_PLUNDER" RemoveOnEntry="true" Goody="True" TilesPerGoody="128" GoodyRange="3"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" Name="LOC_IMPROVEMENT_OIL_WELL_NAME" Description="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION" Icon="ICON_IMPROVEMENT_OIL_WELL" PlunderType="PLUNDER_GOLD" PlunderAmount="50" PrereqTech="TECH_STEEL" EnforceTerrain="true" Appeal="-1"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" Name="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_NAME" Description="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION" Icon="ICON_IMPROVEMENT_OFFSHORE_OIL_RIG" PlunderType="PLUNDER_GOLD" PlunderAmount="70" PrereqTech="TECH_PLASTICS" EnforceTerrain="true" Appeal="-1" Domain="DOMAIN_SEA"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" Name="LOC_IMPROVEMENT_FORT_NAME" Description="LOC_IMPROVEMENT_FORT_DESCRIPTION" Icon="ICON_IMPROVEMENT_FORT" PlunderType="NO_PLUNDER" Buildable="true" PrereqTech="TECH_SIEGE_TACTICS" CanBuildOutsideTerritory="true" DefenseModifier="4" GrantFortification="2"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" Name="LOC_IMPROVEMENT_AIRSTRIP_NAME" Description="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION" Icon="ICON_IMPROVEMENT_AIRSTRIP" PlunderType="NO_PLUNDER" Buildable="true" PrereqTech="TECH_FLIGHT" CanBuildOutsideTerritory="true" AirSlots="3" Appeal="-1"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" Name="LOC_IMPROVEMENT_BEACH_RESORT_NAME" Description="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION" Icon="ICON_IMPROVEMENT_BEACH_RESORT" PlunderType="PLUNDER_GOLD" PlunderAmount="100" Buildable="true" PrereqTech="TECH_RADIO" MinimumAppeal="2" Coast="true" YieldFromAppeal="YIELD_GOLD"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" Name="LOC_IMPROVEMENT_MISSILE_SILO" Description="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION" Icon="ICON_IMPROVEMENT_MISSILE_SILO" PlunderType="NO_PLUNDER" Buildable="true" CanBuildOutsideTerritory="true" PrereqTech="TECH_ROCKETRY" WeaponSlots="1"/>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" Name="LOC_IMPROVEMENT_CHATEAU_NAME" Description="LOC_IMPROVEMENT_CHATEAU_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHATEAU" PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true" PrereqCivic="CIVIC_HUMANISM" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CHATEAU" RequiresRiver="false" SameAdjacentValid="false" Appeal="1"/> 
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" Name="LOC_IMPROVEMENT_COLOSSAL_HEAD_NAME" Description="LOC_IMPROVEMENT_COLOSSAL_HEAD_DESCRIPTION" Icon="ICON_IMPROVEMENT_COLOSSAL_HEAD" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" TraitType="MINOR_CIV_LA_VENTA_TRAIT"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" Name="LOC_IMPROVEMENT_GREAT_WALL_NAME" Description="LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION" Icon="ICON_IMPROVEMENT_GREAT_WALL" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_MASONRY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_GREAT_WALL" BuildInLine="true" BuildOnFrontier="true" DefenseModifier="7" GrantFortification="2"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" Name="LOC_IMPROVEMENT_KURGAN_NAME" Description="LOC_IMPROVEMENT_KURGAN_DESCRIPTION" Icon="ICON_IMPROVEMENT_KURGAN" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_ANIMAL_HUSBANDRY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_KURGAN"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" Name="LOC_IMPROVEMENT_MISSION_NAME" Description="LOC_IMPROVEMENT_MISSION_DESCRIPTION" Icon="ICON_IMPROVEMENT_MISSION" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_EXPLORATION" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MISSION"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" Name="LOC_IMPROVEMENT_ROMAN_FORT_NAME" Description="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION" Icon="ICON_IMPROVEMENT_FORT" PlunderType="NO_PLUNDER" Buildable="true" CanBuildOutsideTerritory="true" DefenseModifier="7" GrantFortification="2"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" Name="LOC_IMPROVEMENT_SPHINX_NAME" Description="LOC_IMPROVEMENT_SPHINX_DESCRIPTION" Icon="ICON_IMPROVEMENT_SPHINX" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_CRAFTSMANSHIP" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SPHINX" Appeal="1"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" Name="LOC_IMPROVEMENT_STEPWELL_NAME" Description="LOC_IMPROVEMENT_STEPWELL_DESCRIPTION" Icon="ICON_IMPROVEMENT_STEPWELL" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqTech="TECH_IRRIGATION" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_STEPWELL" SameAdjacentValid="false" Housing="2" TilesRequired="2"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" Name="LOC_IMPROVEMENT_ZIGGURAT_NAME" Description="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION" Icon="ICON_IMPROVEMENT_ZIGGURAT" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" Buildable="true" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ZIGGURAT"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldChangeId="Farms_MedievalAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldChangeId="Farms_MechanizedAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldChangeId="GreatWall_Gold"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldChangeId="GreatWall_Culture"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" YieldChangeId="Kurgan_Faith"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithForest"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithJungle"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_MARSH"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" FeatureType="FEATURE_JUNGLE"/>		
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" FeatureType="FEATURE_FOREST"/>
+
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" FeatureType="FEATURE_MARSH"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" FeatureType="FEATURE_FLOODPLAINS"/>
+	</Improvement_ValidFeatures>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_PLAINS_HILLS" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_GRASS_HILLS" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+		
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_TUNDRA"/>		
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_TUNDRA_HILLS"/>			
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_DESERT"/>			
+		<Row ImprovementType="IMPROVEMENT_FARM" TerrainType="TERRAIN_DESERT_HILLS"/>		
+		
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" TerrainType="TERRAIN_GRASS"/>
+		
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" TerrainType="TERRAIN_OCEAN"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" TerrainType="TERRAIN_SNOW"/>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_SNOW"/>		
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_GRASS_HILLS"/>>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_SNOW"/>
+		
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TerrainType="TERRAIN_SNOW_HILLS"/>			
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidResources>
+		<!-- Mine-->
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_COPPER"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_DIAMONDS" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_JADE"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_MERCURY"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_SALT"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_SILVER"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_ALUMINUM"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_COAL"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_IRON"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_NITER" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" ResourceType="RESOURCE_URANIUM" MustRemoveFeature="false"/>
+		<!-- Quarry-->
+		<Row ImprovementType="IMPROVEMENT_QUARRY" ResourceType="RESOURCE_GYPSUM"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" ResourceType="RESOURCE_MARBLE"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" ResourceType="RESOURCE_STONE"/>
+		<!-- Farm-->
+		<Row ImprovementType="IMPROVEMENT_FARM" ResourceType="RESOURCE_RICE" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" ResourceType="RESOURCE_WHEAT"/>
+		<!-- Fishing Boats-->
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" ResourceType="RESOURCE_CRABS"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" ResourceType="RESOURCE_FISH"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" ResourceType="RESOURCE_PEARLS"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" ResourceType="RESOURCE_WHALES"/>
+		<!-- Plantation-->
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_BANANAS" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_CITRUS" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_COCOA" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_COFFEE" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_COTTON" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_DYES" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_INCENSE" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_SILK" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_SPICES" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_SUGAR" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_TEA" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_TOBACCO" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" ResourceType="RESOURCE_WINE" MustRemoveFeature="false"/>
+		<!-- Pasture-->
+		<Row ImprovementType="IMPROVEMENT_PASTURE" ResourceType="RESOURCE_CATTLE"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" ResourceType="RESOURCE_SHEEP"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" ResourceType="RESOURCE_HORSES"/>
+		<!-- Camp-->
+		<Row ImprovementType="IMPROVEMENT_CAMP" ResourceType="RESOURCE_DEER" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" ResourceType="RESOURCE_FURS" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" ResourceType="RESOURCE_IVORY" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" ResourceType="RESOURCE_TRUFFLES" MustRemoveFeature="false"/>
+		<!-- Oil -->
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" ResourceType="RESOURCE_OIL" MustRemoveFeature="false"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" ResourceType="RESOURCE_OIL" MustRemoveFeature="false"/>
+	</Improvement_ValidResources>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FARM" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" UnitType="UNIT_MILITARY_ENGINEER"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" UnitType="UNIT_MILITARY_ENGINEER"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" UnitType="UNIT_MILITARY_ENGINEER"/>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" UnitType="UNIT_ROMAN_LEGION"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<!--If the yield change is zero, the value will be changed later.-->
+		<Row ImprovementType="IMPROVEMENT_FARM" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_GOLD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_GOLD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_OIL_WELL" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_FAITH" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FAITH" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="1" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqCivic="CIVIC_MERCANTILISM"/>
+		<Row Id="2" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_GOLD" BonusYieldChange="2" PrereqTech="TECH_SYNTHETIC_MATERIALS"/>
+		<Row Id="3" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqTech="TECH_CARTOGRAPHY"/>
+		<Row Id="3" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_PRODUCTION" BonusYieldChange="2" PrereqTech="TECH_CARTOGRAPHY"/>		
+		<Row Id="4" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_PLASTICS"/>
+		<Row Id="4" ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_PRODUCTION" BonusYieldChange="2" PrereqTech="TECH_PLASTICS"/>		
+		<Row Id="5" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_STEEL"/>
+		<Row Id="7" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>		
+		<Row Id="6" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_APPRENTICESHIP"/>
+		<Row Id="7" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_INDUSTRIALIZATION"/>
+		<Row Id="8" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqCivic="CIVIC_EXPLORATION"/>
+		<Row Id="9" ImprovementType="IMPROVEMENT_PASTURE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_ROBOTICS"/>
+		<Row Id="10" ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqTech="TECH_SCIENTIFIC_THEORY"/>
+		<Row Id="11" ImprovementType="IMPROVEMENT_PLANTATION" YieldType="YIELD_GOLD" BonusYieldChange="2" PrereqCivic="CIVIC_GLOBALIZATION"/>
+		<Row Id="12" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_GOLD" BonusYieldChange="2" PrereqTech="TECH_BANKING"/>
+		<Row Id="13" ImprovementType="IMPROVEMENT_QUARRY" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_ROCKETRY"/>
+		<!--Unique Improvements -->
+		<Row Id="14" ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_HUMANISM"/>
+		<Row Id="15" ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqCivic="CIVIC_GUILDS"/>
+		<Row Id="16" ImprovementType="IMPROVEMENT_KURGAN" YieldType="YIELD_GOLD" BonusYieldChange="1" PrereqCivic="CIVIC_CAPITALISM"/>
+		<Row Id="17" ImprovementType="IMPROVEMENT_MISSION" YieldType="YIELD_SCIENCE" BonusYieldChange="2" PrereqCivic="CIVIC_CULTURAL_HERITAGE"/>
+		<Row Id="18" ImprovementType="IMPROVEMENT_SPHINX" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<Row Id="19" ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FAITH" BonusYieldChange="1" PrereqCivic="CIVIC_FEUDALISM"/>
+		<Row Id="20" ImprovementType="IMPROVEMENT_STEPWELL" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS"/>
+		<Row Id="21" ImprovementType="IMPROVEMENT_ZIGGURAT" YieldType="YIELD_CULTURE" BonusYieldChange="2" PrereqCivic="CIVIC_NATURAL_HISTORY"/>
+		<Row Id="100" ImprovementType="IMPROVEMENT_CAMP" YieldType="YIELD_FOOD" BonusYieldChange="1" PrereqCivic="CIVIC_MERCANTILISM"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_PLANTATION" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" TourismSource="TOURISMSOURCE_APPEAL" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="Farms_MedievalAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM" PrereqCivic="CIVIC_FEUDALISM" ObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="Farms_MechanizedAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="GreatWall_Gold" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_GREAT_WALL" PrereqTech="TECH_MASONRY"/>
+		<Row ID="GreatWall_Culture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_GREAT_WALL" PrereqTech="TECH_CASTLES"/>
+		<Row ID="Kurgan_Faith" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row ID="ColossalHead_FaithForest" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="ColossalHead_FaithJungle" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE"/>
+	</Adjacency_YieldChanges>
+	<Modifiers>
+		<Row>
+			<ModifierId>CHATEAU_LUXURYADJACENCY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_LUXURY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CHATEAU_WONDERADJACENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_WONDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MISSION_CAMPUSADJACENCY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_CAMPUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MISSION_NEWCONTINENT_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SPHINX_WONDERADJACENCY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_WONDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_FARMADJACENCY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_FARM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_HOLYSITEADJACENCY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_HOLYSITE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_HOUSING_WITHTECH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_TECHNOLOGY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ZIGGURAT_RIVERADJACENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>LUMBER_MILL_RIVERADJACENCY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>CHATEAU_LUXURYADJACENCY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHATEAU_LUXURYADJACENCY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHATEAU_WONDERADJACENCY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CHATEAU_WONDERADJACENCY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MISSION_CAMPUSADJACENCY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MISSION_CAMPUSADJACENCY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MISSION_NEWCONTINENT_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>MISSION_NEWCONTINENT_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SPHINX_WONDERADJACENCY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>SPHINX_WONDERADJACENCY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_FARMADJACENCY_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_FARMADJACENCY_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_HOLYSITEADJACENCY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_HOLYSITEADJACENCY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STEPWELL_HOUSING_WITHTECH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZIGGURAT_RIVERADJACENCY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZIGGURAT_RIVERADJACENCY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>LUMBER_MILL_RIVERADJACENCY_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>LUMBER_MILL_RIVERADJACENCY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<ModifierId>CHATEAU_LUXURYADJACENCY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<ModifierId>CHATEAU_WONDERADJACENCY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MISSION</ImprovementType>
+			<ModifierId>MISSION_CAMPUSADJACENCY_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MISSION</ImprovementType>
+			<ModifierId>MISSION_NEWCONTINENT_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_SPHINX</ImprovementType>
+			<ModifierId>SPHINX_WONDERADJACENCY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_STEPWELL</ImprovementType>
+			<ModifierId>STEPWELL_FARMADJACENCY_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_STEPWELL</ImprovementType>
+			<ModifierId>STEPWELL_HOLYSITEADJACENCY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_STEPWELL</ImprovementType>
+			<ModifierId>STEPWELL_HOUSING_WITHTECH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ZIGGURAT</ImprovementType>
+			<ModifierId>ZIGGURAT_RIVERADJACENCY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBER_MILL</ImprovementType>
+			<ModifierId>LUMBER_MILL_RIVERADJACENCY_PRODUCTION</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TECHNOLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_LUXURY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_WONDER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_HOLYSITE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TECHNOLOGY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_LUXURY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_RESOURCE_CLASS_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_NOT_OWNER_CAPITAL_CONTINENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_OWNER_CAPITAL_CONTINENT</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_WONDER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_WONDER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_FARM</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HOLYSITE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_RIVER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_TECHNOLOGY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_SANITATION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_LUXURY</RequirementId>
+			<Name>ResourceClassType</Name>
+			<Value>RESOURCECLASS_LUXURY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_FARM</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HOLYSITE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TECHNOLOGY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_TECHNOLOGY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_LUXURY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_LUXURY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_CAMPUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_NOT_OWNER_CAPITAL_CONTINENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_WONDER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_WONDER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_HOLYSITE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_HOLYSITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

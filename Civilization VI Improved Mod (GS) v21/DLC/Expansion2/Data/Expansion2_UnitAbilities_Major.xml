@@ -1,0 +1,380 @@
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_MEDITERRANEAN_COLONIES" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BIREME_PROTECT_TRADER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TRADER_PROTECTED_BY_BIREME" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_BLACK_ARMY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HUSZAR" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MOUNTIE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MANDEKALU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TRADER_PROTECTED_BY_MANDEKALU" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CORBACI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_EXPERT_MARKSMAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GREAT_TURKISH_BOMBARD" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TOA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CAROLEAN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MANA" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CORSAIR" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_MEDITERRANEAN_COLONIES" Tag="CLASS_SETTLER"/>
+		<Row Type="ABILITY_BIREME_PROTECT_TRADER" Tag="CLASS_BIREME"/>
+		<Row Type="ABILITY_TRADER_PROTECTED_BY_BIREME" Tag="CLASS_TRADER"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_THE_RAVEN_KING" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="ABILITY_BLACK_ARMY" Tag="CLASS_BLACK_ARMY"/>
+		<Row Type="ABILITY_HUSZAR" Tag="CLASS_HUSZAR"/>
+		<Row Type="ABILITY_MOUNTIE" Tag="CLASS_MOUNTIE"/>
+		<Row Type="ABILITY_MANDEKALU" Tag="CLASS_MANDEKALU"/>
+		<Row Type="ABILITY_TRADER_PROTECTED_BY_MANDEKALU" Tag="CLASS_TRADER"/>
+		<Row Type="ABILITY_CORBACI" Tag="CLASS_JANISSARY"/>
+		<Row Type="ABILITY_EXPERT_MARKSMAN" Tag="CLASS_WARAKAQ"/>
+		<Row Type="ABILITY_GREAT_TURKISH_BOMBARD" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_TOA" Tag="CLASS_TOA"/>
+		<Row Type="ABILITY_CAROLEAN" Tag="CLASS_CAROLEAN"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_MANA" Tag="CLASS_SUPPORT"/>
+		<Row Type="ABILITY_CORSAIR" Tag="CLASS_CORSAIR"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_MEDITERRANEAN_COLONIES" Name="LOC_ABILITY_MEDITERRANEAN_COLONIES_NAME" Description="LOC_ABILITY_MEDITERRANEAN_COLONIES_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_BIREME_PROTECT_TRADER" Name="LOC_ABILITY_BIREME_PROTECT_TRADER_NAME" Description="LOC_ABILITY_BIREME_PROTECT_TRADER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TRADER_PROTECTED_BY_BIREME" Name="LOC_ABILITY_TRADER_PROTECTED_BY_BIREME_NAME" Description="LOC_ABILITY_TRADER_PROTECTED_BY_BIREME_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_THE_RAVEN_KING" Name="LOC_ABILITY_THE_RAVEN_KING_NAME" Description="LOC_ABILITY_THE_RAVEN_KING_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_BLACK_ARMY" Name="LOC_ABILITY_BLACK_ARMY_NAME" Description="LOC_ABILITY_BLACK_ARMY_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HUSZAR" Name="LOC_ABILITY_HUSZAR_NAME" Description="LOC_ABILITY_HUSZAR_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MOUNTIE" Name="LOC_ABILITY_MOUNTIE_NAME" Description="LOC_ABILITY_MOUNTIE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MANDEKALU" Name="LOC_ABILITY_MANDEKALU_NAME" Description="LOC_ABILITY_MANDEKALU_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TRADER_PROTECTED_BY_MANDEKALU" Name="LOC_ABILITY_TRADER_PROTECTED_BY_MANDEKALU_NAME" Description="LOC_ABILITY_TRADER_PROTECTED_BY_MANDEKALU_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_CORBACI" Name="LOC_ABILITY_CORBACI_NAME" Description="LOC_ABILITY_CORBACI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_EXPERT_MARKSMAN" Name="LOC_PROMOTION_EXPERT_MARKSMAN_NAME" Description="LOC_ABILITY_EXPERT_MARKSMAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GREAT_TURKISH_BOMBARD" Name="LOC_ABILITY_GREAT_TURKISH_BOMBARD_NAME" Description="LOC_ABILITY_GREAT_TURKISH_BOMBARD_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TOA" Name="LOC_ABILITY_TOA_NAME" Description="LOC_ABILITY_TOA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CAROLEAN" Name="LOC_ABILITY_CAROLEAN_NAME" Description="LOC_ABILITY_CAROLEAN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MANA" Name="LOC_ABILITY_MANA_NAME" Description="LOC_ABILITY_MANA_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CORSAIR" Name="LOC_ABILITY_CORSAIR_NAME" Description="LOC_ABILITY_CORSAIR_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_MEDITERRANEAN_COLONIES</UnitAbilityType>
+			<ModifierId>MEDITERRANEAN_COLONIES_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MEDITERRANEAN_COLONIES</UnitAbilityType>
+			<ModifierId>MEDITERRANEAN_COLONIES_EXTRA_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MEDITERRANEAN_COLONIES</UnitAbilityType>
+			<ModifierId>MEDITERRANEAN_COLONIES_EXTRA_SIGHT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BIREME_PROTECT_TRADER</UnitAbilityType>
+			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TRADER_PROTECTED_BY_BIREME</UnitAbilityType>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_NEAR_BIREME</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_THE_RAVEN_KING</UnitAbilityType>
+			<ModifierId>RAVEN_LEVY_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_THE_RAVEN_KING</UnitAbilityType>
+			<ModifierId>RAVEN_LEVY_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BLACK_ARMY</UnitAbilityType>
+			<ModifierId>BLACK_ARMY_ADJACENT_LEVY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HUSZAR</UnitAbilityType>
+			<ModifierId>HUSZAR_ALLIES_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MOUNTIE</UnitAbilityType>
+			<ModifierId>ALL_PARK_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MOUNTIE</UnitAbilityType>
+			<ModifierId>OWNER_PARK_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MANDEKALU</UnitAbilityType>
+			<ModifierId>MANDEKALU_POST_COMBAT_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MANDEKALU</UnitAbilityType>
+			<ModifierId>MANDEKALU_GRANT_TRADER_IMMUNITY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TRADER_PROTECTED_BY_MANDEKALU</UnitAbilityType>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_LAND_NEAR_MANDEKALU</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CORBACI</UnitAbilityType>
+			<ModifierId>CORBACI_FREE_PROMOTION</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_EXPERT_MARKSMAN</UnitAbilityType>
+			<ModifierId>EXPERT_MARKSMAN_ADDITIONAL_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GREAT_TURKISH_BOMBARD</UnitAbilityType>
+			<ModifierId>GREAT_TURKISH_BOMBARD_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TOA</UnitAbilityType>
+			<ModifierId>TOA_NEGATIVE_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CAROLEAN</UnitAbilityType>
+			<ModifierId>CAROLEAN_UNUSED_MOVEMENT_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MANA</UnitAbilityType>
+			<ModifierId>MANA_EMBARKED_EXTRA_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CORSAIR</UnitAbilityType>
+			<ModifierId>CORSAIR_LESS_MOVEMENT_RAID</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MEDITERRANEAN_COLONIES_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MEDITERRANEAN_COLONIES_EXTRA_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IS_EMBARKED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MEDITERRANEAN_COLONIES_EXTRA_SIGHT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IS_EMBARKED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_TRADER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_NEAR_BIREME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RAVEN_LEVY_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>RAVEN_LEVY_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_ARMY_ADJACENT_LEVY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_ADJACENT_LEVIED_UNITS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HUSZAR_ALLIES_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_NUMBER_ALLIES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ALL_PARK_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_ON_PARK_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OWNER_PARK_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_ON_OWN_PARK_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MANDEKALU_GRANT_TRADER_IMMUNITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_TRADER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_LAND_NEAR_MANDEKALU</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MANDEKALU_POST_COMBAT_GOLD</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CORBACI_FREE_PROMOTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_TURKISH_BOMBARD_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SHELLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TOA_NEGATIVE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TOA_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CAROLEAN_UNUSED_MOVEMENT_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MANA_EMBARKED_EXTRA_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<OwnerRequirementSetId>REQUIREMENTS_UNIT_IS_EMBARKED</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CORSAIR_LESS_MOVEMENT_RAID</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ADVANCED_COASTAL_RAID</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MEDITERRANEAN_COLONIES_IGNORE_EMBARK_DISEMBARK_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEDITERRANEAN_COLONIES_EXTRA_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEDITERRANEAN_COLONIES_EXTRA_SIGHT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BIREME_GRANT_TRADER_IMMUNITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TRADER_PROTECTED_BY_BIREME</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_SEA_NEAR_BIREME</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<ModifierId>RAVEN_LEVY_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>RAVEN_LEVY_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_ARMY_ADJACENT_LEVY</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>HUSZAR_ALLIES_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALL_PARK_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>OWNER_PARK_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MANDEKALU_GRANT_TRADER_IMMUNITY</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_TRADER_PROTECTED_BY_MANDEKALU</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRADE_ROUTE_PLUNDER_IMMUNITY_LAND_NEAR_MANDEKALU</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MANDEKALU_POST_COMBAT_GOLD</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>MANDEKALU_POST_COMBAT_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CORBACI_FREE_PROMOTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREAT_TURKISH_BOMBARD_STRENGTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TOA_NEGATIVE_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TOA_NEGATIVE_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TOA_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAROLEAN_UNUSED_MOVEMENT_COMBAT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MANA_EMBARKED_EXTRA_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CORSAIR_LESS_MOVEMENT_RAID</ModifierId>
+			<Name>UseAdvancedCoastalRaid</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="RAVEN_LEVY_COMBAT" Context="Preview" Text="LOC_ABILITY_RAVEN_LEVY_COMBAT_DESCRIPTION"/>
+		<Row ModifierId="ALL_PARK_COMBAT_BONUS" Context="Preview" Text="LOC_ALL_PARK_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="OWNER_PARK_COMBAT_BONUS" Context="Preview" Text="LOC_OWNER_PARK_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="GREAT_TURKISH_BOMBARD_STRENGTH" Context="Preview" Text="LOC_GREAT_TURKISH_BOMBARD_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="TOA_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_TOA_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

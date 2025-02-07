@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<GreatPersonIndividuals>
+		<Update>
+			<Set ActionEffectTextOverride="LOC_GREATPERSON_JOHN_ROCKEFELLER_EXPANSION2_ACTIVE"/>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_ROCKEFELLER"/>
+		</Update>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_ROCKEFELLER" ModifierId="GREATPERSON_GRANT_2_OIL_PER_TURN" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<Modifiers>
+		<!-- Unique Action Modifiers, different for each individual -->
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_2_OIL_PER_TURN</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_2_OIL_PER_TURN</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_2_OIL_PER_TURN</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

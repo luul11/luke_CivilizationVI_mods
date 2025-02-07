@@ -1,0 +1,515 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_ALPINE_TRAINING" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ORDU_INCREASED_MOVEMENT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_PARADROP" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SCOTTISH_HIGHLANDER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DUTCH_ZEVEN_PROVINCIEN" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MONGOLIAN_KESHIG" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GEORGIAN_KHEVSURETI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_MAPUCHE_MALON_RAIDER" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_CREE_OKIHTCITAW" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ZULU_IMPI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GRANT_MOVEMENT_BONUS" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_ALPINE_TRAINING" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Tag="CLASS_ANTI_CAVALRY"/>
+    <Row Type="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Tag="CLASS_NAVAL_MELEE"/>
+    <Row Type="ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="ABILITY_ORDU_INCREASED_MOVEMENT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_ORDU_INCREASED_MOVEMENT" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_ORDU_INCREASED_MOVEMENT" Tag="CLASS_MONGOLIAN_KESHIG"/>
+		<Row Type="ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY" Tag="CLASS_TRADER"/>
+		<Row Type="ABILITY_BYPASS_COMBAT_UNIT" Tag="CLASS_SNIPER"/>
+		<Row Type="ABILITY_PARADROP" Tag="CLASS_PARADROP"/>
+		<Row Type="ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF" Tag="CLASS_TARGETTING_ASSIST"/>
+		<Row Type="ABILITY_NO_MOVE_AND_SHOOT" Tag="CLASS_FIELD_SETUP"/>
+		<Row Type="ABILITY_SCOTTISH_HIGHLANDER" Tag="CLASS_SCOTTISH_HIGHLANDER"/>
+		<Row Type="ABILITY_DUTCH_ZEVEN_PROVINCIEN" Tag="CLASS_DUTCH_ZEVEN_PROVINCIEN"/>
+		<Row Type="ABILITY_MONGOLIAN_KESHIG" Tag="CLASS_MONGOLIAN_KESHIG"/>
+		<Row Type="ABILITY_GEORGIAN_KHEVSURETI" Tag="CLASS_GEORGIAN_KHEVSURETI"/>
+		<Row Type="ABILITY_MAPUCHE_MALON_RAIDER" Tag="CLASS_MAPUCHE_MALON_RAIDER"/>
+		<Row Type="ABILITY_CREE_OKIHTCITAW" Tag="CLASS_CREE_OKIHTCITAW"/>
+		<Row Type="ABILITY_ZULU_IMPI" Tag="CLASS_ZULU_IMPI"/>
+		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_OLIGARCHY_MELEE_BUFF" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Tag="CLASS_WARRIOR_MONK"/>
+		<Row Type="ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF" Tag="CLASS_RELIGIOUS"/>
+		<Row Type="ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF" Tag="CLASS_INQUISITOR"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="ABILITY_GRANT_MOVEMENT_BONUS" Tag="CLASS_LOGISTIC_MOVEMENT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_ALPINE_TRAINING" Name="LOC_ABILITY_ALPINE_TRAINING_NAME" Description="LOC_ABILITY_ALPINE_TRAINING__DESCRIPTION" Inactive="true" ShowFloatTextWhenEarned="true"/>
+		<Row UnitAbilityType="ABILITY_ORDU_INCREASED_MOVEMENT" Name="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_NAME" Description="LOC_ABILITY_ORDU_INCREASED_MOVEMENT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY" Name="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_NAME" Description="LOC_ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_TWILIGHT_VALOR_ATTACK_BONUS" Name="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_NAME" Description="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS" Name="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_NAME" Description="LOC_ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_PARADROP" Name="LOC_ABILITY_PARADROP_NAME" Description="LOC_ABILITY_PARADROP_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF" Name="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_NAME" Description="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SCOTTISH_HIGHLANDER" Name="LOC_ABILITY_SCOTTISH_HIGHLANDER_NAME" Description="LOC_ABILITY_SCOTTISH_HIGHLANDER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MONGOLIAN_KESHIG" Name="LOC_ABILITY_MONGOLIAN_KESHIG_NAME" Description="LOC_ABILITY_MONGOLIAN_KESHIG_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DUTCH_ZEVEN_PROVINCIEN" Name="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_NAME" Description="LOC_ABILITY_DUTCH_ZEVEN_PROVINCIEN_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_GEORGIAN_KHEVSURETI" Name="LOC_ABILITY_GEORGIAN_KHEVSURETI_NAME" Description="LOC_ABILITY_GEORGIAN_KHEVSURETI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_MAPUCHE_MALON_RAIDER" Name="LOC_ABILITY_MAPUCHE_MALON_RAIDER_NAME" Description="LOC_ABILITY_MAPUCHE_MALON_RAIDER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_CREE_OKIHTCITAW" Name="LOC_ABILITY_CREE_OKIHTCITAW_NAME" Description="LOC_ABILITY_CREE_OKIHTCITAW_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ZULU_IMPI" Name="LOC_ABILITY_ZULU_IMPI_NAME" Description="LOC_ABILITY_ZULU_IMPI_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF" Name="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_NAME" Description="LOC_ABILITY_OLIGARCHY_MELEE_BUFF_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF" Name="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_NAME" Description="LOC_ABILITY_THEOCRACY_RELIGIOUS_BUFF_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_FASCISM_LEGACY_ATTACK_BUFF" Name="LOC_ABILITY_FASCISM_ATTACK_BUFF_NAME" Description="LOC_ABILITY_FASCISM_ATTACK_BUFF_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GRANT_MOVEMENT_BONUS" Name="LOC_ABILITY_GRANT_MOVEMENT_BONUS_NAME" Description="LOC_ABILITY_GRANT_MOVEMENT_BONUS_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_ALPINE_TRAINING</UnitAbilityType>
+			<ModifierId>ALPINE_TRAINING_IGNORE_HILLS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ALPINE_TRAINING</UnitAbilityType>
+			<ModifierId>ALPINE_TRAINING_COMBAT_HILLS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ORDU_INCREASED_MOVEMENT</UnitAbilityType>
+			<ModifierId>ORDU_ADJUST_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY</UnitAbilityType>
+			<ModifierId>ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_LAND</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY</UnitAbilityType>
+			<ModifierId>ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_SEA</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TWILIGHT_VALOR_ATTACK_BONUS</UnitAbilityType>
+			<ModifierId>TWILIGHT_VALOR_ATTACK_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_INQUISITION_FRIENDLY_TERRITORY_BONUS</UnitAbilityType>
+			<ModifierId>INQUISITION_FRIENDLY_TERRITORY_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_PARADROP</UnitAbilityType>
+			<ModifierId>SPEC_OPS_PARADROP_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF</UnitAbilityType>
+			<ModifierId>BOMBARD_STR_BUFF_FROM_DRONE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SCOTTISH_HIGHLANDER</UnitAbilityType>
+			<ModifierId>HIGHLANDER_COMBAT_BONUS_FOREST_AND_HILLS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DUTCH_ZEVEN_PROVINCIEN</UnitAbilityType>
+			<ModifierId>ZEVEN_PROVINCIEN_BONUS_VS_DEF_DISTRICTS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MONGOLIAN_KESHIG</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GEORGIAN_KHEVSURETI</UnitAbilityType>
+			<ModifierId>KHEVSURETI_HILLS_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GEORGIAN_KHEVSURETI</UnitAbilityType>
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MAPUCHE_MALON_RAIDER</UnitAbilityType>
+			<ModifierId>MALON_RAIDER_TERRITORY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_MAPUCHE_MALON_RAIDER</UnitAbilityType>
+			<ModifierId>MALON_RAIDER_LESS_MOVEMENT_PILLAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_CREE_OKIHTCITAW</UnitAbilityType>
+			<ModifierId>OKIHTCITAW_FREE_PROMOTION</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ZULU_IMPI</UnitAbilityType>
+			<ModifierId>IMPI_FASTER_COMBAT_XP</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ZULU_IMPI</UnitAbilityType>
+			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GRANT_MOVEMENT_BONUS</UnitAbilityType>
+			<ModifierId>SUPPLY_CONVOY_BONUS_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF</UnitAbilityType>
+			<ModifierId>OLIGARCHY_LEGACY_MELEE_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF</UnitAbilityType>
+			<ModifierId>THEOCRACY_LEGACY_RELIGIOUS_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FASCISM_LEGACY_ATTACK_BUFF</UnitAbilityType>
+			<ModifierId>FASCISM_LEGACY_ATTACK_BUFF</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ALPINE_TRAINING_IGNORE_HILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ALPINE_TRAINING_COMBAT_HILLS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BALKAN_CAVALRY_PLOT_IS_HILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORDU_ADJUST_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_SEA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_TRADE_ROUTE_PLUNDER_IMMUNITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TWILIGHT_VALOR_ATTACK_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_ATTACKING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>INQUISITION_FRIENDLY_TERRITORY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FRIENDLY_TERRITORY_COMBAT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SPEC_OPS_PARADROP_ABILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_PARADROP_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BOMBARD_STR_BUFF_FROM_DRONE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>BOMBARD_STRENGTH_BUFF_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HIGHLANDER_COMBAT_BONUS_FOREST_AND_HILLS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>HIGHLANDER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ZEVEN_PROVINCIEN_BONUS_VS_DEF_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>ZEVEN_PROVINCIEN_DISTRICT_COMBAT_BONUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KHEVSURETI_HILLS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>KHEVSURETI_HILLS_BUFF_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MALON_RAIDER_TERRITORY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MALON_RAIDER_FRIENDLY_TERRITORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MALON_RAIDER_LESS_MOVEMENT_PILLAGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ADVANCED_PILLAGING</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OKIHTCITAW_FREE_PROMOTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IMPI_FASTER_COMBAT_XP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_LEGACY_MELEE_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_LEGACY_RELIGIOUS_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_LEGACY_ATTACK_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>FASCISM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SUPPLY_CONVOY_BONUS_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ALPINE_TRAINING_IGNORE_HILLS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALPINE_TRAINING_IGNORE_HILLS</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>ALPINE_TRAINING_COMBAT_HILLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORDU_ADJUST_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_LAND</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>ECONOMIC_GOLDEN_AGE_PLUNDER_IMMUNITY_SEA</ModifierId>
+			<Name>DomainType</Name>
+			<Value>DOMAIN_SEA</Value>
+		</Row>
+		<Row>
+			<ModifierId>TWILIGHT_VALOR_ATTACK_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>INQUISITION_FRIENDLY_TERRITORY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>SPEC_OPS_PARADROP_ABILITY</ModifierId>
+			<Name>CanDrop</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>BOMBARD_STR_BUFF_FROM_DRONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HIGHLANDER_COMBAT_BONUS_FOREST_AND_HILLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZEVEN_PROVINCIEN_BONUS_VS_DEF_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHEVSURETI_HILLS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHEVSURETI_IGNORE_HILLS</ModifierId>
+			<Name>Type</Name>
+			<Value>HILLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MALON_RAIDER_TERRITORY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MALON_RAIDER_LESS_MOVEMENT_PILLAGE</ModifierId>
+			<Name>UseAdvancedPillaging</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>OKIHTCITAW_FREE_PROMOTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMPI_FASTER_COMBAT_XP</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>IMPI_INCREASED_FLANKING_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_LEGACY_MELEE_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_LEGACY_RELIGIOUS_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_LEGACY_ATTACK_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SUPPLY_CONVOY_BONUS_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!--  -->
+	<!-- REQUIREMENTS -->
+	<!--  -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>BOMBARD_STRENGTH_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HIGHLANDER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>ZEVEN_PROVINCIEN_DISTRICT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>KHEVSURETI_HILLS_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MALON_RAIDER_FRIENDLY_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BOMBARD_STRENGTH_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_FRIENDLY_DRONE_UNIT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HIGHLANDER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_HILLS_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HIGHLANDER_COMBAT_BONUS_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_FOREST_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>ZEVEN_PROVINCIEN_DISTRICT_COMBAT_BONUS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>OPPONENT_IS_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>KHEVSURETI_HILLS_BUFF_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_HILLS_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MALON_RAIDER_FRIENDLY_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>NEAR_FRIENDLY_TERRITORY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_UNIT_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SUPPLY_CONVOY_MOVEMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_IS_DOMAIN_LAND</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>NEAR_FRIENDLY_TERRITORY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_TERRITORY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_DRONE_UNIT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>NEAR_FRIENDLY_TERRITORY</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>NEAR_FRIENDLY_TERRITORY</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_FRIENDLY_DRONE_UNIT_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_DRONE</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="ALPINE_TRAINING_COMBAT_HILLS" Context="Preview" Text="{LOC_ABILITY_ALPINE_TRAINING_COMBAT_HILLS_MODIFIER_DESCRIPTION} {LOC_WONDER_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="BOMBARD_STR_BUFF_FROM_DRONE" Context="Preview" Text="LOC_ABILITY_RECEIVE_BOMBARD_STRENGTH_BUFF_DESCRIPTION"/>
+		<Row ModifierId="HIGHLANDER_COMBAT_BONUS_FOREST_AND_HILLS" Context="Preview" Text="{LOC_ABILITY_SCOTTISH_HIGHLANDER_DESCRIPTION} {LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="KHEVSURETI_HILLS_BUFF" Context="Preview" Text="{LOC_ABILITY_GEORGIAN_KHEVSURETI_DESCRIPTION} {LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="MALON_RAIDER_TERRITORY_COMBAT_BONUS" Context="Preview" Text="{LOC_ABILITY_MAPUCHE_MALON_RAIDER_DESCRIPTION} {LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="TWILIGHT_VALOR_ATTACK_BONUS" Context="Preview" Text="LOC_ABILITY_TWILIGHT_VALOR_ATTACK_BONUS_DESCRIPTION"/>
+		<Row ModifierId="ZEVEN_PROVINCIEN_BONUS_VS_DEF_DISTRICTS" Context="Preview" Text="{LOC_ABILITY_PREVIEW_ZEVEN_PROVINCIEN_DESCRIPTION} {LOC_ABILITY_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="OLIGARCHY_LEGACY_MELEE_BUFF" Context="Preview" Text="LOC_ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="THEOCRACY_LEGACY_RELIGIOUS_BUFF" Context="Preview" Text="LOC_ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="FASCISM_LEGACY_ATTACK_BUFF" Context="Preview" Text="LOC_ABILITY_FASCISM_LEGACY_ATTACK_BUFF_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

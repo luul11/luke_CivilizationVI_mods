@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!--Governors-->
+		<Row Type="GOVERNOR_IBRAHIM" Kind="KIND_GOVERNOR"/>
+		<!--Governor Promotions-->
+		<Row Type="GOVERNOR_PROMOTION_PASHA" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_HEAD_FALCONER" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_SERASKER" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_KHASS_ODA_BASHI" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_CAPOU_AGHA" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_GRAND_VISIER" Kind="KIND_GOVERNOR_PROMOTION"/>
+	</Types>
+	<Governors>
+		<Row GovernorType="GOVERNOR_IBRAHIM" Image="GOVERNOR_IBRAHIM" Name="LOC_GOVERNOR_IBRAHIM_NAME" Title="LOC_GOVERNOR_IBRAHIM_TITLE" ShortTitle="LOC_GOVERNOR_IBRAHIM_SHORT_TITLE" Description="LOC_GOVERNOR_IBRAHIM_DESCRIPTION" IdentityPressure="8" TransitionStrength="150" AssignCityState="true" PortraitImage="GovernorNormalXP2_GrandVisier" PortraitImageSelected="GovernorSelectedXP2_GrandVisier" TraitType="TRAIT_LEADER_SULEIMAN_GOVERNOR"/>
+	</Governors>
+	<GovernorPromotionSets>
+		<!--The Defender-->
+		<Row GovernorType="GOVERNOR_IBRAHIM" GovernorPromotion="GOVERNOR_PROMOTION_PASHA"/>
+		<Row GovernorType="GOVERNOR_IBRAHIM" GovernorPromotion="GOVERNOR_PROMOTION_HEAD_FALCONER"/>
+		<Row GovernorType="GOVERNOR_IBRAHIM" GovernorPromotion="GOVERNOR_PROMOTION_SERASKER"/>
+		<Row GovernorType="GOVERNOR_IBRAHIM" GovernorPromotion="GOVERNOR_PROMOTION_KHASS_ODA_BASHI"/>
+		<Row GovernorType="GOVERNOR_IBRAHIM" GovernorPromotion="GOVERNOR_PROMOTION_CAPOU_AGHA"/>
+		<Row GovernorType="GOVERNOR_IBRAHIM" GovernorPromotion="GOVERNOR_PROMOTION_GRAND_VISIER"/>
+	</GovernorPromotionSets>
+	<GovernorPromotions>
+		<!--Ibrahim-->
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_PASHA" Name="LOC_GOVERNOR_PROMOTION_PASHA_NAME" Description="LOC_GOVERNOR_PROMOTION_PASHA_DESCRIPTION" Level="0" Column="1" BaseAbility="true"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HEAD_FALCONER" Name="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_NAME" Description="LOC_GOVERNOR_PROMOTION_HEAD_FALCONER_DESCRIPTION" Level="1" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SERASKER" Name="LOC_GOVERNOR_PROMOTION_SERASKER_NAME" Description="LOC_GOVERNOR_PROMOTION_SERASKER_DESCRIPTION" Level="1" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_KHASS_ODA_BASHI" Name="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_NAME" Description="LOC_GOVERNOR_PROMOTION_KHASS_ODA_BASHI_DESCRIPTION" Level="2" Column="0"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CAPOU_AGHA" Name="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_NAME" Description="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION" Level="2" Column="2"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_GRAND_VISIER" Name="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_NAME" Description="LOC_GOVERNOR_PROMOTION_GRAND_VISIER_DESCRIPTION" Level="3" Column="1"/>
+	</GovernorPromotions>
+	<GovernorPromotionPrereqs>
+		<!--Ibrahim-->
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_HEAD_FALCONER" PrereqGovernorPromotion="GOVERNOR_PROMOTION_PASHA"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_SERASKER" PrereqGovernorPromotion="GOVERNOR_PROMOTION_PASHA"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_KHASS_ODA_BASHI" PrereqGovernorPromotion="GOVERNOR_PROMOTION_HEAD_FALCONER"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_CAPOU_AGHA" PrereqGovernorPromotion="GOVERNOR_PROMOTION_SERASKER"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_GRAND_VISIER" PrereqGovernorPromotion="GOVERNOR_PROMOTION_KHASS_ODA_BASHI"/>
+		<Row GovernorPromotionType="GOVERNOR_PROMOTION_GRAND_VISIER" PrereqGovernorPromotion="GOVERNOR_PROMOTION_CAPOU_AGHA"/>
+	</GovernorPromotionPrereqs>
+	<Governors_XP2>
+		<Row GovernorType="GOVERNOR_IBRAHIM" AssignToMajor="true"/>
+	</Governors_XP2>
+	<GovernorPromotionModifiers>
+		<!--Ibrahim-->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_PASHA</GovernorPromotionType>
+			<ModifierId>PASHA_BONUS_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_HEAD_FALCONER</GovernorPromotionType>
+			<ModifierId>HEAD_FALCONER_ADJUST_CITY_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SERASKER</GovernorPromotionType>
+			<ModifierId>SERASKER_ADJUST_GOVERNOR_COMBAT_DISTRICT</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_KHASS_ODA_BASHI</GovernorPromotionType>
+			<ModifierId>KHASS_ODA_BASHI_ADJUST_ALLIANCE_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_CAPOU_AGHA</GovernorPromotionType>
+			<ModifierId>CAPOU_AGHA_ADJUST_GRIEVANCES</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_GRAND_VISIER</GovernorPromotionType>
+			<ModifierId>GRAND_VIZIER_ADJUST_IGNORE_CULTURAL_IDENTITY</ModifierId>
+		</Row>
+	</GovernorPromotionModifiers>
+	<Modifiers>
+		<!--Ibrahim-->
+		<Row>
+			<ModifierId>PASHA_BONUS_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_CITY_MILITARY_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HEAD_FALCONER_ADJUST_CITY_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_CITY_ADJUST_CITY_FRIENDLY_COMBAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SERASKER_ADJUST_GOVERNOR_COMBAT_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_DISTRICT_COMBAT_BONUS</ModifierType>
+			<SubjectRequirementSetId>PLOT_10_TILES_AWAY_MAX_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KHASS_ODA_BASHI_ADJUST_ALLIANCE_POINTS</ModifierId>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_ALLIANCE_POINTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CAPOU_AGHA_ADJUST_GRIEVANCES</ModifierId>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_GRIEVENCE_SCORE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GRAND_VIZIER_ADJUST_IGNORE_CULTURAL_IDENTITY</ModifierId>
+			<ModifierType>MODIFIER_GOVERNOR_ADJUST_IGNORE_CULTURAL_IDENTITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PASHA_BONUS_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+		<Row>
+			<ModifierId>SERASKER_ADJUST_GOVERNOR_COMBAT_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>HEAD_FALCONER_ADJUST_CITY_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>KHASS_ODA_BASHI_ADJUST_ALLIANCE_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPOU_AGHA_ADJUST_GRIEVANCES</ModifierId>
+			<Name>Score</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPOU_AGHA_ADJUST_GRIEVANCES</ModifierId>
+			<Name>Turns</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GRAND_VIZIER_ADJUST_IGNORE_CULTURAL_IDENTITY</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_10_TILES_AWAY_MAX_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_10_TILES_AWAY_MAX_REQUIREMENTS</RequirementSetId>
+			<RequirementId>10_PLOTS_AWAY_MAX_UNIT_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>10_PLOTS_AWAY_MAX_UNIT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>10_PLOTS_AWAY_MAX_UNIT_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>10_PLOTS_AWAY_MAX_UNIT_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>10</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

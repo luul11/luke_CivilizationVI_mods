@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR" Kind="KIND_DIPLOMATIC_ACTION"/>
+		<Row Type="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION" Kind="KIND_DIPLOMATIC_ACTION"/>
+		<Row Type="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR" Kind="KIND_DIPLOMATIC_ACTION"/>
+    <Row Type="DIPLOACTION_THIRD_PARTY_WAR" Kind="KIND_DIPLOMATIC_ACTION"/>
+	</Types>
+	<!-- If you add ANY item to this list, you must create a corresponding DiplomaticActions item, and associate a DiplomaticActionEvaluator with it (feel free to use DefaultDiplomaticEvaluator) -->
+	<DiplomaticActions>
+		<Update>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_RECONQUEST_WAR"/>
+			<Set>
+				<InitiatorPrereqCivic>CIVIC_DEFENSIVE_TACTICS</InitiatorPrereqCivic>
+			</Set>
+		</Update>
+		<Update>
+			<Where DiplomaticActionType="DIPLOACTION_DECLARE_PROTECTORATE_WAR"/>
+			<Set>
+				<InitiatorPrereqCivic>CIVIC_DEFENSIVE_TACTICS</InitiatorPrereqCivic>
+			</Set>
+		</Update>
+		<Row DiplomaticActionType="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR" Name="LOC_DIPLOACTION_DECLARE_GOLDEN_AGE_WAR_NAME" Description="LOC_DIPLOACTION_DECLARE_GOLDEN_AGE_WAR_DESCRIPTION" CivilopediaKey="DIPLO_3" UIGroup="FORMALWAR" DenouncementTurnsRequired="0" WarmongerPercent="25" CaptureWarmongerPercent="25" RazeWarmongerPercent="0"/>
+		<Row DiplomaticActionType="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION" Name="LOC_DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION_NAME" Description="LOC_DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION_DESCRIPTION" CivilopediaKey="DIPLO_3" UIGroup="FORMALWAR" InitiatorPrereqCivic="CIVIC_EARLY_EMPIRE" Duration="10" DenouncementTurnsRequired="3" WarmongerPercent="50" CaptureWarmongerPercent="50" RazeWarmongerPercent="0"/>
+		<Row DiplomaticActionType="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR" Name="LOC_DIPLOACTION_DECLARE_IDEOLOGICAL_WAR_NAME" Description="LOC_DIPLOACTION_DECLARE_IDEOLOGICAL_WAR_DESCRIPTION" CivilopediaKey="DIPLO_3" UIGroup="FORMALWAR" InitiatorPrereqCivic="CIVIC_IDEOLOGY" DenouncementTurnsRequired="3" WarmongerPercent="50" CaptureWarmongerPercent="50" RazeWarmongerPercent="0"/>
+    <Row DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR" Name="LOC_DIPLOACTION_THIRD_PARTY_WAR_NAME" Description="LOC_DIPLOACTION_THIRD_PARTY_WAR_DESCRIPTION" CivilopediaKey="DIPLO_14" InitiatorPrereqCivic="CIVIC_FOREIGN_TRADE" Agreement="true" Duration="10" WarmongerPercent="100" CaptureWarmongerPercent="100" RazeWarmongerPercent="0"/>
+  </DiplomaticActions>
+	<DiplomaticActions_XP1>
+		<Row DiplomaticActionType="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR" RequiresGoldenAgeCommemorationType="COMMEMORATION_MILITARY"/>
+		<Row DiplomaticActionType="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION" RequiresBrokenPromise="true"/>
+		<Row DiplomaticActionType="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR" RequiresDifferentLateGovernment="true"/>
+	</DiplomaticActions_XP1>
+	<DiplomaticStateActions>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR" Worth="0" Cost="0"/>
+    <Row StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR" Worth="0" Cost="0"/>
+    <Row StateType="DIPLO_STATE_FRIENDLY" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR" Worth="0" Cost="0"/>
+    <Row StateType="DIPLO_STATE_NEUTRAL" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR" Worth="0" Cost="0"/>
+    <Row StateType="DIPLO_STATE_UNFRIENDLY" DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR" Worth="0" Cost="0"/>
+		<Row StateType="DIPLO_STATE_DENOUNCED" DiplomaticActionType="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR"/>
+		<Row StateType="DIPLO_STATE_DENOUNCED" DiplomaticActionType="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION"/>
+		<Row StateType="DIPLO_STATE_DENOUNCED" DiplomaticActionType="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR"/>
+	</DiplomaticStateActions>
+</GameInfo>

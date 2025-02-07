@@ -1,0 +1,852 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- IMPROVEMENTS -->
+		<Row Type="IMPROVEMENT_GEOTHERMAL_PLANT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_SOLAR_FARM" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_WIND_FARM" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_OFFSHORE_WIND_FARM" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_SEASTEAD" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MOAI" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MOUND" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_NAZCA_LINE" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_SKI_RESORT" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MOUNTAIN_TUNNEL" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<!-- IMPROVEMENTS -->
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_OIL_WELL"/>
+			<Set>
+				<PrereqTech>TECH_REFINING</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_STEPWELL"/>
+			<Set Description="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION"/>
+		</Update>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" Name="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_NAME" Description="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION" Icon="ICON_IMPROVEMENT_GEOTHERMAL_PLANT" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" PrereqTech="TECH_SYNTHETIC_MATERIALS"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" Name="LOC_IMPROVEMENT_SOLAR_FARM_NAME" Description="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION" Icon="ICON_IMPROVEMENT_SOLAR_FARM" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" PrereqTech="TECH_SATELLITES"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" Name="LOC_IMPROVEMENT_WIND_FARM_NAME" Description="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION" Icon="ICON_IMPROVEMENT_WIND_FARM" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" PrereqTech="TECH_COMPOSITES"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" Name="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_NAME" Description="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION" Icon="ICON_IMPROVEMENT_OFFSHORE_WIND_FARM" PlunderType="PLUNDER_SCIENCE" PlunderAmount="15" PrereqTech="TECH_COMPOSITES" Domain="DOMAIN_SEA"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" Name="LOC_IMPROVEMENT_SEASTEAD_NAME" Description="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION" Icon="ICON_IMPROVEMENT_SEASTEAD" PlunderType="PLUNDER_HEAL" PlunderAmount="50" PrereqTech="TECH_SEASTEADS" Housing="4" TilesRequired="2" Domain="DOMAIN_SEA"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" Name="LOC_IMPROVEMENT_MOAI_NAME" Description="LOC_IMPROVEMENT_MOAI_DESCRIPTION" Icon="ICON_IMPROVEMENT_MOAI" PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true" TraitType="MINOR_CIV_RAPA_NUI_TRAIT"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" Name="LOC_IMPROVEMENT_MOUND_NAME" Description="LOC_IMPROVEMENT_MOUND_DESCRIPTION" Icon="ICON_IMPROVEMENT_MOUND" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" TraitType="MINOR_CIV_CAHOKIA_TRAIT" SameAdjacentValid="false" Housing="2" TilesRequired="2"/>
+		<Row ImprovementType="IMPROVEMENT_NAZCA_LINE" Name="LOC_IMPROVEMENT_NAZCA_LINE_NAME" Description="LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION" Icon="ICON_IMPROVEMENT_NAZCA_LINE" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" TraitType="MINOR_CIV_NAZCA_TRAIT" Workable="false" Appeal="1"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" Name="LOC_IMPROVEMENT_SKI_RESORT_NAME" Description="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION" Icon="ICON_IMPROVEMENT_SKI_RESORT" PlunderType="NO_PLUNDER" Buildable="true" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS" SameAdjacentValid="false" Workable="false"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" Name="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_NAME" Description="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION" Icon="ICON_IMPROVEMENT_MOUNTAIN_TUNNEL" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqTech="TECH_CHEMISTRY" CanBuildOutsideTerritory="true"/>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"/>
+			<Set>
+				<Description>LOC_IMPROVEMENT_COLOSSAL_HEAD_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+	</Improvements>
+	<Improvements_XP2>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" BuildOnAdjacentPlot="true"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" AllowImpassableMovement="true" BuildOnAdjacentPlot="true"/>
+		<Row ImprovementType="IMPROVEMENT_STEPWELL" PreventsDrought="true"/>
+	</Improvements_XP2>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldChangeId="Seastead_Fishingboats_Production"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldChangeId="Fishingboats_Seastead_Production"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldChangeId="Seastead_Reef_Culture"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" YieldChangeId="Moai_FirstBonusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" YieldChangeId="Moai_SecondBonusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" YieldChangeId="Mound_MedievalAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" YieldChangeId="Mound_MechanizedAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithForestEarly"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithJungleEarly"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithForestLate"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithJungleLate"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidResources>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_QUARRY" ResourceType="RESOURCE_GYPSUM"/>
+			<Set>
+				<MustRemoveFeature>false</MustRemoveFeature>
+			</Set>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_QUARRY" ResourceType="RESOURCE_MARBLE"/>
+			<Set>
+				<MustRemoveFeature>false</MustRemoveFeature>
+			</Set>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_QUARRY" ResourceType="RESOURCE_STONE"/>
+			<Set>
+				<MustRemoveFeature>false</MustRemoveFeature>
+			</Set>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_PASTURE" ResourceType="RESOURCE_CATTLE"/>
+			<Set>
+				<MustRemoveFeature>false</MustRemoveFeature>
+			</Set>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_PASTURE" ResourceType="RESOURCE_SHEEP"/>
+			<Set>
+				<MustRemoveFeature>false</MustRemoveFeature>
+			</Set>
+		</Update>
+		<Update>
+			<Where ImprovementType="IMPROVEMENT_PASTURE" ResourceType="RESOURCE_HORSES"/>
+			<Set>
+				<MustRemoveFeature>false</MustRemoveFeature>
+			</Set>
+		</Update>
+	</Improvement_ValidResources>
+	<Improvement_ValidTerrains>
+		<!-- IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" TerrainType="TERRAIN_OCEAN"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_SNOW"/>		
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_SNOW"/>		
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		<Row ImprovementType="IMPROVEMENT_NAZCA_LINE" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_NAZCA_LINE" TerrainType="TERRAIN_DESERT_HILLS"/>	
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" FeatureType="FEATURE_GEOTHERMAL_FISSURE"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_AIRSTRIP" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_BEACH_RESORT" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_FARM" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_FORT" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_MINE" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_GREAT_WALL" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_ROMAN_FORT" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_BARBARIAN_CAMP" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_GOODY_HUT" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_SPHINX" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_CHATEAU" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row ImprovementType="IMPROVEMENT_ZIGGURAT" FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+	</Improvement_ValidFeatures>
+	<Improvement_InvalidAdjacentFeatures>
+		<Row ImprovementType="IMPROVEMENT_MOAI" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" FeatureType="FEATURE_JUNGLE"/>
+	</Improvement_InvalidAdjacentFeatures>
+	<Improvement_ValidBuildUnits>
+		<!-- IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_NAZCA_LINE" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_TUNNEL" UnitType="UNIT_MILITARY_ENGINEER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" YieldType="YIELD_CULTURE" YieldChange="5"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" YieldType="YIELD_FOOD" YieldChange="3"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_MOUND" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_OFFSHORE_WIND_FARM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_SOLAR_FARM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_WIND_FARM" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_GEOTHERMAL_PLANT" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="26" ImprovementType="IMPROVEMENT_MINE" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_SMART_MATERIALS"/>
+		<Row Id="27" ImprovementType="IMPROVEMENT_LUMBER_MILL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_CYBERNETICS"/>
+		<Row Id="28" ImprovementType="IMPROVEMENT_OIL_WELL" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_PREDICTIVE_SYSTEMS"/>
+		<Row Id="29" ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqTech="TECH_PREDICTIVE_SYSTEMS"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_SEASTEAD" TourismSource="TOURISMSOURCE_CULTURE" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_SKI_RESORT" TourismSource="TOURISMSOURCE_APPEAL" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TourismSource="TOURISMSOURCE_FAITH" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="Seastead_Fishingboats_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FISHING_BOATS"/>
+		<Row ID="Fishingboats_Seastead_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_SEASTEAD"/>
+		<Row ID="Seastead_Reef_Culture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_REEF"/>
+		<Row ID="Moai_FirstBonusAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_MOAI" ObsoleteCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ID="Moai_SecondBonusAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MOAI" PrereqCivic="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ID="Mound_MedievalAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true" PrereqCivic="CIVIC_FEUDALISM" ObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="Mound_MechanizedAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="ColossalHead_FaithForestEarly" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST" ObsoleteCivic="CIVIC_HUMANISM"/>
+		<Row ID="ColossalHead_FaithJungleEarly" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_JUNGLE" ObsoleteCivic="CIVIC_HUMANISM"/>
+		<Row ID="ColossalHead_FaithForestLate" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_FOREST" PrereqCivic="CIVIC_HUMANISM"/>
+		<Row ID="ColossalHead_FaithJungleLate" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_JUNGLE" PrereqCivic="CIVIC_HUMANISM"/>
+	</Adjacency_YieldChanges>
+	<Modifiers>
+		<Row>
+			<ModifierId>SOLAR_FARM_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WIND_FARM_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GEOTHERMAL_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MOAI_COASTADJACENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOAI_VOLCANICADJACENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_WITHIN_ONE_HEX_TO_VOLCANIC_SOIL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOUND_AMENITY_MAX_ONE</ModifierId>
+			<ModifierType>MODIFIER_CITY_OWNER_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectStackLimit>1</SubjectStackLimit>
+			<SubjectRequirementSetId>PLAYER_DOES_NOT_HAVE_NATURAL_HISTORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOUND_AMENITY_MAX_TWO</ModifierId>
+			<ModifierType>MODIFIER_CITY_OWNER_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectStackLimit>2</SubjectStackLimit>
+			<SubjectRequirementSetId>PLAYER_HAS_NATURAL_HISTORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MOUND_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SKI_RESORT_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_CITY_OWNER_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MOUNTAIN_PORTAL</ModifierId>
+			<ModifierType>MODIFIER_MOUNTAIN_PORTAL</ModifierType>
+		</Row>
+		<!--Part of the Merchant's Renewable Energy Promotion-->
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_SOLAR_FARM_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_WIND_FARM_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_GEOTHERMAL_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>SOLAR_FARM_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>SOLAR_FARM_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_SOLAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WIND</Value>
+		</Row>
+		<Row>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WIND</Value>
+		</Row>
+		<Row>
+			<ModifierId>GEOTHERMAL_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GEOTHERMAL_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_GEOTHERMAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOAI_COASTADJACENCY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOAI_COASTADJACENCY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOAI_VOLCANICADJACENCY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOAI_VOLCANICADJACENCY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOUND_AMENITY_MAX_ONE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOUND_AMENITY_MAX_TWO</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MOUND_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>SKI_RESORT_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Part of the Merchant's Renewable Energy Promotion-->
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_SOLAR_FARM_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_SOLAR_FARM_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_SOLAR</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WIND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_WIND</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_GEOTHERMAL_GENERATE_POWER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_GEOTHERMAL_GENERATE_POWER</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_GEOTHERMAL</Value>
+		</Row>
+	</ModifierArguments>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_SOLAR_FARM</ImprovementType>
+			<ModifierId>SOLAR_FARM_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WIND_FARM</ImprovementType>
+			<ModifierId>WIND_FARM_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GEOTHERMAL_PLANT</ImprovementType>
+			<ModifierId>GEOTHERMAL_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_WIND_FARM</ImprovementType>
+			<ModifierId>OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<ModifierId>MOAI_COASTADJACENCY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOAI</ImprovementType>
+			<ModifierId>MOAI_VOLCANICADJACENCY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_NAZCA_LINE</ImprovementType>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_NAZCA_LINE</ImprovementType>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_NAZCA_LINE</ImprovementType>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_NAZCA_LINE</ImprovementType>
+			<ModifierId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_NAZCA_LINE</ImprovementType>
+			<ModifierId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOUND</ImprovementType>
+			<ModifierId>MOUND_AMENITY_MAX_ONE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOUND</ImprovementType>
+			<ModifierId>MOUND_AMENITY_MAX_TWO</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOUND</ImprovementType>
+			<ModifierId>MOUND_HOUSING</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_SKI_RESORT</ImprovementType>
+			<ModifierId>SKI_RESORT_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOUNTAIN_TUNNEL</ImprovementType>
+			<ModifierId>MOUNTAIN_PORTAL</ModifierId>
+		</Row>
+		<!--Part of the Merchant's Renewable Energy Promotion-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_SOLAR_FARM</ImprovementType>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_SOLAR_FARM_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WIND_FARM</ImprovementType>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_WIND_FARM_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GEOTHERMAL_PLANT</ImprovementType>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_GEOTHERMAL_GENERATE_POWER</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_WIND_FARM</ImprovementType>
+			<ModifierId>MERCHANT_RENEWABLE_ENERGY_OFFSHORE_WIND_FARM_GENERATE_POWER</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLOT_WITHIN_ONE_HEX_TO_VOLCANIC_SOIL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_TO_STADIUM</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_TO_FRESH_WATER_NOT_AQUEDUCT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NATURAL_HISTORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_DOES_NOT_HAVE_NATURAL_HISTORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COLONIALISM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>PLOT_ADJACENT_TO_VOLCANIC_SOIL_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_VOLCANIC_SOIL_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_HAS_RESOURCE_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_HAS_ANY_RESOURCE</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_SERVICE_XP2</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_DESERT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MASS_PRODUCTION_XP2</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_FLAT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_HILLS</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_STADIUM</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_IS_FRESH_WATER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NOT_ADJACENT_TO_AQUEDUCT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NATURAL_HISTORY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CULTURAL_HERITAGE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DOES_NOT_HAVE_NATURAL_HISTORY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+			<Inverse>true</Inverse>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_COLONIALISM</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLOT_ADJACENT_TO_VOLCANIC_SOIL_REQUIREMENT</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_VOLCANIC_SOIL</Value>
+		</Row>
+		<Row>
+			<RequirementId>PLOT_VOLCANIC_SOIL_REQUIREMENT</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_VOLCANIC_SOIL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_SERVICE_XP2</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_SERVICE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_DESERT</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_MASS_PRODUCTION_XP2</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_MASS_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_STADIUM</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STADIUM</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_NOT_ADJACENT_TO_AQUEDUCT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_DOES_NOT_HAVE_NATURAL_HISTORY</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_NATURAL_HISTORY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CULTURAL_HERITAGE</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CULTURAL_HERITAGE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_NATURAL_HISTORY</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_NATURAL_HISTORY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_COLONIALISM</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_COLONIALISM</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLOT_WITHIN_ONE_HEX_TO_VOLCANIC_SOIL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_ADJACENT_TO_VOLCANIC_SOIL_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_WITHIN_ONE_HEX_TO_VOLCANIC_SOIL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_VOLCANIC_SOIL_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FAITH_RESOURCE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_HAS_RESOURCE_REQUIREMENTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_SERVICE_XP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CIVIL_SERVICE_XP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_FOOD_DESERT_HILLS_CIVIL_SERVICE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>ADJACENT_TO_OWNER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_MASS_PRODUCTION_XP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>NAZCA_LINE_ADJACENCY_PRODUCTION_FLAT_MASS_PRODUCTION_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FLAT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_TO_STADIUM</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_STADIUM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_TO_FRESH_WATER_NOT_AQUEDUCT</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_FRESH_WATER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_IS_ADJACENT_TO_FRESH_WATER_NOT_AQUEDUCT</RequirementSetId>
+			<RequirementId>REQUIRES_NOT_ADJACENT_TO_AQUEDUCT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_NATURAL_HISTORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_NATURAL_HISTORY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_CULTURAL_HERITAGE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CULTURAL_HERITAGE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_DOES_NOT_HAVE_NATURAL_HISTORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DOES_NOT_HAVE_NATURAL_HISTORY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_COLONIALISM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_COLONIALISM</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

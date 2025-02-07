@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_CHANDRAGUPTA" Kind="KIND_LEADER"/> 
+		<Row Type="LEADER_GENGHIS_KHAN" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_LAUTARO" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_POUNDMAKER" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_ROBERT_THE_BRUCE" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_SEONDEOK" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_SHAKA" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_TAMAR" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_WILHELMINA" Kind="KIND_LEADER"/> 
+		
+		<Row Type="TRAIT_LEADER_AMABUTHO" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_ARTHASHASTRA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BANNOCKBURN" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_HWARANG" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_RELIGION_CITY_STATES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_ALLIANCE_AND_TRADE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_AGGRESSIVE_MILITARY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_RADIO_ORANJE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_LAUTARO_ABILITY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" Kind="KIND_TRAIT"/> 
+	</Types>
+	<Leaders>
+	
+		<Row LeaderType="LEADER_CHANDRAGUPTA" Name="LOC_LEADER_CHANDRAGUPTA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" Name="LOC_LEADER_GENGHIS_KHAN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_LAUTARO" Name="LOC_LEADER_LAUTARO_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_POUNDMAKER" Name="LOC_LEADER_POUNDMAKER_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" Name="LOC_LEADER_ROBERT_THE_BRUCE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_SEONDEOK" Name="LOC_LEADER_SEONDEOK_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_SHAKA" Name="LOC_LEADER_SHAKA_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_TAMAR" Name="LOC_LEADER_TAMAR_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_WILHELMINA" Name="LOC_LEADER_WILHELMINA_NAME" Sex="Female" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_CHANDRAGUPTA_QUOTE" QuoteAudio="INDI_CH_MISC_PEP_TALK_A_2"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_GENGHIS_KHAN_QUOTE" QuoteAudio="MONG_GE_MISC_PEP_TALK_A_1"/>
+		<Row LeaderType="LEADER_LAUTARO" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_LAUTARO_QUOTE" QuoteAudio="MAPU_LA_MISC_PEP_TALK_B_3"/>
+		<Row LeaderType="LEADER_POUNDMAKER" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_POUNDMAKER_QUOTE" QuoteAudio="CREE_PO_MISC_PEP_TALK_A_2"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_THE_BRUCE_QUOTE" QuoteAudio="SCOT_RO_MISC_PEP_TALK_A_4"/>
+		<Row LeaderType="LEADER_SEONDEOK" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_SEONDEOK_QUOTE" QuoteAudio="KORE_SE_MISC_PEP_TALK_B"/>
+		<Row LeaderType="LEADER_SHAKA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_SHAKA_QUOTE" QuoteAudio="ZULU_SH_MISC_PEP_TALK_A_1"/>
+		<Row LeaderType="LEADER_TAMAR" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_TAMAR_QUOTE" QuoteAudio="GEOR_TA_MISC_PEP_TALK_B_1"/>
+		<Row LeaderType="LEADER_WILHELMINA" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_WILHELMINA_QUOTE" QuoteAudio="NETH_WI_MISC_PEP_TALK_B_1"/>
+	</LeaderQuotes> 
+	<LeaderTraits>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" TraitType="TRAIT_LEADER_ARTHASHASTRA"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="TRAIT_LEADER_BANNOCKBURN"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_SEONDEOK" TraitType="TRAIT_LEADER_HWARANG"/>
+		<Row LeaderType="LEADER_SEONDEOK" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="TRAIT_LEADER_AMABUTHO"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_SHAKA" TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/>
+		<Row LeaderType="LEADER_TAMAR" TraitType="TRAIT_LEADER_RELIGION_CITY_STATES"/>
+		<Row LeaderType="LEADER_TAMAR" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE"/>
+		<Row LeaderType="LEADER_POUNDMAKER" TraitType="TRAIT_LEADER_LOW_CITY_STATE_PREFERENCE_WAR"/>
+		<Row LeaderType="LEADER_WILHELMINA" TraitType="TRAIT_RADIO_ORANJE"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="TRAIT_LEADER_LAUTARO_ABILITY"/>
+		<Row LeaderType="LEADER_LAUTARO" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY"/> 
+	</LeaderTraits>
+	<AiListTypes>
+		<!-- AI alterations for leaders (not for agendas) -->
+		<Row ListType="LiberationWarriorList"/>
+		<Row ListType="ProtectorateWarriorList"/>
+		<Row ListType="TerritorialWarriorList"/>
+		<!-- Unimplemented abilities -->
+		<Row ListType="GenghisKhanCavalryLoverList"/>
+		<Row ListType="WilhelminaEmergencyAllianceList"/>
+		<!-- Leaders -->
+		<Row ListType="ChandraguptaCivics"/>
+		<Row ListType="ChandraguptaTechs"/>
+		<Row ListType="ChandraguptaWonders"/>
+		<Row ListType="LautaroCivics"/>
+		<Row ListType="LautaroTechs"/>
+		<Row ListType="LautaroWonders"/>
+		<Row ListType="ShakaCivics"/>
+		<Row ListType="ShakaTechs"/>
+		<Row ListType="ShakaWonders"/>
+		<Row ListType="GenghisCivics"/>
+		<Row ListType="GenghisTechs"/>
+		<Row ListType="GenghisWonders"/>
+		<Row ListType="WilhelminaCivics"/>
+		<Row ListType="WilhelminaTechs"/>
+		<Row ListType="WilhelminaWonders"/>
+		<Row ListType="RobertCivics"/>
+		<Row ListType="RobertTechs"/>
+		<Row ListType="RobertWonders"/>
+		<Row ListType="TamarCivics"/>
+		<Row ListType="TamarTechs"/>
+		<Row ListType="TamarWonders"/>
+		<Row ListType="PoundmakerCivics"/>
+		<Row ListType="PoundmakerTechs"/>
+		<Row ListType="PoundmakerWonders"/>
+		<Row ListType="SeondeokCivics"/>
+		<Row ListType="SeondeokTechs"/>
+		<Row ListType="SeondeokWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="TerritorialWarriorList" LeaderType="TRAIT_LEADER_ARTHASHASTRA" System="DiplomaticActions"/>
+		<Row ListType="LiberationWarriorList" LeaderType="TRAIT_LEADER_BANNOCKBURN" System="DiplomaticActions"/>
+		<Row ListType="ProtectorateWarriorList" LeaderType="TRAIT_LEADER_RELIGION_CITY_STATES" System="DiplomaticActions"/>
+		<!-- Unimplemented abilities -->
+		<Row ListType="GenghisKhanCavalryLoverList" LeaderType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" System="UnitPromotionClasses"/>
+		<Row ListType="CavalryLoverCitySettlement" LeaderType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" System="PlotEvaluations"/>
+		<Row ListType="WilhelminaEmergencyAllianceList" LeaderType="TRAIT_RADIO_ORANJE" System="DiplomaticActions"/>
+		<!-- Leaders-->
+		<Row ListType="ChandraguptaCivics" LeaderType="TRAIT_LEADER_ARTHASHASTRA" System="Civics"/>
+		<Row ListType="ChandraguptaTechs" LeaderType="TRAIT_LEADER_ARTHASHASTRA" System="Technologies"/>
+		<Row ListType="ChandraguptaWonders" LeaderType="TRAIT_LEADER_ARTHASHASTRA" System="Buildings"/>
+		<Row ListType="LautaroCivics" LeaderType="TRAIT_LEADER_LAUTARO_ABILITY" System="Civics"/>
+		<Row ListType="LautaroTechs" LeaderType="TRAIT_LEADER_LAUTARO_ABILITY" System="Technologies"/>
+		<Row ListType="LautaroWonders" LeaderType="TRAIT_LEADER_LAUTARO_ABILITY" System="Buildings"/>
+		<Row ListType="ShakaCivics" LeaderType="TRAIT_LEADER_AMABUTHO" System="Civics"/>
+		<Row ListType="ShakaTechs" LeaderType="TRAIT_LEADER_AMABUTHO" System="Technologies"/>
+		<Row ListType="ShakaWonders" LeaderType="TRAIT_LEADER_AMABUTHO" System="Buildings"/>
+		<Row ListType="GenghisCivics" LeaderType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" System="Civics"/>
+		<Row ListType="GenghisTechs" LeaderType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" System="Technologies"/>
+		<Row ListType="GenghisWonders" LeaderType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" System="Buildings"/>
+		<Row ListType="WilhelminaCivics" LeaderType="TRAIT_RADIO_ORANJE" System="Civics"/>
+		<Row ListType="WilhelminaTechs" LeaderType="TRAIT_RADIO_ORANJE" System="Technologies"/>
+		<Row ListType="WilhelminaWonders" LeaderType="TRAIT_RADIO_ORANJE" System="Buildings"/>
+		<Row ListType="RobertCivics" LeaderType="TRAIT_LEADER_BANNOCKBURN" System="Civics"/>
+		<Row ListType="RobertTechs" LeaderType="TRAIT_LEADER_BANNOCKBURN" System="Technologies"/>
+		<Row ListType="RobertWonders" LeaderType="TRAIT_LEADER_BANNOCKBURN" System="Buildings"/>
+		<Row ListType="TamarCivics" LeaderType="TRAIT_LEADER_RELIGION_CITY_STATES" System="Civics"/>
+		<Row ListType="TamarTechs" LeaderType="TRAIT_LEADER_RELIGION_CITY_STATES" System="Technologies"/>
+		<Row ListType="TamarWonders" LeaderType="TRAIT_LEADER_RELIGION_CITY_STATES" System="Buildings"/>
+		<Row ListType="PoundmakerCivics" LeaderType="TRAIT_LEADER_ALLIANCE_AND_TRADE" System="Civics"/>
+		<Row ListType="PoundmakerTechs" LeaderType="TRAIT_LEADER_ALLIANCE_AND_TRADE" System="Technologies"/>
+		<Row ListType="PoundmakerWonders" LeaderType="TRAIT_LEADER_ALLIANCE_AND_TRADE" System="Buildings"/>
+		<Row ListType="SeondeokCivics" LeaderType="TRAIT_LEADER_HWARANG" System="Civics"/>
+		<Row ListType="SeondeokTechs" LeaderType="TRAIT_LEADER_HWARANG" System="Technologies"/>
+		<Row ListType="SeondeokWonders" LeaderType="TRAIT_LEADER_HWARANG" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Unimplemented abilities -->
+		<Row ListType="GenghisKhanCavalryLoverList" Item="PROMOTION_CLASS_HEAVY_CAVALRY" Value="100"/>
+		<Row ListType="GenghisKhanCavalryLoverList" Item="PROMOTION_CLASS_LIGHT_CAVALRY" Value="100"/>
+		<Row ListType="WilhelminaEmergencyAllianceList" Item="DIPLOACTION_ALLIANCE_MILITARY_EMERGENCY(NOT_IN_YET)" Favored="true"/>
+		<!-- Leaders -->
+		<Row ListType="ChandraguptaCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="ChandraguptaCivics" Item="CIVIC_PROFESSIONAL_SPORTS" Favored="true"/>
+		<Row ListType="ChandraguptaCivics" Item="CIVIC_MILITARY_TRAINING" Favored="true"/>
+		<Row ListType="ChandraguptaCivics" Item="CIVIC_MILITARY_TRADITION" Favored="true"/>
+		<Row ListType="ChandraguptaTechs" Item="TECH_SANITATION" Favored="true"/>
+		<Row ListType="ChandraguptaTechs" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="ChandraguptaTechs" Item="TECH_CONSTRUCTION" Favored="true"/>
+		<Row ListType="ChandraguptaWonders" Item="BUILDING_KOTOKU_IN" Favored="true"/>
+		<Row ListType="LautaroCivics" Item="CIVIC_CRAFTSMANSHIP" Favored="true"/>
+		<Row ListType="LautaroCivics" Item="CIVIC_STATE_WORKFORCE" Favored="true"/>
+		<Row ListType="LautaroCivics" Item="CIVIC_REFORMED_CHURCH" Favored="true"/>
+		<Row ListType="LautaroCivics" Item="CIVIC_CLASS_STRUGGLE" Favored="true"/>
+		<Row ListType="LautaroTechs" Item="TECH_FLIGHT" Favored="true"/>
+		<Row ListType="LautaroTechs" Item="TECH_GUNPOWDER" Favored="true"/>
+		<Row ListType="LautaroWonders" Item="BUILDING_EIFFEL_TOWER" Favored="true"/>
+		<Row ListType="LautaroWonders" Item="BUILDING_CASA_DE_CONTRATACION" Favored="true"/>
+		<Row ListType="ShakaCivics" Item="CIVIC_MERCENARIES" Favored="true"/>
+		<Row ListType="ShakaCivics" Item="CIVIC_NATIONALISM" Favored="true"/>
+		<Row ListType="ShakaCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="ShakaCivics" Item="CIVIC_MILITARY_TRADITION" Favored="true"/>
+		<Row ListType="ShakaTechs" Item="TECH_BRONZE_WORKING" Favored="true"/>
+		<Row ListType="ShakaTechs" Item="TECH_MILITARY_TACTICS" Favored="true"/>
+		<Row ListType="ShakaTechs" Item="TECH_MILITARY_ENGINEERING" Favored="true"/>
+		<Row ListType="ShakaTechs" Item="TECH_MILITARY_SCIENCE" Favored="true"/>
+		<Row ListType="ShakaWonders" Item="BUILDING_TERRACOTTA_ARMY" Favored="true"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_FOREIGN_TRADE" Favored="true"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="GenghisTechs" Item="TECH_STIRRUPS" Favored="true"/>
+		<Row ListType="GenghisTechs" Item="TECH_PRINTING" Favored="true"/>
+		<Row ListType="GenghisTechs" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="GenghisTechs" Item="TECH_BRONZE_WORKING" Favored="true"/>
+		<Row ListType="GenghisTechs" Item="TECH_SALING" Favored="false"/>
+		<Row ListType="GenghisTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="false"/>
+		<Row ListType="GenghisTechs" Item="TECH_SHIPBUILDING" Favored="false"/>
+		<Row ListType="WilhelminaCivics" Item="CIVIC_GUILDS" Favored="true"/>
+		<Row ListType="WilhelminaCivics" Item="CIVIC_FOREIGN_TRADE" Favored="true"/>
+		<Row ListType="WilhelminaCivics" Item="CIVIC_CIVIL_ENGINEERING" Favored="true"/>
+		<Row ListType="WilhelminaTechs" Item="TECH_CELESTIAL_NAVIGATION" Favored="true"/>
+		<Row ListType="WilhelminaTechs" Item="TECH_SQUARE_RIGGING" Favored="true"/>
+		<Row ListType="WilhelminaTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true"/>
+		<Row ListType="WilhelminaTechs" Item="TECH_ELECTRICITY" Favored="true"/>
+		<Row ListType="WilhelminaTechs" Item="TECH_MASS_PRODUCTION" Favored="true"/>
+		<Row ListType="WilhelminaWonders" Item="BUILDING_GREAT_ZIMBABWE" Favored="true"/>
+		<Row ListType="WilhelminaWonders" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="RobertCivics" Item="CIVIC_GAMES_RECREATION" Favored="true"/>
+		<Row ListType="RobertCivics" Item="CIVIC_DEFENSIVE_TACTICS" Favored="true"/>
+		<Row ListType="RobertCivics" Item="CIVIC_REFORMED_CHURCH" Favored="true"/>
+		<Row ListType="RobertCivics" Item="CIVIC_GLOBALIZATION" Favored="true"/>
+		<Row ListType="RobertTechs" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="RobertTechs" Item="TECH_APPRENTICESHIP" Favored="true"/>
+		<Row ListType="RobertTechs" Item="TECH_RIFLING" Favored="true"/>
+		<Row ListType="RobertTechs" Item="TECH_FLIGHT" Favored="true"/>
+		<Row ListType="RobertWonders" Item="BUILDING_COLOSSEUM" Favored="true"/>
+		<Row ListType="RobertWonders" Item="BUILDING_ESTADIO_DO_MARACANA" Favored="true"/>
+		<Row ListType="RobertWonders" Item="BUILDING_TEMPLE_ARTEMIS" Favored="true"/>
+		<Row ListType="RobertWonders" Item="BUILDING_ALHAMBRA" Favored="true"/>
+		<Row ListType="TamarCivics" Item="CIVIC_DEFENSIVE_TACTICS" Favored="true"/>
+		<Row ListType="TamarCivics" Item="CIVIC_DIVINE_RIGHT" Favored="true"/>
+		<Row ListType="TamarTechs" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="TamarTechs" Item="TECH_CASTLES" Favored="true"/>
+		<Row ListType="TamarTechs" Item="TECH_SIEGE_TACTICS" Favored="true"/>
+		<Row ListType="TamarTechs" Item="TECH_MILITARY_TACTICS" Favored="true"/>
+		<Row ListType="TamarWonders" Item="BUILDING_KILWA_KISIWANI" Favored="true"/>
+		<Row ListType="TamarWonders" Item="BUILDING_TAJ_MAHAL" Favored="true"/>
+		<Row ListType="PoundmakerCivics" Item="CIVIC_CONSERVATION" Favored="true"/>
+		<Row ListType="PoundmakerCivics" Item="CIVIC_CIVIL_SERVICE" Favored="true"/>
+		<Row ListType="PoundmakerCivics" Item="CIVIC_DIPLOMATIC_SERVICE" Favored="true"/>
+		<Row ListType="PoundmakerCivics" Item="CIVIC_SUFFRAGE" Favored="true"/>
+		<Row ListType="PoundmakerTechs" Item="TECH_POTTERY" Favored="true"/>
+		<Row ListType="PoundmakerTechs" Item="TECH_ANIMAL_HUSBANDRY" Favored="true"/>
+		<Row ListType="PoundmakerWonders" Item="BUILDING_GREAT_ZIMBABWE" Favored="true"/>
+		<Row ListType="PoundmakerWonders" Item="BUILDING_COLOSSUS" Favored="true"/>
+		<Row ListType="SeondeokCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_WRITING" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_EDUCATION" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_MINING" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_GUNPOWDER" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_APPRENTICESHIP" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_INDUSTRIALIZATION" Favored="true"/>
+		<Row ListType="SeondeokTechs" Item="TECH_REPLACEABLE_PARTS" Favored="true"/>
+		<Row ListType="SeondeokWonders" Item="BUILDING_GREAT_LIBRARY" Favored="true"/>
+		<Row ListType="SeondeokWonders" Item="BUILDING_OXFORD_UNIVERSITY" Favored="true"/>
+		<Row ListType="SeondeokWonders" Item="BUILDING_CASA_DE_CONTRATACION" Favored="true"/>
+	</AiFavoredItems>
+	<Agendas>
+		<Row AgendaType="AGENDA_BILLIONAIRE" Name="LOC_AGENDA_BILLIONAIRE_NAME" Description="LOC_AGENDA_BILLIONAIRE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_CHEOMSEONGDAE" Name="LOC_AGENDA_CHEOMSEONGDAE_NAME" Description="LOC_AGENDA_CHEOMSEONGDAE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_FLOWER_OF_SCOTLAND" Name="LOC_AGENDA_FLOWER_OF_SCOTLAND_NAME" Description="LOC_AGENDA_FLOWER_OF_SCOTLAND_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HORSE_LORD" Name="LOC_AGENDA_HORSE_LORD_NAME" Description="LOC_AGENDA_HORSE_LORD_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_HORN_CHEST_LOINS" Name="LOC_AGENDA_HORN_CHEST_LOINS_NAME" Description="LOC_AGENDA_HORN_CHEST_LOINS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_IRON_CONFEDERACY" Name="LOC_AGENDA_IRON_CONFEDERACY_NAME" Description="LOC_AGENDA_IRON_CONFEDERACY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_MAURYA_EMPIRE" Name="LOC_AGENDA_MAURYA_EMPIRE_NAME" Description="LOC_AGENDA_MAURYA_EMPIRE_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_NARIKALA_FORTRESS" Name="LOC_AGENDA_NARIKALA_FORTRESS_NAME" Description="LOC_AGENDA_NARIKALA_FORTRESS_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_SPIRIT_OF_TUCAPEL" Name="LOC_AGENDA_SPIRIT_OF_TUCAPEL_NAME" Description="LOC_AGENDA_SPIRIT_OF_TUCAPEL_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" AgendaType="AGENDA_MAURYA_EMPIRE"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" AgendaType="AGENDA_HORSE_LORD"/>
+		<Row LeaderType="LEADER_LAUTARO" AgendaType="AGENDA_SPIRIT_OF_TUCAPEL"/>
+		<Row LeaderType="LEADER_POUNDMAKER" AgendaType="AGENDA_IRON_CONFEDERACY"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" AgendaType="AGENDA_FLOWER_OF_SCOTLAND"/>
+		<Row LeaderType="LEADER_SEONDEOK" AgendaType="AGENDA_CHEOMSEONGDAE"/>
+		<Row LeaderType="LEADER_SHAKA" AgendaType="AGENDA_HORN_CHEST_LOINS"/>
+		<Row LeaderType="LEADER_TAMAR" AgendaType="AGENDA_NARIKALA_FORTRESS"/>
+		<Row LeaderType="LEADER_WILHELMINA" AgendaType="AGENDA_BILLIONAIRE"/>
+	</HistoricalAgendas>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_AMABUTHO" Name="LOC_TRAIT_LEADER_AMABUTHO_NAME" Description="LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_ARTHASHASTRA" Name="LOC_TRAIT_LEADER_ARTHASHASTRA_NAME" Description="LOC_TRAIT_LEADER_ARTHASHASTRA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" Name="LOC_TRAIT_LEADER_BANNOCKBURN_NAME" Description="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" Name="LOC_TRAIT_LEADER_HWARANG_NAME" Description="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" Name="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_NAME" Description="LOC_TRAIT_LEADER_RELIGION_CITY_STATES_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE" Name="LOC_LEADER_POUNDMAKER_ABILITY_NAME" Description="LOC_LEADER_POUNDMAKER_ABILITY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_AGGRESSIVE_MILITARY" InternalOnly="true"/>
+		<Row TraitType="TRAIT_RADIO_ORANJE" Name="LOC_TRAIT_RADIO_ORANJE_NAME" Description="LOC_TRAIT_RADIO_ORANJE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_LAUTARO_ABILITY" Name="LOC_TRAIT_LEADER_LAUTARO_ABILITY_NAME" Description="LOC_TRAIT_LEADER_LAUTARO_ABILITY_DESCRIPTION_ALT"/>
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" Name="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_NAME" Description="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_AMABUTHO" ModifierId="TRAIT_LAND_CORPS_EARLY"/>
+		<Row TraitType="TRAIT_LEADER_AMABUTHO" ModifierId="TRAIT_LAND_ARMIES_EARLY"/>
+		<Row TraitType="TRAIT_LEADER_AMABUTHO" ModifierId="TRAIT_LAND_CORPS_COMBAT_STRENGTH"/>
+		<Row TraitType="TRAIT_LEADER_AMABUTHO" ModifierId="TRAIT_LAND_ARMIES_COMBAT_STRENGTH"/>
+		<Row TraitType="TRAIT_LEADER_ARTHASHASTRA" ModifierId="TRAIT_TERRITORIAL_WAR_COMBAT"/>
+		<Row TraitType="TRAIT_LEADER_ARTHASHASTRA" ModifierId="TRAIT_TERRITORIAL_WAR_MOVEMENT"/>
+		<Row TraitType="TRAIT_LEADER_ARTHASHASTRA" ModifierId="TRAIT_TERRITORIAL_WAR_PREREQ_OVERRIDE"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_LIBERATION_WAR_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_LIBERATION_WAR_MOVEMENT"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_LIBERATION_WAR_PREREQ_OVERRIDE"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_CITY_CULTURE_PER_GOVERNOR_TITLE_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_HWARANG" ModifierId="TRAIT_ADJUST_CITY_SCIENCE_PER_GOVERNOR_TITLE_MODIFIER"/>
+		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" ModifierId="TRAIT_PROTECTORATE_WAR_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_RELIGION_CITY_STATES" ModifierId="TRAIT_CITY_STATE_TOKEN_SAME_RELIGION"/>
+		<Row TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE" ModifierId="TRAIT_ALLIANCE_SHARED_VIS"/>
+		<Row TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE" ModifierId="TRAIT_TRADE_FOOD_FROM_CAMPS"/>
+		<Row TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE" ModifierId="TRAIT_TRADE_GOLD_FROM_CAMPS"/>
+		<Row TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE" ModifierId="TRAIT_TRADE_FOOD_FROM_PASTURES"/>
+		<Row TraitType="TRAIT_LEADER_ALLIANCE_AND_TRADE" ModifierId="TRAIT_TRADE_GOLD_FROM_PASTURES"/>
+		<Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_IDENTITY_FROM_DOMESTIC_TRADE_ROUTES"/>
+		<Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_CULTURE_FROM_INTERNATIONAL_TRADE_ROUTES"/>
+		<Row TraitType="TRAIT_RADIO_ORANJE" ModifierId="TRAIT_CULTURE_FROM_INCOMING_TRADE_ROUTES"/>
+		<Row TraitType="TRAIT_LEADER_LAUTARO_ABILITY" ModifierId="TRAIT_DIMINISH_LOYALTY_IN_ENEMY_CITY"/>
+		<Row TraitType="TRAIT_LEADER_LAUTARO_ABILITY" ModifierId="TRAIT_PILLAGE_DIMINISH_LOYALTY_IN_ENEMY_CITY"/>
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="TRAIT_COMBAT_BONUS_FOR_CAVALRY"/>
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="TRAIT_CAVALRY_CAPTURE_CAVALRY"/>
+	</TraitModifiers>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_CHANDRAGUPTA" ReligionType="RELIGION_HINDUISM"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE" ReligionType="RELIGION_CATHOLICISM"/>
+		<Row LeaderType="LEADER_SEONDEOK" ReligionType="RELIGION_BUDDHISM"/>
+		<Row LeaderType="LEADER_TAMAR" ReligionType="RELIGION_ORTHODOXY"/>
+		<Row LeaderType="LEADER_WILHELMINA" ReligionType="RELIGION_PROTESTANTISM"/>
+	</FavoredReligions>
+</GameInfo>

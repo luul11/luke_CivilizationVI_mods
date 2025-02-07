@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_GOVERNMENT"/>
+	</Kinds>
+	<Types>
+		<Row Type="GOVERNMENT_CHIEFDOM" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_AUTOCRACY" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_OLIGARCHY" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_CLASSICAL_REPUBLIC" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_MONARCHY" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_THEOCRACY" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_MERCHANT_REPUBLIC" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_FASCISM" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_COMMUNISM" Kind="KIND_GOVERNMENT"/>
+		<Row Type="GOVERNMENT_DEMOCRACY" Kind="KIND_GOVERNMENT"/>
+		<!-- Government Policies -->
+		<Row Type="POLICY_GOV_AUTOCRACY" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_OLIGARCHY" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_CLASSICAL_REPUBLIC" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_MONARCHY" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_THEOCRACY" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_MERCHANT_REPUBLIC" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_FASCISM" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_COMMUNISM" Kind="KIND_POLICY"/>
+		<Row Type="POLICY_GOV_DEMOCRACY" Kind="KIND_POLICY"/>
+	</Types>
+	<GovernmentTiers>
+		<Row TierType="Tier1" Sorting="1"/>
+		<Row TierType="Tier2" Sorting="2"/>
+		<Row TierType="Tier3" Sorting="3"/>
+	</GovernmentTiers>
+	<Governments>
+		<Row GovernmentType="GOVERNMENT_CHIEFDOM" Name="LOC_GOVERNMENT_CHIEFDOM_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CHIEFDOM" BonusType="NO_GOVERNMENTBONUS" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CHIEFDOM" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_CHIEFDOM" OtherGovernmentIntolerance="0" InfluencePointsPerTurn="1" InfluencePointsThreshold="100" InfluenceTokensPerThreshold="1"/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" Name="LOC_GOVERNMENT_AUTOCRACY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1" BonusType="GOVERNMENTBONUS_WONDER_CONSTRUCTION" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_AUTOCRACY_XP1" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" OtherGovernmentIntolerance="-2" InfluencePointsPerTurn="3" InfluencePointsThreshold="100" InfluenceTokensPerThreshold="1" PolicyToUnlock="POLICY_GOV_AUTOCRACY" Tier="Tier1"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" Name="LOC_GOVERNMENT_OLIGARCHY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1" BonusType="GOVERNMENTBONUS_COMBAT_EXPERIENCE" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_OLIGARCHY_XP1" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" OtherGovernmentIntolerance="-2" InfluencePointsPerTurn="3" InfluencePointsThreshold="100" InfluenceTokensPerThreshold="1" PolicyToUnlock="POLICY_GOV_OLIGARCHY" Tier="Tier1"/>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" Name="LOC_GOVERNMENT_CLASSICAL_REPUBLIC_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1" BonusType="GOVERNMENTBONUS_GREAT_PEOPLE" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_CLASSREP_XP1" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" OtherGovernmentIntolerance="-1" InfluencePointsPerTurn="3" InfluencePointsThreshold="100" InfluenceTokensPerThreshold="1" PolicyToUnlock="POLICY_GOV_CLASSICAL_REPUBLIC" Tier="Tier1"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" Name="LOC_GOVERNMENT_MONARCHY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1" BonusType="GOVERNMENTBONUS_ENVOYS" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MONARCHY_XP1" PrereqCivic="CIVIC_DIVINE_RIGHT" OtherGovernmentIntolerance="-3" InfluencePointsPerTurn="5" InfluencePointsThreshold="150" InfluenceTokensPerThreshold="2" PolicyToUnlock="POLICY_GOV_MONARCHY" Tier="Tier2"/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" Name="LOC_GOVERNMENT_THEOCRACY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" BonusType="GOVERNMENTBONUS_FAITH_PURCHASES" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_THEOCRACY_XP1" PrereqCivic="CIVIC_REFORMED_CHURCH" OtherGovernmentIntolerance="-4" InfluencePointsPerTurn="5" InfluencePointsThreshold="150" InfluenceTokensPerThreshold="2" PolicyToUnlock="POLICY_GOV_THEOCRACY" Tier="Tier2"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" Name="LOC_GOVERNMENT_MERCHANT_REPUBLIC_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1" BonusType="GOVERNMENTBONUS_GOLD_PURCHASES" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_MERCHREP_XP1" PrereqCivic="CIVIC_EXPLORATION" OtherGovernmentIntolerance="-2" InfluencePointsPerTurn="5" InfluencePointsThreshold="150" InfluenceTokensPerThreshold="2" PolicyToUnlock="POLICY_GOV_MERCHANT_REPUBLIC" Tier="Tier2"/>
+		<Row GovernmentType="GOVERNMENT_FASCISM" Name="LOC_GOVERNMENT_FASCISM_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1" BonusType="GOVERNMENTBONUS_UNIT_PRODUCTION" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_FASCISM_XP1" PrereqCivic="CIVIC_TOTALITARIANISM" OtherGovernmentIntolerance="-5" InfluencePointsPerTurn="7" InfluencePointsThreshold="200" InfluenceTokensPerThreshold="3" PolicyToUnlock="POLICY_GOV_FASCISM" Tier="Tier3"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" Name="LOC_GOVERNMENT_COMMUNISM_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" BonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_COMMUNISM_XP2" PrereqCivic="CIVIC_CLASS_STRUGGLE" OtherGovernmentIntolerance="-6" InfluencePointsPerTurn="7" InfluencePointsThreshold="200" InfluenceTokensPerThreshold="3" PolicyToUnlock="POLICY_GOV_COMMUNISM" Tier="Tier3"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" Name="LOC_GOVERNMENT_DEMOCRACY_NAME" InherentBonusDesc="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" BonusType="GOVERNMENTBONUS_DISTRICT_PROJECTS" AccumulatedBonusShortDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1" AccumulatedBonusDesc="LOC_GOVT_ACCUMULATED_BONUS_BRIEF_DEMOCRACY_XP1" PrereqCivic="CIVIC_SUFFRAGE" OtherGovernmentIntolerance="-3" InfluencePointsPerTurn="7" InfluencePointsThreshold="200" InfluenceTokensPerThreshold="3" PolicyToUnlock="POLICY_GOV_DEMOCRACY" Tier="Tier3"/>
+	</Governments>
+	<Policies>
+		<Row PolicyType="POLICY_GOV_AUTOCRACY" Name="LOC_POLICY_AUTOCRACY_NAME" Description="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_OLIGARCHY" Name="LOC_POLICY_OLIGARCHY_NAME" Description="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC" Name="LOC_POLICY_CLASSICAL_REPUBLIC_NAME" Description="LOC_GOVT_INHERENT_BONUS_CLASSREP_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_MONARCHY" Name="LOC_POLICY_MONARCHY_NAME" Description="LOC_GOVT_INHERENT_BONUS_MONARCHY_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_THEOCRACY" Name="LOC_POLICY_THEOCRACY_NAME" Description="LOC_GOVT_INHERENT_BONUS_THEOCRACY_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC" Name="LOC_POLICY_MERCHANT_REPUBLIC_NAME" Description="LOC_GOVT_INHERENT_BONUS_MERCHREP_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_FASCISM" Name="LOC_POLICY_FASCISM_NAME" Description="LOC_GOVT_INHERENT_BONUS_FASCISM_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_COMMUNISM" Name="LOC_POLICY_COMMUNISM_NAME" Description="LOC_GOVT_INHERENT_BONUS_COMMUNISM_XP1" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY" Name="LOC_POLICY_DEMOCRACY_NAME" Description="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_XP2" GovernmentSlotType="SLOT_WILDCARD" RequiresGovernmentUnlock="True"/>
+	</Policies>
+	<StartingGovernments>
+		<Row Era="ERA_ANCIENT" Government="GOVERNMENT_CHIEFDOM"/>
+		<Row Era="ERA_CLASSICAL" Government="GOVERNMENT_CHIEFDOM"/>
+		<Row Era="ERA_MEDIEVAL" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_RENAISSANCE" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_INDUSTRIAL" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_MODERN" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_ATOMIC" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+		<Row Era="ERA_INFORMATION" Government="GOVERNMENT_CHIEFDOM" Change="true"/>
+	</StartingGovernments>
+	<Government_SlotCounts>
+		<Row GovernmentType="GOVERNMENT_CHIEFDOM" GovernmentSlotType="SLOT_MILITARY" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_CHIEFDOM" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" GovernmentSlotType="SLOT_MILITARY" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" GovernmentSlotType="SLOT_MILITARY" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC" GovernmentSlotType="SLOT_WILDCARD" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_MILITARY" NumSlots="3"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_MONARCHY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" GovernmentSlotType="SLOT_MILITARY" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" GovernmentSlotType="SLOT_MILITARY" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" GovernmentSlotType="SLOT_WILDCARD" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_MILITARY" NumSlots="3"/>
+		<Row GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_FASCISM" GovernmentSlotType="SLOT_WILDCARD" NumSlots="3"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_MILITARY" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="3"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM" GovernmentSlotType="SLOT_WILDCARD" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" GovernmentSlotType="SLOT_MILITARY" NumSlots="1"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" GovernmentSlotType="SLOT_ECONOMIC" NumSlots="3"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" GovernmentSlotType="SLOT_DIPLOMATIC" NumSlots="2"/>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY" GovernmentSlotType="SLOT_WILDCARD" NumSlots="2"/>
+	</Government_SlotCounts>
+	<!-- Keep the values in this table coordinated with GovernmentBonusType enums in code -->
+	<GovernmentBonusNames>
+		<Row GovernmentBonusType="NO_GOVERNMENTBONUS"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_WONDER_CONSTRUCTION"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_COMBAT_EXPERIENCE"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_GREAT_PEOPLE"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_ENVOYS"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_FAITH_PURCHASES"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_GOLD_PURCHASES"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_UNIT_PRODUCTION"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_OVERALL_PRODUCTION"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_DISTRICT_PROJECTS"/>
+		<Row GovernmentBonusType="GOVERNMENTBONUS_DISTRICT_PRODUCTION"/>
+	</GovernmentBonusNames>
+	<Modifiers>
+		<Row>
+			<ModifierId>AUTOCRACY_CAPITAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_PALACE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_TIER1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_TIER1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_TIER2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_TIER2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_TIER3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_ALL_YIELDS_CHANGE</ModifierType>
+			<SubjectRequirementSetId>BUILDING_IS_TIER3</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_MELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_LEGACY_MELEE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_1_SPECIALTY_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_1_SPECIALTY_DISTRICT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_RELIGIOUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_LEGACY_RELIGIOUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_RELIGIOUS_PEOPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_REPUBLIC_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_LEGACY_ATTACK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_WAR_WEARINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNISM_PRODUCTIVE_PEOPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_WONDERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_UNIT_EXPERIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_GREAT_PEOPLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MONARCHY_ENVOYS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_FAITH_PURCHASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_REPUBLIC_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DEMOCRACY_GOLD_PURCHASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Flat Bonuses-->
+		<Row>
+			<ModifierId>AUTOCRACY_WONDERS</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_WONDER_CONSTRUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_WONDERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_UNIT_EXPERIENCE</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_COMBAT_EXPERIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_UNIT_EXPERIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_GREAT_PEOPLE</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GREAT_PEOPLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_GREAT_PEOPLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONARCHY_ENVOYS</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_ENVOYS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MONARCHY_ENVOYS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_FAITH_PURCHASE</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_FAITH_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_FAITH_PURCHASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_REPUBLIC_DISTRICTS</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_DISTRICT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_REPUBLIC_DISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_UNIT_PRODUCTION</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_UNIT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEMOCRACY_GOLD_PURCHASE</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GOLD_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>DEMOCRACY_GOLD_PURCHASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!--Adjust City Yield-->
+		<Row>
+			<ModifierId>AUTOCRACY_CAPITAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_TIER1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_TIER2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AUTOCRACY_TIER3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_RELIGIOUS_PEOPLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>.5</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_RELIGIOUS_PEOPLE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNISM_PRODUCTIVE_PEOPLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>.6</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMMUNISM_PRODUCTIVE_PEOPLE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<!--Add City Amenity or Housing-->
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>CLASSICAL_REPUBLIC_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Grant Unit Ability-->
+		<Row>
+			<ModifierId>OLIGARCHY_MELEE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_OLIGARCHY_MELEE_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>OLIGARCHY_LEGACY_MELEE</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_OLIGARCHY_LEGACY_MELEE_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_RELIGIOUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_THEOCRACY_RELIGIOUS_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>THEOCRACY_LEGACY_RELIGIOUS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_THEOCRACY_LEGACY_RELIGIOUS_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_ATTACK</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FASCISM_ATTACK_BUFF</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_LEGACY_ATTACK</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FASCISM_LEGACY_ATTACK_BUFF</Value>
+		</Row>
+		<!--Other Modifiers-->
+		<Row>
+			<ModifierId>MERCHANT_REPUBLIC_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MERCHANT_REPUBLIC_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_WAR_WEARINESS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>FASCISM_WAR_WEARINESS</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+	</ModifierArguments>
+	<GovernmentModifiers>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+			<ModifierId>AUTOCRACY_CAPITAL</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+			<ModifierId>AUTOCRACY_TIER1</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+			<ModifierId>AUTOCRACY_TIER2</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+			<ModifierId>AUTOCRACY_TIER3</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY">
+			<ModifierId>OLIGARCHY_MELEE</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC">
+			<ModifierId>CLASSICAL_REPUBLIC_AMENITY</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC">
+			<ModifierId>CLASSICAL_REPUBLIC_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_WALLS_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_CASTLE_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_STARFORT_HOUSING</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY">
+			<ModifierId>THEOCRACY_RELIGIOUS</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY">
+			<ModifierId>THEOCRACY_RELIGIOUS_PEOPLE</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC">
+			<ModifierId>MERCHANT_REPUBLIC_GOLD_MODIFIER</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_FASCISM">
+			<ModifierId>FASCISM_ATTACK</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_FASCISM">
+			<ModifierId>FASCISM_WAR_WEARINESS</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_COMMUNISM">
+			<ModifierId>COMMUNISM_PRODUCTIVE_PEOPLE</ModifierId>
+		</Row>
+		<!-- Percentage Bonuses -->
+		<Row GovernmentType="GOVERNMENT_AUTOCRACY">
+			<ModifierId>AUTOCRACY_WONDERS</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_OLIGARCHY">
+			<ModifierId>OLIGARCHY_UNIT_EXPERIENCE</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC">
+			<ModifierId>CLASSICAL_REPUBLIC_GREAT_PEOPLE</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MONARCHY">
+			<ModifierId>MONARCHY_ENVOYS</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_THEOCRACY">
+			<ModifierId>THEOCRACY_FAITH_PURCHASE</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC">
+			<ModifierId>MERCHANT_REPUBLIC_DISTRICTS</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_FASCISM">
+			<ModifierId>FASCISM_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row GovernmentType="GOVERNMENT_DEMOCRACY">
+			<ModifierId>DEMOCRACY_GOLD_PURCHASE</ModifierId>
+		</Row>
+	</GovernmentModifiers>
+	<PolicyModifiers>
+		<Row PolicyType="POLICY_GOV_AUTOCRACY">
+			<ModifierId>AUTOCRACY_CAPITAL</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_AUTOCRACY">
+			<ModifierId>AUTOCRACY_TIER1</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_AUTOCRACY">
+			<ModifierId>AUTOCRACY_TIER2</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_AUTOCRACY">
+			<ModifierId>AUTOCRACY_TIER3</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_OLIGARCHY">
+			<ModifierId>OLIGARCHY_LEGACY_MELEE</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC">
+			<ModifierId>CLASSICAL_REPUBLIC_AMENITY</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC">
+			<ModifierId>CLASSICAL_REPUBLIC_HOUSING</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_MONARCHY">
+			<ModifierId>MONARCHY_WALLS_HOUSING</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_MONARCHY">
+			<ModifierId>MONARCHY_CASTLE_HOUSING</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_MONARCHY">
+			<ModifierId>MONARCHY_STARFORT_HOUSING</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_THEOCRACY">
+			<ModifierId>THEOCRACY_LEGACY_RELIGIOUS</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_THEOCRACY">
+			<ModifierId>THEOCRACY_RELIGIOUS_PEOPLE</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_MERCHANT_REPUBLIC">
+			<ModifierId>MERCHANT_REPUBLIC_GOLD_MODIFIER</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_FASCISM">
+			<ModifierId>FASCISM_LEGACY_ATTACK</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_FASCISM">
+			<ModifierId>FASCISM_WAR_WEARINESS</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_COMMUNISM">
+			<ModifierId>COMMUNISM_PRODUCTIVE_PEOPLE</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY">
+			<ModifierId>DEMOCRACY_TRADEROUTEFOODTOALLY</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY">
+			<ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONTOALLY</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY">
+			<ModifierId>DEMOCRACY_TRADEROUTEFOODFROMALLY</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY">
+			<ModifierId>DEMOCRACY_TRADEROUTEPRODUCTIONFROMALLY</ModifierId>
+		</Row>
+		<Row PolicyType="POLICY_GOV_DEMOCRACY">
+			<ModifierId>DEMOCRACY_ALLIANCEPOINTS</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CAPITAL_OR_GOV_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_1_SPECIALTY_DISTRICT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_PALACE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER3</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_DISTRICT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_1_SPECIALTY_DISTRICT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_X_SPECIALTY_DISTRICTS</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_TALL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_WIDE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CONQUEST</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CITYSTATES</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_SPIES</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_FAITH</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_MILITARY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CULTURE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_SCIENCE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_TALL</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_TALL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_WIDE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_WIDE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CONQUEST</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CONQUEST</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CITYSTATES</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CITYSTATES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_SPIES</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SPIES</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_FAITH</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_FAITH</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_MILITARY</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_MILITARY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CULTURE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CULTURE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_SCIENCE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SCIENCE</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_DISTRICT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_1_SPECIALTY_DISTRICT</RequirementId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</RequirementArguments>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>BUILDING_IS_PALACE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER1</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_TALL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER1</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_WIDE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER1</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CONQUEST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CITYSTATES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_SPIES</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER2</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_FAITH</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER3</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_MILITARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER3</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_CULTURE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BUILDING_IS_TIER3</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_SCIENCE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CAPITAL_OR_GOV_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_PALACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CAPITAL_OR_GOV_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_GOV_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_1_SPECIALTY_DISTRICT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_1_SPECIALTY_DISTRICT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

@@ -1,0 +1,264 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="TECH_BUTTRESS" Kind="KIND_TECH"/>
+		<Row Type="TECH_REFINING" Kind="KIND_TECH"/>
+		<Row Type="TECH_SEASTEADS" Kind="KIND_TECH"/>
+		<Row Type="TECH_ADVANCED_AI" Kind="KIND_TECH"/>
+		<Row Type="TECH_ADVANCED_POWER_CELLS" Kind="KIND_TECH"/>
+		<Row Type="TECH_CYBERNETICS" Kind="KIND_TECH"/>
+		<Row Type="TECH_SMART_MATERIALS" Kind="KIND_TECH"/>
+		<Row Type="TECH_PREDICTIVE_SYSTEMS" Kind="KIND_TECH"/>
+		<Row Type="TECH_OFFWORLD_MISSION" Kind="KIND_TECH"/>
+		<Row Type="TECH_FUTURE_TECH" Kind="KIND_TECH"/>
+	</Types>
+	<Technologies>
+		<Update>
+			<Where TechnologyType="TECH_RIFLING"/>
+			<Set>
+				<UITreeRow>2</UITreeRow>
+			</Set>
+		</Update>
+		<Row TechnologyType="TECH_BUTTRESS" Name="LOC_TECH_BUTTRESS_NAME" Cost="300" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MEDIEVAL" UITreeRow="-3"/>
+		<Row TechnologyType="TECH_REFINING" Name="LOC_TECH_REFINING_NAME" Cost="1140" AdvisorType="ADVISOR_GENERIC" EraType="ERA_MODERN" UITreeRow="3"/>
+		<Row TechnologyType="TECH_SEASTEADS" Name="LOC_TECH_SEASTEADS_NAME" Description="LOC_TECH_SEASTEADS_DESCRIPTION" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="-3" Critical="1"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Name="LOC_TECH_ADVANCED_AI_NAME" Description="LOC_TECH_ADVANCED_AI_DESCRIPTION" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="-2" Critical="1"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Name="LOC_TECH_ADVANCED_POWER_CELLS_NAME" Description="LOC_TECH_ADVANCED_POWER_CELLS_DESCRIPTION" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="-1" Critical="1"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Name="LOC_TECH_CYBERNETICS_NAME" Description="LOC_TECH_CYBERNETICS_DESCRIPTION" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="0" Critical="1"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Name="LOC_TECH_SMART_MATERIALS_NAME" Description="LOC_TECH_SMART_MATERIALS_DESCRIPTION" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="1" Critical="1"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Name="LOC_TECH_PREDICTIVE_SYSTEMS_NAME" Cost="2200" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="2" Critical="1"/>
+		<Row TechnologyType="TECH_OFFWORLD_MISSION" Name="LOC_TECH_OFFWORLD_MISSION_NAME" Cost="2500" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="0" Critical="1"/>
+		<Row TechnologyType="TECH_FUTURE_TECH" Name="LOC_TECH_FUTURE_TECH_NAME" Description="LOC_TECH_FUTURE_TECH_XP2_DESCRIPTION" Cost="2600" AdvisorType="ADVISOR_GENERIC" EraType="ERA_FUTURE" UITreeRow="0" Repeatable="true"/>
+	</Technologies>
+	<Technologies_XP2>
+		<!--Marker for the xp2 route, makes an easier accessor without messing around with the base game-->
+		<Row TechnologyType="TECH_STEAM_POWER" HiddenUntilPrereqComplete="false" RandomPrereqs="false"/>
+		<!--New Techs-->
+		<Row TechnologyType="TECH_SEASTEADS" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_CYBERNETICS" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_OFFWORLD_MISSION" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+		<Row TechnologyType="TECH_FUTURE_TECH" HiddenUntilPrereqComplete="false" RandomPrereqs="true"/>
+	</Technologies_XP2>
+	<TechnologyRandomCosts>
+		<!--New Techs-->
+		<Row TechnologyType="TECH_SEASTEADS" Cost="2200"/>
+		<Row TechnologyType="TECH_SEASTEADS" Cost="2300"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Cost="2200"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Cost="2300"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="2200"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Cost="2300"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Cost="2200"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Cost="2300"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Cost="2200"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Cost="2300"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="2200"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Cost="2300"/>
+	</TechnologyRandomCosts>
+	<TechnologyPrereqs>
+		<Delete Technology="TECH_COMBUSTION" PrereqTech="TECH_RIFLING"/>
+		<Row Technology="TECH_BUTTRESS" PrereqTech="TECH_SHIPBUILDING"/>
+		<Row Technology="TECH_BUTTRESS" PrereqTech="TECH_MATHEMATICS"/>
+		<Row Technology="TECH_REFINING" PrereqTech="TECH_RIFLING"/>
+		<Row Technology="TECH_COMBUSTION" PrereqTech="TECH_REFINING"/>
+		<Row Technology="TECH_CARTOGRAPHY" PrereqTech="TECH_BUTTRESS"/>
+		<Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_BUTTRESS"/>
+		<Row Technology="TECH_MASS_PRODUCTION" PrereqTech="TECH_MILITARY_TACTICS"/>
+		<Row Technology="TECH_ROBOTICS" PrereqTech="TECH_SATELLITES"/>
+		<Row Technology="TECH_ROBOTICS" PrereqTech="TECH_GUIDANCE_SYSTEMS"/>
+		<Row Technology="TECH_ROBOTICS" PrereqTech="TECH_LASERS"/>
+	</TechnologyPrereqs>
+	<TechnologyQuotes>
+		<Row TechnologyType="TECH_BUTTRESS" Quote="LOC_TECH_BUTTRESS_QUOTE_1" QuoteAudio="Play_LOC_TECH_BUTTRESS_QUOTE_1"/>
+		<Row TechnologyType="TECH_BUTTRESS" Quote="LOC_TECH_BUTTRESS_QUOTE_2" QuoteAudio="Play_LOC_TECH_BUTTRESS_QUOTE_2"/>
+		<Row TechnologyType="TECH_REFINING" Quote="LOC_TECH_REFINING_QUOTE_1" QuoteAudio="Play_LOC_TECH_REFINING_QUOTE_1"/>
+		<Row TechnologyType="TECH_SEASTEADS" Quote="LOC_TECH_SEASTEADS_QUOTE_1" QuoteAudio="Play_LOC_TECH_SEASTEADS_QUOTE_1"/>
+		<Row TechnologyType="TECH_SEASTEADS" Quote="LOC_TECH_SEASTEADS_QUOTE_2" QuoteAudio="Play_LOC_TECH_SEASTEADS_QUOTE_2"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Quote="LOC_TECH_ADVANCED_AI_QUOTE_1" QuoteAudio="Play_LOC_TECH_ADVANCED_AI_QUOTE_1"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Quote="LOC_TECH_ADVANCED_POWER_CELLS_QUOTE_1" QuoteAudio="Play_LOC_TECH_ADVANCED_POWER_CELLS_QUOTE_1"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Quote="LOC_TECH_CYBERNETICS_QUOTE_1" QuoteAudio="Play_LOC_TECH_CYBERNETICS_QUOTE_1"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Quote="LOC_TECH_SMART_MATERIALS_QUOTE_1" QuoteAudio="Play_LOC_TECH_SMART_MATERIALS_QUOTE_1"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Quote="LOC_TECH_PREDICTIVE_SYSTEMS_QUOTE_1" QuoteAudio="Play_LOC_TECH_PREDICTIVE_SYSTEMS_QUOTE_1"/>
+		<Row TechnologyType="TECH_OFFWORLD_MISSION" Quote="LOC_TECH_OFFWORLD_MISSION_QUOTE_1" QuoteAudio="Play_LOC_TECH_OFFWORLD_MISSION_QUOTE_1"/>
+		<Row TechnologyType="TECH_OFFWORLD_MISSION" Quote="LOC_TECH_OFFWORLD_MISSION_QUOTE_2" QuoteAudio="Play_LOC_TECH_OFFWORLD_MISSION_QUOTE_2"/>
+		<Row TechnologyType="TECH_FUTURE_TECH" Quote="LOC_TECH_FUTURE_TECH_QUOTE_1" QuoteAudio="Play_Future_Tech_Quote_1"/>
+		<Row TechnologyType="TECH_FUTURE_TECH" Quote="LOC_TECH_FUTURE_TECH_QUOTE_2" QuoteAudio="Play_Future_Tech_Quote_2"/>
+	</TechnologyQuotes>
+	<Boosts>
+		<Row TechnologyType="TECH_BUTTRESS" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_BUTTRESS" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_BUTTRESS" BoostClass="BOOST_TRIGGER_HAVE_WONDER_PAST_X_ERA" NumItems="2"/>
+		<Row TechnologyType="TECH_REFINING" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_REFINING" TriggerLongDescription="LOC_BOOST_TRIGGER_LONGDESC_REFINING" BoostClass="BOOST_TRIGGER_HAVE_X_BUILDINGS" BuildingType="BUILDING_COAL_POWER_PLANT" NumItems="2"/>
+		<Row TechnologyType="TECH_SEASTEADS" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_ADVANCED_AI" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_ADVANCED_POWER_CELLS" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_CYBERNETICS" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_SMART_MATERIALS" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_PREDICTIVE_SYSTEMS" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Row TechnologyType="TECH_OFFWORLD_MISSION" Boost="40" TriggerDescription="LOC_BOOST_TRIGGER_MUST_STEAL_NO_GREAT_SCIENTIST" TriggerLongDescription="Critical late game tech - boost description not needed" BoostClass="BOOST_TRIGGER_NONE_LATE_GAME_CRITICAL_TECH"/>
+		<Update>
+			<Where TechnologyType="TECH_CASTLES"/>
+			<Set>
+				<BoostClass>BOOST_TRIGGER_HAVE_GOVERNMENT_TIER</BoostClass>
+				<GovernmentTierType>Tier2</GovernmentTierType>
+			</Set>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_COMPUTERS"/>
+			<Set>
+				<BoostClass>BOOST_TRIGGER_HAVE_GOVERNMENT_TIER</BoostClass>
+				<GovernmentTierType>Tier3</GovernmentTierType>
+			</Set>
+		</Update>
+		<Update>
+			<Where TechnologyType="TECH_ADVANCED_BALLISTICS"/>
+			<Set>
+				<BuildingType>BUILDING_FOSSIL_FUEL_POWER_PLANT</BuildingType>
+			</Set>
+		</Update>
+	</Boosts>
+	<TechnologyModifiers>
+		<Row>
+			<TechnologyType>TECH_ADVANCED_AI</TechnologyType>
+			<ModifierId>GDR_AA_DEFENSE_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_ADVANCED_POWER_CELLS</TechnologyType>
+			<ModifierId>GDR_SIEGE_LASER_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_CYBERNETICS</TechnologyType>
+			<ModifierId>GDR_BONUS_MOVEMENT_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_SMART_MATERIALS</TechnologyType>
+			<ModifierId>GDR_ARMOR_UPGRADE</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_SEASTEADS</TechnologyType>
+			<ModifierId>TECH_SEASTEADS_DIPLOVP</ModifierId>
+		</Row>
+		<Row>
+			<TechnologyType>TECH_FUTURE_TECH</TechnologyType>
+			<ModifierId>FUTURE_TECH_PROJECT_PRODUCTION</ModifierId>
+		</Row>
+	</TechnologyModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GDR_AA_DEFENSE_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_AA_DEFENSE_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GDR_SIEGE_LASER_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_SIEGE_LASER_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GDR_BONUS_MOVEMENT_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GDR_ARMOR_UPGRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_ARMOR_UPGRADE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SEASTEADS_DIPLOVP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_DIPLOMATIC_VICTORY_POINTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_TECH_PROJECT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_PROJECTS_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="COMPUTERS_BOOST_ALL_TOURISM" Name="Amount"/>
+			<Set>
+				<Value>25</Value>
+			</Set>
+		</Update>
+		<Row>
+			<ModifierId>GDR_AA_DEFENSE_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_GDR_AA_DEFENSE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GDR_SIEGE_LASER_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_GDR_SIEGE_LASER</Value>
+		</Row>
+		<Row>
+			<ModifierId>GDR_BONUS_MOVEMENT_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_GDR_BONUS_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GDR_ARMOR_UPGRADE</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_GDR_ARMOR_UPGRADE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TECH_SEASTEADS_DIPLOVP</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>FUTURE_TECH_PROJECT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>GDR_AA_DEFENSE_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_SIEGE_LASER_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_ARMOR_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>GDR_AA_DEFENSE_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_DEATH_ROBOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_SIEGE_LASER_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_DEATH_ROBOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_DEATH_ROBOT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_ARMOR_UPGRADE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_DEATH_ROBOT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_GIANT_DEATH_ROBOT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_GIANT_DEATH_ROBOT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_GIANT_DEATH_ROBOT</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

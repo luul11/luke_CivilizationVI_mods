@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="IMPROVEMENT_CHEMAMULL" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_GOLF_COURSE" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_POLDER" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MEKEWAP" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" Name="LOC_IMPROVEMENT_CHEMAMULL_NAME" Description="LOC_IMPROVEMENT_CHEMAMULL_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHEMAMULL" PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true" PrereqCivic="CIVIC_CRAFTSMANSHIP" MinimumAppeal="3" YieldFromAppeal="YIELD_CULTURE" YieldFromAppealPercent="100" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_CHEMAMULL"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" Name="LOC_IMPROVEMENT_GOLF_COURSE_NAME" Description="LOC_IMPROVEMENT_GOLF_COURSE_DESCRIPTION" Icon="ICON_IMPROVEMENT_GOLF_COURSE" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqCivic="CIVIC_REFORMED_CHURCH" OnePerCity="true" Appeal="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_GOLF_COURSE"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" Name="LOC_IMPROVEMENT_MEKEWAP_NAME" Description="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION" Icon="ICON_IMPROVEMENT_MEKEWAP" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" RequiresAdjacentBonusOrLuxury="true" PrereqTech="TECH_POTTERY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MEKEWAP" Housing="2" TilesRequired="2" SameAdjacentValid="false"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" Name="LOC_IMPROVEMENT_POLDER_NAME" Description="LOC_IMPROVEMENT_POLDER_DESCRIPTION" Icon="ICON_IMPROVEMENT_POLDER" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqCivic="CIVIC_GUILDS" ValidAdjacentTerrainAmount="1" Housing="1" TilesRequired="2" Domain="DOMAIN_SEA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_POLDER" MovementChange="2"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldChangeId="GolfCourse_CityCenterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldChangeId="GolfCourse_EntertainmentComplexAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" YieldChangeId="Mekewap_FirstBonusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" YieldChangeId="Mekewap_SecondBonusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" YieldChangeId="Mekewap_ThirdBonusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" YieldChangeId="Polder_Polder_Food_Early"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" YieldChangeId="Polder_Polder_Food_Late"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" YieldChangeId="Polder_Polder_Production"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidAdjacentTerrains>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidAdjacentTerrains>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_DESERT"/> 
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" TerrainType="TERRAIN_COAST"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_MEKEWAP" YieldType="YIELD_GOLD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="24" ImprovementType="IMPROVEMENT_MEKEWAP" YieldType="YIELD_PRODUCTION" BonusYieldChange="1" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
+		<Row Id="25" ImprovementType="IMPROVEMENT_POLDER" YieldType="YIELD_GOLD" BonusYieldChange="3" PrereqCivic="CIVIC_CIVIL_ENGINEERING"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_CHEMAMULL" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_GOLF_COURSE" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="GolfCourse_CityCenterAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="GolfCourse_EntertainmentComplexAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row ID="Mekewap_FirstBonusAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_BONUS" ObsoleteCivic="CIVIC_CONSERVATION"/>
+		<Row ID="Mekewap_SecondBonusAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_BONUS" PrereqCivic="CIVIC_CONSERVATION"/>
+		<Row ID="Mekewap_ThirdBonusAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY" PrereqTech="TECH_CARTOGRAPHY"/>
+		<Row ID="Polder_Polder_Food_Early" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_POLDER" ObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="Polder_Polder_Food_Late" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_POLDER" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="Polder_Polder_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_POLDER" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+	</Adjacency_YieldChanges>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOLF_COURSE</ImprovementType>
+			<ModifierId>GOLFCOURSE_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOLF_COURSE</ImprovementType>
+			<ModifierId>GOLFCOURSE_HOUSING_WITHGLOBLIZATION</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MEKEWAP</ImprovementType>
+			<ModifierId>MEKEWAP_HOUSING_WITHCIVILSERVICE</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MEKEWAP</ImprovementType>
+			<ModifierId>MEKEWAP_LUXURY_GOLD</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOLFCOURSE_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GOLFCOURSE_HOUSING_WITHGLOBLIZATION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GLOBALIZATION_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MEKEWAP_HOUSING_WITHCIVILSERVICE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_HOUSING</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_SERVICE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MEKEWAP_LUXURY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>MEKEWAY_LUXURY_GOLDS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GOLFCOURSE_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GOLFCOURSE_HOUSING_WITHGLOBLIZATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEKEWAP_HOUSING_WITHCIVILSERVICE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEKEWAP_LUXURY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MEKEWAP_LUXURY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>MEKEWAY_LUXURY_GOLDS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>MEKEWAY_LUXURY_GOLDS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_LUXURY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

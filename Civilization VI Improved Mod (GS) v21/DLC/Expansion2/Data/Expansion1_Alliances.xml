@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Kinds>
+    <Row Kind="KIND_DIPLOMACY_ALLIANCE"/>
+  </Kinds>
+  <Types>
+    <Row Type="DIPLOACTION_ALLIANCE_RESEARCH" Kind="KIND_DIPLOMATIC_ACTION"/>
+    <Row Type="DIPLOACTION_ALLIANCE_MILITARY" Kind="KIND_DIPLOMATIC_ACTION"/>
+    <Row Type="DIPLOACTION_ALLIANCE_ECONOMIC" Kind="KIND_DIPLOMATIC_ACTION"/>
+    <Row Type="DIPLOACTION_ALLIANCE_CULTURAL" Kind="KIND_DIPLOMATIC_ACTION"/>
+    <Row Type="DIPLOACTION_ALLIANCE_RELIGIOUS" Kind="KIND_DIPLOMATIC_ACTION"/>
+    <Row Type="DIPLOACTION_RENEW_ALLIANCE" Kind="KIND_DIPLOMATIC_ACTION"/>
+			
+    <Row Type="ALLIANCE_RESEARCH" Kind="KIND_DIPLOMACY_ALLIANCE"/>
+    <Row Type="ALLIANCE_CULTURAL" Kind="KIND_DIPLOMACY_ALLIANCE"/>
+    <Row Type="ALLIANCE_ECONOMIC" Kind="KIND_DIPLOMACY_ALLIANCE"/>
+    <Row Type="ALLIANCE_MILITARY" Kind="KIND_DIPLOMACY_ALLIANCE"/>
+    <Row Type="ALLIANCE_RELIGIOUS" Kind="KIND_DIPLOMACY_ALLIANCE"/>
+
+    <Delete Type="DIPLOACTION_RESEARCH_AGREEMENT" />
+    <Delete Type="DIPLOACTION_DEFENSIVE_PACT"/>
+  </Types>
+  <Alliances>
+    <Row AllianceType="ALLIANCE_RESEARCH" Name="LOC_ALLIANCE_RESEARCH" Description="LOC_DIPLOMACY_ALLIANCE_SCIENCE_NAME_LEVEL" />
+    <Row AllianceType="ALLIANCE_CULTURAL" Name="LOC_ALLIANCE_CULTURAL" Description="LOC_DIPLOMACY_ALLIANCE_CULTURAL_NAME_LEVEL" />
+    <Row AllianceType="ALLIANCE_ECONOMIC" Name="LOC_ALLIANCE_ECONOMIC" Description="LOC_DIPLOMACY_ALLIANCE_ECONOMIC_NAME_LEVEL" />
+    <Row AllianceType="ALLIANCE_MILITARY" Name="LOC_ALLIANCE_MILITARY" Description="LOC_DIPLOMACY_ALLIANCE_MILITARY_NAME_LEVEL" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" Name="LOC_ALLIANCE_RELIGIOUS" Description="LOC_DIPLOMACY_ALLIANCE_RELIGIOUS_NAME_LEVEL" />
+  </Alliances>
+  <DiplomaticActions>
+    <!-- New Alliance actions-->
+    <Row DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH" Description="LOC_DIPLOMACY_ALLIANCES_TT" CivilopediaKey="DIPLO_3" InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE" TargetPrereqCivic="CIVIC_CIVIL_SERVICE" UIGroup="ALLIANCES" Cost="0"/>
+    <Row DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY" Description="LOC_DIPLOMACY_ALLIANCES_TT" CivilopediaKey="DIPLO_3" InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE" TargetPrereqCivic="CIVIC_CIVIL_SERVICE" UIGroup="ALLIANCES" Cost="0"/>
+    <Row DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC" Description="LOC_DIPLOMACY_ALLIANCES_TT" CivilopediaKey="DIPLO_3" InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE" TargetPrereqCivic="CIVIC_CIVIL_SERVICE" UIGroup="ALLIANCES" Cost="0"/>
+    <Row DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL" Description="LOC_DIPLOMACY_ALLIANCES_TT" CivilopediaKey="DIPLO_3" InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE" TargetPrereqCivic="CIVIC_CIVIL_SERVICE" UIGroup="ALLIANCES" Cost="0"/>
+    <Row DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS" Description="LOC_DIPLOMACY_ALLIANCES_TT" CivilopediaKey="DIPLO_3" InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE" TargetPrereqCivic="CIVIC_CIVIL_SERVICE" UIGroup="ALLIANCES" Cost="0"/>
+    <Row DiplomaticActionType="DIPLOACTION_RENEW_ALLIANCE" Description="LOC_DIPLOMACY_RENEW_ALLIANCE_TT" CivilopediaKey="DIPLO_3" InitiatorPrereqCivic="CIVIC_CIVIL_SERVICE" TargetPrereqCivic="CIVIC_CIVIL_SERVICE" Cost="0" RequiresAlliance="true"/>
+  </DiplomaticActions>
+	<DiplomaticActions_XP1>
+		<!-- New Alliance actions-->
+		<Row DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH" AllianceType="ALLIANCE_RESEARCH" />
+		<Row DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY" AllianceType="ALLIANCE_MILITARY" />
+		<Row DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC" AllianceType="ALLIANCE_ECONOMIC" />
+		<Row DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL" AllianceType="ALLIANCE_CULTURAL" />
+		<Row DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS" AllianceType="ALLIANCE_RELIGIOUS" />
+    <Row DiplomaticActionType="DIPLOACTION_RENEW_ALLIANCE" RequiresAllianceSoonToEnd="true"/>
+	</DiplomaticActions_XP1>
+  <DiplomaticStateActions>
+    <Row StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH" Worth="25" Cost="50" TransitionToState="DIPLO_STATE_ALLIED"/>
+    <Row StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC" Worth="25" Cost="50" TransitionToState="DIPLO_STATE_ALLIED"/>
+    <Row StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY" Worth="25" Cost="50" TransitionToState="DIPLO_STATE_ALLIED"/>
+    <Row StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS" Worth="25" Cost="50" TransitionToState="DIPLO_STATE_ALLIED"/>
+    <Row StateType="DIPLO_STATE_DECLARED_FRIEND" DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL" Worth="25" Cost="50" TransitionToState="DIPLO_STATE_ALLIED"/>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_RESEARCH" Worth="25" Cost="50" TeamOnly="true"/>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_ECONOMIC" Worth="25" Cost="50" TeamOnly="true"/>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_MILITARY" Worth="25" Cost="50" TeamOnly="true"/>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_RELIGIOUS" Worth="25" Cost="50" TeamOnly="true"/>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_ALLIANCE_CULTURAL" Worth="25" Cost="50" TeamOnly="true"/>
+    <Row StateType="DIPLO_STATE_ALLIED" DiplomaticActionType="DIPLOACTION_RENEW_ALLIANCE" Worth="25" Cost="50" TeamOnly="true"/>
+  </DiplomaticStateActions>
+  <DiplomaticStateTransitions>
+    <Row BaseState="DIPLO_STATE_DECLARED_FRIEND" TransitionState="DIPLO_STATE_ALLIED" AllowTransitionMin="15" RequireTransitionMax="35" AllowTransitionCheck="CanOfferAlliance" OnTransitionAction="OnOfferAlliance"/>
+  </DiplomaticStateTransitions>
+  <!-- AI can be set to favor or disfavor specific alliances by leader or civ trait-->
+  <AiListTypes>
+    <Row ListType="KoreaFavoredAlliances" />
+    <Row ListType="GorgoFavoredAlliances" />
+    <Row ListType="JayavarmanDisfavoredAlliances" />
+  </AiListTypes>
+  <AiLists>
+    <Row ListType="KoreaFavoredAlliances" LeaderType="TRAIT_CIVILIZATION_DISTRICT_SEOWON" System="Alliances" />
+    <Row ListType="GorgoFavoredAlliances" LeaderType="CULTURE_KILLS_TRAIT" System="Alliances" />
+    <Row ListType="JayavarmanDisfavoredAlliances" LeaderType="TRAIT_LEADER_MONASTERIES_KING" System="Alliances" />
+  </AiLists>
+  <AiFavoredItems>
+    <Row ListType="KoreaFavoredAlliances" Item="ALLIANCE_RESEARCH" Favored="true" />
+    <Row ListType="KoreaFavoredAlliances" Item="ALLIANCE_CULTURAL" Favored="true" />
+    <Row ListType="GorgoFavoredAlliances" Item="ALLIANCE_MILITARY" Favored="true" />
+    <Row ListType="JayavarmanDisfavoredAlliances" Item="ALLIANCE_MILITARY" Favored="false" />
+  </AiFavoredItems>
+    <!-- DiplomacyStatementTypes ***************************************************** -->
+  <DiplomacyStatementTypes>
+    <Row Type="CREATE_RESEARCH_ALLIANCE"/>
+    <Row Type="CREATE_ECONOMIC_ALLIANCE"/>
+    <Row Type="CREATE_MILITARY_ALLIANCE"/>
+    <Row Type="CREATE_RELIGIOUS_ALLIANCE"/>
+    <Row Type="CREATE_CULTURAL_ALLIANCE"/>
+  </DiplomacyStatementTypes>
+  <DiplomacySelections>
+    <Row>
+      <Type>GREETING</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>24</Sort>
+      <Key>CHOICE_ALLIANCE_RESEARCH</Key>
+      <Text>LOC_DIPLO_CHOICE_ALLIANCE_RESEARCH</Text>
+      <DiplomaticActionType>DIPLOACTION_ALLIANCE_RESEARCH</DiplomaticActionType>
+    </Row>
+    <Row>
+      <Type>GREETING</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>25</Sort>
+      <Key>CHOICE_ALLIANCE_MILITARY</Key>
+      <Text>LOC_DIPLO_CHOICE_ALLIANCE_MILITARY</Text>
+      <DiplomaticActionType>DIPLOACTION_ALLIANCE_MILITARY</DiplomaticActionType>
+    </Row>
+    <Row>
+      <Type>GREETING</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>26</Sort>
+      <Key>CHOICE_ALLIANCE_ECONOMIC</Key>
+      <Text>LOC_DIPLO_CHOICE_ALLIANCE_ECONOMIC</Text>
+      <DiplomaticActionType>DIPLOACTION_ALLIANCE_ECONOMIC</DiplomaticActionType>
+    </Row>
+    <Row>
+      <Type>GREETING</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>27</Sort>
+      <Key>CHOICE_ALLIANCE_CULTURAL</Key>
+      <Text>LOC_DIPLO_CHOICE_ALLIANCE_CULTURAL</Text>
+      <DiplomaticActionType>DIPLOACTION_ALLIANCE_CULTURAL</DiplomaticActionType>
+    </Row>
+    <Row>
+      <Type>GREETING</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>28</Sort>
+      <Key>CHOICE_ALLIANCE_RELIGIOUS</Key>
+      <Text>LOC_DIPLO_CHOICE_ALLIANCE_RELIGIOUS</Text>
+      <DiplomaticActionType>DIPLOACTION_ALLIANCE_RELIGIOUS</DiplomaticActionType>
+    </Row>
+    <Row>
+      <Type>GREETING</Type>
+      <Leader>ANY</Leader>
+      <Mood>ANY</Mood>
+      <Sort>29</Sort>
+      <Key>CHOICE_RENEW_ALLIANCE</Key>
+      <Text>LOC_DIPLO_CHOICE_RENEW_ALLIANCE</Text>
+      <DiplomaticActionType>DIPLOACTION_RENEW_ALLIANCE</DiplomaticActionType>
+    </Row>
+  </DiplomacySelections>
+  <AllianceEffects>
+    <Row AllianceType="ALLIANCE_MILITARY" LevelRequirement="1" ModifierID="ALLIANCE_ADJUST_COMBAT_STRENGTH" />
+    <Row AllianceType="ALLIANCE_ECONOMIC" LevelRequirement="1" ModifierID="ALLIANCE_ADD_GOLD_TO_ORIGIN_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_ECONOMIC" LevelRequirement="1" ModifierID="ALLIANCE_ADD_GOLD_TO_DESTINATION_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" LevelRequirement="1" ModifierID="ALLIANCE_NO_RELIGIOUS_PRESSURE" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" LevelRequirement="1" ModifierID="ALLIANCE_ADD_FAITH_TO_ORIGIN_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" LevelRequirement="1" ModifierID="ALLIANCE_ADD_FAITH_TO_DESTINATION_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_CULTURAL" LevelRequirement="1" ModifierID="ALLIANCE_NO_CULTURE_PRESSURE" />
+    <Row AllianceType="ALLIANCE_CULTURAL" LevelRequirement="1" ModifierID="ALLIANCE_ADD_CULTURE_TO_ORIGIN_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_CULTURAL" LevelRequirement="1" ModifierID="ALLIANCE_ADD_CULTURE_TO_DESTINATION_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_RESEARCH" LevelRequirement="1" ModifierID="ALLIANCE_ADD_SCIENCE_TO_ORIGIN_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_RESEARCH" LevelRequirement="1" ModifierID="ALLIANCE_ADD_SCIENCE_TO_DESTINATION_TRADE_ROUTE" />
+    <Row AllianceType="ALLIANCE_ECONOMIC" LevelRequirement="2" ModifierID="ALLIANCE_ENVOY_POINTS_FROM_ALLIANCE" />
+    <Row AllianceType="ALLIANCE_MILITARY" LevelRequirement="2" ModifierID="ALLIANCE_SHARE_VISIBILITY" />
+    <Row AllianceType="ALLIANCE_MILITARY" LevelRequirement="2" ModifierID="ALLIANCE_INCREASE_PRODUCTION_WHEN_WAR" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" LevelRequirement="2" ModifierID="ALLIANCE_ADJUST_RELIGIOUS_COMBAT_STRENGTH" />
+    <Row AllianceType="ALLIANCE_CULTURAL" LevelRequirement="2" ModifierID="ALLIANCE_ADJUST_DISTRICT_GREAT_PEOPLE_POINTS" />
+    <Row AllianceType="ALLIANCE_RESEARCH" LevelRequirement="2" ModifierID="ALLIANCE_RESEARCH_AGREEMENT" />
+    <Row AllianceType="ALLIANCE_MILITARY" LevelRequirement="3" ModifierID="ALLIANCE_FREE_UNIT_UPGRADE" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" LevelRequirement="3" ModifierID="ALLIANCE_YIELDS_FROM_FOLLOWING_ALLY_RELIGION" />
+    <Row AllianceType="ALLIANCE_RELIGIOUS" LevelRequirement="3" ModifierID="ALLIANCE_RELIGIOUS_PRESSURE" />
+    <Row AllianceType="ALLIANCE_RESEARCH" LevelRequirement="3" ModifierID="ALLIANCE_SCIENCE_SHARING_FROM_ALLY" />
+    <Row AllianceType="ALLIANCE_CULTURAL" LevelRequirement="3" ModifierID="ALLIANCE_TOURISM_SHARING_FROM_ALLY" />
+    <Row AllianceType="ALLIANCE_CULTURAL" LevelRequirement="3" ModifierID="ALLIANCE_CULTURE_SHARING_FROM_ALLY" />
+    <Row AllianceType="ALLIANCE_ECONOMIC" LevelRequirement="3" ModifierID="ALLIANCE_SHARE_SUZERAIN" />
+  </AllianceEffects>
+  
+  <Modifiers>
+    <Row>
+      <ModifierId>ALLIANCE_SHARE_VISIBILITY</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_SHARE_VISIBILITY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_NO_CULTURE_PRESSURE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_DO_NOTHING</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_NO_RELIGIOUS_PRESSURE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_DO_NOTHING</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_COMBAT_STRENGTH</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_COMBATS_UNIT_STRENGTHS</ModifierType>
+      <SubjectRequirementSetId>ALLIES_AT_WAR_WITH_TARGET_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_DISTRICT_GREAT_PEOPLE_POINTS</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_DISTRICTS_ADJUST_GREAT_POINTS</ModifierType>
+      <SubjectRequirementSetId>ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_PLAYER_TRADE_ROUTE_CAPACITY</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYER_TRADE_ROUTE_CAPACITY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_RELIGIOUS_COMBAT_STRENGTH</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_COMBATS_UNIT_STRENGTHS</ModifierType>
+      <SubjectRequirementSetId>RELIGIOUS_COMBAT_ENEMY_NOT_IN_ALLIED_RELIGION</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRADE_ROUTE_ADJUST_YIELD</ModifierType>
+      <SubjectRequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_INCREASE_PRODUCTION_WHEN_WAR</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_CITIES_MILITARY_UNIT_PRODUCTION</ModifierType>
+      <SubjectRequirementSetId>OWNER_OR_ALLY_IS_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_FREE_UNIT_UPGRADE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_TRAINED_UNITS_FREE_UPGRADE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ENVOY_POINTS_FROM_ALLIANCE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_ENVOY_POINTS_FROM_ALLY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_RESEARCH_AGREEMENT</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_RESEARCH_AGREEMENT</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_SCIENCE_SHARING_FROM_ALLY</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_SCIENCE_FROM_ALLY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_TOURISM_SHARING_FROM_ALLY</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_TOURISM_FROM_ALLY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_CULTURE_SHARING_FROM_ALLY</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_CULTURE_FROM_ALLY</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_YIELDS_FROM_FOLLOWING_ALLY_RELIGION</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_YIELD_FROM_FOLLOWERS_OF_ALLY_RELIGIONS</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_RELIGIOUS_PRESSURE</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_RELIGIOUS_PRESSURE</ModifierType>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_SHARE_SUZERAIN</ModifierId>
+      <ModifierType>MODIFIER_ALLIANCE_PLAYERS_SHARE_SUZERAIN</ModifierType>
+    </Row>
+  </Modifiers>
+  
+  <ModifierArguments>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_RELIGIOUS_COMBAT_STRENGTH</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_PLAYER_TRADE_ROUTE_CAPACITY</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_COMBAT_STRENGTH</ModifierId>
+      <Name>Amount</Name>
+      <Value>10</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADJUST_DISTRICT_GREAT_PEOPLE_POINTS</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>AffectOrigin</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_SCIENCE</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_SCIENCE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>AffectDestination</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>AffectOrigin</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_CULTURE</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_CULTURE_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>AffectDestination</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>AffectOrigin</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>3</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_FAITH_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>AffectDestination</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_ORIGIN_TRADE_ROUTE</ModifierId>
+      <Name>AffectOrigin</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>Amount</Name>
+      <Value>4</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_GOLD</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ADD_GOLD_TO_DESTINATION_TRADE_ROUTE</ModifierId>
+      <Name>AffectDestination</Name>
+      <Value>True</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_INCREASE_PRODUCTION_WHEN_WAR</ModifierId>
+      <Name>Amount</Name>
+      <Value>15</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_FREE_UNIT_UPGRADE</ModifierId>
+      <Name>Amount</Name>
+      <Value>-1</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_ENVOY_POINTS_FROM_ALLIANCE</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_RESEARCH_AGREEMENT</ModifierId>
+      <Name>Amount</Name>
+      <Value>30</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_SCIENCE_SHARING_FROM_ALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>15</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_TOURISM_SHARING_FROM_ALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>20</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_CULTURE_SHARING_FROM_ALLY</ModifierId>
+      <Name>Amount</Name>
+      <Value>15</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_YIELDS_FROM_FOLLOWING_ALLY_RELIGION</ModifierId>
+      <Name>Amount</Name>
+      <Value>1</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_YIELDS_FROM_FOLLOWING_ALLY_RELIGION</ModifierId>
+      <Name>YieldType</Name>
+      <Value>YIELD_FAITH</Value>
+    </Row>
+    <Row>
+      <ModifierId>ALLIANCE_RELIGIOUS_PRESSURE</ModifierId>
+      <Name>Amount</Name>
+      <Value>20</Value>
+    </Row>
+  </ModifierArguments>
+  <ModifierStrings>
+    <Row ModifierId="ALLIANCE_SHARE_VISIBILITY" Context="Summary" Text="LOC_ALLIANCE_SHARED_VIS_EFFECT"/>
+    <Row ModifierId="ALLIANCE_NO_RELIGIOUS_PRESSURE" Context="Summary" Text="LOC_ALLIANCE_NO_RELIGIOUS_PRESSURE_EFFECT"/>
+    <Row ModifierId="ALLIANCE_NO_CULTURE_PRESSURE" Context="Summary" Text="LOC_ALLIANCE_NO_CULTURE_PRESSURE_EFFECT"/>
+    <Row ModifierId="ALLIANCE_ADJUST_COMBAT_STRENGTH" Context="Preview" Text="LOC_COMBAT_PREVIEW_ALLIANCE_MILITARY_BUFF"/>
+    <Row ModifierId="ALLIANCE_ADJUST_RELIGIOUS_COMBAT_STRENGTH" Context="Preview" Text="LOC_COMBAT_PREVIEW_ALLIANCE_RELIGIOUS_COMBAT_BUFF"/>
+    <Row ModifierId="ALLIANCE_ADJUST_COMBAT_STRENGTH" Context="Summary" Text="LOC_ALLIANCE_LV1_MILITARY_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADD_GOLD_TO_ORIGIN_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADD_GOLD_TO_DESTINATION_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_ECONOMIC_EFFECT_2"/>
+    <Row ModifierId="ALLIANCE_ADD_FAITH_TO_ORIGIN_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADD_FAITH_TO_DESTINATION_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_RELIGIOUS_EFFECT_2"/>
+    <Row ModifierId="ALLIANCE_ADD_CULTURE_TO_ORIGIN_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADD_CULTURE_TO_DESTINATION_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_CULTURAL_EFFECT_2"/>
+    <Row ModifierId="ALLIANCE_ADD_SCIENCE_TO_ORIGIN_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADD_SCIENCE_TO_DESTINATION_TRADE_ROUTE" Context="Summary" Text="LOC_ALLIANCE_LV1_RESEARCH_EFFECT_2"/>
+    <Row ModifierId="ALLIANCE_ENVOY_POINTS_FROM_ALLIANCE" Context="Summary" Text="LOC_ALLIANCE_LV2_ECONOMIC_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_INCREASE_PRODUCTION_WHEN_WAR" Context="Summary" Text="LOC_ALLIANCE_LV2_MILITARY_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADJUST_RELIGIOUS_COMBAT_STRENGTH" Context="Summary" Text="LOC_ALLIANCE_LV2_RELIGIOUS_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_RESEARCH_AGREEMENT" Context="Summary" Text="LOC_ALLIANCE_LV2_RESEARCH_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_ADJUST_DISTRICT_GREAT_PEOPLE_POINTS" Context="Summary" Text="LOC_ALLIANCE_LV2_CULTURAL_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_FREE_UNIT_UPGRADE" Context="Summary" Text="LOC_ALLIANCE_LV3_MILITARY_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_YIELDS_FROM_FOLLOWING_ALLY_RELIGION" Context="Summary" Text="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_RELIGIOUS_PRESSURE" Context="Summary" Text="LOC_ALLIANCE_LV3_RELIGIOUS_EFFECT_2"/>
+    <Row ModifierId="ALLIANCE_SCIENCE_SHARING_FROM_ALLY" Context="Summary" Text="LOC_ALLIANCE_LV3_RESEARCH_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_TOURISM_SHARING_FROM_ALLY" Context="Summary" Text="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_1"/>
+    <Row ModifierId="ALLIANCE_CULTURE_SHARING_FROM_ALLY" Context="Summary" Text="LOC_ALLIANCE_LV3_CULTURAL_EFFECT_2"/>
+    <Row ModifierId="ALLIANCE_SHARE_SUZERAIN" Context="Summary" Text="LOC_ALLIANCE_LV3_ECONOMIC_EFFECT"/>
+  </ModifierStrings>
+  
+  <!--REQUIREMENTS-->
+  <RequirementSets>
+    <Row>
+      <RequirementSetId>ALLIES_AT_WAR_WITH_TARGET_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>OWNER_OR_ALLY_IS_AT_WAR_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>RELIGIOUS_COMBAT_ENEMY_NOT_IN_ALLIED_RELIGION</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+    <Row>
+      <RequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</RequirementSetId>
+      <RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+    </Row>
+  </RequirementSets>
+  <RequirementSetRequirements>
+    <Row>
+      <RequirementSetId>ALLIES_AT_WAR_WITH_TARGET_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_ALLIES_AT_WAR_WITH_TARGET</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>ALLIES_AT_WAR_WITH_TARGET_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_COMBAT_UNIT_VS_UNIT</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY</RequirementSetId>
+      <RequirementId>REQUIRES_ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>OWNER_OR_ALLY_IS_AT_WAR_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_ALLY_IS_AT_WAR</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>OWNER_OR_ALLY_IS_AT_WAR_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_PLAYER_IS_AT_WAR</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>RELIGIOUS_COMBAT_ENEMY_NOT_IN_ALLIED_RELIGION</RequirementSetId>
+      <RequirementId>REQUIRES_RELIGIOUS_ENEMY_NOT_ALLIED_RELIGION</RequirementId>
+    </Row>
+    <Row>
+      <RequirementSetId>ROUTE_BETWEEN_ALLIES_REQUIREMENTS</RequirementSetId>
+      <RequirementId>REQUIRES_TRADE_ROUTE_BETWEEN_ALLIES</RequirementId>
+    </Row>
+  </RequirementSetRequirements>
+  <Requirements>
+    <Row>
+      <RequirementId>REQUIRES_RELIGIOUS_ENEMY_NOT_ALLIED_RELIGION</RequirementId>
+      <RequirementType>REQUIREMENT_COMBAT_ENEMY_NOT_ALLIANCE_RELIGION</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY</RequirementId>
+      <RequirementType>REQUIREMENT_ALLIANCE_CITY_HAS_TRADE_ROUTE_WITH_ALLY</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_ALLIES_AT_WAR_WITH_TARGET</RequirementId>
+      <RequirementType>REQUIREMENT_ALLIANCE_AT_WAR_WITH_COMBAT_TARGET</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_ALLY_IS_AT_WAR</RequirementId>
+      <RequirementType>REQUIREMENT_CITY_OWNER_ALLY_AT_WAR</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_PLAYER_IS_AT_WAR</RequirementId>
+      <RequirementType>REQUIREMENT_PLAYER_IS_AT_WAR</RequirementType>
+    </Row>
+    <Row>
+      <RequirementId>REQUIRES_TRADE_ROUTE_BETWEEN_ALLIES</RequirementId>
+      <RequirementType>REQUIREMENT_TRADE_ROUTE_BETWEEN_ALLIANCE_PARTNERS</RequirementType>
+    </Row>
+  </Requirements>
+</GameInfo>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="PROJECT_WATER_CARNIVAL" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_BREAD_AND_CIRCUSES" Kind="KIND_PROJECT"/>
+    <Row Type="PROJECT_WATER_BREAD_AND_CIRCUSES" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_WATER_CARNIVAL" Name="LOC_PROJECT_WATER_CARNIVAL_NAME" ShortName="LOC_PROJECT_WATER_CARNIVAL_SHORT_NAME" Description="LOC_PROJECT_WATER_CARNIVAL_DESCRIPTION" PrereqDistrict="DISTRICT_WATER_STREET_CARNIVAL" Cost="25" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500" AmenitiesWhileActive="1"/>
+		<Row ProjectType="PROJECT_BREAD_AND_CIRCUSES" Name="LOC_PROJECT_BREAD_AND_CIRCUSES_NAME" ShortName="LOC_PROJECT_BREAD_AND_CIRCUSES_SHORT_NAME" Description="LOC_PROJECT_BREAD_AND_CIRCUSES_DESCRIPTION" PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" Cost="25" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500"/>
+    <Row ProjectType="PROJECT_WATER_BREAD_AND_CIRCUSES" Name="LOC_PROJECT_BREAD_AND_CIRCUSES_NAME" ShortName="LOC_PROJECT_WATER_BREAD_AND_CIRCUSES_SHORT_NAME" Description="LOC_PROJECT_BREAD_AND_CIRCUSES_DESCRIPTION_ALT" PrereqDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX" Cost="25" AdvisorType="ADVISOR_GENERIC" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500"/>
+	</Projects>
+  <Projects_XP1>
+    <Row ProjectType="PROJECT_BREAD_AND_CIRCUSES" IdentityPerCitizenChange="1.0"/>
+    <Row ProjectType="PROJECT_WATER_BREAD_AND_CIRCUSES" IdentityPerCitizenChange="1.0"/>
+  </Projects_XP1>
+	<Project_GreatPersonPoints>
+		<Row ProjectType="PROJECT_WATER_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" Points="7" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+		<Row ProjectType="PROJECT_WATER_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" Points="7" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+		<Row ProjectType="PROJECT_WATER_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" Points="7" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+		<Row ProjectType="PROJECT_WATER_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" Points="7" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+		<Row ProjectType="PROJECT_WATER_CARNIVAL" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" Points="7" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+  <ProjectCompletionModifiers>
+    <Row ProjectType="PROJECT_BREAD_AND_CIRCUSES" ModifierId="PROJECT_COMPLETION_LOYALTY"/>
+    <Row ProjectType="PROJECT_WATER_BREAD_AND_CIRCUSES" ModifierId="PROJECT_COMPLETION_LOYALTY"/>
+  </ProjectCompletionModifiers>
+  <Modifiers>
+    <Row>
+      <ModifierId>PROJECT_COMPLETION_LOYALTY</ModifierId>
+      <ModifierType>MODIFIER_SINGLE_CITY_GRANT_LOYALTY</ModifierType>
+      <RunOnce>true</RunOnce>
+      <Permanent>true</Permanent>
+    </Row>
+  </Modifiers>
+  <ModifierArguments>
+    <Row>
+      <ModifierId>PROJECT_COMPLETION_LOYALTY</ModifierId>
+      <Name>Amount</Name>
+      <Value>30</Value>
+    </Row>
+  </ModifierArguments>
+</GameInfo>

@@ -1,0 +1,225 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row Type="IMPROVEMENT_OPEN_AIR_MUSEUM" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_ICE_HOCKEY_RINK" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_TERRACE_FARM" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MAORI_PA" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="IMPROVEMENT_MOUNTAIN_ROAD" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" Name="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_NAME" Description="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION" Icon="ICON_IMPROVEMENT_OPEN_AIR_MUSEUM" PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true"	PrereqCivic="CIVIC_NATIONALISM"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_OPEN_AIR_MUSEUM" OnePerCity="true"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" Name="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_NAME" Description="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION" Icon="ICON_IMPROVEMENT_ICE_HOCKEY_RINK" PlunderType="PLUNDER_HEAL"		PlunderAmount="50" Buildable="true"	PrereqCivic="CIVIC_COLONIALISM"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ICE_HOCKEY_RINK" OnePerCity="true" Appeal="2"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM"	Name="LOC_IMPROVEMENT_TERRACE_FARM_NAME" Description="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION"	Icon="ICON_IMPROVEMENT_TERRACE_FARM" PlunderType="PLUNDER_HEAL"	PlunderAmount="50" Buildable="true"		Housing="1" TilesRequired="2"	TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_TERRACE_FARM"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA"	Name="LOC_IMPROVEMENT_MAORI_PA_NAME" Description="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION"	Icon="ICON_IMPROVEMENT_MAORI_PA"	PlunderType="NO_PLUNDER" PlunderAmount="50" Buildable="true" CanBuildOutsideTerritory="true" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MAORI_PA" DefenseModifier="7" GrantFortification="2"  />
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" Name="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME" Description="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION"	Icon="ICON_IMPROVEMENT_MOUNTAIN_ROAD" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" PrereqCivic="CIVIC_FOREIGN_TRADE" TraitType="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD" CanBuildOutsideTerritory="true"/>
+	</Improvements>
+	<Improvements_XP2>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" AllowImpassableMovement="true" BuildOnAdjacentPlot="true"/>
+	</Improvements_XP2>
+	<Improvement_Adjacencies>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldChangeId="Hockey_TundraAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldChangeId="Hockey_TundraHillsAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldChangeId="Hockey_SnowAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldChangeId="Hockey_SnowHillsAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_GrassMountainAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_PlainsMountainAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_DesertMountainAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_TundraMountainAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_SnowMountainAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_MedievalAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_MechanizedAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldChangeId="Terrace_AqueductAdjacency"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidResources>
+		<!-- IMPROVEMENTS -->
+	</Improvement_ValidResources>
+	<Improvement_ValidTerrains>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" TerrainType="TERRAIN_TUNDRA_HILLS"/>		
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_SNOW_HILLS"/>		
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_PLAINS"/>		
+
+
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_TUNDRA"/>
+	
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" TerrainType="TERRAIN_SNOW"/>		
+		
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+	</Improvement_ValidFeatures>
+	<Improvement_InvalidAdjacentFeatures>
+	</Improvement_InvalidAdjacentFeatures>
+	<Improvement_ValidBuildUnits>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_MAORI_PA" UnitType="UNIT_MAORI_TOA"/>
+		<Row ImprovementType="IMPROVEMENT_MOUNTAIN_ROAD" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldType="YIELD_FOOD" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_TERRACE_FARM" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row Id="26" ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldType="YIELD_PRODUCTION" BonusYieldChange="2" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS"/>
+		<Row Id="27" ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" YieldType="YIELD_FOOD" BonusYieldChange="3" PrereqCivic="CIVIC_PROFESSIONAL_SPORTS"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM" TourismSource="TOURISMSOURCE_CULTURE" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="Hockey_TundraAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA"/>
+		<Row ID="Hockey_TundraHillsAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_HILLS"/>
+		<Row ID="Hockey_SnowAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW"/>
+		<Row ID="Hockey_SnowHillsAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_HILLS"/>
+		<Row ID="Terrace_GrassMountainAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row ID="Terrace_PlainsMountainAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row ID="Terrace_DesertMountainAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row ID="Terrace_TundraMountainAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row ID="Terrace_SnowMountainAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row ID="Terrace_MedievalAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_TERRACE_FARM" PrereqCivic="CIVIC_FEUDALISM" ObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="Terrace_MechanizedAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_TERRACE_FARM" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+		<Row ID="Terrace_AqueductAdjacency" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT"/>
+	</Adjacency_YieldChanges>
+	<Modifiers>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row>
+			<ModifierId>ICEHOCKEYRINK_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ICEHOCKEYRINK_CULTURE_STADIUM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_TO_STADIUM</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TERRACE_FARM_PRODUCTION_FRESH_WATER_NO_AQUEDUCT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_IS_ADJACENT_TO_FRESH_WATER_NOT_AQUEDUCT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>OPEN_AIR_MUSEUM_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>OPEN_AIR_MUSEUM_CULTURE_FOR_TERRAIN_CLASS_CITIES</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_FOR_TERRAIN_CLASS_CITIES_IMPROVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row>
+			<ModifierId>ICEHOCKEYRINK_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>ICEHOCKEYRINK_CULTURE_STADIUM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ICEHOCKEYRINK_CULTURE_STADIUM</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACE_FARM_PRODUCTION_FRESH_WATER_NO_AQUEDUCT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TERRACE_FARM_PRODUCTION_FRESH_WATER_NO_AQUEDUCT</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>OPEN_AIR_MUSEUM_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>OPEN_AIR_MUSEUM_CULTURE_FOR_TERRAIN_CLASS_CITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>OPEN_AIR_MUSEUM_CULTURE_FOR_TERRAIN_CLASS_CITIES</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>OPEN_AIR_MUSEUM_CULTURE_FOR_TERRAIN_CLASS_CITIES</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_OPEN_AIR_MUSEUM</Value>
+		</Row>
+	</ModifierArguments>
+	<ImprovementModifiers>
+		<!-- UNIQUE IMPROVEMENTS -->
+		<Row>
+			<ImprovementType>IMPROVEMENT_ICE_HOCKEY_RINK</ImprovementType>
+			<ModifierId>ICEHOCKEYRINK_CULTURE_STADIUM</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ICE_HOCKEY_RINK</ImprovementType>
+			<ModifierId>ICEHOCKEYRINK_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TERRACE_FARM</ImprovementType>
+			<ModifierId>TERRACE_FARM_PRODUCTION_FRESH_WATER_NO_AQUEDUCT</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OPEN_AIR_MUSEUM</ImprovementType>
+			<ModifierId>OPEN_AIR_MUSEUM_LOYALTY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OPEN_AIR_MUSEUM</ImprovementType>
+			<ModifierId>OPEN_AIR_MUSEUM_CULTURE_FOR_TERRAIN_CLASS_CITIES</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MOUNTAIN_ROAD</ImprovementType>
+			<ModifierId>MOUNTAIN_PORTAL</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+</GameInfo>

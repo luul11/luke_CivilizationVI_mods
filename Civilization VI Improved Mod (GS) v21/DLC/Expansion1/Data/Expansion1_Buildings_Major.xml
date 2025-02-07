@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_ORDU" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TSIKHE" Kind="KIND_BUILDING"/>
+		<!-- WORLD WONDERS -->
+		<Row Type="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_CASA_DE_CONTRATACION" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_KILWA_KISIWANI" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_KOTOKU_IN" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_ST_BASILS_CATHEDRAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_STATUE_LIBERTY" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TAJ_MAHAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TEMPLE_ARTEMIS" Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row BuildingType="BUILDING_ORDU" Name="LOC_BUILDING_ORDU_NAME" Description="LOC_BUILDING_ORDU_DESCRIPTION" PrereqTech="TECH_HORSEBACK_RIDING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" Housing="1" CitizenSlots="1" TraitType="TRAIT_CIVILIZATION_BUILDING_ORDU"/>
+		<Row BuildingType="BUILDING_TSIKHE" Name="LOC_BUILDING_TSIKHE_NAME" Description="LOC_BUILDING_TSIKHE_DESCRIPTION" PrereqTech="TECH_SIEGE_TACTICS" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="265" AdvisorType="ADVISOR_GENERIC" OuterDefenseHitPoints="100" OuterDefenseStrength="3" TraitType="TRAIT_CIVILIZATION_BUILDING_TSIKHE"/>
+		<!-- Wonders-->
+		<Row BuildingType="BUILDING_TEMPLE_ARTEMIS" Name="LOC_BUILDING_TEMPLE_ARTEMIS_NAME" Description="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION" PrereqTech="TECH_ARCHERY" Cost="180" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" AdjacentImprovement="IMPROVEMENT_CAMP" Housing="3" ObsoleteEra="ERA_MEDIEVAL" Quote="LOC_BUILDING_TEMPLE_OF_ARTEMIS_QUOTE" QuoteAudio="Play_TEMPLE_OF_ARTEMIS_QUOTE"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" Name="LOC_BUILDING_KILWA_KISIWANI_NAME" Description="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION" PrereqTech="TECH_MACHINERY" Cost="710" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" Coast="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_KILWA_KISIWANI_QUOTE" QuoteAudio="Play_KILWA_KISIWANI_QUOTE"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" Name="LOC_BUILDING_KOTOKU_IN_NAME" Description="LOC_BUILDING_KOTOKU_IN_DESCRIPTION" PrereqCivic="CIVIC_DIVINE_RIGHT" Cost="710" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_HOLY_SITE" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_INDUSTRIAL" Quote="LOC_BUILDING_KOTOKU_IN_QUOTE" QuoteAudio="Play_KOTOKU_IN_QUOTE"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" Name="LOC_BUILDING_CASA_DE_CONTRATACION_NAME" Description="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" PrereqTech="TECH_CARTOGRAPHY" Cost="920" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_GOVERNMENT" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_CASA_DE_CONTRATACION_QUOTE" QuoteAudio="Play_CASA_DE_CONTRATACION_QUOTE"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" Name="LOC_BUILDING_ST_BASILS_CATHEDRAL_NAME" Description="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION" PrereqCivic="CIVIC_REFORMED_CHURCH" Cost="920" AdvisorType="ADVISOR_RELIGIOUS" AdjacentDistrict="DISTRICT_CITY_CENTER" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_MODERN" Quote="LOC_BUILDING_ST_BASILS_CATHEDRAL_QUOTE" QuoteAudio="Play_ST_BASILS_CATHEDRAL_QUOTE"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" Name="LOC_BUILDING_TAJ_MAHAL_NAME" Description="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" PrereqCivic="CIVIC_HUMANISM" Cost="920" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" RequiresRiver="true" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_TAJ_MAHAL_QUOTE" QuoteAudio="Play_TAJ_MAHAL_QUOTE"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" Name="LOC_BUILDING_STATUE_LIBERTY_NAME" Description="LOC_BUILDING_STATUE_LIBERTY_DESCRIPTION" PrereqCivic="CIVIC_CIVIL_ENGINEERING" Cost="1240" AdvisorType="ADVISOR_GENERIC" AdjacentDistrict="DISTRICT_HARBOR" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" MustNotBeLake="true" MustBeAdjacentLand="true" ObsoleteEra="ERA_INFORMATION" Quote="LOC_BUILDING_STATUE_LIBERTY_QUOTE" QuoteAudio="Play_STATUE_OF_LIBERTY_QUOTE"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" Name="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_NAME" Description="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION" PrereqCivic="CIVIC_COLD_WAR" Cost="1620" AdvisorType="ADVISOR_TECHNOLOGY" AdjacentDistrict="DISTRICT_CAMPUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" Quote="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_QUOTE" QuoteAudio="Play_AMUNDSEN_SCOTT_QUOTE"/>
+	</Buildings>
+	<BuildingPrereqs>
+		<Row Building="BUILDING_TSIKHE" PrereqBuilding="BUILDING_CASTLE"/>
+		<Row Building="BUILDING_KOTOKU_IN" PrereqBuilding="BUILDING_TEMPLE"/>
+		<Row Building="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" PrereqBuilding="BUILDING_RESEARCH_LAB"/>
+	</BuildingPrereqs>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_ORDU" ReplacesBuildingType="BUILDING_STABLE"/>
+		<Row CivUniqueBuildingType="BUILDING_TSIKHE" ReplacesBuildingType="BUILDING_STAR_FORT"/>
+	</BuildingReplaces>
+	<BuildingModifiers>
+		<Row BuildingType="BUILDING_ORDU" ModifierId="ORDU_TRAINED_UNIT_XP_MODIFIER"/>
+		<Row BuildingType="BUILDING_ORDU" ModifierId="ORDU_INCREASED_MOVEMENT_MODIFIER"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSEN_ADDSCIENCEYIELD"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSEN_ADDPRODUCTIONYIELD"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSEN_SNOW_ADDSCIENCEYIELD"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" ModifierId="AMUNDSEN_SNOW_ADDPRODUCTIONYIELD"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" ModifierId="CONTRATACION_GOVERNOR_POINTS"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" ModifierId="CONTRATACION_FOREIGNFAITH"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" ModifierId="CONTRATACION_FOREIGNGOLD"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" ModifierId="CONTRATACION_FOREIGNPRODUCTION"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDSCIENCEYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDFAITHYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDGOLDYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDPRODUCTIONUNITS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDPRODUCTIONBUILDINGS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_SINGLE_ADDPRODUCTIONDISTRICTS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDSCIENCEYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDFAITHYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDGOLDYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDCULTUREYIELD"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDPRODUCTIONUNITS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDPRODUCTIONBUILDINGS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_PLAYERCITIES_ADDPRODUCTIONDISTRICTS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" ModifierId="KILWA_THREE_INFLUENCE_TOKENS"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" ModifierId="KOTOKU_ADDFAITHYIELD"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" ModifierId="KOTOKU_GRANTMONKS"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_GRANTSETTLERS"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" ModifierId="STATUELIBERTY_CITIES_ALWAYS_LOYAL"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" ModifierId="STBASILS_ADDFOOD"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" ModifierId="STBASILS_ADDPRODUCTION"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" ModifierId="STBASILS_ADDCULTURE"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" ModifierId="STBASILS_ADDRELIGIOUSTOURISM"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" ModifierId="TAJ_MAHAL_EXTRA_ERA_SCORE"/>
+		<Row BuildingType="BUILDING_COLOSSEUM" ModifierId="COLOSSEUM_IDENTITY"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" ModifierId="GREATLIBRARY_BOOST_SCIENTIST"/>
+	</BuildingModifiers>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" TerrainType="TERRAIN_GRASS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" TerrainType="TERRAIN_PLAINS"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" TerrainType="TERRAIN_TUNDRA"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" TerrainType="TERRAIN_SNOW"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" TerrainType="TERRAIN_DESERT"/>
+		<Row BuildingType="BUILDING_STATUE_LIBERTY" TerrainType="TERRAIN_COAST"/>
+	</Building_ValidTerrains>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_ORDU" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="5"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="3"/>
+		<Row BuildingType="BUILDING_GREAT_LIBRARY" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_TSIKHE" YieldType="YIELD_FAITH" YieldChange="6"/>
+		<Row BuildingType="BUILDING_ORDU" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_TEMPLE_ARTEMIS" YieldType="YIELD_FOOD" YieldChange="4"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION" GreatWorkSlotType="GREATWORKSLOT_WRITING" NumSlots="4"/>
+		<Row BuildingType="BUILDING_CASA_DE_CONTRATACION" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_KILWA_KISIWANI" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_KOTOKU_IN" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_ST_BASILS_CATHEDRAL" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+		<Row BuildingType="BUILDING_TAJ_MAHAL" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="4"/>
+		<Row BuildingType="BUILDING_TEMPLE_ARTEMIS" GreatWorkSlotType="GREATWORKSLOT_CATHEDRAL" NumSlots="4"/>
+	</Building_GreatWorks>
+	
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_ORDU" MutuallyExclusiveBuilding="BUILDING_BARRACKS"/>
+	</MutuallyExclusiveBuildings>
+	<Modifiers>
+		<Row>
+			<ModifierId>ORDU_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>STABLE_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>ORDU_INCREASED_MOVEMENT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_ABILITY_FOR_TRAINED_UNITS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- Wonders -->
+		<Row>
+			<ModifierId>AMUNDSEN_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_ADDPRODUCTIONYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SNOW_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>AMUNDSEN_SNOW_SCIENCE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SNOW_ADDPRODUCTIONYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>AMUNDSEN_SNOW_PRODUCTION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNFAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOVERNOR_CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNGOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOVERNOR_CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GOVERNOR_CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>SCIENTIFIC_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDFAITHYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RELIGIOUS_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDGOLDYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>TRADE_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CULTURAL_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDPRODUCTIONUNITS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_UNIT_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>MILITARISTIC_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDPRODUCTIONBUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>INDUSTRIAL_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDPRODUCTIONDISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_DISTRICT_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>INDUSTRIAL_SUZERAIN_1_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDSCIENCEYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>SCIENTIFIC_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDFAITHYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RELIGIOUS_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDGOLDYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>TRADE_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CULTURAL_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDPRODUCTIONUNITS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>MILITARISTIC_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDPRODUCTIONBUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>INDUSTRIAL_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDPRODUCTIONDISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>INDUSTRIAL_SUZERAIN_2_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_THREE_INFLUENCE_TOKENS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_ADDFAITHYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_GRANTMONKS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_CITIES_ALWAYS_LOYAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALWAYS_LOYAL</ModifierType>
+			<SubjectRequirementSetId>STATUELIBERTY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTSETTLERS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDRELIGIOUSTOURISM</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_TOURISM</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDFOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ST_BASILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDFOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ANYTUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDPRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ST_BASILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDPRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ANYTUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDCULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ST_BASILS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDCULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_ANYTUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_EXTRA_ERA_SCORE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLAYER_ERA_SCORE_PER_PRIDE_MOMENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_CAMP_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>TEMPLE_ARTEMIS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_PASTURE_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>TEMPLE_ARTEMIS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_PLANTATION_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>TEMPLE_ARTEMIS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ORDU_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>33</Value>
+		</Row>
+		<Row>
+			<ModifierId>ORDU_INCREASED_MOVEMENT_MODIFIER</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ORDU_INCREASED_MOVEMENT</Value>
+		</Row>
+		<!-- Wonders -->
+		<Row>
+			<ModifierId>AMUNDSEN_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_ADDPRODUCTIONYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_ADDPRODUCTIONYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SNOW_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SNOW_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SNOW_ADDPRODUCTIONYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AMUNDSEN_SNOW_ADDPRODUCTIONYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNFAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNFAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNGOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNGOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNPRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>CONTRATACION_FOREIGNPRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_THREE_INFLUENCE_TOKENS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDFAITHYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDFAITHYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDGOLDYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDGOLDYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDPRODUCTIONUNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDPRODUCTIONBUILDINGS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_SINGLE_ADDPRODUCTIONDISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDSCIENCEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDSCIENCEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDFAITHYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDFAITHYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDGOLDYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDGOLDYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDPRODUCTIONUNITS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDPRODUCTIONBUILDINGS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KILWA_PLAYERCITIES_ADDPRODUCTIONDISTRICTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_ADDFAITHYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_ADDFAITHYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_GRANTMONKS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WARRIOR_MONK</Value>
+		</Row>
+		<Row>
+			<ModifierId>KOTOKU_GRANTMONKS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_CITIES_ALWAYS_LOYAL</ModifierId>
+			<Name>AlwaysLoyal</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTSETTLERS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STATUELIBERTY_GRANTSETTLERS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDRELIGIOUSTOURISM</ModifierId>
+			<Name>Religious</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDRELIGIOUSTOURISM</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDFOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STBASILS_ADDFOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDFOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDFOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDPRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STBASILS_ADDPRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDPRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDPRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDCULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STBASILS_ADDCULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDCULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STBASILS_ADDCULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_EXTRA_ERA_SCORE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TAJ_MAHAL_EXTRA_ERA_SCORE</ModifierId>
+			<Name>MinScore</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_CAMP_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_PASTURE_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TEMPLE_ARTEMIS_PLANTATION_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ModifierId>TEMPLE_ARTEMIS_CAMP_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ModifierId>TEMPLE_ARTEMIS_PASTURE_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ModifierId>TEMPLE_ARTEMIS_PLANTATION_AMENITY</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+</GameInfo>

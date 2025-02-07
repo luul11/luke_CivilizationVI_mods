@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="DISTRICT_IKANDA" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_SEOWON" Kind="KIND_DISTRICT"/>
+	</Types>
+	<Districts>
+		<Row DistrictType="DISTRICT_IKANDA" Name="LOC_DISTRICT_IKANDA_NAME" Description="LOC_DISTRICT_IKANDA_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_CONQUEST" Cost="27"  CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="true" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Appeal="-1" Housing="1" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_IKANDA"/>
+		<Row DistrictType="DISTRICT_SEOWON" Name="LOC_DISTRICT_SEOWON_NAME" Description="LOC_DISTRICT_SEOWON_DESCRIPTION" PrereqTech="TECH_WRITING" PlunderType="PLUNDER_SCIENCE" PlunderAmount="25" AdvisorType="ADVISOR_TECHNOLOGY" Cost="27" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="40" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_SEOWON"/>
+	</Districts>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_IKANDA" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+		<Row CivUniqueDistrictType="DISTRICT_SEOWON" ReplacesDistrictType="DISTRICT_CAMPUS"/>
+	</DistrictReplaces>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="BaseDistrict_Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="NegativeDistrict_Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Government_Science"/>
+	</District_Adjacencies>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="2" YieldChangeAsInternationalDestination="2"/>
+	</District_TradeRouteYields>
+	<District_ValidTerrains>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_GRASS_HILLS"/> 
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_GRASS"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_PLAINS"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_TUNDRA"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_SNOW"/>
+		<Row DistrictType="DISTRICT_SEOWON" TerrainType="TERRAIN_DESERT"/>		
+		
+	</District_ValidTerrains>
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_IKANDA" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_SEOWON" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_IKANDA" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldType="YIELD_SCIENCE" YieldChange="3"/>
+	</District_CitizenYieldChanges>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_IKANDA</DistrictType>
+			<ModifierId>IKANDA_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>IKANDA_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_CITY_CORPS_ARMY_ADJUST_DISCOUNT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>IKANDA_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>IKANDA_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

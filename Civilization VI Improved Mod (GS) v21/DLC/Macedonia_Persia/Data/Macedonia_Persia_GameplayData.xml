@@ -1,0 +1,1167 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_APADANA" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_BASILIKOI_PAIDES" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_HALICARNASSUS_MAUSOLEUM" Kind="KIND_BUILDING"/>
+		<Row Type="CIVILIZATION_PERSIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_MACEDON" Kind="KIND_CIVILIZATION"/>
+		<Row Type="IMPROVEMENT_PAIRIDAEZA" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="LEADER_ALEXANDER" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_CYRUS" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SATRAPIES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HYPASPIST" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_UNIT_HETAIROI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_TO_WORLDS_END" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_FALL_BABYLON" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_IMMORTAL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_SHORT_LIFE_GLORY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_BACKSTABBER" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_HYPASPIST" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HETAIROI" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_IMMORTAL" Kind="KIND_ABILITY"/>
+		<Row Type="UNIT_MACEDONIAN_HYPASPIST" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_MACEDONIAN_HETAIROI" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_PERSIAN_IMMORTAL" Kind="KIND_UNIT"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_BASILIKOI_PAIDES" ReplacesBuildingType="BUILDING_BARRACKS"/>
+	</BuildingReplaces>
+	<Buildings>
+		<!-- Ancient Era-->
+		<Row BuildingType="BUILDING_BASILIKOI_PAIDES" Name="LOC_BUILDING_BASILIKOI_PAIDES_NAME" Description="LOC_BUILDING_BASILIKOI_PAIDES_DESCRIPTION" PrereqTech="TECH_BRONZE_WORKING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="90" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" CitizenSlots="1" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES"/>
+		<!-- Wonders -->
+		<Row BuildingType="BUILDING_APADANA" Name="LOC_BUILDING_APADANA_NAME" Description="LOC_BUILDING_APADANA_DESCRIPTION" PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" AdjacentCapital="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_APADANA_QUOTE" QuoteAudio="Play_APADANA_QUOTE"/>
+		<Row BuildingType="BUILDING_HALICARNASSUS_MAUSOLEUM" Name="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_NAME" Description="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" AdjacentDistrict="DISTRICT_HARBOR" Cost="400" AdvisorType="ADVISOR_GENERIC" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_QUOTE" QuoteAudio="Play_HALICARNASSUS_MAUSOLEUM_QUOTE"/>
+	</Buildings>
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_BASILIKOI_PAIDES" MutuallyExclusiveBuilding="BUILDING_STABLE"/>
+	</MutuallyExclusiveBuildings>
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_APADANA" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="2" NonUniquePersonYield="1" NonUniquePersonTourism="1"/>
+	</Building_GreatWorks>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_BASILIKOI_PAIDES" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+	</Building_YieldChanges>
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_BASILIKOI_PAIDES" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+	<!--UNITS-->
+	<Tags>
+		<Row Tag="CLASS_HYPASPIST" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HETAIROI" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_IMMORTAL" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="ABILITY_HYPASPIST" Tag="CLASS_HYPASPIST"/>
+		<Row Type="ABILITY_HETAIROI" Tag="CLASS_HETAIROI"/>
+		<Row Type="ABILITY_IMMORTAL" Tag="CLASS_IMMORTAL"/>
+		<Row Type="UNIT_MACEDONIAN_HYPASPIST" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_MACEDONIAN_HYPASPIST" Tag="CLASS_HYPASPIST"/>
+		<Row Type="UNIT_MACEDONIAN_HETAIROI" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_MACEDONIAN_HETAIROI" Tag="CLASS_HETAIROI"/>
+		<Row Type="UNIT_PERSIAN_IMMORTAL" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_PERSIAN_IMMORTAL" Tag="CLASS_RANGED"/>
+		<Row Type="MODIFIER_PLAYER_DIPLOMACY_AGENDA_SHORT_LIFE_GLORY" Tag="DIPLOMACY_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_DIPLOMACY_AGENDA_OPPORTUNIST" Tag="DIPLOMACY_MODIFIER"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_MACEDONIAN_HYPASPIST" BaseMoves="3" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEDONIAN_HYPASPIST_NAME" Description="LOC_UNIT_MACEDONIAN_HYPASPIST_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_IRON_WORKING" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="57" TraitType="TRAIT_CIVILIZATION_UNIT_HYPASPIST" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row UnitType="UNIT_MACEDONIAN_HETAIROI" BaseMoves="4" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MACEDONIAN_HETAIROI_NAME" Description="LOC_UNIT_MACEDONIAN_HETAIROI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_HORSEBACK_RIDING" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="2" Combat="57" TraitType="TRAIT_LEADER_UNIT_HETAIROI" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row UnitType="UNIT_PERSIAN_IMMORTAL" BaseMoves="3" Cost="100" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_PERSIAN_IMMORTAL_NAME" Description="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_IRON_WORKING" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="2" Combat="57" RangedCombat="57" Range="2" TraitType="TRAIT_CIVILIZATION_UNIT_IMMORTAL" MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+	</Units>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HYPASPIST" Name="LOC_ABILITY_HYPASPIST_NAME" Description="LOC_ABILITY_HYPASPIST_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HETAIROI" Name="LOC_ABILITY_HETAIROI_NAME" Description="LOC_ABILITY_HETAIROI_DESCRIPTION"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_HYPASPIST</UnitAbilityType>
+			<ModifierId>HYPASPIST_SIEGE_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HYPASPIST</UnitAbilityType>
+			<ModifierId>HYPASPIST_SUPPORT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HETAIROI</UnitAbilityType>
+			<ModifierId>HETAIROI_FREE_PROMOTION</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HETAIROI</UnitAbilityType>
+			<ModifierId>HETAIROI_GREAT_GENERAL_COMBAT_BONUS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HETAIROI</UnitAbilityType>
+			<ModifierId>HETAIROI_GREAT_GENERAL_POINTS</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>HYPASPIST_SIEGE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_ATTACKING_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HYPASPIST_SUPPORT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SUPPORT_BONUS_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_FREE_PROMOTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GRANT_EXPERIENCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_GREAT_GENERAL_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_ADJACENT_TO_GREAT_GENERAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_GREAT_GENERAL_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>HYPASPIST_SIEGE_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HYPASPIST_SUPPORT_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_FREE_PROMOTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_GREAT_GENERAL_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>HETAIROI_GREAT_GENERAL_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+	</ModifierArguments>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>UNIT_ADJACENT_TO_GREAT_GENERAL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>UNIT_ADJACENT_TO_GREAT_GENERAL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_ADJACENT_TO_GREAT_GENERAL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>UNIT_ADJACENT_TO_GREAT_GENERAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>UNIT_ADJACENT_TO_GREAT_GENERAL</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GREAT_GENERAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_ADJACENT_TO_GREAT_GENERAL</RequirementId>
+			<Name>IncludeCenter</Name>
+			<Value>true</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="HYPASPIST_SIEGE_BONUS" Context="Preview" Text="LOC_ABILITY_HYPASPIST_SIEGE_BONUS_DESCRIPTION"/>
+		<Row ModifierId="HETAIROI_GREAT_GENERAL_COMBAT_BONUS" Context="Preview" Text="LOC_HETAIROI_GREAT_GENERAL_COMBAT_BONUS_DESCRIPTION"/>
+	</ModifierStrings>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MACEDONIAN_HYPASPIST" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MACEDONIAN_HYPASPIST" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MACEDONIAN_HYPASPIST" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_MACEDONIAN_HETAIROI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MACEDONIAN_HETAIROI" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_MACEDONIAN_HETAIROI" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_MACEDONIAN_HETAIROI" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_PERSIAN_IMMORTAL" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_PERSIAN_IMMORTAL" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_PERSIAN_IMMORTAL" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_PERSIAN_IMMORTAL" AiType="UNITTYPE_RANGED"/>
+	</UnitAiInfos>
+	<UnitUpgrades>
+		<Row Unit="UNIT_MACEDONIAN_HYPASPIST" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_MACEDONIAN_HETAIROI" UpgradeUnit="UNIT_KNIGHT"/>
+		<Row Unit="UNIT_PERSIAN_IMMORTAL" UpgradeUnit="UNIT_MUSKETMAN"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MACEDONIAN_HYPASPIST" ReplacesUnitType="UNIT_SWORDSMAN"/>
+		<Row CivUniqueUnitType="UNIT_MACEDONIAN_HETAIROI" ReplacesUnitType="UNIT_HORSEMAN"/>
+		<Row CivUniqueUnitType="UNIT_PERSIAN_IMMORTAL" ReplacesUnitType="UNIT_SWORDSMAN"/>
+	</UnitReplaces>
+	<CityNames>
+		<!--Macedon-->
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_PELLA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_AIGAI"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_METHONE"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_CHALKIDIKI"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_DION"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDROUPOLI"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_AMPHIPOLIS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_TROAS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_PYDNA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_LATMUS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRETTA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_ARIA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_PROPHTHASIA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_ARACHOSIA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_AIANI"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_CAUCASUS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_ESCHATE"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_AKANTHOS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_OXIANA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_HERACLEA_LYNCESTIS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_BUCEPHALA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_NICAEA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_PHILIPPOLIS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_INDUS"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_RHAMBACIA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_STAGIRA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_ALEXANDRIA_SUSIANA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_APOLLONIA"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CityName="LOC_CITY_NAME_BATMAN"/>
+		<!--Persia-->
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PASARGADAE"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_SUSA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_HAGMATANA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_TARSUS"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_BAKHTRI"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_SPARDA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_GORDIAN"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_TUSHPA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_RAY"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_ZRANKA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_SHAHR_I_QUMIS"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PARSA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_HALICARNASSUS"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_ISPAHAN"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_TYAIY_DRAYAHYA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_MAZAKA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_HARAIVA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_ANASHAN"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PUSHKALAVATI"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_PURA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_TAXILA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_BUKHARA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_GANZAK"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_MARAKANDA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_THAPSACUS"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_ISTAKHR"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_ARTASHAT"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_IZKI"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_BORAZJAN"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_CYRA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CityName="LOC_CITY_NAME_TOPRAK_QALA"/>
+	</CityNames>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_MACEDON" Name="LOC_CIVILIZATION_MACEDON_NAME" Description="LOC_CIVILIZATION_MACEDON_DESCRIPTION" Adjective="LOC_CIVILIZATION_MACEDON_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" Name="LOC_CIVILIZATION_PERSIA_NAME" Description="LOC_CIVILIZATION_PERSIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_PERSIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_MACEDON" LeaderType="LEADER_ALEXANDER" CapitalName="LOC_CITY_NAME_PELLA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" LeaderType="LEADER_CYRUS" CapitalName="LOC_CITY_NAME_PASARGADAE"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_MACEDON" TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" TraitType="TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" TraitType="TRAIT_CIVILIZATION_UNIT_HYPASPIST"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" TraitType="TRAIT_CIVILIZATION_SATRAPIES"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" TraitType="TRAIT_CIVILIZATION_UNIT_IMMORTAL"/>
+	</CivilizationTraits>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_MACEDON" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_MACEDON_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_MACEDON_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_MACEDON_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_MACEDON_CAPITAL" SortIndex="40"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_PERSIA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_PERSIA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_PERSIA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_PERSIA_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+	<FavoredReligions>
+		<Row LeaderType="LEADER_CYRUS" ReligionType="RELIGION_ZOROASTRIANISM"/>
+	</FavoredReligions>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" Name="LOC_IMPROVEMENT_PAIRIDAEZA_NAME" Description="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION" Icon="ICON_IMPROVEMENT_PAIRIDAEZA" PlunderType="PLUNDER_CULTURE" PlunderAmount="15" Buildable="true" PrereqCivic="CIVIC_EARLY_EMPIRE" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA" Appeal="2" SameAdjacentValid="false"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldChangeId="Pairidaeza_CityCenterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldChangeId="Pairidaeza_CommercialHubAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldChangeId="Pairidaeza_HolySiteAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldChangeId="Pairidaeza_TheaterAdjacency"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldType="YIELD_GOLD" YieldChange="3"/>
+	</Improvement_YieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Pairidaeza_CityCenterAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="Pairidaeza_CommercialHubAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Pairidaeza_HolySiteAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Pairidaeza_TheaterAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+	</Adjacency_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="22" ImprovementType="IMPROVEMENT_PAIRIDAEZA" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_DIPLOMATIC_SERVICE"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_PAIRIDAEZA" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Leaders>
+		<Row LeaderType="LEADER_ALEXANDER" Name="LOC_LEADER_ALEXANDER_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_CYRUS" Name="LOC_LEADER_CYRUS_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ALEXANDER" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_ALEXANDER_QUOTE" QuoteAudio="MACE_AL_MISC_PEP_TALK_D"/>
+		<Row LeaderType="LEADER_CYRUS" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_CYRUS_QUOTE" QuoteAudio="PERS_CY_MISC_PEP_TALK_B"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="TRAIT_LEADER_TO_WORLDS_END"/>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="TRAIT_LEADER_UNIT_HETAIROI"/>
+		<Row LeaderType="LEADER_ALEXANDER" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
+		<Row LeaderType="LEADER_CYRUS" TraitType="TRAIT_LEADER_FALL_BABYLON"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" Name="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_NAME" Description="LOC_TRAIT_LEADER_HELLENISTIC_FUSION_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BASILIKOI_PAIDES" Name="LOC_BUILDING_BASILIKOI_PAIDES_NAME" Description="LOC_BUILDING_BASILIKOI_PAIDES_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HYPASPIST" Name="LOC_TRAIT_CIVILIZATION_UNIT_HYPASPIST_NAME"/>
+		<Row TraitType="TRAIT_LEADER_UNIT_HETAIROI" Name="LOC_TRAIT_LEADER_UNIT_HETAIROI_NAME"/>
+		<Row TraitType="TRAIT_LEADER_TO_WORLDS_END" Name="LOC_TRAIT_LEADER_TO_WORLDS_END_NAME" Description="LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_SHORT_LIFE_GLORY" Name="LOC_AGENDA_SHORT_LIFE_GLORY_NAME" Description="LOC_AGENDA_SHORT_LIFE_GLORY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SATRAPIES" Name="LOC_TRAIT_CIVILIZATION_SATRAPIES_NAME" Description="LOC_TRAIT_CIVILIZATION_SATRAPIES_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PAIRIDAEZA" Name="LOC_IMPROVEMENT_PAIRIDAEZA_NAME" Description="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_IMMORTAL" Name="LOC_UNIT_PERSIAN_IMMORTAL_NAME" Description="LOC_UNIT_PERSIAN_IMMORTAL_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_FALL_BABYLON" Name="LOC_TRAIT_LEADER_FALL_BABYLON_NAME" Description="LOC_TRAIT_LEADER_FALL_BABYLON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_BACKSTABBER" Name="LOC_AGENDA_BACKSTABBER_NAME" Description="LOC_AGENDA_BACKSTABBER_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HELLENISTIC_FUSION</TraitType>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HELLENISTIC_FUSION</TraitType>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HELLENISTIC_FUSION</TraitType>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HELLENISTIC_FUSION</TraitType>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_TO_WORLDS_END</TraitType>
+			<ModifierId>TRAIT_TOWORLDSEND_NO_WAR_WEARINESS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_TO_WORLDS_END</TraitType>
+			<ModifierId>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_SHORT_LIFE_GLORY</TraitType>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SATRAPIES</TraitType>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SATRAPIES</TraitType>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SATRAPIES</TraitType>
+			<ModifierId>TRAIT_SATRAPIES_POLITICAL_PHILOSOPHY_TRADE_ROUTE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_SATRAPIES</TraitType>
+			<ModifierId>TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_FALL_BABYLON</TraitType>
+			<ModifierId>TRAIT_FALLBABYLON_NO_OCCUPATION_PENALTIES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_FALL_BABYLON</TraitType>
+			<ModifierId>TRAIT_FALLBABYLON_SURPRISE_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_FALL_BABYLON</TraitType>
+			<ModifierId>TRAIT_FALLBABYLON_WARMONGER_MAX</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_BACKSTABBER</TraitType>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Agendas>
+		<Row AgendaType="AGENDA_SHORT_LIFE_GLORY" Name="LOC_AGENDA_SHORT_LIFE_GLORY_NAME" Description="LOC_AGENDA_SHORT_LIFE_GLORY_DESCRIPTION"/>
+		<Row AgendaType="AGENDA_BACKSTABBER" Name="LOC_AGENDA_BACKSTABBER_NAME" Description="LOC_AGENDA_BACKSTABBER_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_ALEXANDER" AgendaType="AGENDA_SHORT_LIFE_GLORY"/>
+		<Row LeaderType="LEADER_CYRUS" AgendaType="AGENDA_BACKSTABBER"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_SHORT_LIFE_GLORY" TraitType="TRAIT_AGENDA_SHORT_LIFE_GLORY"/>
+		<Row AgendaType="AGENDA_SHORT_LIFE_GLORY" TraitType="TRAIT_AGENDA_IGNORE_WARMONGERING"/>
+		<Row AgendaType="AGENDA_BACKSTABBER" TraitType="TRAIT_AGENDA_BACKSTABBER"/>
+	</AgendaTraits>
+	<ExclusiveAgendas>
+		<Row AgendaOne="AGENDA_SHORT_LIFE_GLORY" AgendaTwo="AGENDA_PARANOID"/>
+		<Row AgendaOne="AGENDA_SHORT_LIFE_GLORY" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+		<Row AgendaOne="AGENDA_SHORT_LIFE_GLORY" AgendaTwo="AGENDA_DARWINIST"/>
+		<Row AgendaOne="AGENDA_BACKSTABBER" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
+	</ExclusiveAgendas>
+	<AiListTypes>
+		<Row ListType="AlexanderPreferWar"/>
+		<Row ListType="CyrusPreferBackstabbing"/>
+		<Row ListType="AlexanderCivics"/>
+		<Row ListType="AlexanderTechs"/>
+		<Row ListType="AlexanderWonders"/>
+		<Row ListType="CyrusCivics"/>
+		<Row ListType="CyrusTechs"/>
+		<Row ListType="CyrusWonders"/>
+		<Row ListType="ShortLifeDiplomacy"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="AlexanderPreferWar" LeaderType="TRAIT_LEADER_TO_WORLDS_END" System="Strategies"/>
+		<Row ListType="CyrusPreferBackstabbing" LeaderType="TRAIT_AGENDA_BACKSTABBER" System="DiplomaticActions"/>
+		<Row ListType="AlexanderCivics" LeaderType="TRAIT_LEADER_TO_WORLDS_END" System="Civics"/>
+		<Row ListType="AlexanderTechs" LeaderType="TRAIT_LEADER_TO_WORLDS_END" System="Technologies"/>
+		<Row ListType="AlexanderWonders" LeaderType="TRAIT_LEADER_TO_WORLDS_END" System="Buildings"/>
+		<Row ListType="CyrusCivics" LeaderType="TRAIT_LEADER_FALL_BABYLON" System="Civics"/>
+		<Row ListType="CyrusTechs" LeaderType="TRAIT_LEADER_FALL_BABYLON" System="Technologies"/>
+		<Row ListType="CyrusWonders" LeaderType="TRAIT_LEADER_FALL_BABYLON" System="Buildings"/>
+		<Row ListType="ShortLifeDiplomacy" AgendaType="TRAIT_AGENDA_SHORT_LIFE_GLORY" System="DiplomaticActions"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="AlexanderPreferWar" Item="VICTORY_STRATEGY_MILITARY_VICTORY" Value="-2"/>
+		<Row ListType="CyrusPreferBackstabbing" Item="DIPLOACTION_DECLARE_SURPRISE_WAR" Favored="true"/>
+		<Row ListType="CyrusPreferBackstabbing" Item="DIPLOACTION_DENOUNCE" Favored="false"/>
+		<Row ListType="AlexanderCivics" Item="CIVIC_MILITARY_TRADITION" Favored="true"/>
+		<Row ListType="AlexanderTechs" Item="TECH_BRONZE_WORKING" Favored="true"/>
+		<Row ListType="AlexanderTechs" Item="TECH_HORSEBACK_RIDING" Favored="true"/>
+		<Row ListType="AlexanderTechs" Item="TECH_IRON_WORKING" Favored="true"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_STONEHENGE" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_HANGING_GARDENS" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_ORACLE" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_GREAT_LIGHTHOUSE" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_COLOSSUS" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_PETRA" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_GREAT_LIBRARY" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_CHICHEN_ITZA" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_MONT_ST_MICHEL" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_APADANA" Favored="false"/>
+		<Row ListType="AlexanderWonders" Item="BUILDING_HALICARNASSUS_MAUSOLEUM" Favored="false"/>
+		<Row ListType="CyrusCivics" Item="CIVIC_DIPLOMATIC_SERVICE"/>
+		<Row ListType="CyrusCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="CyrusTechs" Item="TECH_FLIGHT"/>
+		<Row ListType="CyrusTechs" Item="TECH_CURRENCY"/>
+		<Row ListType="CyrusTechs" Item="TECH_IRON_WORKING"/>
+		<Row ListType="CyrusWonders" Item="BUILDING_COLOSSUS"/>
+		<Row ListType="CyrusWonders" Item="BUILDING_GREAT_ZIMBABWE"/>
+		<Row ListType="ShortLifeDiplomacy" Item="DIPLOACTION_MAKE_PEACE" Favored="false"/>
+	</AiFavoredItems>
+	<Modifiers>
+		<!--Civ Abilities-->
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_CAMPUS_MACEDON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_HOLY_SITE_MACEDON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_THEATER_DISTRICT_MACEDON</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_POLITICAL_PHILOSOPHY_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_POLITICAL_PHILOSOPHY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_IMPROVED_ROUTE_LEVEL</ModifierType>
+		</Row>
+		<!--Leader Abilities-->
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_NO_WAR_WEARINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_WONDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_SHORT_LIFE_GLORY</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_NO_OCCUPATION_PENALTIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_NO_OCCUPATION_PENALTIES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_SURPRISE_MOVEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_WARMONGER_MAX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_MAX_WARMONGER_PERCENT</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_OPPORTUNIST</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_10_TURNS</SubjectRequirementSetId>
+		</Row>
+		<!--Adjust Great Person Charges-->
+		<Row>
+			<ModifierId>HALICARNASSUS_ADJUST_ADMIRAL_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_ADMIRAL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_ADJUST_ENGINEER_CHARGES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES</ModifierType>
+			<SubjectRequirementSetId>UNIT_IS_ENGINEER</SubjectRequirementSetId>
+		</Row>
+		<!--Adjust Unit Experience Modifier-->
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_TRAINED_UNITS_ADJUST_XP_BONUS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>BASILIKOI_PAIDES_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!--Grant Envoy-->
+		<Row>
+			<ModifierId>APADANA_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_APADANA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>APADANA_AWARD_TWO_INFLUENCE_TOKEN_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN_FROM_CITY_WONDER</ModifierType>
+		</Row>
+		<!--Grant Unit-->
+		<Row>
+			<ModifierId>HALICARNASSUS_GRANT_ADMIRAL</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!--Grant Yield-->
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_UNIT_COST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Civ Abilities-->
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_INTERNAL_TRADE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_POLITICAL_PHILOSOPHY_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SATRAPIES_IMPROVED_ROUTE_LEVEL</ModifierId>
+			<Name>ImprovedRouteLevel</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Leader Abilities-->
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_NO_WAR_WEARINESS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_NO_WAR_WEARINESS</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_NO_OCCUPATION_PENALTIES</ModifierId>
+			<Name>NoPenalties</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_SURPRISE_MOVEMENT</ModifierId>
+			<Name>DiplomaticYieldSource</Name>
+			<Value>SURPRISE_WAR_INITIATED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_SURPRISE_MOVEMENT</ModifierId>
+			<Name>TurnsActive</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_SURPRISE_MOVEMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FALLBABYLON_WARMONGER_MAX</ModifierId>
+			<Name>MaxPercent</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<Name>MajorWarBonus</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<Name>EachWarDeclaredBonus</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<Name>MaxWarDeclaredBonus</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<Name>NotAtWarPenalty</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<Name>SinceWarPenaltyTurns</Name>
+			<Value>40</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_SHORT_LIFE_GLORY</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_SHORT_LIFE_GLORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+			<Name>RecentSurpriseWarBonus</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+			<Name>SurpriseWarDegradeTurns</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+			<Name>EachSurpriseWarBonus</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+			<Name>NeverSurpriseWarPenalty</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_BACKSTABBER</ModifierId>
+			<Name>StatementKey</Name>
+			<!-- Note: Value not actually used, just has to have something so we know this is a kudo/warning -->
+			<Value>AGENDA_BACKSTABBER</Value>
+		</Row>
+		<!--Adjust Charges-->
+		<Row>
+			<ModifierId>HALICARNASSUS_ADJUST_ADMIRAL_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_ADJUST_ENGINEER_CHARGES</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Adjust Unit Experience Modifier-->
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>33</Value>
+		</Row>
+		<!--Grant Envoy-->
+		<Row>
+			<ModifierId>APADANA_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>APADANA_AWARD_TWO_INFLUENCE_TOKEN_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>APADANA_AWARD_TWO_INFLUENCE_TOKEN_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!--Grant Unit-->
+		<Row>
+			<ModifierId>HALICARNASSUS_GRANT_ADMIRAL</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>HALICARNASSUS_GRANT_ADMIRAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!--Grant Yield-->
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_SHORT_LIFE_GLORY" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_BACKSTABBER" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+	<BuildingModifiers>
+		<!--Adjust Charges-->
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_ADJUST_ADMIRAL_CHARGES</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_ADJUST_ENGINEER_CHARGES</ModifierId>
+		</Row>
+		<!--Adjust Unit Experience Modifier-->
+		<Row>
+			<BuildingType>BUILDING_BASILIKOI_PAIDES</BuildingType>
+			<ModifierId>BASILIKOI_PAIDES_TRAINED_UNIT_XP_MODIFIER</ModifierId>
+		</Row>
+		<!--Grant Envoy-->
+		<Row>
+			<BuildingType>BUILDING_APADANA</BuildingType>
+			<ModifierId>APADANA_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
+		</Row>
+		<!--Grant Unit-->
+		<Row>
+			<BuildingType>BUILDING_HALICARNASSUS_MAUSOLEUM</BuildingType>
+			<ModifierId>HALICARNASSUS_GRANT_ADMIRAL</ModifierId>
+		</Row>
+		<!--Grant Yield-->
+		<Row>
+			<BuildingType>BUILDING_BASILIKOI_PAIDES</BuildingType>
+			<ModifierId>BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<RequirementSets>
+	.	<Row>
+			<RequirementSetId>BASILIKOI_PAIDES_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_APADANA_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_WONDER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_HOLY_SITE_MACEDON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_THEATER_DISTRICT_MACEDON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_CAMPUS_MACEDON</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_ADMIRAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_ENGINEER</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_POLITICAL_PHILOSOPHY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_NEW_WONDER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_BUILT_NEW_WONDER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_APADANA</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_WONDER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_ANY_WONDER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_ADMIRAL</RequirementId>
+			<RequirementType>REQUIREMENT_GREAT_PERSON_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_ENGINEER</RequirementId>
+			<RequirementType>REQUIREMENT_GREAT_PERSON_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_POLITICAL_PHILOSOPHY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_HETAIROI</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementSetRequirements>
+		<!--Basilikoi Unit Requirements-->
+		<Row>
+			<RequirementSetId>BASILIKOI_PAIDES_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_MELEE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BASILIKOI_PAIDES_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BASILIKOI_PAIDES_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_ANTI_CAV</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>BASILIKOI_PAIDES_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_HETAIROI</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_APADANA_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_APADANA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_WONDER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_WONDER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_ENCAMPMENT_MACEDON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_HOLY_SITE_MACEDON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_THEATER_DISTRICT_MACEDON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_CAMPUS_MACEDON</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_ADMIRAL</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_ADMIRAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_IS_ENGINEER</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_ENGINEER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_POLITICAL_PHILOSOPHY</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_POLITICAL_PHILOSOPHY</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_APADANA</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_APADANA</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_ADMIRAL</RequirementId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_ENGINEER</RequirementId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ENGINEER</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_POLITICAL_PHILOSOPHY</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_POLITICAL_PHILOSOPHY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIREMENT_UNIT_IS_HETAIROI</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_HETAIROI</Value>
+		</Row>
+	</RequirementArguments>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_MACEDON" CitizenName="LOC_CITIZEN_MACEDON_MODERN_FEMALE_10" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_PERSIA" CitizenName="LOC_CITIZEN_PERSIA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+</GameInfo>

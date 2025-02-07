@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<!--Unique Improvements -->
+		<Row Type="IMPROVEMENT_OUTBACK_STATION" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" Name="LOC_IMPROVEMENT_OUTBACK_STATION_NAME" Description="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION" Icon="ICON_IMPROVEMENT_OUTBACK_STATION" PlunderType="PLUNDER_HEAL" PlunderAmount="50" Buildable="true" PrereqCivic="CIVIC_GUILDS" Housing="1" TilesRequired="2"  TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_OUTBACK_STATION"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" YieldChangeId="Outback_Pasture_Food"/>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" YieldChangeId="Outback_Outback_Production"/>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" YieldChangeId="Outback_Outback_Food"/>
+		<Row ImprovementType="IMPROVEMENT_PASTURE" YieldChangeId="Pasture_Outback_Production"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<!--Unique Improvements -->
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_OUTBACK_STATION" YieldType="YIELD_FOOD" YieldChange="2"/>
+	</Improvement_YieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Outback_Pasture_Food" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row ID="Pasture_Outback_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OUTBACK_STATION" PrereqTech="TECH_STEAM_POWER"/>
+		<Row ID="Outback_Outback_Production" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OUTBACK_STATION" PrereqTech="TECH_STEAM_POWER"/>
+		<Row ID="Outback_Outback_Food" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_OUTBACK_STATION" PrereqCivic="CIVIC_RAPID_DEPLOYMENT"/>
+	</Adjacency_YieldChanges>
+</GameInfo>

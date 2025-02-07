@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_HAPPINESS"/>
+	</Kinds>
+	<Types>
+		<Row Type="HAPPINESS_REVOLT" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_UNREST" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_UNHAPPY" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_DISPLEASED" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_CONTENT" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_HAPPY" Kind="KIND_HAPPINESS"/>
+		<Row Type="HAPPINESS_ECSTATIC" Kind="KIND_HAPPINESS"/>
+	</Types>
+	<Happinesses>
+		<Row HappinessType="HAPPINESS_REVOLT" Name="LOC_HAPPINESS_REVOLT_NAME" MaximumAmenityScore="-4" GrowthModifier="-100" NonFoodYieldModifier="-40" RebellionPoints="4"/>
+		<Row HappinessType="HAPPINESS_UNREST" Name="LOC_HAPPINESS_UNREST_NAME" MinimumAmenityScore="-3" MaximumAmenityScore="-3" GrowthModifier="-100" NonFoodYieldModifier="-30" RebellionPoints="-1"/>
+		<Row HappinessType="HAPPINESS_UNHAPPY" Name="LOC_HAPPINESS_UNHAPPY_NAME" MinimumAmenityScore="-2" MaximumAmenityScore="-2" GrowthModifier="-20" NonFoodYieldModifier="-20"/>
+		<Row HappinessType="HAPPINESS_DISPLEASED" Name="LOC_HAPPINESS_DISPLEASED_NAME" MinimumAmenityScore="-1" MaximumAmenityScore="-1" GrowthModifier="-10" NonFoodYieldModifier="-10" RebellionPoints="-1"/>
+		<Row HappinessType="HAPPINESS_CONTENT" Name="LOC_HAPPINESS_CONTENT_NAME" MinimumAmenityScore="0" MaximumAmenityScore="1" GrowthModifier="10" NonFoodYieldModifier="10" RebellionPoints="-1"/>
+		<Row HappinessType="HAPPINESS_HAPPY" Name="LOC_HAPPINESS_HAPPY_NAME" MinimumAmenityScore="2" MaximumAmenityScore="2" GrowthModifier="20" NonFoodYieldModifier="20" RebellionPoints="-1"/>
+		<Row HappinessType="HAPPINESS_ECSTATIC" Name="LOC_HAPPINESS_ECSTATIC_NAME" MinimumAmenityScore="3" GrowthModifier="30" NonFoodYieldModifier="30" RebellionPoints="-1"/>
+	</Happinesses>
+	<Unit_RebellionTags>
+		<Row Tag="UNITTYPE_MELEE" RebellionLevel="1" NumCreated="2" ForbiddenTag="UNITTYPE_NAVAL"/>
+		<Row Tag="UNITTYPE_MELEE" RebellionLevel="2" NumCreated="3" ForbiddenTag="UNITTYPE_NAVAL"/>
+		<Row Tag="UNITTYPE_RANGED" RebellionLevel="2" NumCreated="1" ForbiddenTag="UNITTYPE_NAVAL"/>
+		<Row Tag="UNITTYPE_MELEE" RebellionLevel="3" NumCreated="4" ForbiddenTag="UNITTYPE_NAVAL"/>
+		<Row Tag="UNITTYPE_RANGED" RebellionLevel="3" NumCreated="2" ForbiddenTag="UNITTYPE_NAVAL"/>
+	</Unit_RebellionTags>
+</GameInfo>

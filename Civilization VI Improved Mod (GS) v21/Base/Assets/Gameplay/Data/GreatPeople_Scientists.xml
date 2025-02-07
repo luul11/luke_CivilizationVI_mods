@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ARYABHATA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_EUCLID" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HYPATIA" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ALAN_TURING" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_CARL_SAGAN" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+		<Row Type="GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK" Kind="KIND_GREAT_PERSON_INDIVIDUAL"/>
+	</Types>
+	<GreatPersonIndividuals>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" Name="LOC_GREAT_PERSON_INDIVIDUAL_ARYABHATA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" Name="LOC_GREAT_PERSON_INDIVIDUAL_EUCLID_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_EUCLID_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HYPATIA" Name="LOC_GREAT_PERSON_INDIVIDUAL_HYPATIA_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_CLASSICAL" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" Name="LOC_GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionNameTextOverride="LOC_GREATPERSON_ACTION_NAME_RETIRE" ActionEffectTileHighlighting="false" AreaHighlightRadius="1"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" Name="LOC_GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MEDIEVAL" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_HOLY_SITE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM" Name="LOC_GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MEDIEVAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_OMAR_KHAYYAM_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" Name="LOC_GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresAdjacentMountain="true" ActionEffectTextOverride="LOC_GREATPERSON_GALILEO_GALILEI_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON" Name="LOC_GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_ISAAC_NEWTON_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET" Name="LOC_GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_RENAISSANCE" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG" Name="LOC_GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresOnOrAdjacentNaturalWonder="true" ActionEffectTextOverride="LOC_GREATPERSON_CHARLES_DARWIN_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV" Name="LOC_GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INDUSTRIAL" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_DMITRI_MENDELEEV_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALAN_TURING" Name="LOC_GREAT_PERSON_INDIVIDUAL_ALAN_TURING_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS" ActionEffectTextOverride="LOC_GREATPERSON_ALAN_TURING_ACTIVE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN" Name="LOC_GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL" Name="LOC_GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_MODERN" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL" Name="LOC_GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="F" ActionCharges="1" ActionRequiresOwnedTile="false" ActionRequiresOnOrAdjacentFeatureType="FEATURE_JUNGLE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY" Name="LOC_GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_THEATER" ActionRequiresCityGreatWorkObjectType="GREATWORKOBJECT_ARTIFACT"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER" Name="LOC_GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_ATOMIC" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM" Name="LOC_GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_CAMPUS"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CARL_SAGAN" Name="LOC_GREAT_PERSON_INDIVIDUAL_CARL_SAGAN_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INFORMATION" Gender="M" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_SPACEPORT" ActionRequiresIncompleteSpaceRaceProject="true"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK" Name="LOC_GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK_NAME" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" EraType="ERA_INFORMATION" Gender="F" ActionCharges="1" ActionRequiresCompletedDistrictType="DISTRICT_SPACEPORT"/>
+	</GreatPersonIndividuals>
+	<GreatPersonIndividualActionModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ARYABHATA" ModifierId="GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_1MEDIEVALTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EUCLID" ModifierId="GREATPERSON_MATHTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HYPATIA" ModifierId="GREATPERSON_LIBRARY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HYPATIA" ModifierId="GREATPERSON_LIBRARIES_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" ModifierId="GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" ModifierId="GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" ModifierId="GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_HILDEGARD_OF_BINGEN" ModifierId="GREATPERSON_FAITH" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM" ModifierId="GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_OMAR_KHAYYAM" ModifierId="GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_GRASSMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_PLAINSMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_DESERTMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_TUNDRAMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_SNOWMOUNTAIN_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON" ModifierId="GREATPERSON_LIBRARY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON" ModifierId="GREATPERSON_UNIVERSITY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ISAAC_NEWTON" ModifierId="GREATPERSON_UNIVERSITIES_SMALL_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_EMILIE_DU_CHATELET" ModifierId="GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG" ModifierId="GREATPERSON_REVEAL_OIL" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JAMES_YOUNG" ModifierId="GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN" ModifierId="GREATPERSON_ADJACENT_NATURALWONDER_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV" ModifierId="GREATPERSON_1INDUSTRIALTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_DMITRI_MENDELEEV" ModifierId="GREATPERSON_CHEMISTRYTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALAN_TURING" ModifierId="GREATPERSON_1MODERNTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALAN_TURING" ModifierId="GREATPERSON_COMPUTERSTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN" ModifierId="GREATPERSON_UNIVERSITIES_BIG_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALBERT_EINSTEIN" ModifierId="GREATPERSON_1MODERNATOMICTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL" ModifierId="GREATPERSON_1MODERNATOMICTECHBOOST" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALFRED_NOBEL" ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL" ModifierId="GREATPERSON_ADJACENT_RAINFOREST_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_UNIT_GREATPERSON"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY" ModifierId="GREATPERSON_ARTIFACT_TOURISM_MODIFIER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARY_LEAKEY" ModifierId="GREATPERSON_ARTIFACT_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ERWIN_SCHRODINGER" ModifierId="GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABDUS_SALAM" ModifierId="GREATPERSON_ALLINFORMATIONTECHBOOSTS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CARL_SAGAN" ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_STEPHANIE_KWOLEK" ModifierId="GREATPERSON_SPACE_RACE_PRODUCTION_RATE_LARGE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+	</GreatPersonIndividualActionModifiers>
+	<GreatPersonIndividualBirthModifiers>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ABU_AL_QASIM_AL_ZAHRAWI" ModifierId="MEDIC_INCREASE_HEAL_RATE"/>
+	</GreatPersonIndividualBirthModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_RAINFOREST_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_FEATURE_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_NATURALWONDER_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_NATURAL_WONDER_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_TERRAIN_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_TERRAIN_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_TERRAIN_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_TERRAIN_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_ADJACENT_TERRAIN_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MATHTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INDUSTRIALTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHEMISTRYTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LIBRARY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LIBRARIES_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_SMALL_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_BIG_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MODERNATOMICTECHBOOST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_REVEAL_OIL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_TOURISM_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TOURISM</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_YIELD_PER_GREAT_WORK</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALLINFORMATIONTECHBOOSTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_ALL_TECHNOLOGY_BOOST_BY_ERA</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>ABU_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE_HEAL_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_RAINFOREST_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_RAINFOREST_SCIENCE</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_JUNGLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_RAINFOREST_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>400</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_NATURALWONDER_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_NATURALWONDER_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>800</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_GRASSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_PLAINSMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_DESERTMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_TUNDRAMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ADJACENT_SNOWMOUNTAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>250</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALTECHBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALTECHBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MEDIEVALTECHBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_MATHTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MATHEMATICS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INDUSTRIALTECHBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INDUSTRIALTECHBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1INDUSTRIALTECHBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_CHEMISTRYTECHBOOST</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_CHEMISTRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LIBRARY</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LIBRARIES_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LIBRARIES_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIBRARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_LIBRARIES_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITY</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_SMALL_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_SMALL_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_SMALL_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_BIG_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_BIG_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_UNIVERSITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_UNIVERSITIES_BIG_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MODERNATOMICTECHBOOST</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MODERNATOMICTECHBOOST</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_1MODERNATOMICTECHBOOST</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_REVEAL_OIL</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_TOURISM_MODIFIER</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_ARTIFACT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_TOURISM_MODIFIER</ModifierId>
+			<Name>ScalingFactor</Name>
+			<Value>300</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_SCIENCE</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_ARTIFACT</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ARTIFACT_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>350</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALLINFORMATIONTECHBOOSTS</ModifierId>
+			<Name>StartEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ALLINFORMATIONTECHBOOSTS</ModifierId>
+			<Name>EndEraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GREAT_PERSON_FREE_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3000</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE</ModifierId>
+			<Name>KeepOverflow</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE_HEAL_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE_HEAL_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE_HEAL_BONUS</ModifierId>
+			<Name>Type</Name>
+			<Value>ALL</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_3CLASSICALMEDIEVALTECHBOOSTS"/>
+		<Row ModifierId="GREATPERSON_1MEDIEVALTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_1MEDIEVALTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_MATHTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_MATHTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_LIBRARY" Context="Summary" Text="LOC_GREATPERSON_LIBRARY"/>
+		<Row ModifierId="GREATPERSON_LIBRARIES_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_LIBRARIES_SCIENCE"/>
+		<Row ModifierId="GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST" Context="Summary" Text="LOC_GREATPERSON_1MEDIEVALRENAISSANCETECHBOOST"/>
+		<Row ModifierId="GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_HOLY_SITE_ADJACENCY_AS_SCIENCE"/>
+		<Row ModifierId="GREATPERSON_FAITH" Context="Summary" Text="LOC_GREATPERSON_FAITH"/>
+		<Row ModifierId="GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_2MEDIEVALRENAISSANCETECHBOOSTS"/>
+		<Row ModifierId="GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST" Context="Summary" Text="LOC_GREATPERSON_1MEDIEVALRENAISSANCECIVICBOOST"/>
+		<Row ModifierId="GREATPERSON_UNIVERSITY" Context="Summary" Text="LOC_GREATPERSON_UNIVERSITY"/>
+		<Row ModifierId="GREATPERSON_UNIVERSITIES_SMALL_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_UNIVERSITIES_SMALL_SCIENCE"/>
+		<Row ModifierId="GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_3RENAISSANCEINDUSTRIALTECHBOOSTS"/>
+		<Row ModifierId="GREATPERSON_GREAT_PERSON_FREE_POINTS" Context="Summary" Text="LOC_GREATPERSON_GREAT_PERSON_FREE_POINTS"/>
+		<Row ModifierId="GREATPERSON_1INDUSTRIALTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_1INDUSTRIALTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_CHEMISTRYTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_CHEMISTRYTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_UNIVERSITIES_BIG_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_UNIVERSITIES_BIG_SCIENCE"/>
+		<Row ModifierId="GREATPERSON_1MODERNATOMICTECHBOOST" Context="Summary" Text="LOC_GREATPERSON_1MODERNATOMICTECHBOOST"/>
+		<Row ModifierId="GREATPERSON_REVEAL_OIL" Context="Summary" Text="LOC_GREATPERSON_REVEAL_OIL"/>
+		<Row ModifierId="GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_2INDUSTRIALMODERNTECHBOOSTS"/>
+		<Row ModifierId="GREATPERSON_ADJACENT_RAINFOREST_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_ADJACENT_RAINFOREST_SCIENCE"/>
+		<Row ModifierId="GREATPERSON_ARTIFACT_TOURISM_MODIFIER" Context="Summary" Text="LOC_GREATPERSON_ARTIFACT_TOURISM_MODIFIER"/>
+		<Row ModifierId="GREATPERSON_ARTIFACT_SCIENCE" Context="Summary" Text="LOC_GREATPERSON_ARTIFACT_SCIENCE"/>
+		<Row ModifierId="GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_3ATOMICINFORMATIONTECHBOOSTS"/>
+		<Row ModifierId="GREATPERSON_ALLINFORMATIONTECHBOOSTS" Context="Summary" Text="LOC_GREATPERSON_ALLINFORMATIONTECHBOOSTS"/>
+		<Row ModifierId="GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE" Context="Summary" Text="LOC_GREATPERSON_GRANT_PRODUCTION_IN_CITY_LATE_SPACE_RACE"/>
+		<Row ModifierId="GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE" Context="Summary" Text="LOC_GREATPERSON_ABU_AL_QASIM_AL_ZAHRAWI_ACTIVE"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>ABU_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>ABU_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+</GameInfo>

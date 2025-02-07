@@ -1,0 +1,387 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SAGE_COMBAT_AOE_RELIGIOUS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GURU_MOVEMENT" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GURU_STRENGTH" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_ROCK_BAND_ENTER_FOREIGN_LANDS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_JUMP" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_WMD_RESISTANCE" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UNIT_FIGHT_WHILE_EMBARKED" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<Row Type="ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS" Tag="CLASS_GURU"/>
+		<Row Type="ABILITY_SAGE_COMBAT_AOE_RELIGIOUS" Tag="CLASS_GURU"/>
+		<Row Type="ABILITY_GURU_MOVEMENT" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="ABILITY_GURU_STRENGTH" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="ABILITY_ROCK_BAND_ENTER_FOREIGN_LANDS" Tag="CLASS_ROCK_BAND"/>
+		<Row Type="ABILITY_UNIT_WMD_RESISTANCE" Tag="CLASS_GIANT_DEATH_ROBOT"/>
+		<Row Type="ABILITY_UNIT_FIGHT_WHILE_EMBARKED" Tag="CLASS_GIANT_DEATH_ROBOT"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_NAVAL_RANGED"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Tag="CLASS_SUPPORT"/>
+	</TypeTags>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS" Name="LOC_ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS_NAME" Description="LOC_ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_SAGE_COMBAT_AOE_RELIGIOUS" Name="LOC_ABILITY_SAGE_COMBAT_AOE_RELIGIOUS_NAME" Description="LOC_ABILITY_SAGE_COMBAT_AOE_RELIGIOUS_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GURU_MOVEMENT" Name="LOC_ABILITY_GURU_MOVEMENT_NAME" Description="LOC_ABILITY_GURU_MOVEMENT_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GURU_STRENGTH" Name="LOC_ABILITY_GURU_STRENGTH_NAME" Description="LOC_ABILITY_GURU_STRENGTH_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_ROCK_BAND_ENTER_FOREIGN_LANDS" Name="LOC_ABILITY_ROCK_BAND_ENTER_FOREIGN_LANDS_NAME" Description="LOC_ABILITY_ROCK_BAND_ENTER_FOREIGN_LANDS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_WMD_RESISTANCE" Name="LOC_ABILITY_UNIT_WMD_RESISTANCE_NAME" Description="LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UNIT_FIGHT_WHILE_EMBARKED" Name="LOC_ABILITY_UNIT_FIGHT_WHILE_EMBARKED_NAME" Description="LOC_ABILITY_UNIT_FIGHT_WHILE_EMBARKED_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY" Name="LOC_ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY_NAME" Description="LOC_ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_DIGITAL_DEMOCRACY_DEBUFF" Name="LOC_ABILITY_DIGITAL_DEMOCRACY_DEBUFF_NAME" Description="LOC_ABILITY_DIGITAL_DEMOCRACY_DEBUFF_DESCRIPTION" Inactive="true"/>
+		<Row UnitAbilityType="ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY" Name="LOC_POLICY_FUTURE_COUNTER_DOMINATION_NAME" Description="LOC_POLICY_FUTURE_COUNTER_DOMINATION_DESCRIPTION" Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GUIDE_MOVEMENT_AOE_RELIGIOUS</UnitAbilityType>
+			<ModifierId>GUIDE_MOVEMENT_AOE_RELIGIOUS_XP2</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SAGE_COMBAT_AOE_RELIGIOUS</UnitAbilityType>
+			<ModifierId>SAGE_COMBAT_AOE_RELIGIOUS_XP2</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GURU_MOVEMENT</UnitAbilityType>
+			<ModifierId>GURU_MOVEMENT_XP2</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GURU_STRENGTH</UnitAbilityType>
+			<ModifierId>GURU_STRENGTH_XP2</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ROCK_BAND_ENTER_FOREIGN_LANDS</UnitAbilityType>
+			<ModifierId>MOD_ENTER_FOREIGN_LANDS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_WMD_RESISTANCE</UnitAbilityType>
+			<ModifierId>GDR_WMD_RESISTANCE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_FIGHT_WHILE_EMBARKED</UnitAbilityType>
+			<ModifierId>GDR_FIGHT_WHILE_EMBARKED</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY</UnitAbilityType>
+			<ModifierId>FINEST_HOUR_FRIENDLY_BUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DIGITAL_DEMOCRACY_DEBUFF</UnitAbilityType>
+			<ModifierId>DIGITAL_DEMOCRACY_DEBUFF</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY</UnitAbilityType>
+			<ModifierId>GLOBAL_COALITION_FRIENDLY_TERRITORY</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GUIDE_MOVEMENT_AOE_RELIGIOUS_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RELIGIOUS_REQUIREMENTS_XP2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SAGE_COMBAT_AOE_RELIGIOUS_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>AOE_RELIGIOUS_REQUIREMENTS_XP2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GURU_MOVEMENT_XP2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>AOE_GURU_REQUIREMENTS_XP2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GURU_STRENGTH_XP2</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>AOE_GURU_REQUIREMENTS_XP2</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>GDR_WMD_RESISTANCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_WMD_RESISTANCE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GDR_FIGHT_WHILE_EMBARKED</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ADJUST_FIGHT_WHILE_EMBARKED</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FINEST_HOUR_FRIENDLY_BUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COSSACK_PLOT_IS_OWNER_OR_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_DEBUFF</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>GLOBAL_COALITION_FRIENDLY_TERRITORY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>FRIENDLY_TERRITORY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>GUIDE_MOVEMENT_AOE_RELIGIOUS_XP2</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GURU_MOVEMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAGE_COMBAT_AOE_RELIGIOUS_XP2</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GURU_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>GURU_MOVEMENT_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>GURU_STRENGTH_XP2</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>GDR_WMD_RESISTANCE</ModifierId>
+			<Name>Blast</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>GDR_WMD_RESISTANCE</ModifierId>
+			<Name>Fallout</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>GDR_FIGHT_WHILE_EMBARKED</ModifierId>
+			<Name>CanFight</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>FINEST_HOUR_FRIENDLY_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<Row>
+			<ModifierId>DIGITAL_DEMOCRACY_DEBUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>GLOBAL_COALITION_FRIENDLY_TERRITORY</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+	</ModifierArguments>
+	<!--  -->
+	<!-- REQUIREMENTS -->
+	<!--  -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>AOE_RELIGIOUS_REQUIREMENTS_XP2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_GURU_REQUIREMENTS_XP2</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_UNIT_IS_EMBARKED</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_TRADER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_ON_PARK_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_ON_OWN_PARK_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>FRIENDLY_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>AOE_RELIGIOUS_REQUIREMENTS_XP2</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_ADJACENT_RELIGIOUS_ALL_XP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_GURU_REQUIREMENTS_XP2</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_ADJACENT_GURU_XP2</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_UNIT_IS_EMBARKED</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_IS_EMBARKED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>AOE_TRADER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>TRADER_IS_WITHIN_FOUR_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_ON_PARK_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_PARK_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>UNIT_ON_OWN_PARK_REQUIREMENTS</RequirementSetId>
+			<RequirementId>UNIT_OWNER_PARK_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>FRIENDLY_TERRITORY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>IS_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_ADJACENT_RELIGIOUS_ALL_XP2</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_ADJACENT_GURU_XP2</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_EMBARKED</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_EMBARKED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>TRADER_IS_WITHIN_FOUR_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_NEARBY_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_PARK_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PLOT_HAS_NATIONAL_PARK</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_OWNER_PARK_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_PLOT_HAS_NATIONAL_PARK</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_UNIT_IS_EMBARKED</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_UNIT_EMBARKED</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>IS_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_TERRITORY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_ADJACENT_RELIGIOUS_ALL_XP2</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_RELIGIOUS_ALL</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_IS_ADJACENT_GURU_XP2</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_GURU</Value>
+		</Row>
+		<Row>
+			<RequirementId>TRADER_IS_WITHIN_FOUR_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>TRADER_IS_WITHIN_FOUR_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<RequirementId>TRADER_IS_WITHIN_FOUR_REQUIREMENT</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_TRADER</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_OWNER_PARK_REQUIREMENT</RequirementId>
+			<Name>SameOwner</Name>
+			<Value>True</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_OWNER_PARK_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_OWNER_PARK_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_PARK_REQUIREMENT</RequirementId>
+			<Name>SameOwner</Name>
+			<Value>False</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_PARK_REQUIREMENT</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>UNIT_PARK_REQUIREMENT</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<RequirementId>IS_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+			<Name>MinRange</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>IS_FRIENDLY_TERRITORY_REQUIREMENT</RequirementId>
+			<Name>MaxRange</Name>
+			<Value>0</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="GURU_STRENGTH_XP2" Context="Preview" Text="LOC_ABILITY_GURU_STRENGTH_XP2_DESCRIPTION"/>
+		<Row ModifierId="FINEST_HOUR_FRIENDLY_BUFF" Context="Preview" Text="LOC_ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY_DESCRIPTION"/>
+		<Row ModifierId="DIGITAL_DEMOCRACY_DEBUFF" Context="Preview" Text="LOC_COMBAT_PREVIEW_DIGITAL_DEMOCRACY_COMBAT_DEBUFF"/>
+		<Row ModifierId="GLOBAL_COALITION_FRIENDLY_TERRITORY" Context="Preview" Text="LOC_COMBAT_PREVIEW_ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

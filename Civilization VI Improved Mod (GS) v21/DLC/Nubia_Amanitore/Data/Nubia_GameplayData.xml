@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_JEBEL_BARKAL" Kind="KIND_BUILDING"/>
+		<Row Type="CIVILIZATION_NUBIA" Kind="KIND_CIVILIZATION"/>
+		<Row Type="IMPROVEMENT_PYRAMID" Kind="KIND_IMPROVEMENT"/>
+		<Row Type="LEADER_AMANITORE" Kind="KIND_LEADER"/>
+		<Row Type="UNIT_NUBIAN_PITATI" Kind="KIND_UNIT"/>
+		<Row Type="TRAIT_CIVILIZATION_TA_SETI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_CITY_PLANNER" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_KANDAKE_OF_MEROE" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_TA_SETI" Name="LOC_TRAIT_CIVILIZATION_TA_SETI_NAME" Description="LOC_TRAIT_CIVILIZATION_TA_SETI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID" Name="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID_NAME" Description="LOC_TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_CITY_PLANNER" />
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI" Name="LOC_TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI_NAME" Description="LOC_TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE" Name="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_NAME" Description="LOC_TRAIT_LEADER_KANDAKE_OF_MEROE_DESCRIPTION"/>
+	</Traits>
+	<AiListTypes>
+		<Row ListType="AmanitoreCivics"/>
+		<Row ListType="AmanitoreTechs"/>
+		<Row ListType="AmanitoreUnitBuilds"/>
+		<Row ListType="AmanitoreWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="AmanitoreCivics" LeaderType="TRAIT_LEADER_KANDAKE_OF_MEROE" System="Civics"/>
+		<Row ListType="AmanitoreTechs" LeaderType="TRAIT_LEADER_KANDAKE_OF_MEROE" System="Technologies"/>
+		<Row ListType="AmanitoreUnitBuilds" LeaderType="TRAIT_LEADER_KANDAKE_OF_MEROE" System="UnitPromotionClasses"/>
+		<Row ListType="AmanitoreWonders" LeaderType="TRAIT_LEADER_KANDAKE_OF_MEROE" System="Buildings"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="AmanitoreCivics" Item="CIVIC_CRAFTSMANSHIP" Favored="true"/>
+		<Row ListType="AmanitoreCivics" Item="CIVIC_FEUDALISM" Favored="true"/>
+		<Row ListType="AmanitoreTechs" Item="TECH_ARCHERY" Favored="true"/>
+		<Row ListType="AmanitoreTechs" Item="TECH_MASONRY" Favored="true"/>
+		<Row ListType="AmanitoreTechs" Item="TECH_BALLISTICS" Favored="true"/>
+		<Row ListType="AmanitoreTechs" Item="TECH_INDUSTRIALIZATION" Favored="true"/>
+		<Row ListType="AmanitoreTechs" Item="TECH_APPRENTICESHIP" Favored="true"/>
+		<Row ListType="AmanitoreUnitBuilds" Item="PROMOTION_CLASS_RANGED" Value="1"/>
+		<Row ListType="AmanitoreWonders" Item="BUILDING_PETRA" Favored="true"/>
+		<Row ListType="AmanitoreWonders" Item="BUILDING_RUHR_VALLEY" Favored="true"/>
+	</AiFavoredItems>
+	<TypeTags>
+		<Row Type="UNIT_NUBIAN_PITATI" Tag="CLASS_RANGED"/>
+	</TypeTags>
+	<Buildings>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" Name="LOC_BUILDING_JEBEL_BARKAL_NAME" Description="LOC_BUILDING_JEBEL_BARKAL_DESCRIPTION" PrereqTech="TECH_IRON_WORKING" Cost="400" AdvisorType="ADVISOR_RELIGIOUS" MaxWorldInstances="1" IsWonder="true" RequiresPlacement="true" ObsoleteEra="ERA_RENAISSANCE" Quote="LOC_BUILDING_JEBEL_BARKAL_QUOTE" QuoteAudio="Play_JEBEL_BARKAL_QUOTE" RegionalRange="6"/>
+	</Buildings>
+	<Building_ValidTerrains>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</Building_ValidTerrains>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_JEBEL_BARKAL" YieldType="YIELD_FAITH" YieldChange="4"/>
+	</Building_YieldChanges>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_JEBEL_BARKAL</BuildingType>
+			<ModifierId>JEBELBARKAL_GRANT_TWO_IRON</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_NUBIA" Name="LOC_CIVILIZATION_NUBIA_NAME" Description="LOC_CIVILIZATION_NUBIA_DESCRIPTION" Adjective="LOC_CIVILIZATION_NUBIA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_AFRICAN"/>
+	</Civilizations>
+	<Leaders>
+		<Row LeaderType="LEADER_AMANITORE" Name="LOC_LEADER_AMANITORE_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_AMANITORE" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_AMANITORE_QUOTE" QuoteAudio="NUBI_AM_MISC_PEP_TALK_A_2"/>
+	</LeaderQuotes>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_AMANITORE" TraitType="TRAIT_LEADER_KANDAKE_OF_MEROE"/>
+	</LeaderTraits>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_NUBIA" LeaderType="LEADER_AMANITORE" CapitalName="LOC_CITY_NAME_MEROE"/>
+	</CivilizationLeaders>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CitizenName="LOC_CITIZEN_NUBIA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_NUBIA" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_NUBIA_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_NUBIA_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_NUBIA_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_CIVINFO_NUBIA_CAPITAL" SortIndex="40"/>
+	</CivilizationInfo>
+	<CityNames>
+		<!--Nubia-->
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_MEROE"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_KERMA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NAPATA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_NURI"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_EL_KURRU"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_KAWA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_SEDEINGA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_HEH"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_QASR_IBRIM"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_FARAS"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_SHAAT"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_IKEN"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_ABU_SIMBEL"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_BUHEN"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_DANGEIL"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_MIAM"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_TOMBOS"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_KURGUS"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_TOSHKA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_SOLEB"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_WAD_BAN_NAQA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_DEBBA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_BUGDUMBUSH"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_BAKI"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_AMARA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_MUSAWWARAT_ES_SUFRA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_EL_FURA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_UKMA"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_PEDEME"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" CityName="LOC_CITY_NAME_DEFEIA"/>
+	</CityNames>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_CIVILIZATION_TA_SETI"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TraitType="TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI"/>
+	</CivilizationTraits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_BONUS_MINE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_LUXURY_MINE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_TA_SETI</TraitType>
+			<ModifierId>TRAIT_RANGED_EXPERIENCE_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_KANDAKE_OF_MEROE</TraitType>
+			<ModifierId>TRAIT_BASE_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LEADER_KANDAKE_OF_MEROE</TraitType>
+			<ModifierId>TRAIT_PYRAMID_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_CITY_PLANNER</TraitType>
+			<ModifierId>AGENDA_HIGH_DISTRICTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AGENDA_CITY_PLANNER</TraitType>
+			<ModifierId>AGENDA_LOW_DISTRICTS</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Improvements>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" Name="LOC_IMPROVEMENT_PYRAMID_NAME" Description="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION" Icon="ICON_IMPROVEMENT_PYRAMID" PlunderType="PLUNDER_FAITH" PlunderAmount="25" Buildable="true" PrereqTech="TECH_MASONRY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_PYRAMID"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CityCenterAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CampusAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_CommercialHubAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_HarborAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_HolySiteAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_IndustrialZoneAdjacency"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldChangeId="Pyramid_TheaterAdjacency"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" FeatureType="FEATURE_FLOODPLAINS"/>
+	</Improvement_ValidFeatures>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TerrainType="TERRAIN_GRASS"/>	
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TerrainType="TERRAIN_GRASS_HILLS"/>	
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TerrainType="TERRAIN_PLAINS"/>	
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" TerrainType="TERRAIN_PLAINS_HILLS"/>	
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FAITH" YieldChange="3"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_FOOD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_SCIENCE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_PYRAMID" YieldType="YIELD_GOLD" YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Pyramid_CityCenterAdjacency" Description="Placeholder" YieldType="YIELD_FOOD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="Pyramid_CampusAdjacency" Description="Placeholder" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row ID="Pyramid_CommercialHubAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row ID="Pyramid_HarborAdjacency" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row ID="Pyramid_HolySiteAdjacency" Description="Placeholder" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row ID="Pyramid_IndustrialZoneAdjacency" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row ID="Pyramid_TheaterAdjacency" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER"/>
+	</Adjacency_YieldChanges>
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_COPPER" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_DIAMONDS" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_JADE" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_MERCURY" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_SALT" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_SILVER" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_ALUMINUM" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_COAL" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_IRON" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_NITER" Tier="5"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" ResourceType="RESOURCE_URANIUM" Tier="5"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TerrainType="TERRAIN_DESERT" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_NUBIA" TerrainType="TERRAIN_DESERT_HILLS" Tier="1"/>
+	</StartBiasTerrains>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_NUBIAN_PITATI" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_NUBIAN_PITATI" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_NUBIAN_PITATI" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_NUBIAN_PITATI" ReplacesUnitType="UNIT_ARCHER"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row Unit="UNIT_NUBIAN_PITATI" UpgradeUnit="UNIT_CROSSBOWMAN"/>
+	</UnitUpgrades>
+	<Units>
+		<Row UnitType="UNIT_NUBIAN_PITATI" BaseMoves="3" Cost="70" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_NUBIAN_PITATI_NAME" Description="LOC_UNIT_NUBIAN_PITATI_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="1" Combat="27" PrereqTech="TECH_ARCHERY" MandatoryObsoleteTech="TECH_BALLISTICS" RangedCombat="37" Range="2" TraitType="TRAIT_CIVILIZATION_UNIT_NUBIAN_PITATI"/>
+	</Units>
+	<Agendas>
+		<Row AgendaType="AGENDA_CITY_PLANNER" Name="LOC_AGENDA_CITY_PLANNER_NAME" Description="LOC_AGENDA_CITY_PLANNER_DESCRIPTION"/>
+	</Agendas>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_AMANITORE" AgendaType="AGENDA_CITY_PLANNER"/>
+	</HistoricalAgendas>
+	<AgendaTraits>
+		<Row AgendaType="AGENDA_CITY_PLANNER" TraitType="TRAIT_AGENDA_CITY_PLANNER"/>
+	</AgendaTraits>
+	<Modifiers>
+		<!-- Building-->
+		<Row>
+			<ModifierId>JEBELBARKAL_GRANT_TWO_IRON</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY</ModifierType>
+		</Row>
+		<!-- Civ Ability-->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BONUS_MINE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_MINE_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RANGED_EXPERIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_EXPERIENCE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>TA_SETI_UNIT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Leader Ability-->
+		<Row>
+			<ModifierId>TRAIT_BASE_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_DISTRICTS_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_ALL_DISTRICTS_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</SubjectRequirementSetId>
+		</Row>
+		<!-- Leader Agenda-->
+		<Row>
+			<ModifierId>AGENDA_HIGH_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LEADS_DISTRICTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_DISTRICTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_LAGS_DISTRICTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Building-->
+		<Row>
+			<ModifierId>JEBELBARKAL_GRANT_TWO_IRON</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_IRON</Value>
+		</Row>
+		<Row>
+			<ModifierId>JEBELBARKAL_GRANT_TWO_IRON</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- Civ Ability-->
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ANCIENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ANCIENT_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_CLASSICAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CLASSICAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MEDIEVAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MEDIEVAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_RENAISSANCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RENAISSANCE_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INDUSTRIAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INDUSTRIAL_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_MODERN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MODERN_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_ATOMIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ATOMIC_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>ERA_INFORMATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_INFORMATION_RANGED_UNIT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STRATEGIC_MINE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BONUS_MINE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BONUS_MINE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_MINE_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_MINE_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RANGED_EXPERIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- Leader Ability-->
+		<Row>
+			<ModifierId>TRAIT_BASE_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_PYRAMID_DISTRICT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<!-- Leader Agenda-->
+		<Row>
+			<ModifierId>AGENDA_HIGH_DISTRICTS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_DISTRICTS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_AMANITORE_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HIGH_DISTRICTS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CITY_PLANNER_LEADING</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_DISTRICTS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_DISTRICTS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_AMANITORE_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LOW_DISTRICTS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CITY_PLANNER_LAGGING</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="AGENDA_HIGH_DISTRICTS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_LOW_DISTRICTS" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+	</ModifierStrings>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>TA_SETI_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LEADS_DISTRICTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LAGS_DISTRICTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>TA_SETI_UNIT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIREMENT_UNIT_IS_RANGED</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>REQUIREMENTS_PLOT_ADJACENT_PYRAMID</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_PYRAMID</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LEADS_DISTRICTS</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LEADS_DISTRICTS</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LEADS_DISTRICTS</RequirementSetId>
+			<RequirementId>REQUIRES_LEADS_DISTRICTS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LAGS_DISTRICTS</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LAGS_DISTRICTS</RequirementSetId>
+			<RequirementId>REQUIRES_MET_30_TURNS_AGO</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_LAGS_DISTRICTS</RequirementSetId>
+			<RequirementId>REQUIRES_LAGS_DISTRICTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_PYRAMID</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LEADS_DISTRICTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_DISTRICT_THRESHOLD</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LAGS_DISTRICTS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_DISTRICT_THRESHOLD</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_PYRAMID</RequirementId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_PYRAMID</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LEADS_DISTRICTS</RequirementId>
+			<Name>DistrictPercentThreshold</Name>
+			<Value>80</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LEADS_DISTRICTS</RequirementId>
+			<Name>MinDistrictsNeeded</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LEADS_DISTRICTS</RequirementId>
+			<Name>AboveThreshold</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LAGS_DISTRICTS</RequirementId>
+			<Name>DistrictPercentThreshold</Name>
+			<Value>60</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LAGS_DISTRICTS</RequirementId>
+			<Name>MinDistrictsNeeded</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_LAGS_DISTRICTS</RequirementId>
+			<Name>AboveThreshold</Name>
+			<Value>false</Value>
+		</Row>
+	</RequirementArguments>
+</GameInfo>

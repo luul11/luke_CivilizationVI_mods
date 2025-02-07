@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
+<GameInfo>
+	<Kinds>
+		<Row Kind="KIND_ROCKBAND_RESULT"/>
+	</Kinds>
+	<Types>
+		<Row Type="UNIT_SKIRMISHER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_COURSER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_CUIRASSIER" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_GIANT_DEATH_ROBOT" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_ROCK_BAND" Kind="KIND_UNIT"/>
+		<!--Rockband Results-->
+		<Row Type="RESULT_AGING_ROCKERS" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_CREATIVE_DIFFERENCES" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_RISING_STARS" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_HEADLINERS" Kind="KIND_ROCKBAND_RESULT"/>
+		<Row Type="RESULT_LEGENDS_OF_ROCK" Kind="KIND_ROCKBAND_RESULT"/>
+	</Types>
+	<Tags>
+		<Row Tag="CLASS_SETTLER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GURU" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_ROCK_BAND" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_GIANT_DEATH_ROBOT" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row Type="UNIT_SETTLER" Tag="CLASS_SETTLER"/>
+		<Row Type="UNIT_GURU" Tag="CLASS_GURU"/>
+		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_SKIRMISHER" Tag="CLASS_MOBILE_RANGED"/>
+		<Row Type="UNIT_COURSER" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_CUIRASSIER" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_ROCK_BAND" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_ROCK_BAND" Tag="CLASS_ROCK_BAND"/>
+		<Row Type="UNIT_GIANT_DEATH_ROBOT" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_GIANT_DEATH_ROBOT" Tag="CLASS_GIANT_DEATH_ROBOT"/>
+	</TypeTags>
+	<Units>
+		<Row UnitType="UNIT_SKIRMISHER" Cost="150" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SKIRMISHER_NAME" Description="LOC_UNIT_SKIRMISHER_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RECON" Maintenance="2" BaseMoves="3" Combat="60" RangedCombat="70" Range="1" PrereqTech="TECH_MACHINERY"/>
+		<Row UnitType="UNIT_COURSER" Cost="200" Maintenance="3" BaseMoves="5" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="80" StrategicResource="RESOURCE_HORSES" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_COURSER_NAME" Description="LOC_UNIT_COURSER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS" PrereqTech="TECH_CASTLES"/>
+		<Row UnitType="UNIT_CUIRASSIER" Cost="330" Maintenance="5" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="110" StrategicResource="RESOURCE_NITER" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_CUIRASSIER_NAME" Description="LOC_UNIT_CUIRASSIER_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMBUSTION" PrereqTech="TECH_BALLISTICS"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" Cost="1500" Maintenance="15" BaseMoves="5" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="200" RangedCombat="200" Range="3" StrategicResource="RESOURCE_URANIUM" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_GIANT_DEATH_ROBOT" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GIANT_DEATH_ROBOT_NAME" Description="LOC_UNIT_GIANT_DEATH_ROBOT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqTech="TECH_ROBOTICS"/>
+		<Row UnitType="UNIT_ROCK_BAND" Cost="300" BaseMoves="4" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_ROCK_BAND_NAME" Description="LOC_UNIT_ROCK_BAND_DESCRIPTION" PurchaseYield="YIELD_FAITH" PrereqCivic="CIVIC_COLD_WAR" MustPurchase="TRUE" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CostProgressionParam1="50" CanRetreatWhenCaptured="True" InitialLevel="2" NumRandomChoices="3" PromotionClass="PROMOTION_CLASS_ROCK_BAND" PseudoYieldType="PSEUDOYIELD_UNIT_RELIGIOUS"/>
+		<!--Air unit balance-->
+		<Update>
+			<Where UnitType="UNIT_INQUISITOR"/>
+			<Set>
+				<ReligionEvictPercent>75</ReligionEvictPercent>
+				<Description>LOC_UNIT_INQUISITOR_EXPANSION2_DESCRIPTION</Description>
+			</Set>
+		</Update>
+		<!--Strategic Resource Material changes-->
+<!--		<Update>
+			<Where UnitType="UNIT_ROMAN_LEGION"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set>
+				<Cost>180</Cost>
+				<Maintenance>2</Maintenance>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_MAMLUK"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+				<Cost>220</Cost>
+				<Maintenance>4</Maintenance>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+				<Cost>220</Cost>
+				<Maintenance>4</Maintenance>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CAVALRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+<!--	<Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>		
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_FRIGATE"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+<!--	<Update>
+			<Where UnitType="UNIT_INFANTRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARTILLERY"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+<!--	<Update>
+			<Where UnitType="UNIT_DESTROYER"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set>
+				<StrategicResource>RESOURCE_COAL</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUBMARINE"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+<!--	<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_HELICOPTER"/>
+			<Set>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+<!--	<Update>
+			<Where UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>-->		
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set>
+				<StrategicResource>RESOURCE_OIL</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set>
+				<StrategicResource>RESOURCE_URANIUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set>
+				<StrategicResource/>
+			</Set>
+		</Update>
+		<!--Balance changes-->
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set>
+				<PrereqTech>TECH_REFINING</PrereqTech>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MILITARY_ENGINEER"/>
+			<Set>
+				<Maintenance>2</Maintenance>
+			</Set>
+		</Update>
+		<!--Air unit balance-->
+		<Update>
+			<Where UnitType="UNIT_BIPLANE"/>
+			<Set>
+				<Combat>120</Combat>
+				<RangedCombat>130</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set>
+				<Combat>140</Combat>
+				<RangedCombat>150</RangedCombat>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set>
+				<Combat>107</Combat>
+				<RangedCombat>107</RangedCombat>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set>
+				<Combat>140</Combat>
+				<Bombard>150</Bombard>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set>
+				<Combat>160</Combat>
+				<RangedCombat>170</RangedCombat>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set>
+				<Combat>160</Combat>
+				<Bombard>170</Bombard>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ANTIAIR_GUN"/>
+			<Set>
+				<AntiAirCombat>150</AntiAirCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MOBILE_SAM"/>
+			<Set>
+				<AntiAirCombat>170</AntiAirCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ANTIAIR_GUN"/>
+			<Set>
+				<Maintenance>2</Maintenance>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MOBILE_SAM"/>
+			<Set>
+				<Maintenance>4</Maintenance>
+			</Set>
+		</Update>
+	</Units>
+	<UnitAiTypes>
+		<Row AiType="UNITTYPE_MAJOR_CIV_ONLY"/>
+	</UnitAiTypes>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_SKIRMISHER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SKIRMISHER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SKIRMISHER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_COURSER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_COURSER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_COURSER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_COURSER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_COURSER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CUIRASSIER" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" AiType="UNITTYPE_SIEGE_ALL"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" AiType="UNITTYPE_MAJOR_CIV_ONLY"/>
+	</UnitAiInfos>
+	<UnitUpgrades>
+		<Update>
+			<Where Unit="UNIT_SCOUT"/>
+			<Set>
+				<UpgradeUnit>UNIT_SKIRMISHER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_HORSEMAN"/>
+			<Set>
+				<UpgradeUnit>UNIT_COURSER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Update>
+			<Where Unit="UNIT_KNIGHT"/>
+			<Set>
+				<UpgradeUnit>UNIT_CUIRASSIER</UpgradeUnit>
+			</Set>
+		</Update>
+		<Row Unit="UNIT_SKIRMISHER" UpgradeUnit="UNIT_RANGER"/>
+		<Row Unit="UNIT_COURSER" UpgradeUnit="UNIT_CAVALRY"/>
+		<Row Unit="UNIT_CUIRASSIER" UpgradeUnit="UNIT_TANK"/>
+	</UnitUpgrades>
+	<Units_XP2>
+		<!--Non Combat-->
+		<Row UnitType="UNIT_SETTLER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_BUILDER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_TRADER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_MISSIONARY" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_APOSTLE" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_INQUISITOR" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GURU" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_ARCHAEOLOGIST" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_SPY" CanEarnExperience="true" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_NATURALIST" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_GENERAL" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_ADMIRAL" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_ENGINEER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_MERCHANT" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_PROPHET" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_SCIENTIST" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_WRITER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_ARTIST" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_GREAT_MUSICIAN" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_BATTERING_RAM" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_SIEGE_TOWER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_MEDIC" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_OBSERVATION_BALLOON" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_MILITARY_ENGINEER" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_ANTIAIR_GUN" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_MOBILE_SAM" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_DRONE" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<Row UnitType="UNIT_SUPPLY_CONVOY" CanEarnExperience="false" CanFormMilitaryFormation="false"/>
+		<!--Combat-->
+<!--	<Row UnitType="UNIT_SWORDSMAN" ResourceCost="0"/>
+		<Row UnitType="UNIT_CATAPULT" ResourceCost="0"/>
+		<Row UnitType="UNIT_MUSKETMAN" ResourceCost="0"/>		
+		<Row UnitType="UNIT_BOMBARD" ResourceCost="0"/>		
+
+
+	    <Row UnitType="UNIT_FRENCH_GARDE_IMPERIALE" ResourceCost="0"/>-->
+		
+		<Row UnitType="UNIT_HORSEMAN" ResourceCost="20"/>
+		<Row UnitType="UNIT_KNIGHT" ResourceCost="20"/>		
+		<Row UnitType="UNIT_FRIGATE" ResourceCost="20"/>
+		<Row UnitType="UNIT_COURSER" ResourceCost="20"/>
+		<Row UnitType="UNIT_CUIRASSIER" ResourceCost="20"/>
+		<Row UnitType="UNIT_CAVALRY" ResourceCost="20"/>
+
+<!--	<Row UnitType="UNIT_IRONCLAD" ResourceCost="0" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="0"/>
+		<Row UnitType="UNIT_INFANTRY" ResourceCost="0" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="0"/>		
+		<Row UnitType="UNIT_ARTILLERY" ResourceCost="0" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="0"/>		
+		<Row UnitType="UNIT_DESTROYER" ResourceCost="0" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="0"/>		
+		<Row UnitType="UNIT_BIPLANE" ResourceCost="0" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="0"/>		
+		<Row UnitType="UNIT_MECHANIZED_INFANTRY" ResourceCost="0" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="0"/>		
+		<Row UnitType="UNIT_ROCKET_ARTILLERY" ResourceCost="0" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="0"/>	-->	
+		
+		
+		
+		<Row UnitType="UNIT_BATTLESHIP" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+
+
+		<Row UnitType="UNIT_TANK" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+
+
+		<Row UnitType="UNIT_SUBMARINE" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_FIGHTER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_BOMBER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HELICOPTER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="0"/>
+
+		<Row UnitType="UNIT_MODERN_ARMOR" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+
+		<Row UnitType="UNIT_JET_FIGHTER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_JET_BOMBER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_MISSILE_CRUISER" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_NUCLEAR_SUBMARINE" ResourceCost="1" ResourceMaintenanceType="RESOURCE_URANIUM" ResourceMaintenanceAmount="0"/>
+		<Row UnitType="UNIT_GIANT_DEATH_ROBOT" ResourceCost="1" ResourceMaintenanceType="RESOURCE_URANIUM" ResourceMaintenanceAmount="1" CanEarnExperience="false" CanFormMilitaryFormation="false" MajorCivOnly="true"/>
+		<Row UnitType="UNIT_ROCK_BAND" TourismBombPossible="true" CanEarnExperience="false"/>
+		<!--Unique Units-->
+<!--	<Row UnitType="UNIT_ROMAN_LEGION" ResourceCost="0"/>
+		<Row UnitType="UNIT_KONGO_SHIELD_BEARER" ResourceCost="0"/>
+		<Row UnitType="UNIT_JAPANESE_SAMURAI" ResourceCost="0"/>
+		<Row UnitType="UNIT_NORWEGIAN_BERSERKER" ResourceCost="0"/>
+		<Row UnitType="UNIT_ENGLISH_REDCOAT" ResourceCost="0"/>-->
+
+
+		<Row UnitType="UNIT_ARABIAN_MAMLUK" ResourceCost="20"/>
+		<Row UnitType="UNIT_SPANISH_CONQUISTADOR" ResourceCost="20"/>
+
+		<Row UnitType="UNIT_BRAZILIAN_MINAS_GERAES" ResourceCost="1" ResourceMaintenanceType="RESOURCE_COAL" ResourceMaintenanceAmount="1"/>
+		<!-- TODO:/REMOVE: Need to bring in Austrialian content! <Row UnitType="UNIT_DIGGER" ResourceCost="10" ResourceMaintenanceType="RESOURCE_NITER" ResourceMaintenanceAmount="1"/> -->
+		<Row UnitType="UNIT_GERMAN_UBOAT" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_AMERICAN_P51" ResourceCost="1" ResourceMaintenanceType="RESOURCE_ALUMINUM" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_HUNGARY_BLACK_ARMY" ResourceCost="20"/>
+		<Row UnitType="UNIT_HUNGARY_HUSZAR" ResourceCost="20"/>
+		<Row UnitType="UNIT_RUSSIAN_COSSACK" ResourceCost="20"/>
+		<Row UnitType="UNIT_MALI_MANDEKALU_CAVALRY" ResourceCost="20"/>
+		<Row UnitType="UNIT_MAORI_TOA" ResourceCost="0"/>
+		<Row UnitType="UNIT_SULEIMAN_JANISSARY" ResourceCost="0"/>
+	</Units_XP2>
+	<Unit_RockbandResults_XP2>
+		<!--BaseProbability needs to be within 3 and 18. Must be specified from highest BaseProbability to lowest-->
+		<Row ResultType="RESULT_LEGENDS_OF_ROCK" Name="LOC_RESULT_LEGENDS_OF_ROCK_NAME" Description="LOC_RESULT_LEGENDS_OF_ROCK_DESCRIPTION" AlbumSales="200" TourismBomb="200" ExtraPromotion="true" GainsLevel="true" BaseProbability="17" PerformanceStars="6"/>
+		<Row ResultType="RESULT_HEADLINERS" Name="LOC_RESULT_HEADLINERS_NAME" Description="LOC_RESULT_HEADLINERS_DESCRIPTION" AlbumSales="150" TourismBomb="0" ExtraPromotion="true" GainsLevel="true" BaseProbability="15" PerformanceStars="5"/>
+		<Row ResultType="RESULT_RISING_STARS" Name="LOC_RESULT_RISING_STARS_NAME" Description="LOC_RESULT_RISING_STARS_DESCRIPTION" AlbumSales="100" TourismBomb="150" BaseProbability="13" PerformanceStars="4"/>
+		<Row ResultType="RESULT_OPENING_ACT" Name="LOC_RESULT_OPENING_ACT_NAME" Description="LOC_RESULT_OPENING_ACT_DESCRIPTION" AlbumSales="50" TourismBomb="-25" BaseProbability="11" PerformanceStars="3"/>
+		<Row ResultType="RESULT_CREATIVE_DIFFERENCES" Name="LOC_RESULT_CREATIVE_DIFFERENCES_NAME" Description="LOC_RESULT_CREATIVE_DIFFERENCES_DESCRIPTION" Dies="true" AlbumSales="0" TourismBomb="100" BaseProbability="9" PerformanceStars="2"/>
+		<Row ResultType="RESULT_AGING_ROCKERS" Name="LOC_RESULT_AGING_ROCKERS_NAME" Description="LOC_RESULT_AGING_ROCKERS_DESCRIPTION" Dies="true" AlbumSales="0" TourismBomb="-25" BaseProbability="7" PerformanceStars="1"/>
+	</Unit_RockbandResults_XP2>
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>JANISSARY_CITY_FOUNDED</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>JANISSARY_CITY_FOUNDED</RequirementSetId>
+			<RequirementId>CITY_IS_ORIGINAL_OWNER_REQUIREMENTS</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>CITY_IS_ORIGINAL_OWNER_REQUIREMENTS</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_IS_ORIGINAL_OWNER</RequirementType>
+		</Row>
+	</Requirements>
+</GameInfo>
