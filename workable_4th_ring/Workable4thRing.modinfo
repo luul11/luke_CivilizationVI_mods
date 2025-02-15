@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8f5e69f9-53ea-4dce-b589-b78d21153ad3" version="1">
+  <Properties>
+    <Name>LOC_PJM_WORKABLE_4TH_RING_MOD_NAME</Name>
+    <Description>LOC_PJM_WORKABLE_4TH_RING_MOD_DESCRIPTION</Description>
+    <Created>1713451178</Created>
+    <Teaser>LOC_PJM_WORKABLE_4TH_RING_MOD_TEASER</Teaser>
+    <Authors>PhantomJ_M</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <FrontEndActions>
+    <UpdateDatabase id="Workable4thRing_Config">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Data/Workable4thRing_Config.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Workable4thRing">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>Data/Workable4thRing_GlobalParameters.sql</File>
+    </UpdateDatabase>
+  </InGameActions>
+  <LocalizedText>
+    <Text id="LOC_PJM_WORKABLE_4TH_RING_MOD_NAME">
+      <en_US>Workable 4th Ring</en_US>
+      <zh_Hans_CN>四环上人口</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_PJM_WORKABLE_4TH_RING_MOD_TEASER">
+      <en_US>Make city's 4th ring workable</en_US>
+      <zh_Hans_CN>让城市四环能工作</zh_Hans_CN>
+    </Text>
+    <Text id="LOC_PJM_WORKABLE_4TH_RING_MOD_DESCRIPTION">
+      <en_US>Make city's 4th ring workable</en_US>
+      <zh_Hans_CN>让城市四环能工作</zh_Hans_CN>
+    </Text>
+  </LocalizedText>
+  <Files>
+    <File>Binaries/Win64/GameCore_Base_Mod_FinalRelease.dll</File>
+    <File>Binaries/Win64/GameCore_XP1_Mod_FinalRelease.dll</File>
+    <File>Binaries/Win64/GameCore_XP2_Mod_FinalRelease.dll</File>
+    <File>Data/Workable4thRing_Config.sql</File>
+    <File>Data/Workable4thRing_GlobalParameters.sql</File>
+  </Files>
+</Mod>
